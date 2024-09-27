@@ -18,6 +18,7 @@ export function Header() {
           {/* Add more navigation links here */}
           <Link href="/monsters" className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Monsters</Link>
           <Link href="/weapons" className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Weapons</Link>
+          <Link href="/armors" className="text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">Armors</Link>
         </div>
         <div className="flex items-center space-x-2">
           <div className="w-48">
