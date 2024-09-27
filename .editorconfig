@@ -1,0 +1,26 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+# 2 space indentation for TypeScript, TypeScript React, and CSS files
+[*.{ts,tsx,css}]
+indent_style = space
+indent_size = 2
+
+# Indentation override for all JS files
+[*.js]
+indent_style = space
+indent_size = 4
+
+# Matches the exact files package.json and .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
