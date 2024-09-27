@@ -11,9 +11,21 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        theme: {
+          light: {
+            bg: 'white',
+            text: 'black',
+          },
+          dark: {
+            bg: '#1a202c', // or any dark color you prefer
+            text: 'white',
+          },
+        },
       },
     },
   },
   plugins: [],
+  darkMode: 'class', // Add this line to enable class-based dark mode
 };
+
 export default config;

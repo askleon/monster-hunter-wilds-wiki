@@ -1,0 +1,58 @@
+.container {
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.monsterGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.monsterCard {
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid var(--card-border-color, #e0e0e0);
+}
+
+.monsterCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.monsterName {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.monsterType {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.monsterDifficulty {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.monsterElements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.element {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  background-color: var(--element-bg-color, #e0e0e038);
+  color: var(--element-text-color, inherit);
+}

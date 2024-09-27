@@ -3,25 +3,83 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground-rgb: 17, 24, 39; /* Darker text for light theme */
+  --background-start-rgb: 249, 250, 251;
+  --background-end-rgb: 243, 244, 246;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --foreground-rgb: 229, 231, 235;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 31, 41, 55;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    );
+  min-height: 100vh;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Light theme specific styles */
+.light body {
+  color: #111827; /* Even darker text for better contrast */
+}
+
+.light header {
+  background-color: #f3f4f6;
+}
+
+.light footer {
+  background-color: #f3f4f6;
+}
+
+/* Dark theme specific styles */
+.dark body {
+  color: #e5e7eb;
+}
+
+.dark header {
+  background-color: #1f2937;
+}
+
+.dark footer {
+  background-color: #1f2937;
+}
+
+/* Adjust input and button styles for both themes */
+input,
+button {
+  background-color: #ffffff;
+  color: #111827; /* Darker text for inputs and buttons in light theme */
+  border-color: #d1d5db;
+}
+
+.dark input,
+.dark button {
+  background-color: #374151;
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+input::placeholder {
+  color: #6b7280; /* Darker placeholder text for better visibility */
+}
+
+.dark input::placeholder {
+  color: #9ca3af;
+}
+
+/* Hover states for both themes */
+button:hover,
+input:focus {
+  background-color: #f3f4f6;
+}
+
+.dark button:hover,
+.dark input:focus {
+  background-color: #4b5563;
 }
