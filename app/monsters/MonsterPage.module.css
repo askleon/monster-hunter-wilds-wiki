@@ -42,3 +42,45 @@
   background-color: var(--element-bg-color, #e0e0e038);
   color: var(--element-text-color, inherit);
 }
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filters select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.filters select::-ms-expand {
+  display: none;
+}
+
+.filters option {
+  background-color: var(--background);
+  color: var(--text);
+  padding: 0.5rem;
+}
+
+/* Styling for Firefox */
+.filters select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 var(--text);
+}
+
+/* Styling for IE10+ */
+.filters select::-ms-expand {
+  display: none;
+}
