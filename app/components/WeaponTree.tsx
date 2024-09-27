@@ -26,8 +26,8 @@ export function WeaponTree({ baseWeapon }: WeaponTreeProps) {
   };
 
   const renderTooltip = (node: WeaponNode) => (
-    <div 
-      className={styles.tooltip} 
+    <div
+      className={styles.tooltip}
       style={{ top: `${tooltipPosition.top}px`, left: `${tooltipPosition.left}px` }}
     >
       <h3>{node.name}</h3>
@@ -52,7 +52,6 @@ export function WeaponTree({ baseWeapon }: WeaponTreeProps) {
       </div>
     </div>
   );
-
   const renderNode = (node: WeaponNode) => (
     <div key={node.id} className={`${styles.node} ${node.children.length > 0 ? styles.parentNode : ''}`}>
       <div
