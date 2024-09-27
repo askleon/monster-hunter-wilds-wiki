@@ -3,30 +3,32 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 17, 24, 39; /* Darker text for light theme */
-  --background-start-rgb: 249, 250, 251;
-  --background-end-rgb: 243, 244, 246;
+  --font-family: Arial, sans-serif;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f0f0;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --border-color: #cccccc;
+  --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 .dark {
-  --foreground-rgb: 229, 231, 235;
-  --background-start-rgb: 17, 24, 39;
-  --background-end-rgb: 31, 41, 55;
+  --bg-primary: #111827;  /* Dark blue background */
+  --bg-secondary: #1f2938;  /* Slightly lighter dark blue for secondary elements */
+  --text-primary: #e6f1ff;  /* Light blue-white for primary text */
+  --text-secondary: #8892b0;  /* Muted blue-gray for secondary text */
+  --border-color: #233554;  /* Mid-tone blue for borders */
+  --shadow-color: rgba(230, 241, 255, 0.1);  /* Light blue shadow */
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      rgb(var(--background-start-rgb)),
-      rgb(var(--background-end-rgb))
-    );
-  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 /* Light theme specific styles */
 .light body {
-  color: #111827; /* Even darker text for better contrast */
+  color: #1f2937;
 }
 
 .light header {
@@ -47,14 +49,14 @@ body {
 }
 
 .dark footer {
-  background-color: #1f2937;
+  background-color: #1f2938;
 }
 
 /* Adjust input and button styles for both themes */
 input,
 button {
   background-color: #ffffff;
-  color: #111827; /* Darker text for inputs and buttons in light theme */
+  color: #1f2937;
   border-color: #d1d5db;
 }
 
@@ -66,7 +68,7 @@ button {
 }
 
 input::placeholder {
-  color: #6b7280; /* Darker placeholder text for better visibility */
+  color: #9ca3af;
 }
 
 .dark input::placeholder {

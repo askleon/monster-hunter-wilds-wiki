@@ -14,20 +14,6 @@
   gap: 1.5rem;
 }
 
-.monsterCard {
-  border-radius: 8px;
-  padding: 1rem;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s, box-shadow 0.2s;
-  border: 1px solid var(--card-border-color, #e0e0e0);
-}
-
-.monsterCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
 .monsterName {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
