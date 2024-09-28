@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { monsters, Monster } from '@/lib/monsters';
+import { monsters, Monster, BodyPart } from '@/lib/monsters';
 import { Card } from '@/app/components/Card';
 import { CustomDropdown } from '@/app/components/CustomDropdown';
 import styles from './MonsterPage.module.css';
@@ -23,6 +23,17 @@ export default function MonsterPage() {
   const typeOptions = [{ value: '', label: 'All Types' }, ...uniqueTypes.map(type => ({ value: type, label: type }))];
   const habitatOptions = [{ value: '', label: 'All Habitats' }, ...uniqueHabitats.map(habitat => ({ value: habitat, label: habitat }))];
 
+  const getHighestWeakness = (bodyPart: BodyPart): { type: string; effectiveness: number } => {
+    const allWeaknesses = [
+      ...Object.entries(bodyPart.weakness.elemental),
+      ...Object.entries(bodyPart.weakness.status)
+    ];
+
+    return allWeaknesses.reduce((highest, [type, effectiveness]) =>
+      effectiveness > highest.effectiveness ? { type, effectiveness } : highest
+    , { type: 'None', effectiveness: 0 });
+  };
+
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Monster List</h1>
@@ -40,16 +51,36 @@ export default function MonsterPage() {
           placeholder="Select Habitat"
         />
       </div>
-      <div className={styles.monsterGrid}>
-        {filteredMonsters.map((monster: Monster) => (
-          <Card
-            key={monster.id}
-            title={monster.name}
-            subtitle={monster.type}
-            description={`Difficulty: ${monster.difficulty} | Habitats: ${monster.habitats.join(', ')}`}
-            link={`/monsters/${monster.id}`}
-          />
-        ))}
+      <div className={styles.monsterList}>
+        {filteredMonsters.map((monster: Monster) => {
+          const weaknesses = monster.bodyParts.map(part => ({
+            part: part.name,
+            weakness: getHighestWeakness(part)
+          }));
+
+          return (
+            <Card
+              key={monster.id}
+              title={monster.name}
+              subtitle={`${monster.type} | Difficulty: ${monster.difficulty}`}
+              description={
+                <div className={styles.monsterInfo}>
+                  <p>Habitats: {monster.habitats.join(', ')}</p>
+                  <div className={styles.weaknesses}>
+                    <strong>Weaknesses:</strong>
+                    {weaknesses.map(({ part, weakness }) => (
+                      <span key={part} className={styles.weakness}>
+                        {part}: <span className={styles.weaknessType}>{weakness.type}</span> ({weakness.effectiveness})
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              }
+              link={`/monsters/${monster.id}`}
+              className={styles.monsterCard}
+            />
+          );
+        })}
       </div>
     </div>
   );

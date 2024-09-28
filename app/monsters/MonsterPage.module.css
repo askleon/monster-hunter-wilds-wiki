@@ -84,3 +84,39 @@
 .filters select::-ms-expand {
   display: none;
 }
+
+.monsterList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.monsterCard {
+  width: 100%;
+}
+
+.monsterInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.weaknesses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.weakness {
+  font-size: 0.9em;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.weaknessType {
+  font-weight: bold;
+  color: var(--text-secondary);
+}
