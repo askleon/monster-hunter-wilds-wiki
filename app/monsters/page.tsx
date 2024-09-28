@@ -1,14 +1,32 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { monsters, Monster, BodyPartWeakness } from '@/lib/monsters';
+import { monsters, Monster } from '@/lib/monsters';
 import { Card } from '@/app/components/Card';
 import { CustomDropdown, Option } from '@/app/components/CustomDropdown';
+import { weaknessConfigs, WeaknessConfig } from '@/app/components/WeaknessConfig';
 
 interface Weakness {
   part: string;
   type: string;
   effectiveness: number;
+}
+
+function WeaknessDisplay({ weakness }: { weakness: Weakness }) {
+  const config: WeaknessConfig = weaknessConfigs[weakness.type.toLowerCase()] || {
+    color: 'text-gray-500',
+    fallback: weakness.type,
+  };
+
+  return (
+    <div className="flex items-center space-x-1">
+      <span className="font-medium">{weakness.part}:</span>
+      <span className={`flex items-center space-x-1 ${config.color}`}>
+        <span>{config.icon || config.fallback}</span>
+        <span>{weakness.effectiveness}</span>
+      </span>
+    </div>
+  );
 }
 
 export default function MonsterPage() {
@@ -84,22 +102,18 @@ export default function MonsterPage() {
           return (
             <Card
               key={monster.id}
-              title={monster.name}
-              subtitle={`${monster.type} | Difficulty: ${monster.difficulty}`}
+              title={
+                <div className="flex justify-between items-center">
+                  <span className="text-xl font-bold">{monster.name}</span>
+                  <span className="text-sm text-secondary">Difficulty: {monster.difficulty}</span>
+                </div>
+              }
+              subtitle={`${monster.type} | ${monster.habitats.join(', ')}`}
               description={
-                <div className="text-primary grid grid-cols-1 gap-4">
-                  <div>
-                    <p className="mb-2">{monster.description}</p>
-                    <p>Habitats: {monster.habitats.join(', ')}</p>
-                  </div>
-                  <div className="grid grid-cols-3 gap-2 text-sm">
-                    {topWeaknesses.map((weakness, index) => (
-                      <div key={index}>
-                        <strong>{weakness.part}:</strong>
-                        <p>{weakness.type} ({weakness.effectiveness})</p>
-                      </div>
-                    ))}
-                  </div>
+                <div className="text-sm grid grid-cols-1 md:grid-cols-3 gap-2 mt-2">
+                  {topWeaknesses.map((weakness, index) => (
+                    <WeaknessDisplay key={index} weakness={weakness} />
+                  ))}
                 </div>
               }
               link={`/monsters/${monster.id}`}

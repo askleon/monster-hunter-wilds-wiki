@@ -1,23 +1,22 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Link from 'next/link';
-import styles from './Card.module.css';
 
 interface CardProps {
-  title: string;
-  subtitle: string;
-  description: React.ReactNode;
+  title: ReactNode;
+  subtitle?: string;
+  description: ReactNode;
   link: string;
   className?: string;
 }
 
-export function Card({ title, subtitle, description, link, className }: CardProps) {
+export function Card({ title, subtitle, description, link, className = '' }: CardProps) {
   return (
-    <Link href={link} className={`${styles.card} bg-secondary border-color shadow-color hover:shadow-lg ${className || ''}`}>
-      <div className={styles.content}>
-        <h3 className={`${styles.title} text-primary`}>{title}</h3>
-        <p className={`${styles.subtitle} text-secondary`}>{subtitle}</p>
-        <div className={`${styles.description} text-primary`}>{description}</div>
+    <Link href={link} className={`block p-6 rounded-lg shadow-md w-full ${className}`}>
+      <div className="mb-2">
+        {typeof title === 'string' ? <h2 className="text-xl font-bold">{title}</h2> : title}
+        {subtitle && <p className="text-sm text-secondary">{subtitle}</p>}
       </div>
+      <div>{description}</div>
     </Link>
   );
 }
