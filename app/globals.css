@@ -92,3 +92,19 @@ input:focus {
 .dark input:focus {
   background-color: var(--bg-hover);
 }
+
+/* Add these new utility classes */
+.bg-primary { background-color: var(--bg-primary); }
+.bg-secondary { background-color: var(--bg-secondary); }
+.bg-accent { background-color: var(--bg-accent); }
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-accent { color: var(--text-accent); }
+.border-color { border-color: var(--border-color); }
+.shadow-color { box-shadow: 0 2px 4px var(--shadow-color); }
+.hover-bg { background-color: var(--bg-hover); }
+
+/* Transition for smooth theme switching */
+body, input, button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

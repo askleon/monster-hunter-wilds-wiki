@@ -1,9 +1,8 @@
 'use client';
 
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
+import { MapViewProps } from '@/app/components/MapView';
 import { PointOfInterest } from '@/lib/maps';
-import styles from './MapFilter.module.css';
-import { MapViewProps } from './MapView';
 
 interface MapFilterProps {
   mapData: MapViewProps;
@@ -11,42 +10,36 @@ interface MapFilterProps {
 }
 
 const MapFilter: React.FC<MapFilterProps> = ({ mapData, onFilter }) => {
-  const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
-
-  const types = Array.from(new Set(mapData.pointsOfInterest.map(poi => poi.type)));
-
-  const filterStateRef = useRef(selectedTypes);
+  const [filters, setFilters] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
-    filterStateRef.current = selectedTypes;
-  }, [selectedTypes]);
+    const initialFilters: Record<string, boolean> = {};
+    mapData.pointsOfInterest.forEach((poi) => {
+      initialFilters[poi.type] = true;
+    });
+    setFilters(initialFilters);
+  }, [mapData]);
 
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      const filteredPOIs = mapData.pointsOfInterest.filter(poi =>
-        selectedTypes.length === 0 || selectedTypes.includes(poi.type)
-      );
-      onFilter(filteredPOIs);
-    }, 300); // Debounce for 300ms
-
-    return () => clearTimeout(timeoutId);
-  }, [selectedTypes, mapData, onFilter]);
-
-  const handleTypeToggle = (type: string) => {
-    setSelectedTypes(prev =>
-      prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
-    );
+  const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, checked } = event.target;
+    setFilters((prevFilters) => ({ ...prevFilters, [name]: checked }));
   };
 
+  useEffect(() => {
+    const filteredPOIs = mapData.pointsOfInterest.filter((poi) => filters[poi.type]);
+    onFilter(filteredPOIs);
+  }, [filters, mapData, onFilter]);
+
   return (
-    <div className={styles.filterContainer}>
-      {types.map(type => (
-        <label key={type} className={styles.filterLabel}>
+    <div className="flex flex-wrap gap-2 mb-4">
+      {Object.entries(filters).map(([type, isChecked]) => (
+        <label key={type} className="flex items-center cursor-pointer text-sm px-3 py-1 rounded-full transition-colors bg-secondary text-primary hover:bg-accent hover:bg-opacity-20">
           <input
             type="checkbox"
-            checked={selectedTypes.includes(type)}
-            onChange={() => handleTypeToggle(type)}
-            className={styles.filterCheckbox}
+            name={type}
+            checked={isChecked}
+            onChange={handleFilterChange}
+            className="mr-2 cursor-pointer"
           />
           {type}
         </label>

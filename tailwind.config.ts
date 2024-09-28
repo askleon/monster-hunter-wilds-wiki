@@ -9,23 +9,33 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        theme: {
-          light: {
-            bg: 'white',
-            text: 'black',
-          },
-          dark: {
-            bg: '#1a202c', // or any dark color you prefer
-            text: 'white',
-          },
-        },
+        primary: 'var(--bg-primary)',
+        secondary: 'var(--bg-secondary)',
+        accent: 'var(--bg-accent)',
+        'text-primary': 'var(--text-primary)',
+        'text-secondary': 'var(--text-secondary)',
+        'text-accent': 'var(--text-accent)',
+      },
+      backgroundColor: {
+        primary: 'var(--bg-primary)',
+        secondary: 'var(--bg-secondary)',
+        accent: 'var(--bg-accent)',
+        hover: 'var(--bg-hover)',
+      },
+      textColor: {
+        primary: 'var(--text-primary)',
+        secondary: 'var(--text-secondary)',
+        accent: 'var(--text-accent)',
+      },
+      borderColor: {
+        DEFAULT: 'var(--border-color)',
+      },
+      boxShadow: {
+        DEFAULT: '0 2px 4px var(--shadow-color)',
       },
     },
   },
   plugins: [],
-  darkMode: 'class', // Add this line to enable class-based dark mode
 };
 
 export default config;

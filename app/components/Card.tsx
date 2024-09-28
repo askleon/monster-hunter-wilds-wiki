@@ -12,11 +12,11 @@ interface CardProps {
 
 export function Card({ title, subtitle, description, link, className }: CardProps) {
   return (
-    <Link href={link} className={`${styles.card} ${className || ''}`}>
+    <Link href={link} className={`${styles.card} bg-secondary border-color shadow-color hover:shadow-lg ${className || ''}`}>
       <div className={styles.content}>
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.subtitle}>{subtitle}</p>
-        <div className={styles.description}>{description}</div>
+        <h3 className={`${styles.title} text-primary`}>{title}</h3>
+        <p className={`${styles.subtitle} text-secondary`}>{subtitle}</p>
+        <div className={`${styles.description} text-primary`}>{description}</div>
       </div>
     </Link>
   );

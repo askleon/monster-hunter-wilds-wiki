@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styles from './CustomDropdown.module.css';
 
-interface Option {
+export interface Option {
   value: string;
   label: string;
 }
