@@ -113,9 +113,36 @@ export default function SearchBar() {
   }
 
   const navigateToResult = (result: SearchResult) => {
-    router.push(`/${result.type}s/${result.id}`)
-    setQuery('')
-    setIsExpanded(false)
+    let path;
+    switch (result.type) {
+      case 'weapon':
+        // Find the weapon tree that contains this weapon
+        const weaponTree = getAllWeaponTrees().find(tree =>
+          findWeaponInTree(tree.baseWeapon, result.id)
+        );
+        if (weaponTree) {
+          path = `/weapons/${weaponTree.id}`;
+        } else {
+          // Fallback to a general weapons page if the tree is not found
+          path = '/weapons';
+        }
+        break;
+      case 'armor':
+        // Keep the existing logic for armor
+        path = `/armors/${result.id.split('-')[0]}`;
+        break;
+      default:
+        path = `/${result.type}s/${result.id}`;
+    }
+    router.push(path);
+    setQuery('');
+    setIsExpanded(false);
+  }
+
+  // Helper function to find a weapon in the tree
+  function findWeaponInTree(node: WeaponNode, id: string): boolean {
+    if (node.id === id) return true;
+    return node.children.some(child => findWeaponInTree(child, id));
   }
 
   return (
