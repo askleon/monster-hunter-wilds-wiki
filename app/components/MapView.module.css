@@ -2,8 +2,51 @@
     height: 100%;
     width: 100%;
   }
-  
+
   .mapContainer {
     height: 100%;
     width: 100%;
   }
+
+.popupContent {
+  padding: 0.5rem;
+}
+
+.popupTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.popupType {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.popupDescription {
+  font-size: 0.875rem;
+  color: var(--text-primary);
+}
+
+.leafletContainer :global(.leaflet-popup-content-wrapper),
+.leafletContainer :global(.leaflet-popup-tip) {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.leafletContainer {
+  background-color: var(--bg-primary);
+}
+
+.leafletContainer :global(.leaflet-control-zoom-in),
+.leafletContainer :global(.leaflet-control-zoom-out) {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.leafletContainer :global(.leaflet-control-zoom-in:hover),
+.leafletContainer :global(.leaflet-control-zoom-out:hover) {
+  background-color: var(--bg-primary) !important;
+}

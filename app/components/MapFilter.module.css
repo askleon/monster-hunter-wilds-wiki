@@ -1,0 +1,33 @@
+.filterContainer {
+  @apply flex flex-wrap gap-2 mb-4;
+}
+
+.filterLabel {
+  @apply flex items-center cursor-pointer text-sm px-3 py-1 rounded-full transition-colors;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.filterLabel:hover {
+  @apply bg-opacity-80;
+}
+
+.filterCheckbox {
+  @apply mr-2 cursor-pointer;
+}
+
+.filterCheckbox:checked + .filterLabel {
+  @apply text-white;
+  background-color: var(--text-primary);
+}
+
+/* Dark mode adjustments */
+:global(.dark) .filterLabel {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+:global(.dark) .filterCheckbox:checked + .filterLabel {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+}

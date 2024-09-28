@@ -1,10 +1,10 @@
 "use client"
 
-import React from 'react'
-import { MapContainer, Rectangle, Marker, Popup } from 'react-leaflet'
+import React, { useEffect } from 'react'
+import { MapContainer, Rectangle, Marker, Popup, useMap } from 'react-leaflet'
 import { CRS, LatLngBounds, LatLng, Icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import { MapViewProps } from '@/lib/maps';
+import { PointOfInterest } from '@/lib/maps';
 import styles from './MapView.module.css';
 
 const customIcon = new Icon({
@@ -14,31 +14,70 @@ const customIcon = new Icon({
   popupAnchor: [1, -34],
 });
 
+function MapTheme() {
+  const map = useMap();
+
+  useEffect(() => {
+    const root = document.documentElement;
+    const bgColor = getComputedStyle(root).getPropertyValue('--bg-primary').trim();
+    const textColor = getComputedStyle(root).getPropertyValue('--text-primary').trim();
+
+    map.getContainer().style.backgroundColor = bgColor;
+    const tiles = document.querySelectorAll('.leaflet-tile') as NodeListOf<HTMLElement>;
+    tiles.forEach(tile => {
+      tile.style.filter = `
+        brightness(${bgColor === '#111827' ? '0.8' : '1'})
+        contrast(${bgColor === '#111827' ? '1.2' : '1'})
+      `;
+    });
+
+    const svgElements = map.getContainer().querySelectorAll('svg') as NodeListOf<SVGElement>;
+    svgElements.forEach(svg => {
+      svg.style.stroke = textColor;
+    });
+  }, [map]);
+
+  return null;
+}
+
+export interface MapViewProps {
+  id: string;
+  name: string;
+  description: string;
+  thumbnail: string;
+  imageUrl: string;
+  pointsOfInterest: PointOfInterest[];
+}
+
 export default function MapView({ mapData }: { mapData: MapViewProps }) {
-  const bounds = new LatLngBounds([0, 0], [100, 100]);
+  const bounds = new LatLngBounds(
+    [0, 0],
+    [100, 100]
+  );
 
   return (
-    <div className={styles.mapWrapper}>
+    <div className={`${styles.mapWrapper} ${styles.leafletContainer}`}>
       <MapContainer
         bounds={bounds}
         style={{ height: "100%", width: "100%" }}
         crs={CRS.Simple}
-        minZoom={-3}
-        maxZoom={3}
+        minZoom={-5}  // Changed from -3
+        maxZoom={5}   // Changed from 3
         className={styles.mapContainer}
       >
-        <Rectangle bounds={bounds} pathOptions={{ color: '#4a5568', weight: 1 }} />
+        <MapTheme />
+        <Rectangle bounds={bounds} pathOptions={{ color: 'var(--text-primary)', weight: 1 }} />
         {mapData.pointsOfInterest?.map((poi) => (
-          <Marker 
-            key={poi.id} 
+          <Marker
+            key={poi.id}
             position={new LatLng(poi.latitude, poi.longitude)}
             icon={customIcon}
           >
             <Popup>
-              <div className="p-2">
-                <h3 className="text-lg font-semibold mb-1">{poi.name}</h3>
-                <p className="text-sm text-gray-600 mb-2">Type: {poi.type}</p>
-                <p className="text-sm">{poi.description}</p>
+              <div className={styles.popupContent}>
+                <h3 className={styles.popupTitle}>{poi.name}</h3>
+                <p className={styles.popupType}>Type: {poi.type}</p>
+                <p className={styles.popupDescription}>{poi.description}</p>
               </div>
             </Popup>
           </Marker>
