@@ -1,4 +1,5 @@
 .card {
+  display: block;
   background-color: var(--bg-secondary);
   border: 1px solid var(--border-color);
   border-radius: 8px;
@@ -13,16 +14,22 @@
   box-shadow: 0 4px 8px var(--shadow-color);
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .title {
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 .subtitle {
   font-size: 1rem;
   color: var(--text-secondary);
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 .description {

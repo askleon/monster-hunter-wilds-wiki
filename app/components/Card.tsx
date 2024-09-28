@@ -14,7 +14,7 @@ export function Card({ title, subtitle, description, link, className }: CardProp
   return (
     <Link href={link} className={`${styles.card} ${className || ''}`}>
       <div className={styles.content}>
-        <h2 className={styles.title}>{title}</h2>
+        <h3 className={styles.title}>{title}</h3>
         <p className={styles.subtitle}>{subtitle}</p>
         <div className={styles.description}>{description}</div>
       </div>

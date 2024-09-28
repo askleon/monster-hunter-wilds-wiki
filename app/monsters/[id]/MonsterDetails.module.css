@@ -1,113 +1,175 @@
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
-  font-family: var(--font-family);
+  padding: 2rem;
 }
 
 .header {
+  background-color: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .title {
-  font-size: 2.5em;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
   color: var(--text-primary);
-  margin-bottom: 10px;
 }
 
 .type {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.difficulty {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--text-accent);
 }
 
 .mainInfo {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
 }
 
 .description {
-  flex: 2;
-  margin-right: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  background-color: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 8px;
 }
 
-.stats {
-  flex: 1;
-  background-color: var(--background-secondary);
-  padding: 15px;
-  border-radius: 5px;
+.infoCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  background-color: var(--bg-secondary);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
-.stats p {
-  margin: 5px 0;
-}
-
-.stats span {
-  font-weight: bold;
-}
-
-.details {
+.infoItem {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
+  flex-direction: column;
 }
 
-.detailColumn {
-  flex: 1;
-  margin-right: 20px;
+.infoItem h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
 }
 
-.detailColumn:last-child {
-  margin-right: 0;
+.infoItem p, .infoItem ul {
+  margin: 0;
+  font-size: 1rem;
 }
 
 .list {
   list-style-type: none;
-  padding: 0;
 }
 
-.list li {
-  background-color: var(--background-tertiary);
-  margin: 5px 0;
-  padding: 5px 10px;
-  border-radius: 3px;
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-secondary);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
-.weaknesses h2 {
-  margin-bottom: 20px;
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.bodyPart {
-  margin-bottom: 30px;
+.statLabel {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
 }
 
-.weaknessGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.weaknessGrid h4 {
-  margin-bottom: 10px;
-}
-
-.weaknessGrid ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.weaknessGrid li {
-  margin: 5px 0;
-}
-
-.weaknessGrid span {
+.statValue {
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-.errorContainer {
-  text-align: center;
-  padding: 50px;
-  background-color: #ffebee;
-  border-radius: 5px;
+/* ... rest of the styles remain the same ... */
+
+.weaknesses {
+  margin-top: 2rem;
+}
+
+.weaknesses h2 {
+  margin-bottom: 1rem;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.weaknessTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.weaknessTable th, .weaknessTable td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.weaknessTable th {
+  background-color: var(--bg-accent);
+  font-weight: bold;
+  color: var(--text-primary);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.weaknessTable tr:last-child td {
+  border-bottom: none;
+}
+
+.weaknessValue {
+  margin-bottom: 0.25rem;
+}
+
+.weaknessValue:last-child {
+  margin-bottom: 0;
+}
+
+.weaknessType {
+  font-weight: bold;
+  color: var(--text-secondary);
+}
+
+.hoveredRow {
+  background-color: var(--bg-hover);
+}
+
+.hoveredCol {
+  background-color: var(--bg-hover);
+}
+
+@media (max-width: 768px) {
+  .weaknessTable {
+    font-size: 0.9rem;
+  }
+
+  .weaknessTable th, .weaknessTable td {
+    padding: 0.5rem;
+  }
 }

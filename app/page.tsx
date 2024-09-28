@@ -1,60 +1,78 @@
 import { Card } from '@/app/components/Card';
 import { monsters } from '@/lib/monsters';
 import { maps } from '@/lib/maps';
+import styles from './Home.module.css';
 
 export default function Home() {
   const featuredMonster = monsters[Math.floor(Math.random() * monsters.length)];
 
   return (
-    <div className="max-w-4xl mx-auto p-6 space-y-8">
-      <h1 className="text-4xl font-bold text-center mb-8">Monster Hunter Wilds Wiki</h1>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Monster Hunter Wilds Wiki</h1>
 
-      <section className="p-6 rounded-lg shadow-md">
-        <h2 className="text-2xl font-semibold mb-4">Featured Monster</h2>
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Featured Monster</h2>
         <Card
           title={featuredMonster.name}
-          subtitle={featuredMonster.type}
-          description={featuredMonster.description}
+          subtitle={`${featuredMonster.type} | Difficulty: ${featuredMonster.difficulty}`}
+          description={
+            <div className={styles.featuredMonsterInfo}>
+              <p>{featuredMonster.description}</p>
+              <p>Habitats: {featuredMonster.habitats.join(', ')}</p>
+            </div>
+          }
           link={`/monsters/${featuredMonster.id}`}
+          className={styles.featuredMonsterCard}
         />
       </section>
 
-      <div className="grid md:grid-cols-2 gap-8">
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Monsters</h2>
-          {monsters.slice(0, 5).map((monster) => (
+      <div className={styles.grid}>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Monsters</h2>
+          <div className={styles.cardList}>
+            {monsters.slice(0, 5).map((monster) => (
+              <Card
+                key={monster.id}
+                title={monster.name}
+                subtitle={monster.type}
+                description=""
+                link={`/monsters/${monster.id}`}
+              />
+            ))}
             <Card
-              key={monster.id}
-              title={monster.name}
-              subtitle={monster.type}
-              link={`/monsters/${monster.id}`}
+              title="View all monsters"
+              subtitle=""
+              description=""
+              link="/monsters"
             />
-          ))}
-          <Card
-            title="View all monsters"
-            link="/monsters"
-          />
+          </div>
         </section>
 
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Maps</h2>
-          {maps.slice(0, 5).map((map) => (
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Maps</h2>
+          <div className={styles.cardList}>
+            {maps.slice(0, 5).map((map) => (
+              <Card
+                key={map.id}
+                title={map.name}
+                subtitle=""
+                description=""
+                link={`/maps/${map.id}`}
+              />
+            ))}
             <Card
-              key={map.id}
-              title={map.name}
-              link={`/maps/${map.id}`}
+              title="View all maps"
+              subtitle=""
+              description=""
+              link="/maps"
             />
-          ))}
-          <Card
-            title="View all maps"
-            link="/maps"
-          />
+          </div>
         </section>
       </div>
 
-      <section>
-        <h2 className="text-2xl font-semibold mb-4">About Monster Hunter Wilds</h2>
-        <p className="text-gray-700">
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>About Monster Hunter Wilds</h2>
+        <p className={styles.about}>
           Monster Hunter Wilds is the latest installment in the Monster Hunter series.
           This wiki provides comprehensive information about the game's monsters, maps,
           weapons, and more. Whether you're a seasoned hunter or new to the series,

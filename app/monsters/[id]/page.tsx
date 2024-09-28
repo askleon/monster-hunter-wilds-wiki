@@ -4,11 +4,15 @@ import { useParams } from 'next/navigation';
 import { getMonsterById } from '@/lib/monsters';
 import styles from './MonsterDetails.module.css';
 import { BodyPartWeakness } from '@/lib/monsters';
+import { useState } from 'react';
+
 export default function MonsterDetails() {
   const params = useParams();
   const monsterId = params.id as string;
-
   const monster = getMonsterById(monsterId);
+
+  const [hoveredRow, setHoveredRow] = useState<number | null>(null);
+  const [hoveredCol, setHoveredCol] = useState<number | null>(null);
 
   if (!monster) {
     return (
@@ -25,28 +29,28 @@ export default function MonsterDetails() {
       <header className={styles.header}>
         <h1 className={styles.title}>{monster.name}</h1>
         <p className={styles.type}>{monster.type}</p>
+        <p className={styles.difficulty}>Difficulty: {monster.difficulty}</p>
       </header>
 
       <section className={styles.mainInfo}>
         <p className={styles.description}>{monster.description}</p>
-        <div className={styles.stats}>
-          <p>Difficulty: <span>{monster.difficulty}</span></p>
-          <p>Size: <span>{monster.size.average} {monster.size.unit}</span></p>
-        </div>
       </section>
 
-      <section className={styles.details}>
-        <div className={styles.detailColumn}>
-          <h2>Elements</h2>
+      <section className={styles.infoCard}>
+        <div className={styles.infoItem}>
+          <h3>Size</h3>
+          <p>{monster.size.average} {monster.size.unit}</p>
+        </div>
+        <div className={styles.infoItem}>
+          <h3>Elements</h3>
           <ul className={styles.list}>
             {monster.elements.map((element, index) => (
               <li key={index}>{element}</li>
             ))}
           </ul>
         </div>
-
-        <div className={styles.detailColumn}>
-          <h2>Habitats</h2>
+        <div className={styles.infoItem}>
+          <h3>Habitats</h3>
           <ul className={styles.list}>
             {monster.habitats.map((habitat, index) => (
               <li key={index}>{habitat}</li>
@@ -56,24 +60,54 @@ export default function MonsterDetails() {
       </section>
 
       <section className={styles.weaknesses}>
-        <h2>Weaknesses</h2>
-        {monster.bodyParts.map((part, index) => (
-          <div key={index} className={styles.bodyPart}>
-            <h3>{part.name}</h3>
-            <div className={styles.weaknessGrid}>
-              {['physical', 'elemental', 'status'].map((weaknessType) => (
-                <div key={weaknessType}>
-                  <h4>{weaknessType.charAt(0).toUpperCase() + weaknessType.slice(1)}:</h4>
-                  <ul>
-                    {Object.entries(part.weakness[weaknessType as keyof BodyPartWeakness] as Record<string, unknown>).map(([type, value]) => (
-                      <li key={type}>{type}: <span>{String(value)}</span></li>
+        <div className={styles.tableWrapper}>
+          <table className={styles.weaknessTable}>
+            <thead>
+              <tr className={styles.weaknessHeader}>
+                <th colSpan={4}>Weaknesses</th>
+              </tr>
+              <tr>
+                <th onMouseEnter={() => setHoveredCol(0)} onMouseLeave={() => setHoveredCol(null)}>Body Part</th>
+                <th onMouseEnter={() => setHoveredCol(1)} onMouseLeave={() => setHoveredCol(null)}>Physical</th>
+                <th onMouseEnter={() => setHoveredCol(2)} onMouseLeave={() => setHoveredCol(null)}>Elemental</th>
+                <th onMouseEnter={() => setHoveredCol(3)} onMouseLeave={() => setHoveredCol(null)}>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {monster.bodyParts.map((part, rowIndex) => (
+                <tr
+                  key={rowIndex}
+                  onMouseEnter={() => setHoveredRow(rowIndex)}
+                  onMouseLeave={() => setHoveredRow(null)}
+                  className={rowIndex === hoveredRow ? styles.hoveredRow : ''}
+                >
+                  <td className={hoveredCol === 0 ? styles.hoveredCol : ''}>{part.name}</td>
+                  <td className={hoveredCol === 1 ? styles.hoveredCol : ''}>
+                    {Object.entries(part.weakness.physical).map(([type, value]) => (
+                      <div key={type} className={styles.weaknessValue}>
+                        <span className={styles.weaknessType}>{type}:</span> {value}
+                      </div>
                     ))}
-                  </ul>
-                </div>
+                  </td>
+                  <td className={hoveredCol === 2 ? styles.hoveredCol : ''}>
+                    {Object.entries(part.weakness.elemental).map(([type, value]) => (
+                      <div key={type} className={styles.weaknessValue}>
+                        <span className={styles.weaknessType}>{type}:</span> {value}
+                      </div>
+                    ))}
+                  </td>
+                  <td className={hoveredCol === 3 ? styles.hoveredCol : ''}>
+                    {Object.entries(part.weakness.status).map(([type, value]) => (
+                      <div key={type} className={styles.weaknessValue}>
+                        <span className={styles.weaknessType}>{type}:</span> {value}
+                      </div>
+                    ))}
+                  </td>
+                </tr>
               ))}
-            </div>
-          </div>
-        ))}
+            </tbody>
+          </table>
+        </div>
       </section>
     </div>
   );

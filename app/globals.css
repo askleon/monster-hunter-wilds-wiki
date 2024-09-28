@@ -6,65 +6,72 @@
   --font-family: Arial, sans-serif;
   --bg-primary: #ffffff;
   --bg-secondary: #f0f0f0;
+  --bg-accent: #e0e0e0;
   --text-primary: #333333;
   --text-secondary: #666666;
+  --text-accent: #0066cc;
   --border-color: #cccccc;
   --shadow-color: rgba(0, 0, 0, 0.1);
+  --bg-hover: rgba(0, 0, 0, 0.05);
 }
 
 .dark {
   --bg-primary: #111827;  /* Dark blue background */
   --bg-secondary: #1f2938;  /* Slightly lighter dark blue for secondary elements */
+  --bg-accent: #374151;  /* Dark blue accent */
   --text-primary: #e6f1ff;  /* Light blue-white for primary text */
   --text-secondary: #8892b0;  /* Muted blue-gray for secondary text */
+  --text-accent: #58a6ff;  /* Bright blue accent */
   --border-color: #233554;  /* Mid-tone blue for borders */
   --shadow-color: rgba(230, 241, 255, 0.1);  /* Light blue shadow */
+  --bg-hover: rgba(255, 255, 255, 0.05);  /* Light hover background */
 }
 
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
+  font-family: var(--font-family);
 }
 
 /* Light theme specific styles */
 .light body {
-  color: #1f2937;
+  color: var(--text-primary);
 }
 
 .light header {
-  background-color: #f3f4f6;
+  background-color: var(--bg-secondary);
 }
 
 .light footer {
-  background-color: #f3f4f6;
+  background-color: var(--bg-secondary);
 }
 
 /* Dark theme specific styles */
 .dark body {
-  color: #e5e7eb;
+  color: var(--text-primary);
 }
 
 .dark header {
-  background-color: #1f2937;
+  background-color: var(--bg-secondary);
 }
 
 .dark footer {
-  background-color: #1f2938;
+  background-color: var(--bg-secondary);
 }
 
 /* Adjust input and button styles for both themes */
 input,
 button {
-  background-color: #ffffff;
-  color: #1f2937;
-  border-color: #d1d5db;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  border-color: var(--border-color);
 }
 
 .dark input,
 .dark button {
-  background-color: #374151;
-  color: #e5e7eb;
-  border-color: #4b5563;
+  background-color: var(--bg-accent);
+  color: var(--text-accent);
+  border-color: var(--border-color);
 }
 
 input::placeholder {
@@ -78,10 +85,10 @@ input::placeholder {
 /* Hover states for both themes */
 button:hover,
 input:focus {
-  background-color: #f3f4f6;
+  background-color: var(--bg-hover);
 }
 
 .dark button:hover,
 .dark input:focus {
-  background-color: #4b5563;
+  background-color: var(--bg-hover);
 }
