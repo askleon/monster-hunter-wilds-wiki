@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { Card } from '@/app/components/Card';
 import { FilterPanel, FilterOption } from '@/app/components/FilterPanel';
 import { getAllArmorSets, ArmorSet } from '@/lib/armors';
+import { Tooltip } from '@/app/components/Tooltip';
 
 export default function ArmorsPage() {
   const router = useRouter();
@@ -130,17 +131,36 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
             {pieceTypes.map(type => {
               const piece = armorSet.pieces.find(p => p.type === type);
               return (
-                <div key={type} className="text-center w-16 flex flex-col items-center">
-                  <div className="relative w-8 h-8 flex items-center justify-center">
-                    <span className={`font-semibold ${!piece ? 'opacity-30' : ''}`}>{type[0]}</span>
-                    {!piece && (
-                      <span className="absolute inset-0 flex items-center justify-center text-red-500 font-bold">
-                        X
-                      </span>
-                    )}
+                <Tooltip
+                  key={type}
+                  content={
+                    piece ? (
+                      <div>
+                        <p className="font-bold">{piece.name}</p>
+                        <p>Skills:</p>
+                        <ul className="list-disc list-inside">
+                          {piece.skills.map(skill => (
+                            <li key={skill.name}>{skill.name} Lv. {skill.level}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : (
+                      <p>No {type} piece in this set</p>
+                    )
+                  }
+                >
+                  <div className="text-center w-16 flex flex-col items-center">
+                    <div className="relative w-8 h-8 flex items-center justify-center">
+                      <span className={`font-semibold ${!piece ? 'opacity-30' : ''}`}>{type[0]}</span>
+                      {!piece && (
+                        <span className="absolute inset-0 flex items-center justify-center text-red-500 font-bold">
+                          X
+                        </span>
+                      )}
+                    </div>
+                    {piece && <span className="text-xs mt-1">{piece.defense}</span>}
                   </div>
-                  {piece && <span className="text-xs mt-1">{piece.defense}</span>}
-                </div>
+                </Tooltip>
               );
             })}
           </div>
