@@ -11,16 +11,33 @@ export function ArmorDefenseSummary({ armorSet }: { armorSet: ArmorSet }) {
   }, {} as Record<string, number>);
 
   return (
-    <div>
-      <p className="text-primary mb-2">Total Defense: {totalDefense}</p>
-      <h4 className="font-semibold text-primary mb-1">Total Resistances:</h4>
-      <ul className="grid grid-cols-2 gap-2">
-        {Object.entries(totalResistances).map(([element, value]) => (
-          <li key={element} className={value > 0 ? 'text-accent' : value < 0 ? 'text-secondary' : 'text-primary'}>
-            {element.charAt(0).toUpperCase() + element.slice(1)}: {value}
-          </li>
-        ))}
-      </ul>
+    <div className="space-y-4">
+      <div>
+        <div className="flex justify-between font-semibold text-primary mb-2">
+          <span>Stat</span>
+          <span>Value</span>
+        </div>
+        <div className="flex justify-between text-primary">
+          <span>Total Defense</span>
+          <span>{totalDefense}</span>
+        </div>
+      </div>
+      <div>
+        <div className="flex justify-between font-semibold text-primary mb-2">
+          <span>Element</span>
+          <span>Resistance</span>
+        </div>
+        <ul className="space-y-1">
+          {Object.entries(totalResistances).map(([element, value]) => (
+            <li key={element} className="flex justify-between">
+              <span className="text-primary">{element.charAt(0).toUpperCase() + element.slice(1)}</span>
+              <span className={value > 0 ? 'text-accent' : value < 0 ? 'text-secondary' : 'text-primary'}>
+                {value > 0 ? '+' : ''}{value}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
