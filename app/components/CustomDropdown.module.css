@@ -66,3 +66,13 @@
   text-decoration: none;
   background-color: var(--bg-secondary);
 }
+
+.dropdownContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdownLabel {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}

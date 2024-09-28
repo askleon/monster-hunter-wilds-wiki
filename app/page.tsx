@@ -13,16 +13,16 @@ export default function Home() {
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Featured Monster</h2>
         <Card
-          title={featuredMonster.name}
-          subtitle={`${featuredMonster.type} | Difficulty: ${featuredMonster.difficulty}`}
-          description={
-            <div className={styles.featuredMonsterInfo}>
-              <p>{featuredMonster.description}</p>
-              <p>Habitats: {featuredMonster.habitats.join(', ')}</p>
+          title={
+            <div className="flex justify-between items-center">
+              <span className="text-xl font-bold">{featuredMonster.name}</span>
+              <span className="text-sm text-secondary">Difficulty: {featuredMonster.difficulty}</span>
             </div>
           }
+          subtitle={`${featuredMonster.type} | ${featuredMonster.habitats.join(', ')}`}
+          description={<p>{featuredMonster.description}</p>}
           link={`/monsters/${featuredMonster.id}`}
-          className={styles.featuredMonsterCard}
+          className={`${styles.featuredMonsterCard} bg-secondary hover:shadow-lg transition-shadow w-full`}
         />
       </section>
 
@@ -33,17 +33,21 @@ export default function Home() {
             {monsters.slice(0, 5).map((monster) => (
               <Card
                 key={monster.id}
-                title={monster.name}
-                subtitle={monster.type}
-                description=""
+                title={
+                  <div className="flex justify-between items-center">
+                    <span className="text-xl font-bold">{monster.name}</span>
+                    <span className="text-sm text-secondary">Difficulty: {monster.difficulty}</span>
+                  </div>
+                }
+                subtitle={`${monster.type} | ${monster.habitats.join(', ')}`}
                 link={`/monsters/${monster.id}`}
+                className="bg-secondary hover:shadow-lg transition-shadow w-full"
               />
             ))}
             <Card
-              title="View all monsters"
-              subtitle=""
-              description=""
+              title={<span className="text-xl font-bold">View all monsters</span>}
               link="/monsters"
+              className="bg-secondary hover:shadow-lg transition-shadow w-full text-center"
             />
           </div>
         </section>
@@ -54,17 +58,17 @@ export default function Home() {
             {maps.slice(0, 5).map((map) => (
               <Card
                 key={map.id}
-                title={map.name}
-                subtitle=""
-                description=""
+                title={<span className="text-xl font-bold">{map.name}</span>}
+                subtitle={`Points of Interest: ${map.pointsOfInterest.length}`}
+                description={<p className="text-sm">{map.description}</p>}
                 link={`/maps/${map.id}`}
+                className="bg-secondary hover:shadow-lg transition-shadow w-full"
               />
             ))}
             <Card
-              title="View all maps"
-              subtitle=""
-              description=""
+              title={<span className="text-xl font-bold">View all maps</span>}
               link="/maps"
+              className="bg-secondary hover:shadow-lg transition-shadow w-full text-center"
             />
           </div>
         </section>

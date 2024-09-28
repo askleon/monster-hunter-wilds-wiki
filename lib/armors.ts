@@ -18,6 +18,7 @@ export interface ArmorPiece {
 export interface ArmorSet {
   id: string;
   name: string;
+  tier: number; // Add this line
   pieces: ArmorPiece[];
   bonus?: { name: string; description: string; requiredPieces: number };
 }
@@ -26,6 +27,7 @@ export const armorSets: ArmorSet[] = [
   {
     id: 'rathalos',
     name: 'Rathalos',
+    tier: 6, // Add tier based on the rarity of the armor pieces
     pieces: [
       {
         id: 'rathalos-helm',
@@ -113,6 +115,7 @@ export const armorSets: ArmorSet[] = [
   {
     id: 'odogaron',
     name: 'Odogaron',
+    tier: 6,
     pieces: [
       {
         id: 'odogaron-helm',
@@ -203,6 +206,7 @@ export const armorSets: ArmorSet[] = [
   {
     id: 'skull',
     name: 'Skull',
+    tier: 5,
     pieces: [
       {
         id: 'skull-visage',
@@ -225,6 +229,7 @@ export const armorSets: ArmorSet[] = [
   {
     id: 'grand-chaos',
     name: 'Grand Chaos',
+    tier: 8,
     pieces: [
       {
         id: 'grand-chaos-hood',
