@@ -24,6 +24,9 @@ export function Header() {
           <Link href="/armors" className="text-sm text-primary hover:bg-accent hover:text-accent px-3 py-2 rounded-md transition-all duration-200">
             Armors
           </Link>
+          <Link href="/loadout" className="text-sm text-primary hover:bg-accent hover:text-accent px-3 py-2 rounded-md transition-all duration-200">
+            Loadouts
+          </Link>
         </div>
         <div className="flex-grow mx-4">
           <SearchBar />

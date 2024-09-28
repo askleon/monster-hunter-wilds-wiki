@@ -12,6 +12,7 @@
     "@supabase/auth-helpers-nextjs": "^0.10.0",
     "@supabase/supabase-js": "^2.45.4",
     "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.12",
+    "@types/lodash": "^4.17.9",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

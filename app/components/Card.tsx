@@ -8,9 +8,10 @@ interface CardProps {
   link?: string;
   className?: string;
   footer?: ReactNode;
+  onClick?: () => void; // Add this line
 }
 
-export function Card({ title, subtitle, description, link, className = '', footer }: CardProps) {
+export function Card({ title, subtitle, description, link, className = '', footer, onClick }: CardProps) {
   const content = (
     <>
       <div className="mb-2">
@@ -24,14 +25,14 @@ export function Card({ title, subtitle, description, link, className = '', foote
 
   if (link) {
     return (
-      <Link href={link} className={`block p-6 rounded-lg shadow-md ${className}`}>
+      <Link href={link} className={`block p-6 rounded-lg shadow-md ${className}`} onClick={onClick}>
         {content}
       </Link>
     );
   }
 
   return (
-    <div className={`p-6 rounded-lg shadow-md ${className}`}>
+    <div className={`p-6 rounded-lg shadow-md ${className}`} onClick={onClick}>
       {content}
     </div>
   );

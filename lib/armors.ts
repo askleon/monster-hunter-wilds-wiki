@@ -279,3 +279,11 @@ export function getAllArmorSets(): ArmorSet[] {
 export function getArmorSetById(id: string): ArmorSet | undefined {
   return armorSets.find(set => set.id === id);
 }
+
+export function getArmorPieceById(id: string): ArmorPiece | undefined {
+  for (const set of armorSets) {
+    const piece = set.pieces.find(p => p.id === id);
+    if (piece) return piece;
+  }
+  return undefined;
+}

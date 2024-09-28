@@ -101,3 +101,19 @@ export function getAllWeaponTrees(): WeaponTree[] {
 export function getWeaponTreeById(id: string): WeaponTree | undefined {
   return weaponTrees.find(tree => tree.id === id);
 }
+
+export function getWeaponById(id: string): WeaponNode | null {
+  for (const tree of weaponTrees) {
+    const findWeapon = (node: WeaponNode): WeaponNode | null => {
+      if (node.id === id) return node;
+      for (const child of node.children) {
+        const found = findWeapon(child);
+        if (found) return found;
+      }
+      return null;
+    };
+    const weapon = findWeapon(tree.baseWeapon);
+    if (weapon) return weapon;
+  }
+  return null;
+}
