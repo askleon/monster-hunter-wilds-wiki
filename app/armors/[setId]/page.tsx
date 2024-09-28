@@ -3,6 +3,9 @@
 import React from 'react';
 import { getArmorSetById, ArmorPiece } from '@/lib/armors';
 import Link from 'next/link';
+import { ArmorSkillSummary } from '@/app/components/ArmorSkillSummary';
+import { ArmorDefenseSummary } from '@/app/components/ArmorDefenseSummary';
+import { Card } from '@/app/components/Card';
 
 const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
@@ -65,12 +68,29 @@ export default function ArmorSetPage({ params }: { params: { setId: string } }) 
       <div className="flex items-center mb-4">
         <p className="text-lg text-primary mr-4">Rarity: {armorSet.tier}</p>
       </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <Card
+          title="Skill Summary"
+          className="bg-secondary"
+          description={<ArmorSkillSummary armorSet={armorSet} />}
+        />
+        <Card
+          title="Defense Summary"
+          className="bg-secondary"
+          description={<ArmorDefenseSummary armorSet={armorSet} />}
+        />
+      </div>
       {armorSet.bonus && (
-        <div className="mb-6 p-4 bg-secondary rounded-lg">
-          <h2 className="text-xl font-semibold text-primary">Set Bonus: {armorSet.bonus.name}</h2>
-          <p className="text-sm text-secondary">{armorSet.bonus.description}</p>
-          <p className="mt-2 text-primary">Required pieces: {armorSet.bonus.requiredPieces}</p>
-        </div>
+        <Card
+          title={`Set Bonus: ${armorSet.bonus.name}`}
+          className="bg-secondary mb-6"
+          description={
+            <>
+              <p className="text-sm text-secondary">{armorSet.bonus.description}</p>
+              <p className="mt-2 text-primary">Required pieces: {armorSet.bonus.requiredPieces}</p>
+            </>
+          }
+        />
       )}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
         {pieceTypes.map(type => (
