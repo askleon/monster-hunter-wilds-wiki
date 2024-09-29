@@ -34,20 +34,24 @@ export default function MonsterPage() {
   const [habitatFilter, setHabitatFilter] = useState<string>('All');
   const [filteredMonsters, setFilteredMonsters] = useState<Monster[]>(monsters);
 
-  const createOptions = (values: string[]): Option[] =>
-    values.map(value => ({ value, label: value }));
+  const createOptions = (values: (string | undefined)[]): Option[] => {
+    const uniqueValues = Array.from(new Set(values.filter((value): value is string => typeof value === 'string')));
+    return [{ value: 'All', label: 'All' }, ...uniqueValues.map(value => ({ value, label: value }))];
+  };
 
-  const typeOptions = createOptions(['All', ...Array.from(new Set(monsters.map(m => m.type)))]);
-  const habitatOptions = createOptions(['All', ...Array.from(new Set(monsters.flatMap(m => m.habitats)))]);
+  const typeOptions = createOptions(monsters.map(m => m.type));
+  const habitatOptions = createOptions(monsters.flatMap(m => m.habitats || []));
 
   useEffect(() => {
     setFilteredMonsters(monsters.filter(monster =>
       (typeFilter === 'All' || monster.type === typeFilter) &&
-      (habitatFilter === 'All' || monster.habitats.includes(habitatFilter))
+      (habitatFilter === 'All' || monster.habitats?.includes(habitatFilter))
     ));
   }, [typeFilter, habitatFilter]);
 
   const getTopWeaknesses = (monster: Monster): Weakness[] => {
+    if (!monster.bodyParts) return [];
+
     const weaknessesByPart: { [key: string]: Weakness } = {};
 
     monster.bodyParts.forEach(bodyPart => {
@@ -105,15 +109,15 @@ export default function MonsterPage() {
               title={
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-bold">{monster.name}</span>
-                  <span className="text-sm text-secondary">Difficulty: {monster.difficulty}</span>
+                  <span className="text-sm text-secondary">Difficulty: {monster.difficulty ?? 'Unknown'}</span>
                 </div>
               }
-              subtitle={`${monster.type} | ${monster.habitats.join(', ')}`}
+              subtitle={`${monster.type || 'Unknown'} | ${monster.habitats?.join(', ') || 'Unknown'}`}
               description={
                 <div className="text-sm grid grid-cols-1 md:grid-cols-3 gap-2 mt-2">
-                  {topWeaknesses.map((weakness, index) => (
+                  {topWeaknesses.length > 0 ? topWeaknesses.map((weakness, index) => (
                     <WeaknessDisplay key={index} weakness={weakness} />
-                  ))}
+                  )) : <span>No weakness data available</span>}
                 </div>
               }
               link={`/monsters/${monster.id}`}
