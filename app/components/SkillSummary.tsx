@@ -1,6 +1,6 @@
 import React from 'react';
 import { Loadout } from './LoadoutBuilder';
-import { Skill, getSkillByName } from '@/lib/skills';
+import { Skill, getSkillById } from '@/lib/skills';
 import { ArmorPiece } from '@/lib/armors';
 
 interface SkillSummaryProps {
@@ -8,20 +8,19 @@ interface SkillSummaryProps {
 }
 
 export function SkillSummary({ loadout }: SkillSummaryProps) {
-  const calculateSkills = (): (Skill & { level: number })[] => {
+  const skills = React.useMemo(() => {
     const skillMap: Record<string, Skill & { level: number }> = {};
-
     const armorPieces: (ArmorPiece | null)[] = [loadout.head, loadout.chest, loadout.arms, loadout.waist, loadout.legs];
 
     armorPieces.forEach((armorPiece) => {
       if (armorPiece && armorPiece.skills) {
         armorPiece.skills.forEach((armorSkill) => {
-          const fullSkill = getSkillByName(armorSkill.name);
+          const fullSkill = getSkillById(armorSkill.id);
           if (fullSkill) {
-            if (skillMap[armorSkill.name]) {
-              skillMap[armorSkill.name].level += armorSkill.level;
+            if (skillMap[armorSkill.id]) {
+              skillMap[armorSkill.id].level = Math.min(fullSkill.maxLevel, skillMap[armorSkill.id].level + armorSkill.level);
             } else {
-              skillMap[armorSkill.name] = { ...fullSkill, level: armorSkill.level };
+              skillMap[armorSkill.id] = { ...fullSkill, level: Math.min(fullSkill.maxLevel, armorSkill.level) };
             }
           }
         });
@@ -29,15 +28,13 @@ export function SkillSummary({ loadout }: SkillSummaryProps) {
     });
 
     return Object.values(skillMap);
-  };
-
-  const skills = calculateSkills();
+  }, [loadout]);
 
   return (
     <div className="space-y-2">
       <h3 className="text-lg font-bold text-primary">Skills</h3>
       {skills.map((skill) => (
-        <div key={skill.name} className="flex items-center space-x-2">
+        <div key={skill.id} className="flex items-center space-x-2">
           <span className="font-medium w-1/3 text-primary">{skill.name}</span>
           <div className="flex-grow flex justify-end items-center space-x-1">
             {Array.from({ length: skill.maxLevel }).map((_, index) => (

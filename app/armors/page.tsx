@@ -6,6 +6,7 @@ import { Card } from '@/app/components/Card';
 import { FilterPanel, FilterOption } from '@/app/components/FilterPanel';
 import { getAllArmorSets, ArmorSet } from '@/lib/armors';
 import { Tooltip } from '@/app/components/Tooltip';
+import { getSkillById } from '@/lib/skills';
 
 export default function ArmorsPage() {
   const router = useRouter();
@@ -29,7 +30,10 @@ export default function ArmorsPage() {
     const skillSet = new Set<string>();
     allArmorSets.forEach(set => {
       set.pieces.forEach(piece => {
-        piece.skills.forEach(skill => skillSet.add(skill.name));
+        piece.skills.forEach(skill => {
+          const fullSkill = getSkillById(skill.id);
+          if (fullSkill) skillSet.add(fullSkill.name);
+        });
       });
     });
     return Array.from(skillSet).sort();
@@ -89,7 +93,10 @@ export default function ArmorsPage() {
     (selectedTier === '' || set.tier.toString() === selectedTier) &&
     (selectedTypes.length === 0 || set.pieces.some(piece => selectedTypes.includes(piece.type))) &&
     (selectedSkills.length === 0 || set.pieces.some(piece =>
-      piece.skills.some(skill => selectedSkills.includes(skill.name))
+      piece.skills.some(skill => {
+        const fullSkill = getSkillById(skill.id);
+        return fullSkill && selectedSkills.includes(fullSkill.name);
+      })
     ))
   );
 
@@ -117,8 +124,11 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
   const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
   const getSetBonus = () => {
-    const setBonusSkill = armorSet.pieces[0].skills.find(skill => skill.name.includes('Mastery'));
-    return setBonusSkill ? setBonusSkill.name : null;
+    const setBonusSkill = armorSet.pieces[0].skills.find(skill => {
+      const fullSkill = getSkillById(skill.id);
+      return fullSkill && fullSkill.name.includes('Mastery');
+    });
+    return setBonusSkill ? getSkillById(setBonusSkill.id)?.name : null;
   };
 
   return (
@@ -144,9 +154,12 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
                         <p className="font-bold">{piece.name}</p>
                         <p>Skills:</p>
                         <ul className="list-disc list-inside">
-                          {piece.skills.map(skill => (
-                            <li key={skill.name}>{skill.name} Lv. {skill.level}</li>
-                          ))}
+                          {piece.skills.map(skill => {
+                            const fullSkill = getSkillById(skill.id);
+                            return (
+                              <li key={skill.id}>{fullSkill?.name} Lv. {skill.level}</li>
+                            );
+                          })}
                         </ul>
                       </div>
                     ) : (

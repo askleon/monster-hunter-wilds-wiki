@@ -6,7 +6,7 @@ export interface ArmorPiece {
   type: 'Head' | 'Chest' | 'Arms' | 'Waist' | 'Legs';
   rarity: number;
   defense: number;
-  skills: { name: string; level: number }[];
+  skills: { id: string; level: number }[];
   resistances: {
     fire: number;
     water: number;
@@ -37,8 +37,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 3,
         defense: 18,
         skills: [
-          { name: 'Poison Resistance', level: 1 },
-          { name: 'Botanist', level: 1 },
+          { id: 'poisonResistance', level: 1 },
+          { id: 'botanist', level: 1 },
         ],
         resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
         materials: [
@@ -53,8 +53,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 3,
         defense: 18,
         skills: [
-          { name: 'Poison Attack', level: 1 },
-          { name: 'Item Prolonger', level: 1 },
+          { id: 'poisonAttack', level: 1 },
+          { id: 'itemProlonger', level: 1 },
         ],
         resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
         materials: [
@@ -69,8 +69,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 3,
         defense: 18,
         skills: [
-          { name: 'Poison Attack', level: 1 },
-          { name: 'Sporepuff Expert', level: 1 },
+          { id: 'poisonAttack', level: 1 },
+          { id: 'sporepuffExpert', level: 1 },
         ],
         resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
         materials: [
@@ -85,8 +85,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 3,
         defense: 18,
         skills: [
-          { name: 'Poison Resistance', level: 1 },
-          { name: 'Item Prolonger', level: 1 },
+          { id: 'poisonResistance', level: 1 },
+          { id: 'itemProlonger', level: 1 },
         ],
         resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
         materials: [
@@ -101,8 +101,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 3,
         defense: 18,
         skills: [
-          { name: 'Botanist', level: 1 },
-          { name: 'Sporepuff Expert', level: 1 },
+          { id: 'botanist', level: 1 },
+          { id: 'sporepuffExpert', level: 1 },
         ],
         resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
         materials: [
@@ -124,9 +124,9 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 38,
         skills: [
-          { name: 'Attack Boost', level: 2 },
-          { name: 'Fire Attack', level: 1 },
-          { name: 'Rathalos Mastery', level: 1 },
+          { id: 'attackBoost', level: 2 },
+          { id: 'fireAttack', level: 1 },
+          { id: 'rathalosMastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -141,8 +141,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 38,
         skills: [
-          { name: 'Weakness Exploit', level: 2 },
-          { name: 'Rathalos Mastery', level: 1 },
+          { id: 'weaknessExploit', level: 2 },
+          { id: 'rathalosMastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -157,8 +157,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 38,
         skills: [
-          { name: 'Attack Boost', level: 1 },
-          { name: 'Rathalos Mastery', level: 1 },
+          { id: 'attackBoost', level: 1 },
+          { id: 'rathalosMastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -173,8 +173,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 38,
         skills: [
-          { name: 'Fire Attack', level: 2 },
-          { name: 'Rathalos Mastery', level: 1 },
+          { id: 'fireAttack', level: 2 },
+          { id: 'rathalosMastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -189,8 +189,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 38,
         skills: [
-          { name: 'Jump Master', level: 1 },
-          { name: 'Rathalos Mastery', level: 1 },
+          { id: 'jumpMaster', level: 1 },
+          { id: 'rathalosMastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -212,8 +212,8 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 36,
         skills: [
-          { name: 'Critical Eye', level: 2 },
-          { name: 'Odogaron Mastery', level: 1 },
+          { id: 'criticalEye', level: 2 },
+          { id: 'odogaronMastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -228,9 +228,9 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 36,
         skills: [
-          { name: 'Speed Sharpening', level: 1 },
-          { name: 'Critical Eye', level: 1 },
-          { name: 'Odogaron Mastery', level: 1 },
+          { id: 'speedSharpening', level: 1 },
+          { id: 'criticalEye', level: 1 },
+          { id: 'odogaronMastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -245,9 +245,9 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 36,
         skills: [
-          { name: 'Constitution', level: 1 },
-          { name: 'Critical Eye', level: 1 },
-          { name: 'Odogaron Mastery', level: 1 },
+          { id: 'constitution', level: 1 },
+          { id: 'criticalEye', level: 1 },
+          { id: 'odogaronMastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -262,9 +262,9 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 36,
         skills: [
-          { name: 'Speed Sharpening', level: 1 },
-          { name: 'Critical Eye', level: 1 },
-          { name: 'Odogaron Mastery', level: 1 },
+          { id: 'speedSharpening', level: 1 },
+          { id: 'criticalEye', level: 1 },
+          { id: 'odogaronMastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -279,9 +279,9 @@ export const armorSets: ArmorSet[] = [
         rarity: 6,
         defense: 36,
         skills: [
-          { name: 'Constitution', level: 1 },
-          { name: 'Critical Eye', level: 1 },
-          { name: 'Odogaron Mastery', level: 1 },
+          { id: 'constitution', level: 1 },
+          { id: 'criticalEye', level: 1 },
+          { id: 'odogaronMastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -303,7 +303,7 @@ export const armorSets: ArmorSet[] = [
         rarity: 5,
         defense: 32,
         skills: [
-          { name: 'Fortify', level: 1 },
+          { id: 'fortify', level: 1 },
         ],
         resistances: { fire: 3, water: -3, thunder: 3, ice: -3, dragon: 0 },
         materials: [
@@ -325,9 +325,9 @@ export const armorSets: ArmorSet[] = [
         rarity: 8,
         defense: 64,
         skills: [
-          { name: 'Critical Element', level: 1 },
-          { name: 'Evade Window', level: 1 },
-          { name: 'True Critical Element', level: 1 },
+          { id: 'criticalElement', level: 1 },
+          { id: 'evadeWindow', level: 1 },
+          { id: 'trueCriticalElement', level: 1 },
         ],
         resistances: { fire: 3, water: 3, thunder: 3, ice: 3, dragon: 3 },
         materials: [
@@ -342,9 +342,9 @@ export const armorSets: ArmorSet[] = [
         rarity: 8,
         defense: 64,
         skills: [
-          { name: 'Critical Element', level: 1 },
-          { name: 'Focus', level: 2 },
-          { name: 'True Critical Element', level: 1 },
+          { id: 'criticalElement', level: 1 },
+          { id: 'focus', level: 2 },
+          { id: 'trueCriticalElement', level: 1 },
         ],
         resistances: { fire: 3, water: 3, thunder: 3, ice: 3, dragon: 3 },
         materials: [
@@ -355,6 +355,7 @@ export const armorSets: ArmorSet[] = [
     ],
   },
 ];
+
 
 export function getAllArmorSets(): ArmorSet[] {
   return armorSets;

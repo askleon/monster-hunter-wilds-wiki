@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { getArmorSetById, ArmorPiece } from '@/lib/armors';
+import { getSkillById } from '@/lib/skills';
 import Link from 'next/link';
 import { ArmorSkillSummary } from '@/app/components/ArmorSkillSummary';
 import { ArmorDefenseSummary } from '@/app/components/ArmorDefenseSummary';
@@ -35,9 +36,14 @@ function ArmorPieceCard({ piece }: { piece: ArmorPiece | undefined }) {
       <div className="mt-2">
         <h4 className="font-semibold text-primary">Skills:</h4>
         <ul>
-          {piece.skills.map((skill, index) => (
-            <li key={index} className="text-primary">{skill.name} Lv. {skill.level}</li>
-          ))}
+          {piece.skills.map((skill) => {
+            const fullSkill = getSkillById(skill.id);
+            return (
+              <li key={skill.id} className="text-primary">
+                {fullSkill ? fullSkill.name : skill.id} Lv. {skill.level}
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div className="mt-2">
@@ -60,8 +66,11 @@ export default function ArmorSetPage({ params }: { params: { setId: string } }) 
   }
 
   const getSetBonus = () => {
-    const setBonusSkill = armorSet.pieces[0].skills.find(skill => skill.name.includes('Mastery'));
-    return setBonusSkill ? setBonusSkill.name : null;
+    const setBonusSkill = armorSet.pieces[0].skills.find(skill => {
+      const fullSkill = getSkillById(skill.id);
+      return fullSkill && fullSkill.name.includes('Mastery');
+    });
+    return setBonusSkill ? getSkillById(setBonusSkill.id)?.name : null;
   };
 
   const setBonus = getSetBonus();
