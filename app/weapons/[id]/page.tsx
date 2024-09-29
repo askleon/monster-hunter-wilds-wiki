@@ -3,14 +3,17 @@
 import { useState } from 'react';
 import { WeaponTree } from '@/app/components/WeaponTree';
 import { WeaponList } from '@/app/components/WeaponList';
-import { getWeaponTreeById } from '@/lib/weapons';
+import { getWeaponTreeById, getWeaponTypeInfo, WeaponType } from '@/lib/weapons';
 
 export default function WeaponTreePage({ params }: { params: { id: string } }) {
   const [viewMode, setViewMode] = useState<'tree' | 'list'>('tree');
-  const weaponTree = getWeaponTreeById(params.id);
 
-  if (!weaponTree) {
-    return <div>Weapon tree not found.</div>;
+  const id = params.id as WeaponType;
+  const weaponInfo = getWeaponTypeInfo(id);
+  const weaponTree = getWeaponTreeById(id);
+
+  if (!weaponInfo || !weaponTree) {
+    return <div>Weapon type not found.</div>;
   }
 
   const toggleView = () => {
@@ -20,7 +23,7 @@ export default function WeaponTreePage({ params }: { params: { id: string } }) {
   return (
     <div className="flex flex-col h-screen">
       <div className="flex justify-between items-center p-4 bg-background">
-        <h1 className="text-3xl font-bold text-primary">{weaponTree.name}</h1>
+        <h1 className="text-3xl font-bold text-primary">{weaponInfo.name}</h1>
         <button
           onClick={toggleView}
           className="px-4 py-2 bg-secondary text-primary rounded hover:bg-primary hover:text-secondary transition-colors"

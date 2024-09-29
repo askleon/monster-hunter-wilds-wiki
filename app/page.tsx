@@ -19,7 +19,7 @@ export default function Home() {
               <span className="text-sm text-secondary">Difficulty: {featuredMonster.difficulty}</span>
             </div>
           }
-          subtitle={`${featuredMonster.type} | ${featuredMonster.habitats.join(', ')}`}
+          subtitle={`${featuredMonster.type} | ${featuredMonster.habitats?.join(', ') || 'Unknown'}`}
           description={<p>{featuredMonster.description}</p>}
           link={`/monsters/${featuredMonster.id}`}
           className={`${styles.featuredMonsterCard} bg-secondary hover:shadow-lg transition-shadow w-full`}
@@ -39,7 +39,7 @@ export default function Home() {
                     <span className="text-sm text-secondary">Difficulty: {monster.difficulty}</span>
                   </div>
                 }
-                subtitle={`${monster.type} | ${monster.habitats.join(', ')}`}
+                subtitle={`${monster.type} | ${monster.habitats?.join(', ') || 'Unknown'}`}
                 link={`/monsters/${monster.id}`}
                 className="bg-secondary hover:shadow-lg transition-shadow w-full"
               />
