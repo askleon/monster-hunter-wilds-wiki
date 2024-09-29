@@ -1,0 +1,48 @@
+.tableWrapper {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.materialTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.materialTable th,
+.materialTable td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.materialTable th {
+  background-color: var(--bg-accent);
+  font-weight: bold;
+  color: var(--text-primary);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.materialTable tr:last-child td {
+  border-bottom: none;
+}
+
+.materialTable tr:hover {
+  background-color: var(--bg-hover);
+}
+
+@media (max-width: 768px) {
+  .materialTable {
+    font-size: 0.9rem;
+  }
+
+  .materialTable th,
+  .materialTable td {
+    padding: 0.5rem;
+  }
+}

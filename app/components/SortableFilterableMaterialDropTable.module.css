@@ -1,0 +1,80 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.filterToggle {
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-accent);
+  color: var(--text-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.filterToggle:hover {
+  background-color: var(--text-accent);
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.filterSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.tableSection {
+  overflow-x: auto;
+}
+
+.filterControls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filterToggle,
+.clearFiltersButton {
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-accent);
+  color: var(--text-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filterToggle:hover,
+.clearFiltersButton:hover {
+  background-color: var(--text-accent);
+}
+
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Consistent spacing between title, button, and table */
+  margin-bottom: 0.25rem; /* Reduced space between header section and table */
+}
+
+.titleIcon {
+  color: var(--text-accent);
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 1rem 0;
+}

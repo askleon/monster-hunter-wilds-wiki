@@ -1,0 +1,28 @@
+.filterToggle {
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-accent);
+  color: var(--text-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 0; /* Remove bottom margin */
+  margin: 0; /* Remove any margins */
+}
+
+.filterToggle:hover {
+  background-color: var(--text-accent);
+}
+
+.filterPanel {
+  background-color: var(--bg-secondary);
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 0; /* Remove bottom margin */
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin: 0; /* Remove any margins */
+  padding: 0.5rem 0; /* Add vertical padding if needed */
+}
+
+/* Adjust other styles as needed */

@@ -4,6 +4,8 @@ import { useParams } from 'next/navigation';
 import { getMonsterById } from '@/lib/monsters';
 import styles from './MonsterDetails.module.css';
 import { useState } from 'react';
+import MaterialDropTable from '@/app/components/MaterialDropTable';
+import SortableFilterableMaterialDropTable from '@/app/components/SortableFilterableMaterialDropTable';
 
 export default function MonsterDetails() {
   const params = useParams();
@@ -116,6 +118,12 @@ export default function MonsterDetails() {
               </tbody>
             </table>
           </div>
+        </section>
+      )}
+
+      {monster.materials && monster.materials.length > 0 && (
+        <section className={styles.materials}>
+          <SortableFilterableMaterialDropTable materials={monster.materials} />
         </section>
       )}
     </div>
