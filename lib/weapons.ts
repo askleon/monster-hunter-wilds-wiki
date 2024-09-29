@@ -5,6 +5,21 @@ import { longSwordTree } from "./longSwordTree";
 export type PhysicalDamageType = 'blunt' | 'slashing' | 'piercing';
 export type ElementType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon';
 export type StatusType = 'poison' | 'paralysis' | 'sleep' | 'blast';
+export type WeaponType =
+  | 'Great Sword'
+  | 'Long Sword'
+  | 'Sword and Shield'
+  | 'Dual Blades'
+  | 'Hammer'
+  | 'Hunting Horn'
+  | 'Lance'
+  | 'Gunlance'
+  | 'Switch Axe'
+  | 'Charge Blade'
+  | 'Insect Glaive'
+  | 'Light Bowgun'
+  | 'Heavy Bowgun'
+  | 'Bow';
 
 export interface WeaponStats {
   attack: number;
