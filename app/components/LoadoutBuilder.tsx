@@ -5,10 +5,10 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons';
 import { getAllArmorSets, ArmorSet, ArmorPiece, getArmorPieceById } from '@/lib/armors';
 import { Card } from '@/app/components/Card';
-import { CustomDropdown } from '@/app/components/CustomDropdown';
 import { useToast } from '@/app/components/Toast';
 import { StatSummary } from '@/app/components/StatSummary';
 import { SkillSummary } from '@/app/components/SkillSummary';
+import { SearchableDropdown } from '@/app/components/SearchableDropdown';
 
 export interface Loadout {
   name: string;
@@ -42,6 +42,17 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
 
   const weaponTrees = getAllWeaponTrees();
   const armorSets = getAllArmorSets();
+
+  const getAllWeapons = () => {
+    return weaponTrees.flatMap(tree => {
+      const getAllNodesFromTree = (node: WeaponNode): WeaponNode[] => {
+        return [node, ...node.children.flatMap(getAllNodesFromTree)];
+      };
+      return getAllNodesFromTree(tree.baseWeapon);
+    });
+  };
+
+  const allWeapons = getAllWeapons();
 
   useEffect(() => {
     const initializeLoadout = () => {
@@ -85,8 +96,8 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
   };
 
   const handleWeaponSelect = (weaponId: string) => {
-    const selectedWeapon = weaponTrees.flatMap(tree => tree.baseWeapon).find(weapon => weapon.id === weaponId);
-    handleLoadoutChange({ ...loadout, weapon: selectedWeapon || null });
+    const selectedWeapon = getWeaponById(weaponId);
+    handleLoadoutChange({ ...loadout, weapon: selectedWeapon });
   };
 
   const handleArmorSelect = (pieceType: keyof Omit<Loadout, 'weapon' | 'name'>, armorId: string) => {
@@ -122,11 +133,12 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
     ).map(piece => ({ value: piece.id, label: piece.name }));
 
     return (
-      <CustomDropdown
+      <SearchableDropdown
         options={[{ value: '', label: `Select ${pieceType}` }, ...options]}
         value={loadout[pieceType]?.id || ''}
         onChange={(value) => handleArmorSelect(pieceType, value)}
         placeholder={`Select ${pieceType}`}
+        className="w-full"
       />
     );
   };
@@ -157,22 +169,28 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
         value={loadout.name}
         onChange={handleNameChange}
         placeholder="Enter loadout name"
-        className="w-full p-2 border border-gray-300 rounded"
+        className="w-full p-2 border border-color rounded bg-primary text-primary"
       />
 
       <Card
         title="Weapon"
         className="bg-secondary"
         description={
-          <CustomDropdown
-            options={[
-              { value: '', label: 'Select Weapon' },
-              ...weaponTrees.flatMap(tree => ({ value: tree.baseWeapon.id, label: tree.baseWeapon.name }))
-            ]}
-            value={loadout.weapon?.id || ''}
-            onChange={handleWeaponSelect}
-            placeholder="Select Weapon"
-          />
+          <div className="w-full">
+            <SearchableDropdown
+              options={[
+                { value: '', label: 'Select Weapon' },
+                ...allWeapons.map(weapon => ({
+                  value: weapon.id,
+                  label: `${weapon.name} (${weaponTrees.find(tree => getAllNodesFromTree(tree.baseWeapon).some(node => node.id === weapon.id))?.type || 'Unknown Type'})`
+                }))
+              ]}
+              value={loadout.weapon?.id || ''}
+              onChange={handleWeaponSelect}
+              placeholder="Select Weapon"
+              className="w-full"
+            />
+          </div>
         }
       />
 
@@ -180,7 +198,7 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
         title="Armor"
         className="bg-secondary"
         description={
-          <div className="space-y-4">
+          <div className="space-y-4 w-full">
             {renderArmorSelect('head')}
             {renderArmorSelect('chest')}
             {renderArmorSelect('arms')}
@@ -236,4 +254,9 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
       )}
     </div>
   );
+}
+
+// Helper function to get all nodes from a tree
+function getAllNodesFromTree(node: WeaponNode): WeaponNode[] {
+  return [node, ...node.children.flatMap(getAllNodesFromTree)];
 }

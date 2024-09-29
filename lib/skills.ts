@@ -34,6 +34,15 @@ export const skills: Skill[] = [
   { name: 'Wide-Range', maxLevel: 5 },
   { name: 'Mushroomancer', maxLevel: 3 },
   { name: 'Divine Blessing', maxLevel: 5 },
+  { name: 'Fire Attack', maxLevel: 5 },
+  { name: 'Rathalos Mastery', maxLevel: 4 }, // Assuming 4 pieces max
+  { name: 'Jump Master', maxLevel: 1 },
+  { name: 'Odogaron Mastery', maxLevel: 4 }, // Assuming 4 pieces max
+  { name: 'Constitution', maxLevel: 5 },
+  { name: 'Speed Sharpening', maxLevel: 3 },
+  { name: 'Fortify', maxLevel: 1 },
+  { name: 'Critical Element', maxLevel: 1 },
+  { name: 'True Critical Element', maxLevel: 1 },
 ];
 
 export function getSkillByName(name: string): Skill | undefined {

@@ -9,6 +9,11 @@ interface ArmorCardProps {
 export function ArmorCard({ armorSet }: ArmorCardProps) {
   const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
+  const getSetBonus = () => {
+    const setBonusSkill = armorSet.pieces[0].skills.find(skill => skill.name.includes('Mastery'));
+    return setBonusSkill ? setBonusSkill.name : null;
+  };
+
   return (
     <Link href={`/armor/${armorSet.id}`} className="block p-4 border-color rounded-lg hover:shadow-color transition-shadow bg-secondary">
       <h3 className="text-lg font-semibold mb-2 text-primary">{armorSet.name}</h3>
@@ -23,8 +28,8 @@ export function ArmorCard({ armorSet }: ArmorCardProps) {
         })}
       </div>
       <p className="text-sm text-primary">Rarity: {armorSet.pieces[0]?.rarity}</p>
-      {armorSet.bonus && (
-        <p className="mt-2 text-sm text-primary">Set Bonus: {armorSet.bonus.name}</p>
+      {getSetBonus() && (
+        <p className="mt-2 text-sm text-primary">Set Bonus: {getSetBonus()}</p>
       )}
     </Link>
   );

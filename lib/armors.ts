@@ -6,7 +6,7 @@ export interface ArmorPiece {
   type: 'Head' | 'Chest' | 'Arms' | 'Waist' | 'Legs';
   rarity: number;
   defense: number;
-  skills: { name: string; level: number }[]; // Keep this as is
+  skills: { name: string; level: number }[];
   resistances: {
     fire: number;
     water: number;
@@ -20,16 +20,15 @@ export interface ArmorPiece {
 export interface ArmorSet {
   id: string;
   name: string;
-  tier: number; // Add this line
+  tier: number;
   pieces: ArmorPiece[];
-  bonus?: { name: string; description: string; requiredPieces: number };
 }
 
 export const armorSets: ArmorSet[] = [
   {
     id: 'rathalos',
     name: 'Rathalos',
-    tier: 6, // Add tier based on the rarity of the armor pieces
+    tier: 6,
     pieces: [
       {
         id: 'rathalos-helm',
@@ -40,6 +39,7 @@ export const armorSets: ArmorSet[] = [
         skills: [
           { name: 'Attack Boost', level: 2 },
           { name: 'Fire Attack', level: 1 },
+          { name: 'Rathalos Mastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -55,6 +55,7 @@ export const armorSets: ArmorSet[] = [
         defense: 38,
         skills: [
           { name: 'Weakness Exploit', level: 2 },
+          { name: 'Rathalos Mastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -70,6 +71,7 @@ export const armorSets: ArmorSet[] = [
         defense: 38,
         skills: [
           { name: 'Attack Boost', level: 1 },
+          { name: 'Rathalos Mastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -85,6 +87,7 @@ export const armorSets: ArmorSet[] = [
         defense: 38,
         skills: [
           { name: 'Fire Attack', level: 2 },
+          { name: 'Rathalos Mastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -100,6 +103,7 @@ export const armorSets: ArmorSet[] = [
         defense: 38,
         skills: [
           { name: 'Jump Master', level: 1 },
+          { name: 'Rathalos Mastery', level: 1 },
         ],
         resistances: { fire: 3, water: 1, thunder: -2, ice: 1, dragon: -3 },
         materials: [
@@ -108,11 +112,6 @@ export const armorSets: ArmorSet[] = [
         ],
       },
     ],
-    bonus: {
-      name: 'Punishing Draw',
-      description: 'Adds a small amount of stun power to draw attacks and slightly increases attack power.',
-      requiredPieces: 4,
-    },
   },
   {
     id: 'odogaron',
@@ -127,6 +126,7 @@ export const armorSets: ArmorSet[] = [
         defense: 36,
         skills: [
           { name: 'Critical Eye', level: 2 },
+          { name: 'Odogaron Mastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -143,6 +143,7 @@ export const armorSets: ArmorSet[] = [
         skills: [
           { name: 'Speed Sharpening', level: 1 },
           { name: 'Critical Eye', level: 1 },
+          { name: 'Odogaron Mastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -159,6 +160,7 @@ export const armorSets: ArmorSet[] = [
         skills: [
           { name: 'Constitution', level: 1 },
           { name: 'Critical Eye', level: 1 },
+          { name: 'Odogaron Mastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -175,6 +177,7 @@ export const armorSets: ArmorSet[] = [
         skills: [
           { name: 'Speed Sharpening', level: 1 },
           { name: 'Critical Eye', level: 1 },
+          { name: 'Odogaron Mastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -191,6 +194,7 @@ export const armorSets: ArmorSet[] = [
         skills: [
           { name: 'Constitution', level: 1 },
           { name: 'Critical Eye', level: 1 },
+          { name: 'Odogaron Mastery', level: 1 },
         ],
         resistances: { fire: 2, water: 2, thunder: -2, ice: -3, dragon: 2 },
         materials: [
@@ -199,11 +203,6 @@ export const armorSets: ArmorSet[] = [
         ],
       },
     ],
-    bonus: {
-      name: 'Punishing Draw',
-      description: 'Adds a small amount of stun power to draw attacks and slightly increases attack power.',
-      requiredPieces: 4,
-    },
   },
   {
     id: 'skull',
@@ -226,7 +225,6 @@ export const armorSets: ArmorSet[] = [
         ],
       },
     ],
-    // No set bonus for single piece sets
   },
   {
     id: 'grand-chaos',
@@ -242,6 +240,7 @@ export const armorSets: ArmorSet[] = [
         skills: [
           { name: 'Critical Element', level: 1 },
           { name: 'Evade Window', level: 1 },
+          { name: 'True Critical Element', level: 1 },
         ],
         resistances: { fire: 3, water: 3, thunder: 3, ice: 3, dragon: 3 },
         materials: [
@@ -258,6 +257,7 @@ export const armorSets: ArmorSet[] = [
         skills: [
           { name: 'Critical Element', level: 1 },
           { name: 'Focus', level: 2 },
+          { name: 'True Critical Element', level: 1 },
         ],
         resistances: { fire: 3, water: 3, thunder: 3, ice: 3, dragon: 3 },
         materials: [
@@ -266,11 +266,6 @@ export const armorSets: ArmorSet[] = [
         ],
       },
     ],
-    bonus: {
-      name: 'True Critical Element',
-      description: 'Greatly increases elemental damage when landing critical hits.',
-      requiredPieces: 2,
-    },
   },
 ];
 

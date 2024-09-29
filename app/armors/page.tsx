@@ -116,6 +116,11 @@ export default function ArmorsPage() {
 function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
   const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
+  const getSetBonus = () => {
+    const setBonusSkill = armorSet.pieces[0].skills.find(skill => skill.name.includes('Mastery'));
+    return setBonusSkill ? setBonusSkill.name : null;
+  };
+
   return (
     <Card
       title={
@@ -164,9 +169,9 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
               );
             })}
           </div>
-          {armorSet.bonus && (
+          {getSetBonus() && (
             <p className="text-sm text-secondary">
-              Set Bonus: {armorSet.bonus.name} ({armorSet.bonus.requiredPieces} pieces)
+              Set Bonus: {getSetBonus()}
             </p>
           )}
         </div>

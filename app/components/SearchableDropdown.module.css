@@ -1,0 +1,99 @@
+.dropdownContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  width: 100%;
+}
+
+.dropdownToggle {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdownToggle::after {
+  content: '▼';
+  font-size: 0.8em;
+  margin-left: 0.5em;
+}
+
+.dropdownToggleText {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdownToggleIcon {
+  flex-shrink: 0;
+  margin-left: 0.5em;
+  font-size: 0.8em;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: var(--text-primary);
+  text-align: left;
+  background-color: var(--bg-primary);
+  background-clip: padding-box;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.searchInput::placeholder {
+  color: var(--text-secondary);
+}
+
+.dropdownItem {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: var(--text-primary);
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: var(--bg-primary);
+  border: 0;
+  cursor: pointer;
+}
+
+.dropdownItem:hover,
+.dropdownItem:focus {
+  color: var(--text-secondary);
+  text-decoration: none;
+  background-color: var(--bg-secondary);
+}

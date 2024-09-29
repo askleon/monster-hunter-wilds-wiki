@@ -59,6 +59,13 @@ export default function ArmorSetPage({ params }: { params: { setId: string } }) 
     return <div className="container mx-auto p-4 text-primary">Armor set not found</div>;
   }
 
+  const getSetBonus = () => {
+    const setBonusSkill = armorSet.pieces[0].skills.find(skill => skill.name.includes('Mastery'));
+    return setBonusSkill ? setBonusSkill.name : null;
+  };
+
+  const setBonus = getSetBonus();
+
   return (
     <div className="container mx-auto p-4">
       <Link href="/armors" className="text-accent hover:underline mb-4 inline-block">
@@ -80,15 +87,14 @@ export default function ArmorSetPage({ params }: { params: { setId: string } }) 
           description={<ArmorDefenseSummary armorSet={armorSet} />}
         />
       </div>
-      {armorSet.bonus && (
+      {setBonus && (
         <Card
-          title={`Set Bonus: ${armorSet.bonus.name}`}
+          title={`Set Bonus: ${setBonus}`}
           className="bg-secondary mb-6"
           description={
-            <>
-              <p className="text-sm text-secondary">{armorSet.bonus.description}</p>
-              <p className="mt-2 text-primary">Required pieces: {armorSet.bonus.requiredPieces}</p>
-            </>
+            <p className="text-sm text-secondary">
+              This set bonus is activated when wearing multiple pieces of the {armorSet.name} set.
+            </p>
           }
         />
       )}
