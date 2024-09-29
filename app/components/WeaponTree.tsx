@@ -1,22 +1,53 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
-import { WeaponNode } from '@/lib/weapons';
+import { WeaponNode, WeaponTree as WeaponTreeType } from '@/lib/weapons';
 import styles from './WeaponTree.module.css';
 
 interface WeaponTreeProps {
-  baseWeapon: WeaponNode;
+  weaponTree: WeaponTreeType;
 }
 
-export function WeaponTree({ baseWeapon }: WeaponTreeProps) {
+export function WeaponTree({ weaponTree }: WeaponTreeProps) {
   const [activeTooltip, setActiveTooltip] = useState<WeaponNode | null>(null);
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
+  const [treeHeights, setTreeHeights] = useState<number[]>([]);
+  const treeRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  const setTreeRef = useCallback((index: number) => (el: HTMLDivElement | null) => {
+    treeRefs.current[index] = el;
+  }, []);
+
+  useEffect(() => {
+    const calculateTreeDimensions = () => {
+      const heights = treeRefs.current.map(ref => ref?.offsetHeight || 0);
+      setTreeHeights(heights);
+
+      // Calculate total width
+      const totalWidth = treeRefs.current.reduce((width, ref) => {
+        if (!ref) return width;
+        return width + ref.scrollWidth;
+      }, 0);
+
+      // Set minimum width for the weapon tree
+      const treeElement = document.querySelector(`.${styles.weaponTree}`) as HTMLElement | null;
+      if (treeElement) {
+        treeElement.style.minWidth = `${totalWidth}px`;
+        const isScrollNeeded = treeElement.scrollWidth > treeElement.clientWidth;
+        treeElement.style.overflowX = isScrollNeeded ? 'auto' : 'hidden';
+      }
+    };
+
+    calculateTreeDimensions();
+    window.addEventListener('resize', calculateTreeDimensions);
+    return () => window.removeEventListener('resize', calculateTreeDimensions);
+  }, [weaponTree]);
 
   const handleMouseEnter = (node: WeaponNode, event: React.MouseEvent) => {
     const rect = event.currentTarget.getBoundingClientRect();
     setTooltipPosition({
       top: rect.bottom + window.scrollY,
-      left: rect.left + window.scrollX + rect.width / 2
+      left: rect.left + window.scrollX
     });
     setActiveTooltip(node);
   };
@@ -40,6 +71,9 @@ export function WeaponTree({ baseWeapon }: WeaponTreeProps) {
           {node.stats.element && (
             <li>{node.stats.element.type}: {node.stats.element.value}</li>
           )}
+          {node.stats.status && (
+            <li>{node.stats.status.type}: {node.stats.status.value}</li>
+          )}
         </ul>
       </div>
       <div>
@@ -52,8 +86,9 @@ export function WeaponTree({ baseWeapon }: WeaponTreeProps) {
       </div>
     </div>
   );
+
   const renderNode = (node: WeaponNode) => (
-    <div key={node.id} className={`${styles.node} ${node.children.length > 0 ? styles.parentNode : ''}`}>
+    <div className={styles.node}>
       <div
         className={styles.nodeContent}
         onMouseEnter={(e) => handleMouseEnter(node, e)}
@@ -61,19 +96,53 @@ export function WeaponTree({ baseWeapon }: WeaponTreeProps) {
       >
         {node.name}
       </div>
-      {node.children.length > 0 && (
-        <div className={styles.children}>
-          {node.children.map(renderNode)}
-        </div>
-      )}
     </div>
   );
 
+  const renderBranch = (node: WeaponNode): JSX.Element => {
+    return (
+      <div className={styles.branch}>
+        <div className={styles.mainPath}>
+          {renderNode(node)}
+          {node.upgrade && (
+            <>
+              <div className={styles.connector} />
+              {renderBranch(node.upgrade)}
+            </>
+          )}
+        </div>
+        {node.branches && (
+          <div className={styles.subBranches}>
+            {node.branches.map((branch, index) => (
+              <div key={branch.id} className={styles.subBranch}>
+                <div className={styles.branchConnector} />
+                {renderBranch(branch)}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  if (!weaponTree) {
+    return <div>No weapon tree data available.</div>;
+  }
+
   return (
     <div className={styles.weaponTreeContainer}>
-      <h2 className={styles.title}>Weapon Upgrade Tree</h2>
+      <h2 className={styles.title}>{weaponTree.name} Upgrade Tree</h2>
       <div className={styles.weaponTree}>
-        {renderNode(baseWeapon)}
+        {weaponTree.baseWeapons.map((baseWeapon, index) => (
+          <div
+            key={baseWeapon.id}
+            className={styles.treeRoot}
+            ref={setTreeRef(index)}
+            style={{ minHeight: `${treeHeights[index] || 0}px` }}
+          >
+            {renderBranch(baseWeapon)}
+          </div>
+        ))}
       </div>
       {activeTooltip && createPortal(
         renderTooltip(activeTooltip),

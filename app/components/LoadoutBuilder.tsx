@@ -46,9 +46,16 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
   const getAllWeapons = () => {
     return weaponTrees.flatMap(tree => {
       const getAllNodesFromTree = (node: WeaponNode): WeaponNode[] => {
-        return [node, ...node.children.flatMap(getAllNodesFromTree)];
+        let nodes = [node];
+        if (node.upgrade) {
+          nodes = nodes.concat(getAllNodesFromTree(node.upgrade));
+        }
+        if (node.branches) {
+          nodes = nodes.concat(node.branches.flatMap(getAllNodesFromTree));
+        }
+        return nodes;
       };
-      return getAllNodesFromTree(tree.baseWeapon);
+      return tree.baseWeapons.flatMap(getAllNodesFromTree);
     });
   };
 
@@ -160,6 +167,24 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
     );
   };
 
+  const renderWeaponSelect = () => {
+    const options = allWeapons.map(weapon => ({
+      value: weapon.id,
+      label: `${weapon.name} (${weaponTrees.find(tree =>
+        tree.baseWeapons.some(base => getAllNodesFromTree(base).some(node => node.id === weapon.id)))?.type || 'Unknown Type'})`
+    }));
+
+    return (
+      <SearchableDropdown
+        options={[{ value: '', label: 'Select Weapon' }, ...options]}
+        value={loadout.weapon?.id || ''}
+        onChange={handleWeaponSelect}
+        placeholder="Select Weapon"
+        className="w-full"
+      />
+    );
+  };
+
   return (
     <div className="max-w-3xl mx-auto space-y-6">
       <h1 className="text-3xl font-bold text-primary mb-6">Hunter Loadout Builder</h1>
@@ -177,19 +202,7 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
         className="bg-secondary"
         description={
           <div className="w-full">
-            <SearchableDropdown
-              options={[
-                { value: '', label: 'Select Weapon' },
-                ...allWeapons.map(weapon => ({
-                  value: weapon.id,
-                  label: `${weapon.name} (${weaponTrees.find(tree => getAllNodesFromTree(tree.baseWeapon).some(node => node.id === weapon.id))?.type || 'Unknown Type'})`
-                }))
-              ]}
-              value={loadout.weapon?.id || ''}
-              onChange={handleWeaponSelect}
-              placeholder="Select Weapon"
-              className="w-full"
-            />
+            {renderWeaponSelect()}
           </div>
         }
       />
@@ -258,5 +271,12 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
 
 // Helper function to get all nodes from a tree
 function getAllNodesFromTree(node: WeaponNode): WeaponNode[] {
-  return [node, ...node.children.flatMap(getAllNodesFromTree)];
+  let nodes = [node];
+  if (node.upgrade) {
+    nodes = nodes.concat(getAllNodesFromTree(node.upgrade));
+  }
+  if (node.branches) {
+    nodes = nodes.concat(node.branches.flatMap(getAllNodesFromTree));
+  }
+  return nodes;
 }

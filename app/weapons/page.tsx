@@ -1,5 +1,5 @@
 import { Card } from '@/app/components/Card';
-import { getAllWeaponTrees, WeaponTree } from '@/lib/weapons';
+import { getAllWeaponTrees, WeaponTree, WeaponNode } from '@/lib/weapons';
 
 export default function WeaponsPage() {
   const weaponTrees = getAllWeaponTrees();
@@ -20,8 +20,6 @@ export default function WeaponsPage() {
 }
 
 function WeaponTreeCard({ weaponTree }: { weaponTree: WeaponTree }) {
-  const baseWeapon = weaponTree.baseWeapon;
-
   return (
     <Card
       title={
@@ -32,19 +30,34 @@ function WeaponTreeCard({ weaponTree }: { weaponTree: WeaponTree }) {
       subtitle={weaponTree.type}
       description={
         <div className="text-sm space-y-2">
-          <p>Base Weapon: {baseWeapon.name}</p>
-          <p>Attack: {baseWeapon.stats.attack}</p>
-          <p>Affinity: {baseWeapon.stats.affinity}%</p>
-          {baseWeapon.stats.element && (
-            <p>Element: {baseWeapon.stats.element.type} ({baseWeapon.stats.element.value})</p>
-          )}
-          {baseWeapon.stats.status && (
-            <p>Status: {baseWeapon.stats.status.type} ({baseWeapon.stats.status.value})</p>
-          )}
+          <p>Base Weapons:</p>
+          <ul className="list-disc pl-5">
+            {weaponTree.baseWeapons.map((baseWeapon) => (
+              <li key={baseWeapon.id}>
+                <BaseWeaponInfo weapon={baseWeapon} />
+              </li>
+            ))}
+          </ul>
         </div>
       }
       link={`/weapons/${weaponTree.id}`}
       className="bg-secondary hover:shadow-lg transition-shadow w-full"
     />
+  );
+}
+
+function BaseWeaponInfo({ weapon }: { weapon: WeaponNode }) {
+  return (
+    <div>
+      <p className="font-semibold">{weapon.name}</p>
+      <p>Attack: {weapon.stats.attack}</p>
+      <p>Affinity: {weapon.stats.affinity}%</p>
+      {weapon.stats.element && (
+        <p>Element: {weapon.stats.element.type} ({weapon.stats.element.value})</p>
+      )}
+      {weapon.stats.status && (
+        <p>Status: {weapon.stats.status.type} ({weapon.stats.status.value})</p>
+      )}
+    </div>
   );
 }
