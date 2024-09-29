@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { WeaponNode, WeaponTree as WeaponTreeType } from '@/lib/weapons';
 import styles from './WeaponTree.module.css';
+import { calculateTreeDimensions, calculateNodeDimensions } from '@/lib/treeLayoutCalculator';
 
 interface WeaponTreeProps {
   weaponTree: WeaponTreeType;
@@ -91,6 +92,7 @@ export function WeaponTree({ weaponTree }: WeaponTreeProps) {
     <div className={styles.node}>
       <div
         className={styles.nodeContent}
+        style={{ width: `${nodeWidth}px` }}
         onMouseEnter={(e) => handleMouseEnter(node, e)}
         onMouseLeave={handleMouseLeave}
       >
@@ -129,20 +131,34 @@ export function WeaponTree({ weaponTree }: WeaponTreeProps) {
     return <div>No weapon tree data available.</div>;
   }
 
+  const treeDimensions = calculateTreeDimensions(weaponTree);
+  const nodeWidth = Math.max(150, treeDimensions.maxNodeWidth);
+
   return (
     <div className={styles.weaponTreeContainer}>
-      <h2 className={styles.title}>{weaponTree.name} Upgrade Tree</h2>
-      <div className={styles.weaponTree}>
-        {weaponTree.baseWeapons.map((baseWeapon, index) => (
-          <div
-            key={baseWeapon.id}
-            className={styles.treeRoot}
-            ref={setTreeRef(index)}
-            style={{ minHeight: `${treeHeights[index] || 0}px` }}
-          >
-            {renderBranch(baseWeapon)}
-          </div>
-        ))}
+      <div
+        className={styles.weaponTree}
+        style={{
+          '--max-depth': treeDimensions.depth,
+          '--node-width': `${nodeWidth}px`,
+        } as React.CSSProperties}
+      >
+        {weaponTree.baseWeapons.map((baseWeapon, index) => {
+          const rootDimensions = calculateNodeDimensions(baseWeapon);
+          return (
+            <div
+              key={baseWeapon.id}
+              className={styles.treeRoot}
+              ref={setTreeRef(index)}
+              style={{
+                height: `${rootDimensions.height}px`,
+                '--tree-depth': rootDimensions.depth
+              } as React.CSSProperties}
+            >
+              {renderBranch(baseWeapon)}
+            </div>
+          );
+        })}
       </div>
       {activeTooltip && createPortal(
         renderTooltip(activeTooltip),

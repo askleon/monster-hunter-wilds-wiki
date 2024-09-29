@@ -11,15 +11,16 @@
 }
 
 .weaponTree {
+  --branch-gap: 20px;
   display: flex;
   flex-direction: column;
-  gap: 80px; /* Increase gap between base weapons */
+  gap: calc(var(--branch-gap) * 2); /* Double the branch gap for tree spacing */
 }
 
 .treeRoot {
   display: flex;
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: calc(var(--tree-depth, 0) * var(--branch-gap));
 }
 
 .branch {
@@ -43,12 +44,15 @@
   border-radius: 5px;
   background-color: var(--bg-secondary);
   cursor: pointer;
-  min-width: 150px;
+  width: var(--node-width, 150px);
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .connector {
-  width: 40px;
+  width: calc(var(--node-width, 150px) / 2);
   height: 2px;
   background-color: var(--border-color);
 }
@@ -59,8 +63,8 @@
   position: absolute;
   top: 100%;
   left: 0;
-  gap: 20px;
-  padding-top: 20px;
+  gap: var(--branch-gap);
+  padding-top: var(--branch-gap);
 }
 
 .subBranch {
@@ -70,7 +74,7 @@
 .branchConnector {
   position: absolute;
   top: -20px;
-  left: 75px;
+  left: calc(var(--node-width, 150px) / 2);
   width: 2px;
   height: 20px;
   background-color: var(--border-color);
