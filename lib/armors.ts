@@ -26,6 +26,93 @@ export interface ArmorSet {
 
 export const armorSets: ArmorSet[] = [
   {
+    id: 'pukei-pukei',
+    name: 'Pukei-Pukei',
+    tier: 3,
+    pieces: [
+      {
+        id: 'pukei-hood',
+        name: 'Pukei Hood',
+        type: 'Head',
+        rarity: 3,
+        defense: 18,
+        skills: [
+          { name: 'Poison Resistance', level: 1 },
+          { name: 'Botanist', level: 1 },
+        ],
+        resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
+        materials: [
+          { name: 'Pukei-Pukei Scale', quantity: 3 },
+          { name: 'Pukei-Pukei Feather', quantity: 1 },
+        ],
+      },
+      {
+        id: 'pukei-mail',
+        name: 'Pukei Mail',
+        type: 'Chest',
+        rarity: 3,
+        defense: 18,
+        skills: [
+          { name: 'Poison Attack', level: 1 },
+          { name: 'Item Prolonger', level: 1 },
+        ],
+        resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
+        materials: [
+          { name: 'Pukei-Pukei Carapace', quantity: 4 },
+          { name: 'Pukei-Pukei Sac', quantity: 1 },
+        ],
+      },
+      {
+        id: 'pukei-vambraces',
+        name: 'Pukei Vambraces',
+        type: 'Arms',
+        rarity: 3,
+        defense: 18,
+        skills: [
+          { name: 'Poison Attack', level: 1 },
+          { name: 'Sporepuff Expert', level: 1 },
+        ],
+        resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
+        materials: [
+          { name: 'Pukei-Pukei Quill', quantity: 2 },
+          { name: 'Pukei-Pukei Scale', quantity: 2 },
+        ],
+      },
+      {
+        id: 'pukei-coil',
+        name: 'Pukei Coil',
+        type: 'Waist',
+        rarity: 3,
+        defense: 18,
+        skills: [
+          { name: 'Poison Resistance', level: 1 },
+          { name: 'Item Prolonger', level: 1 },
+        ],
+        resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
+        materials: [
+          { name: 'Pukei-Pukei Shell', quantity: 3 },
+          { name: 'Pukei-Pukei Tail', quantity: 1 },
+        ],
+      },
+      {
+        id: 'pukei-greaves',
+        name: 'Pukei Greaves',
+        type: 'Legs',
+        rarity: 3,
+        defense: 18,
+        skills: [
+          { name: 'Botanist', level: 1 },
+          { name: 'Sporepuff Expert', level: 1 },
+        ],
+        resistances: { fire: 0, water: 3, thunder: -3, ice: 0, dragon: 1 },
+        materials: [
+          { name: 'Pukei-Pukei Webbing', quantity: 2 },
+          { name: 'Pukei-Pukei Scale', quantity: 2 },
+        ],
+      },
+    ],
+  },
+  {
     id: 'rathalos',
     name: 'Rathalos',
     tier: 6,

@@ -43,6 +43,10 @@ export const skills: Skill[] = [
   { name: 'Fortify', maxLevel: 1 },
   { name: 'Critical Element', maxLevel: 1 },
   { name: 'True Critical Element', maxLevel: 1 },
+  { name: 'Poison Attack', maxLevel: 3 },
+  { name: 'Botanist', maxLevel: 4 },
+  { name: 'Item Prolonger', maxLevel: 3 },
+  { name: 'Sporepuff Expert', maxLevel: 3 },
 ];
 
 export function getSkillByName(name: string): Skill | undefined {

@@ -1,6 +1,7 @@
 import { greatSwordTree } from "./greatSwordTree";
 import { hammerTree } from "./hammerTree";
 import { longSwordTree } from "./longSwordTree";
+import { swordAndShieldTree } from "./swordAndShieldTree";
 
 export type PhysicalDamageType = 'blunt' | 'slashing' | 'piercing';
 export type ElementType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon';
@@ -147,7 +148,7 @@ export interface WeaponTree {
   baseWeapons: WeaponNode[];
 }
 
-const weaponTrees: WeaponTree[] = [greatSwordTree, longSwordTree, hammerTree];
+const weaponTrees: WeaponTree[] = [greatSwordTree, longSwordTree, hammerTree, swordAndShieldTree];
 
 export function getAllWeaponTrees(): WeaponTree[] {
   return weaponTrees;
