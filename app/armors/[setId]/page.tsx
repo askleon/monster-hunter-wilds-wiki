@@ -2,30 +2,37 @@
 
 import React from 'react';
 import { getArmorSetById, ArmorPiece } from '@/lib/armors';
-import { getSkillById } from '@/lib/skills';
+import { getSkillById, Skill } from '@/lib/skills';
 import Link from 'next/link';
 import { ArmorSkillSummary } from '@/app/components/ArmorSkillSummary';
 import { ArmorDefenseSummary } from '@/app/components/ArmorDefenseSummary';
 import { Card } from '@/app/components/Card';
+import { SkillDisplay } from '@/app/components/SkillDisplay';
 
 const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
 function ArmorPieceCard({ piece }: { piece: ArmorPiece | undefined }) {
   if (!piece) {
     return (
-      <div className="border rounded-lg shadow-color p-4 bg-secondary">
-        <p className="text-sm text-secondary">Not available</p>
-      </div>
+      <Card
+        title="Not Available"
+        className="bg-secondary h-full"
+        description={<p className="text-sm text-secondary">This armor piece is not available.</p>}
+      />
     );
   }
 
-  return (
-    <div className="border rounded-lg shadow-color p-4 bg-primary">
-      <h3 className="text-lg font-semibold mb-2 text-primary">{piece.name}</h3>
+  const skills = piece.skills.map(skill => {
+    const fullSkill = getSkillById(skill.id);
+    return fullSkill ? { ...fullSkill, level: skill.level } : { id: skill.id, name: skill.id, maxLevel: skill.level, level: skill.level, description: '', effects: [] };
+  });
+
+  const description = (
+    <div className="space-y-4">
       <p className="text-primary">Defense: {piece.defense}</p>
-      <div className="mt-2">
-        <h4 className="font-semibold text-primary">Resistances:</h4>
-        <ul className="grid grid-cols-2 gap-x-2">
+      <div>
+        <h4 className="font-semibold text-primary mb-2">Resistances:</h4>
+        <ul className="grid grid-cols-2 gap-x-2 gap-y-1">
           {Object.entries(piece.resistances).map(([element, value]) => (
             <li key={element} className={value > 0 ? 'text-accent' : value < 0 ? 'text-secondary' : 'text-primary'}>
               {element.charAt(0).toUpperCase() + element.slice(1)}: {value}
@@ -33,22 +40,13 @@ function ArmorPieceCard({ piece }: { piece: ArmorPiece | undefined }) {
           ))}
         </ul>
       </div>
-      <div className="mt-2">
-        <h4 className="font-semibold text-primary">Skills:</h4>
-        <ul>
-          {piece.skills.map((skill) => {
-            const fullSkill = getSkillById(skill.id);
-            return (
-              <li key={skill.id} className="text-primary">
-                {fullSkill ? fullSkill.name : skill.id} Lv. {skill.level}
-              </li>
-            );
-          })}
-        </ul>
+      <div>
+        <h4 className="font-semibold text-primary mb-2">Skills:</h4>
+        <SkillDisplay skills={skills} />
       </div>
-      <div className="mt-2">
-        <h4 className="font-semibold text-primary">Materials:</h4>
-        <ul>
+      <div>
+        <h4 className="font-semibold text-primary mb-2">Materials:</h4>
+        <ul className="space-y-1">
           {piece.materials.map((material, index) => (
             <li key={index} className="text-primary">{material.name} x{material.quantity}</li>
           ))}
@@ -56,6 +54,8 @@ function ArmorPieceCard({ piece }: { piece: ArmorPiece | undefined }) {
       </div>
     </div>
   );
+
+  return description;
 }
 
 export default function ArmorSetPage({ params }: { params: { setId: string } }) {
@@ -108,9 +108,17 @@ export default function ArmorSetPage({ params }: { params: { setId: string } }) 
         />
       )}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-        {pieceTypes.map(type => (
-          <ArmorPieceCard key={type} piece={armorSet.pieces.find(p => p.type === type)} />
-        ))}
+        {pieceTypes.map(type => {
+          const piece = armorSet.pieces.find(p => p.type === type);
+          return (
+            <Card
+              key={type}
+              title={piece ? piece.name : `${type} (Not Available)`}
+              className="bg-secondary h-full"
+              description={<ArmorPieceCard piece={piece} />}
+            />
+          );
+        })}
       </div>
     </div>
   );
