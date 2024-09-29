@@ -7,6 +7,8 @@ import { getAllArmorSets, ArmorSet, ArmorPiece, getArmorPieceById } from '@/lib/
 import { Card } from '@/app/components/Card';
 import { CustomDropdown } from '@/app/components/CustomDropdown';
 import { useToast } from '@/app/components/Toast';
+import { StatSummary } from '@/app/components/StatSummary';
+import { SkillSummary } from '@/app/components/SkillSummary';
 
 export interface Loadout {
   name: string;
@@ -192,14 +194,18 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
         title="Loadout Summary"
         className="bg-secondary"
         description={
-          <div className="space-y-2">
-            {renderSummaryItem('name', loadout.name)}
-            {renderSummaryItem('weapon', loadout.weapon)}
-            {renderSummaryItem('head', loadout.head)}
-            {renderSummaryItem('chest', loadout.chest)}
-            {renderSummaryItem('arms', loadout.arms)}
-            {renderSummaryItem('waist', loadout.waist)}
-            {renderSummaryItem('legs', loadout.legs)}
+          <div className="space-y-4">
+            <div className="space-y-2">
+              {renderSummaryItem('name', loadout.name)}
+              {renderSummaryItem('weapon', loadout.weapon)}
+              {renderSummaryItem('head', loadout.head)}
+              {renderSummaryItem('chest', loadout.chest)}
+              {renderSummaryItem('arms', loadout.arms)}
+              {renderSummaryItem('waist', loadout.waist)}
+              {renderSummaryItem('legs', loadout.legs)}
+            </div>
+            <StatSummary loadout={loadout} />
+            <SkillSummary loadout={loadout} />
           </div>
         }
       />

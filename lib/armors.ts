@@ -1,10 +1,12 @@
+import { Skill } from './skills';
+
 export interface ArmorPiece {
   id: string;
   name: string;
   type: 'Head' | 'Chest' | 'Arms' | 'Waist' | 'Legs';
   rarity: number;
   defense: number;
-  skills: { name: string; level: number }[];
+  skills: { name: string; level: number }[]; // Keep this as is
   resistances: {
     fire: number;
     water: number;

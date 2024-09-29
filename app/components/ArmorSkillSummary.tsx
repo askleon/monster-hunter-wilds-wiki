@@ -1,17 +1,21 @@
 import React from 'react';
 import { ArmorSet } from '@/lib/armors';
+import { Skill, getSkillByName } from '@/lib/skills';
 
 export function ArmorSkillSummary({ armorSet }: { armorSet: ArmorSet }) {
   const skillSummary = armorSet.pieces.reduce((acc, piece) => {
-    piece.skills.forEach(skill => {
-      if (acc[skill.name]) {
-        acc[skill.name] += skill.level;
-      } else {
-        acc[skill.name] = skill.level;
+    piece.skills.forEach(armorSkill => {
+      const fullSkill = getSkillByName(armorSkill.name);
+      if (fullSkill) {
+        if (acc[armorSkill.name]) {
+          acc[armorSkill.name].level += armorSkill.level;
+        } else {
+          acc[armorSkill.name] = { ...fullSkill, level: armorSkill.level };
+        }
       }
     });
     return acc;
-  }, {} as Record<string, number>);
+  }, {} as Record<string, Skill & { level: number }>);
 
   return (
     <div>
@@ -20,10 +24,10 @@ export function ArmorSkillSummary({ armorSet }: { armorSet: ArmorSet }) {
         <span>Level</span>
       </div>
       <ul className="space-y-1">
-        {Object.entries(skillSummary).map(([skill, level]) => (
-          <li key={skill} className="text-primary flex justify-between">
-            <span>{skill}</span>
-            <span>Lv. {level}</span>
+        {Object.values(skillSummary).map((skill) => (
+          <li key={skill.name} className="text-primary flex justify-between">
+            <span>{skill.name}</span>
+            <span>Lv. {skill.level}/{skill.maxLevel}</span>
           </li>
         ))}
       </ul>

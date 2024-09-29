@@ -13,6 +13,8 @@
   --border-color: #cccccc;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --bg-hover: rgba(0, 0, 0, 0.05);
+  --skill-active: #0066cc;  /* Bright blue for active skill boxes */
+  --skill-inactive: #d1d5db;  /* Light gray for inactive skill boxes */
 }
 
 .dark {
@@ -25,6 +27,8 @@
   --border-color: #233554;  /* Mid-tone blue for borders */
   --shadow-color: rgba(230, 241, 255, 0.1);  /* Light blue shadow */
   --bg-hover: rgba(255, 255, 255, 0.05);  /* Light hover background */
+  --skill-active: #58a6ff;  /* Bright blue for active skill boxes in dark mode */
+  --skill-inactive: #4b5563;  /* Darker gray for inactive skill boxes in dark mode */
 }
 
 body {
@@ -103,6 +107,10 @@ input:focus {
 .border-color { border-color: var(--border-color); }
 .shadow-color { box-shadow: 0 2px 4px var(--shadow-color); }
 .hover-bg { background-color: var(--bg-hover); }
+.bg-skill-active { background-color: var(--skill-active); }
+.bg-skill-inactive { background-color: var(--skill-inactive); }
+.border-skill-active { border-color: var(--skill-active); }
+.border-skill-inactive { border-color: var(--skill-inactive); }
 
 /* Transition for smooth theme switching */
 body, input, button {
