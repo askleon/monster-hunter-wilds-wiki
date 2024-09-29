@@ -2,10 +2,8 @@ import { greatSwordTree } from "./greatSwordTree";
 import { hammerTree } from "./hammerTree";
 import { longSwordTree } from "./longSwordTree";
 import { swordAndShieldTree } from "./swordAndShieldTree";
+import { PhysicalDamageType, ElementType, StatusType, ElementalProperty, StatusProperty } from './types';
 
-export type PhysicalDamageType = 'blunt' | 'slashing' | 'piercing';
-export type ElementType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon';
-export type StatusType = 'poison' | 'paralysis' | 'sleep' | 'blast';
 export interface WeaponTypeInfo {
   id: string;
   name: string;
@@ -116,14 +114,8 @@ export interface WeaponStats {
   attack: number;
   affinity: number;
   physicalType: PhysicalDamageType;
-  element?: {
-    type: ElementType;
-    value: number;
-  };
-  status?: {
-    type: StatusType;
-    value: number;
-  };
+  element?: ElementalProperty;
+  status?: StatusProperty;
 }
 
 export interface Material {

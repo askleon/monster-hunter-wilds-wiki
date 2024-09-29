@@ -1,6 +1,7 @@
 import React from 'react';
 import { Loadout } from './LoadoutBuilder';
 import { ArmorPiece } from '@/lib/armors';
+import { getColorClass, formatElementOrStatus } from '@/lib/types';
 
 interface StatSummaryProps {
   loadout: Loadout;
@@ -16,7 +17,22 @@ export function StatSummary({ loadout }: StatSummaryProps) {
 
   const getElementInfo = () => {
     const element = loadout.weapon?.stats.element;
-    return element ? `${element.type} (${element.value})` : 'None';
+    if (!element) return <span>None</span>;
+    return (
+      <span className={getColorClass(element.type)}>
+        {formatElementOrStatus(element)}
+      </span>
+    );
+  };
+
+  const getStatusInfo = () => {
+    const status = loadout.weapon?.stats.status;
+    if (!status) return <span>None</span>;
+    return (
+      <span className={getColorClass(status.type)}>
+        {formatElementOrStatus(status)}
+      </span>
+    );
   };
 
   const calculateTotalResistances = () => {
@@ -47,7 +63,11 @@ export function StatSummary({ loadout }: StatSummaryProps) {
             </li>
             <li className="flex justify-between">
               <span>Element:</span>
-              <span>{getElementInfo()}</span>
+              {getElementInfo()}
+            </li>
+            <li className="flex justify-between">
+              <span>Status:</span>
+              {getStatusInfo()}
             </li>
             <li className="flex justify-between">
               <span>Affinity:</span>

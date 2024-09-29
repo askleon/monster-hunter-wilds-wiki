@@ -4,6 +4,7 @@ import { createPortal } from 'react-dom';
 import { WeaponNode, WeaponTree as WeaponTreeType } from '@/lib/weapons';
 import styles from './WeaponTree.module.css';
 import { calculateTreeDimensions, calculateNodeDimensions } from '@/lib/treeLayoutCalculator';
+import { getColorClass, formatElementOrStatus } from '@/lib/types';
 
 interface WeaponTreeProps {
   weaponTree: WeaponTreeType;
@@ -70,10 +71,14 @@ export function WeaponTree({ weaponTree }: WeaponTreeProps) {
           <li>Attack: {node.stats.attack}</li>
           <li>Affinity: {node.stats.affinity}%</li>
           {node.stats.element && (
-            <li>{node.stats.element.type}: {node.stats.element.value}</li>
+            <li className={getColorClass(node.stats.element.type)}>
+              {formatElementOrStatus(node.stats.element)}
+            </li>
           )}
           {node.stats.status && (
-            <li>{node.stats.status.type}: {node.stats.status.value}</li>
+            <li className={getColorClass(node.stats.status.type)}>
+              {formatElementOrStatus(node.stats.status)}
+            </li>
           )}
         </ul>
       </div>

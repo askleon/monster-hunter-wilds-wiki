@@ -1,5 +1,6 @@
 import React from 'react';
 import { WeaponNode, WeaponTree } from '@/lib/weapons';
+import { getColorClass, formatElementOrStatus } from '@/lib/types';
 import styles from './WeaponList.module.css';
 
 interface WeaponListProps {
@@ -34,10 +35,14 @@ export function WeaponList({ weaponTree }: WeaponListProps) {
               <p>Attack: {weapon.stats.attack}</p>
               <p>Affinity: {weapon.stats.affinity}%</p>
               {weapon.stats.element && (
-                <p>{weapon.stats.element.type}: {weapon.stats.element.value}</p>
+                <p className={getColorClass(weapon.stats.element.type)}>
+                  {formatElementOrStatus(weapon.stats.element)}
+                </p>
               )}
               {weapon.stats.status && (
-                <p>{weapon.stats.status.type}: {weapon.stats.status.value}</p>
+                <p className={getColorClass(weapon.stats.status.type)}>
+                  {formatElementOrStatus(weapon.stats.status)}
+                </p>
               )}
             </div>
           </li>
