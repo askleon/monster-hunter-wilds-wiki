@@ -58,7 +58,7 @@ export function FilterPanel({ filters, onFilterChange, onClearFilters }: FilterP
                           type="checkbox"
                           className="form-checkbox"
                           checked={(filter.value as string[]).includes(option)}
-                          onChange={(e) => onFilterChange(filter.label, option)}
+                          onChange={() => onFilterChange(filter.label, option)}
                         />
                         <span className="ml-2">{option}</span>
                       </label>

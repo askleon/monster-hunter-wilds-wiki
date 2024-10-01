@@ -1,9 +1,9 @@
 'use client'
 
 import React, { useState, useEffect, useRef } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons';
-import { getAllArmorSets, ArmorSet, ArmorPiece, getArmorPieceById } from '@/lib/armors';
+import { getAllArmorSets, ArmorPiece, getArmorPieceById } from '@/lib/armors';
 import { Card } from '@/app/components/Card';
 import { useToast } from '@/app/components/Toast';
 import { StatSummary } from '@/app/components/StatSummary';
@@ -24,8 +24,7 @@ interface LoadoutBuilderProps {
   loadoutName?: string;
 }
 
-export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
-  const router = useRouter();
+export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
   const searchParams = useSearchParams();
   const { showToast } = useToast();
   const [loadout, setLoadout] = useState<Loadout>({
@@ -150,12 +149,12 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
     );
   };
 
-  const renderSummaryItem = (key: string, value: any) => {
-    let displayValue = 'Not selected';
+  const renderSummaryItem = (key: string, value: string | WeaponNode | ArmorPiece | null) => {
+    let displayValue: string = 'Not selected';
     if (value) {
       if (typeof value === 'string') {
         displayValue = value;
-      } else if (value.name) {
+      } else if ('name' in value) {
         displayValue = value.name;
       }
     }

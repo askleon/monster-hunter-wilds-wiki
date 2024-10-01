@@ -13,7 +13,6 @@ interface WeaponTreeProps {
 export function WeaponTree({ weaponTree }: WeaponTreeProps) {
   const [activeTooltip, setActiveTooltip] = useState<WeaponNode | null>(null);
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
-  const [treeHeights, setTreeHeights] = useState<number[]>([]);
   const treeRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const setTreeRef = useCallback((index: number) => (el: HTMLDivElement | null) => {
@@ -22,10 +21,6 @@ export function WeaponTree({ weaponTree }: WeaponTreeProps) {
 
   useEffect(() => {
     const calculateTreeDimensions = () => {
-      const heights = treeRefs.current.map(ref => ref?.offsetHeight || 0);
-      setTreeHeights(heights);
-
-      // Calculate total width
       const totalWidth = treeRefs.current.reduce((width, ref) => {
         if (!ref) return width;
         return width + ref.scrollWidth;
@@ -120,7 +115,7 @@ export function WeaponTree({ weaponTree }: WeaponTreeProps) {
         </div>
         {node.branches && (
           <div className={styles.subBranches}>
-            {node.branches.map((branch, index) => (
+            {node.branches.map((branch) => (
               <div key={branch.id} className={styles.subBranch}>
                 <div className={styles.branchConnector} />
                 {renderBranch(branch)}

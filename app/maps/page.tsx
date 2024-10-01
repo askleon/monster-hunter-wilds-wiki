@@ -1,5 +1,6 @@
 import { Card } from '@/app/components/Card';
 import { maps } from '@/lib/maps';
+import Image from 'next/image';
 
 export default function MapsPage() {
   return (
@@ -16,7 +17,15 @@ export default function MapsPage() {
             subtitle={`Points of Interest: ${map.pointsOfInterest.length}`}
             description={
               <div>
-                <img src={map.thumbnail} alt={map.name} className="w-full h-48 object-cover mb-4 rounded" />
+                <div className="relative w-full h-48 mb-4">
+                  <Image
+                    src={map.thumbnail}
+                    alt={map.name}
+                    fill
+                    style={{objectFit: 'cover'}}
+                    className="rounded"
+                  />
+                </div>
                 <p className="text-sm">{map.description}</p>
               </div>
             }

@@ -2,7 +2,7 @@ import { greatSwordTree } from "./greatSwordTree";
 import { hammerTree } from "./hammerTree";
 import { longSwordTree } from "./longSwordTree";
 import { swordAndShieldTree } from "./swordAndShieldTree";
-import { PhysicalDamageType, ElementType, StatusType, ElementalProperty, StatusProperty } from './types';
+import { PhysicalDamageType, ElementalProperty, StatusProperty } from './types';
 
 export interface WeaponTypeInfo {
   id: string;

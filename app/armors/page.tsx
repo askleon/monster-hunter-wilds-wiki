@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Card } from '@/app/components/Card';
 import { FilterPanel, FilterOption } from '@/app/components/FilterPanel';
@@ -45,17 +45,17 @@ export default function ArmorsPage() {
     { type: 'checkbox', label: 'Filter by Skills', options: allSkills, value: selectedSkills },
   ];
 
-  const updateUrlQuery = () => {
+  const updateUrlQuery = useCallback(() => {
     const params = new URLSearchParams();
     if (selectedTier) params.set('tier', selectedTier);
     if (selectedTypes.length) params.set('types', selectedTypes.join(','));
     if (selectedSkills.length) params.set('skills', selectedSkills.join(','));
     router.push(`?${params.toString()}`, { scroll: false });
-  };
+  }, [selectedTier, selectedTypes, selectedSkills, router]);
 
   useEffect(() => {
     updateUrlQuery();
-  }, [selectedTier, selectedTypes, selectedSkills]);
+  }, [updateUrlQuery]);
 
   const handleFilterChange = (filterType: string, value: string | string[]) => {
     switch (filterType) {

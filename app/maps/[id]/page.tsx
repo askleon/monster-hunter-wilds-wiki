@@ -5,18 +5,15 @@ import MapView from '@/app/components/MapView';
 import MapFilter from '@/app/components/MapFilter';
 import MapSearch from '@/app/components/MapSearch';
 import styles from './page.module.css';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { PointOfInterest } from '@/lib/maps';
 
 export default function MapPage({ params }: { params: { id: string } }) {
   const mapId = params.id;
-  const mapData = getMapById(mapId);
-  const [filteredPOIs, setFilteredPOIs] = useState<PointOfInterest[]>(mapData?.pointsOfInterest || []);
+  const mapData = useMemo(() => getMapById(mapId), [mapId]);
+  
+  const [filteredPOIs, setFilteredPOIs] = useState<PointOfInterest[]>([]);
   const [searchResults, setSearchResults] = useState<PointOfInterest[] | null>(null);
-
-  if (!mapData) {
-    return <div>Map not found</div>;
-  }
 
   const handleFilter = useCallback((filteredPOIs: PointOfInterest[]) => {
     setFilteredPOIs(filteredPOIs);
@@ -25,8 +22,12 @@ export default function MapPage({ params }: { params: { id: string } }) {
 
   const handleSearch = useCallback((results: PointOfInterest[]) => {
     setSearchResults(results);
-    setFilteredPOIs(mapData.pointsOfInterest); // Reset filter when searching
-  }, [mapData.pointsOfInterest]);
+    setFilteredPOIs(mapData?.pointsOfInterest || []); // Reset filter when searching
+  }, [mapData]);
+
+  if (!mapData) {
+    return <div>Map not found</div>;
+  }
 
   const displayData = {
     ...mapData,

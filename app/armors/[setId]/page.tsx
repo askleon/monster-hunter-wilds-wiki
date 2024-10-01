@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { getArmorSetById, ArmorPiece } from '@/lib/armors';
-import { getSkillById, Skill } from '@/lib/skills';
+import { getSkillById } from '@/lib/skills';
 import Link from 'next/link';
 import { ArmorSkillSummary } from '@/app/components/ArmorSkillSummary';
 import { ArmorDefenseSummary } from '@/app/components/ArmorDefenseSummary';

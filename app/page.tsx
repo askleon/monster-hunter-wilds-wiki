@@ -78,9 +78,9 @@ export default function Home() {
         <h2 className={styles.sectionTitle}>About Monster Hunter Wilds</h2>
         <p className={styles.about}>
           Monster Hunter Wilds is the latest installment in the Monster Hunter series.
-          This wiki provides comprehensive information about the game's monsters, maps,
-          weapons, and more. Whether you're a seasoned hunter or new to the series,
-          you'll find valuable resources to aid you in your hunts.
+          This wiki provides comprehensive information about the game&apos;s monsters, maps,
+          weapons, and more. Whether you&apos;re a seasoned hunter or new to the series,
+          you&apos;ll find valuable resources to aid you in your hunts.
         </p>
       </section>
     </div>

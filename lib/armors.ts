@@ -1,4 +1,3 @@
-import { Skill } from './skills';
 
 export interface ArmorPiece {
   id: string;
