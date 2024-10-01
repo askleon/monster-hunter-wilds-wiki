@@ -59,27 +59,27 @@ export default function ArmorsPage() {
 
   const handleFilterChange = (filterType: string, value: string | string[]) => {
     switch (filterType) {
-      case 'Filter by Tier':
-        setSelectedTier(value as string);
-        break;
-      case 'Filter by Piece Type':
-        setSelectedTypes(prev => {
-          if (prev.includes(value as string)) {
-            return prev.filter(type => type !== value);
-          } else {
-            return [...prev, value as string];
-          }
-        });
-        break;
-      case 'Filter by Skills':
-        setSelectedSkills(prev => {
-          if (prev.includes(value as string)) {
-            return prev.filter(skill => skill !== value);
-          } else {
-            return [...prev, value as string];
-          }
-        });
-        break;
+    case 'Filter by Tier':
+      setSelectedTier(value as string);
+      break;
+    case 'Filter by Piece Type':
+      setSelectedTypes(prev => {
+        if (prev.includes(value as string)) {
+          return prev.filter(type => type !== value);
+        } else {
+          return [...prev, value as string];
+        }
+      });
+      break;
+    case 'Filter by Skills':
+      setSelectedSkills(prev => {
+        if (prev.includes(value as string)) {
+          return prev.filter(skill => skill !== value);
+        } else {
+          return [...prev, value as string];
+        }
+      });
+      break;
     }
   };
 

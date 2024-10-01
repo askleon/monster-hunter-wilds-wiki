@@ -34,8 +34,8 @@ export function ArmorPieceTooltip({ piece }: ArmorPieceTooltipProps) {
 
   const tooltipClass =
     position === 'bottom' ? 'top-full left-1/2 transform -translate-x-1/2 mt-2' :
-    position === 'right' ? 'top-0 left-full ml-2' :
-    'top-0 right-full mr-2';
+      position === 'right' ? 'top-0 left-full ml-2' :
+        'top-0 right-full mr-2';
 
   return (
     <div

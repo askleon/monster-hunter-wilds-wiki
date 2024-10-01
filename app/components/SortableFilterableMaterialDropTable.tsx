@@ -52,39 +52,39 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
 
   const handleFilterChange = (filterType: string, value: string | string[]) => {
     switch (filterType) {
-      case 'Filter by Name':
-        setNameFilter(value as string);
-        break;
-      case 'Filter by Rank':
-        setRankFilter(value as string);
-        break;
-      case 'Filter by Method':
-        setMethodFilter(prev => {
-          if (prev.includes(value as string)) {
-            return prev.filter(method => method !== value);
-          } else {
-            return [...prev, value as string];
-          }
-        });
-        break;
-      case 'Filter by Rarity':
-        setRarityFilter(prev => {
-          if (prev.includes(value as string)) {
-            return prev.filter(rarity => rarity !== value);
-          } else {
-            return [...prev, value as string];
-          }
-        });
-        break;
-      case 'Filter by Condition':
-        setConditionFilter(prev => {
-          if (prev.includes(value as string)) {
-            return prev.filter(condition => condition !== value);
-          } else {
-            return [...prev, value as string];
-          }
-        });
-        break;
+    case 'Filter by Name':
+      setNameFilter(value as string);
+      break;
+    case 'Filter by Rank':
+      setRankFilter(value as string);
+      break;
+    case 'Filter by Method':
+      setMethodFilter(prev => {
+        if (prev.includes(value as string)) {
+          return prev.filter(method => method !== value);
+        } else {
+          return [...prev, value as string];
+        }
+      });
+      break;
+    case 'Filter by Rarity':
+      setRarityFilter(prev => {
+        if (prev.includes(value as string)) {
+          return prev.filter(rarity => rarity !== value);
+        } else {
+          return [...prev, value as string];
+        }
+      });
+      break;
+    case 'Filter by Condition':
+      setConditionFilter(prev => {
+        if (prev.includes(value as string)) {
+          return prev.filter(condition => condition !== value);
+        } else {
+          return [...prev, value as string];
+        }
+      });
+      break;
     }
   };
 

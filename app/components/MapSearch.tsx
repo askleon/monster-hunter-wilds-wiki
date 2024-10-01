@@ -17,8 +17,8 @@ const MapSearch: React.FC<MapSearchProps> = ({ mapData, onSearch }) => {
     const results = searchTerm.trim() === ''
       ? mapData.pointsOfInterest
       : mapData.pointsOfInterest.filter((poi) =>
-          poi.name.toLowerCase().includes(searchTerm.toLowerCase())
-        );
+        poi.name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
 
     onSearch(results);
   }, [searchTerm, mapData, onSearch]);

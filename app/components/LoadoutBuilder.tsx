@@ -63,7 +63,7 @@ export default function LoadoutBuilder({ loadoutName }: LoadoutBuilderProps) {
 
   useEffect(() => {
     const initializeLoadout = () => {
-      let initialLoadout: Loadout = {
+      const initialLoadout: Loadout = {
         name: searchParams.get('name') || '',
         weapon: searchParams.get('weapon') ? getWeaponById(searchParams.get('weapon')!) || null : null,
         head: searchParams.get('head') ? getArmorPieceById(searchParams.get('head')!) || null : null,
