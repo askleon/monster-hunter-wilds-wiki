@@ -63,7 +63,7 @@ export function ArmorPieceTooltip({ piece }: ArmorPieceTooltipProps) {
             <h4 className="font-semibold">Skills:</h4>
             <ul>
               {piece.skills.map((skill, index) => (
-                <li key={index}>{skill.name} Lv. {skill.level}</li>
+                <li key={index}>{skill.id} Lv. {skill.level}</li>
               ))}
             </ul>
           </div>
