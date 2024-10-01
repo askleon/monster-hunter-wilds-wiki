@@ -10,8 +10,8 @@ export function ArmorCard({ armorSet }: ArmorCardProps) {
   const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
   const getSetBonus = () => {
-    const setBonusSkill = armorSet.pieces[0].skills.find(skill => skill.name.includes('Mastery'));
-    return setBonusSkill ? setBonusSkill.name : null;
+    const setBonusSkill = armorSet.pieces[0].skills.find(skill => skill.id.includes('Mastery'));
+    return setBonusSkill ? setBonusSkill.id : null;
   };
 
   return (
