@@ -210,6 +210,17 @@ export const skills: Record<string, Skill> = {
       { level: 1, description: 'Activates set bonus effect' },
     ]
   },
+  goodLuck: {
+    id: 'goodLuck',
+    name: 'Good Luck',
+    maxLevel: 3,
+    description: 'Increases the chance of receiving more items at the end of a quest.',
+    effects: [
+      { level: 1, description: 'Slightly increases rewards' },
+      { level: 2, description: 'Moderately increases rewards' },
+      { level: 3, description: 'Greatly increases rewards' },
+    ]
+  },
 };
 
 export const setBonuses: Record<string, SetBonus> = {

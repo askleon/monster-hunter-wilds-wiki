@@ -5,11 +5,12 @@ import { useRouter } from 'next/navigation'
 import { monsters } from '@/lib/monsters'
 import { getAllWeaponTrees } from '@/lib/weapons'
 import { getAllArmorSets } from '@/lib/armors'
+import { getAllTalismans } from '@/lib/talismans'
 
 type SearchResult = {
   id: string;
   name: string;
-  type: 'monster' | 'weapon' | 'armor';
+  type: 'monster' | 'weapon' | 'armor' | 'talisman';
   subtype?: string;
 }
 
@@ -21,47 +22,15 @@ export default function SearchBar() {
   const inputRef = useRef<HTMLInputElement>(null)
   const router = useRouter()
 
-  const searchData = (query: string): SearchResult[] => {
-    const lowercasedQuery = query.toLowerCase()
-    const results: SearchResult[] = []
-
-    monsters.forEach(monster => {
-      if (monster.name.toLowerCase().includes(lowercasedQuery)) {
-        results.push({
-          id: monster.id,
-          name: monster.name,
-          type: 'monster',
-          subtype: monster.type
-        })
-      }
-    })
-
-    getAllWeaponTrees().forEach(weapon => {
-      if (weapon.name.toLowerCase().includes(lowercasedQuery)) {
-        results.push({
-          id: weapon.id,
-          name: weapon.name,
-          type: 'weapon',
-          subtype: weapon.type
-        })
-      }
-    })
-
-    getAllArmorSets().forEach(armor => {
-      if (armor.name.toLowerCase().includes(lowercasedQuery)) {
-        results.push({
-          id: armor.id,
-          name: armor.name,
-          type: 'armor'
-        })
-      }
-    })
-
-    return results
-  }
+  const allResults: SearchResult[] = [
+    ...monsters.map(monster => ({ id: monster.id, name: monster.name, type: 'monster' as const })),
+    ...getAllWeaponTrees().flatMap(tree => tree.baseWeapons.map(weapon => ({ id: weapon.id, name: weapon.name, type: 'weapon' as const, subtype: tree.type }))),
+    ...getAllArmorSets().flatMap(set => set.pieces.map(piece => ({ id: piece.id, name: piece.name, type: 'armor' as const, subtype: piece.type }))),
+    ...getAllTalismans().map(talisman => ({ id: talisman.id, name: talisman.name, type: 'talisman' as const }))
+  ];
 
   useEffect(() => {
-    const results = searchData(query)
+    const results = allResults.filter(result => result.name.toLowerCase().includes(query.toLowerCase()))
     setFilteredResults(results)
     setSelectedIndex(-1)
   }, [query])
