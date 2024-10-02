@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             This is a fan-made wiki.
           </p>
           <a
-            href="https://github.com/yourusername/monster-hunter-wilds-wiki"
+            href="https://github.com/askleon/monster-hunter-wilds-wiki"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:text-accent transition-colors text-sm"
