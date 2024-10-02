@@ -11,14 +11,9 @@ charset = utf-8
 trim_trailing_whitespace = true
 
 # 2 space indentation for TypeScript, TypeScript React, and CSS files
-[*.{ts,tsx,css}]
+[*.{ts,tsx,css,json,js,jsx}]
 indent_style = space
 indent_size = 2
-
-# Indentation override for all JS files
-[*.js]
-indent_style = space
-indent_size = 4
 
 # Matches the exact files package.json and .travis.yml
 [{package.json,.travis.yml}]
