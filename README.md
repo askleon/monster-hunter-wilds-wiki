@@ -6,8 +6,24 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 This fanmade project aims to provide a interactive, informative wiki for Monster Hunter Wilds. It includes details on monsters, weapons, armor, maps, and more.
 
-## Getting Started
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/askleon/monster-hunter-wilds-wiki.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd monster-hunter-wilds-wiki
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Getting Started
+1
 First, run the development server:
 
 ```bash
@@ -19,23 +35,8 @@ pnpm dev
 # or
 bun dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/monster-hunter-wilds-wiki.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd monster-hunter-wilds-wiki
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
 
 ## Usage
 
