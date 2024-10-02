@@ -50,6 +50,13 @@ After starting the development server, you can:
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
+## Project Structure
+
+- `/app`: Contains the main application code
+- `/components`: Reusable React components
+- `/lib`: Utility functions and data
+- `/public`: Static assets
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
