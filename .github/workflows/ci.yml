@@ -38,4 +38,4 @@ jobs:
         if-no-files-found: warn
 
     - name: List contents
-      run: ls -R ./
+      run: ls ./
