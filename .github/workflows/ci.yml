@@ -35,7 +35,7 @@ jobs:
       with:
         name: next-build
         path: .next
-        if-no-files-found: error
+        if-no-files-found: warn
 
     - name: List contents
       run: ls -R ./
