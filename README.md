@@ -1,4 +1,4 @@
-# Monster Hunter Wilds Wiki
+# Monster Hunter Wilds Wiki (Work in progress)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), designed to serve as a comprehensive wiki for Monster Hunter Wilds.
 
