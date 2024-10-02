@@ -30,16 +30,10 @@ jobs:
     - run: npm run lint
     - run: npm run build
 
-    - name: List directory contents
-      run: ls -la ./
-
-    - name: List .next contents
-      run: ls -la .next
-
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
       with:
-        name: next-build
+        name: next-build ${{ matrix.node-version }}
         include-hidden-files: true
         path: .next
         if-no-files-found: error
