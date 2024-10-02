@@ -30,12 +30,15 @@ jobs:
     - run: npm run lint
     - run: npm run build
 
+    - name: List directory contents
+      run: ls -la ./
+
+    - name: List .next contents
+      run: ls -la .next
+
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
       with:
         name: next-build
         path: .next
-        if-no-files-found: warn
-
-    - name: List contents
-      run: ls ./
+        if-no-files-found: error
