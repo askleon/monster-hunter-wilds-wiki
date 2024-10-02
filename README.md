@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Monster Hunter Wilds Wiki
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), designed to serve as a comprehensive wiki for Monster Hunter Wilds.
+
+## Description
+
+This fanmade project aims to provide a interactive, informative wiki for Monster Hunter Wilds. It includes details on monsters, weapons, armor, maps, and more.
 
 ## Getting Started
 
@@ -16,9 +22,37 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/monster-hunter-wilds-wiki.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd monster-hunter-wilds-wiki
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+After starting the development server, you can:
+
+- Browse monster information
+- View weapon and armor details
+- Explore game maps
+- Create and share loadouts
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ## Learn More
 
