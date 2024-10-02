@@ -31,8 +31,11 @@ jobs:
     - run: npm run build --if-present
 
     - name: Upload build artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: next-build
         path: .next
         if-no-files-found: error
+
+    - name: List contents
+      run: ls -R ./
