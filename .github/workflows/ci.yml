@@ -40,5 +40,6 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: next-build
-        path: .next/**
+        include-hidden-files: true
+        path: .next
         if-no-files-found: error
