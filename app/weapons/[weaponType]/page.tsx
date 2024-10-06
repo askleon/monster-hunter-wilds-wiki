@@ -1,16 +1,29 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { WeaponTree } from '@/app/components/weapons/WeaponTree';
 import { WeaponList } from '@/app/components/weapons/WeaponList';
-import { getWeaponTreeById, getWeaponTypeInfo, WeaponType } from '@/lib/weapons/weapons';
+import { getWeaponTreeById, getWeaponTypeInfo, WeaponType, WeaponNode } from '@/lib/weapons/weapons';
+import { useRouter } from 'next/navigation';
 
 export default function WeaponTreePage({ params }: { params: { weaponType: string } }) {
   const [viewMode, setViewMode] = useState<'tree' | 'list'>('tree');
+  const [selectedWeapon, setSelectedWeapon] = useState<WeaponNode | null>(null);
+  const router = useRouter();
 
   const id = params.weaponType as WeaponType;
   const weaponInfo = getWeaponTypeInfo(id);
   const weaponTree = getWeaponTreeById(id);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && weaponTree) {
+      const hash = window.location.hash.slice(1);
+      const weapon = weaponTree.weapons.find(w => w.id.toLowerCase() === hash.toLowerCase());
+      if (weapon) {
+        setSelectedWeapon(weapon);
+      }
+    }
+  }, [weaponTree]);
 
   if (!weaponInfo || !weaponTree) {
     return <div>Weapon type not found.</div>;
@@ -18,6 +31,11 @@ export default function WeaponTreePage({ params }: { params: { weaponType: strin
 
   const toggleView = () => {
     setViewMode(viewMode === 'tree' ? 'list' : 'tree');
+  };
+
+  const handleWeaponSelect = (weapon: WeaponNode) => {
+    setSelectedWeapon(weapon);
+    router.push(`/weapons/${id}#${weapon.id.toLowerCase()}`, { scroll: false });
   };
 
   return (
@@ -33,9 +51,9 @@ export default function WeaponTreePage({ params }: { params: { weaponType: strin
       </div>
       <div className="flex-grow overflow-auto p-4">
         {viewMode === 'tree' ? (
-          <WeaponTree weaponTree={weaponTree} />
+          <WeaponTree weaponTree={weaponTree} selectedWeapon={selectedWeapon} onWeaponSelect={handleWeaponSelect} />
         ) : (
-          <WeaponList weaponTree={weaponTree} />
+          <WeaponList weaponTree={weaponTree} selectedWeapon={selectedWeapon} onWeaponSelect={handleWeaponSelect} />
         )}
       </div>
     </div>

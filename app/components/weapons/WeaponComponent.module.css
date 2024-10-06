@@ -28,13 +28,6 @@
   margin-right: 0.25rem;
 }
 
-.weaponRarity {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  white-space: nowrap;
-  margin-right: 0.25rem;
-}
-
 .elementIndicator {
   width: 8px;
   height: 8px;

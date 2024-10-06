@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { WeaponTree, WeaponNode } from '@/lib/weapons/weapons';
 import { WeaponComponent } from './WeaponComponent';
 import { WeaponDetails } from './WeaponDetails';
@@ -6,11 +6,11 @@ import styles from './WeaponList.module.css';
 
 interface WeaponListProps {
   weaponTree: WeaponTree;
+  selectedWeapon: WeaponNode | null;
+  onWeaponSelect: (weapon: WeaponNode) => void;
 }
 
-export function WeaponList({ weaponTree }: WeaponListProps) {
-  const [selectedWeapon, setSelectedWeapon] = useState<WeaponNode | null>(null);
-
+export function WeaponList({ weaponTree, selectedWeapon, onWeaponSelect }: WeaponListProps) {
   // Group weapons by their treeName
   const groupedWeapons = weaponTree.weapons.reduce((acc, weapon) => {
     if (!acc[weapon.treeName]) {
@@ -22,19 +22,18 @@ export function WeaponList({ weaponTree }: WeaponListProps) {
 
   return (
     <div className={styles.weaponListContainer}>
-      <h2 className={styles.title}>{weaponTree.name} Weapons</h2>
       <div className={styles.listAndDetails}>
         <div className={styles.weaponList}>
           {Object.entries(groupedWeapons).map(([treeName, weapons]) => (
             <div key={treeName} className={styles.treeSection}>
               <h3 className={styles.treeName}>{treeName}</h3>
-              <ul>
+              <ul className={styles.weaponsList}>
                 {weapons.map(weapon => (
-                  <li key={weapon.id}>
+                  <li key={weapon.id} className={styles.weaponItem}>
                     <WeaponComponent
                       weapon={weapon}
                       isSelected={selectedWeapon?.id === weapon.id}
-                      onClick={() => setSelectedWeapon(weapon)}
+                      onClick={() => onWeaponSelect(weapon)}
                       displayMode="list"
                     />
                   </li>

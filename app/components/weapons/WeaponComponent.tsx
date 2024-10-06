@@ -20,9 +20,6 @@ export function WeaponComponent({ weapon, isSelected, onClick, displayMode }: We
       title={`${weapon.name}${weapon.elementOrStatus ? ` - ${weapon.elementOrStatus.type} ${weapon.elementOrStatus.value}` : ''}`}
     >
       <span className={styles.weaponName}>{weapon.name}</span>
-      {displayMode === 'list' && (
-        <span className={styles.weaponRarity}>R{weapon.rarity}</span>
-      )}
       {weapon.elementOrStatus && (
         <span className={`${styles.elementIndicator} ${colorClass}`}></span>
       )}

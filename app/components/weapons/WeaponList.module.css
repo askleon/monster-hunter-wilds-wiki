@@ -40,4 +40,26 @@
   color: var(--text-secondary);
 }
 
+.treeSection {
+  margin-bottom: 1.5rem;
+}
+
+.treeName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.weaponsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.weaponItem {
+  margin-bottom: 0.25rem;
+}
+
 /* ... other styles ... */

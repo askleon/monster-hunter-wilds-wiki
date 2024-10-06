@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+import React from 'react';
 import { WeaponTree as WeaponTreeType, WeaponNode } from '@/lib/weapons/weapons';
 import { WeaponComponent } from './WeaponComponent';
 import { WeaponDetails } from './WeaponDetails';
@@ -7,10 +7,11 @@ import styles from './WeaponTree.module.css';
 
 interface WeaponTreeProps {
   weaponTree: WeaponTreeType;
+  selectedWeapon: WeaponNode | null;
+  onWeaponSelect: (weapon: WeaponNode) => void;
 }
 
-export function WeaponTree({ weaponTree }: WeaponTreeProps) {
-  const [selectedWeapon, setSelectedWeapon] = useState<WeaponNode | null>(null);
+export function WeaponTree({ weaponTree, selectedWeapon, onWeaponSelect }: WeaponTreeProps) {
   const maxRarity = Math.max(...weaponTree.weapons.map(w => w.rarity));
 
   const groupWeaponsByTreeAndRarity = (weapons: WeaponNode[]) => {
@@ -55,7 +56,7 @@ export function WeaponTree({ weaponTree }: WeaponTreeProps) {
                             key={weapon.id}
                             weapon={weapon}
                             isSelected={selectedWeapon?.id === weapon.id}
-                            onClick={() => setSelectedWeapon(weapon)}
+                            onClick={() => onWeaponSelect(weapon)}
                             displayMode="tree"
                           />
                         ))}
