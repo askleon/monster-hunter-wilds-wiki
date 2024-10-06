@@ -3,10 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import { PointOfInterest } from '@/lib/maps';
 import styles from './MapSearch.module.css';
-import { MapViewProps } from './MapView';
+import { MapViewItem } from '@/lib/maps';
 
 interface MapSearchProps {
-  mapData: MapViewProps;
+  mapData: MapViewItem;
   onSearch: (searchResults: PointOfInterest[]) => void;
 }
 

@@ -1,11 +1,10 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { MapViewProps } from '@/app/components/MapView';
-import { PointOfInterest } from '@/lib/maps';
+import { MapViewItem, PointOfInterest } from '@/lib/maps';
 
 interface MapFilterProps {
-  mapData: MapViewProps;
+  mapData: MapViewItem;
   onFilter: (filteredPOIs: PointOfInterest[]) => void;
 }
 
