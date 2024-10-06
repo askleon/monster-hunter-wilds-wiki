@@ -51,6 +51,14 @@ export default function SearchBar() {
     setIsOpen(false)
     if (result.type === 'weapon' && result.weaponType) {
       router.push(`/weapons/${result.weaponType}#${result.id}`)
+    } else if (result.type === 'armor') {
+      // Find the armor set ID from the piece ID
+      const armorSet = getAllArmorSets().find(set =>
+        set.pieces.some(piece => piece.id === result.id)
+      )
+      if (armorSet) {
+        router.push(`/armors/${armorSet.id}`)
+      }
     } else {
       router.push(`/${result.type}s/${result.id}`)
     }
