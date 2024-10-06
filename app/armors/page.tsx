@@ -123,70 +123,55 @@ export default function ArmorsPage() {
 function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
   const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
-  const getSetBonus = () => {
-    const setBonusSkill = armorSet.pieces[0].skills.find(skill => {
-      const fullSkill = getSkillById(skill.id);
-      return fullSkill && fullSkill.name.includes('Mastery');
-    });
-    return setBonusSkill ? getSkillById(setBonusSkill.id)?.name : null;
-  };
-
   return (
     <Card
       title={
-        <div className="flex justify-between items-center">
+        <div className="flex items-center justify-between">
           <span className="text-xl font-bold">{armorSet.name}</span>
-          <span className="text-sm text-secondary">Tier {armorSet.tier}</span>
+          <span className="text-sm text-secondary">
+            Tier {armorSet.tier}
+          </span>
         </div>
       }
-      subtitle={`${armorSet.pieces.length} piece${armorSet.pieces.length > 1 ? 's' : ''}`}
       description={
-        <div className="space-y-2">
-          <div className="flex justify-between">
-            {pieceTypes.map(type => {
-              const piece = armorSet.pieces.find(p => p.type === type);
-              return (
-                <Tooltip
-                  key={type}
-                  content={
-                    piece ? (
-                      <div>
-                        <p className="font-bold">{piece.name}</p>
-                        <p>Skills:</p>
-                        <ul className="list-disc list-inside">
-                          {piece.skills.map(skill => {
-                            const fullSkill = getSkillById(skill.id);
-                            return (
-                              <li key={skill.id}>{fullSkill?.name} Lv. {skill.level}</li>
-                            );
-                          })}
-                        </ul>
-                      </div>
-                    ) : (
-                      <p>No {type} piece in this set</p>
-                    )
-                  }
-                >
-                  <div className="text-center w-16 flex flex-col items-center">
-                    <div className="relative w-8 h-8 flex items-center justify-center">
-                      <span className={`font-semibold ${!piece ? 'opacity-30' : ''}`}>{type[0]}</span>
-                      {!piece && (
-                        <span className="absolute inset-0 flex items-center justify-center text-red-500 font-bold">
-                          X
-                        </span>
-                      )}
+        <div className="flex justify-between">
+          {pieceTypes.map(type => {
+            const piece = armorSet.pieces.find(p => p.type === type);
+            return (
+              <Tooltip
+                key={type}
+                content={
+                  piece ? (
+                    <div className="text-sm">
+                      <p className="font-bold">{piece.name}</p>
+                      <p>Skills:</p>
+                      <ul className="list-disc list-inside">
+                        {piece.skills.map(skill => {
+                          const fullSkill = getSkillById(skill.id);
+                          return (
+                            <li key={skill.id}>{fullSkill?.name} Lv. {skill.level}</li>
+                          );
+                        })}
+                      </ul>
                     </div>
-                    {piece && <span className="text-xs mt-1">{piece.defense}</span>}
+                  ) : (
+                    <p className="text-sm">No {type} piece in this set</p>
+                  )
+                }
+              >
+                <div className="text-center w-12 flex flex-col items-center">
+                  <div className="relative w-6 h-6 flex items-center justify-center">
+                    <span className={`font-semibold text-sm ${!piece ? 'opacity-30' : ''}`}>{type[0]}</span>
+                    {!piece && (
+                      <span className="absolute inset-0 flex items-center justify-center text-red-500 font-bold text-xs">
+                        X
+                      </span>
+                    )}
                   </div>
-                </Tooltip>
-              );
-            })}
-          </div>
-          {getSetBonus() && (
-            <p className="text-sm text-secondary">
-              Set Bonus: {getSetBonus()}
-            </p>
-          )}
+                </div>
+              </Tooltip>
+            );
+          })}
         </div>
       }
       link={`/armors/${armorSet.id}`}
