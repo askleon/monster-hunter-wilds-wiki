@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { WeaponTree } from '@/app/components/WeaponTree';
-import { WeaponList } from '@/app/components/WeaponList';
-import { getWeaponTreeById, getWeaponTypeInfo, WeaponType } from '@/lib/weapons';
+import { WeaponTree } from '@/app/components/weapons/WeaponTree';
+import { WeaponList } from '@/app/components/weapons/WeaponList';
+import { getWeaponTreeById, getWeaponTypeInfo, WeaponType } from '@/lib/weapons/weapons';
 
 export default function WeaponTreePage({ params }: { params: { id: string } }) {
   const [viewMode, setViewMode] = useState<'tree' | 'list'>('tree');

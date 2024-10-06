@@ -1,8 +1,8 @@
 'use client'
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons';
+import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons/weapons';
 import { getAllArmorSets, ArmorPiece, getArmorPieceById } from '@/lib/armors';
 import { Card } from '@/app/components/Card';
 import { useToast } from '@/app/components/Toast';
@@ -42,23 +42,9 @@ export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
   const weaponTrees = getAllWeaponTrees();
   const armorSets = getAllArmorSets();
 
-  const getAllWeapons = () => {
-    return weaponTrees.flatMap(tree => {
-      const getAllNodesFromTree = (node: WeaponNode): WeaponNode[] => {
-        let nodes = [node];
-        if (node.upgrade) {
-          nodes = nodes.concat(getAllNodesFromTree(node.upgrade));
-        }
-        if (node.branches) {
-          nodes = nodes.concat(node.branches.flatMap(getAllNodesFromTree));
-        }
-        return nodes;
-      };
-      return tree.baseWeapons.flatMap(getAllNodesFromTree);
-    });
-  };
-
-  const allWeapons = getAllWeapons();
+  const allWeapons = useMemo(() => {
+    return weaponTrees.flatMap(tree => tree.weapons);
+  }, [weaponTrees]);
 
   useEffect(() => {
     const initializeLoadout = () => {
@@ -78,6 +64,7 @@ export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
 
     initializeLoadout();
   }, [searchParams]);
+
 
   const generateShareUrl = (newLoadout: Loadout) => {
     const params = new URLSearchParams();
@@ -169,8 +156,7 @@ export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
   const renderWeaponSelect = () => {
     const options = allWeapons.map(weapon => ({
       value: weapon.id,
-      label: `${weapon.name} (${weaponTrees.find(tree =>
-        tree.baseWeapons.some(base => getAllNodesFromTree(base).some(node => node.id === weapon.id)))?.type || 'Unknown Type'})`
+      label: `${weapon.name} (${weapon.treeName})`
     }));
 
     return (
@@ -266,16 +252,4 @@ export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
       )}
     </div>
   );
-}
-
-// Helper function to get all nodes from a tree
-function getAllNodesFromTree(node: WeaponNode): WeaponNode[] {
-  let nodes = [node];
-  if (node.upgrade) {
-    nodes = nodes.concat(getAllNodesFromTree(node.upgrade));
-  }
-  if (node.branches) {
-    nodes = nodes.concat(node.branches.flatMap(getAllNodesFromTree));
-  }
-  return nodes;
 }

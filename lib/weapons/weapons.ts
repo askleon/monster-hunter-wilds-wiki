@@ -1,8 +1,5 @@
 import { greatSwordTree } from "./greatSwordTree";
-import { hammerTree } from "./hammerTree";
-import { longSwordTree } from "./longSwordTree";
-import { swordAndShieldTree } from "./swordAndShieldTree";
-import { PhysicalDamageType, ElementalProperty, StatusProperty } from './types';
+import { PhysicalDamageType, ElementalProperty, StatusProperty } from '../types';
 
 export interface WeaponTypeInfo {
   id: string;
@@ -123,51 +120,66 @@ export interface Material {
   quantity: number;
 }
 
+export interface Sharpness {
+  red: number;
+  orange: number;
+  yellow: number;
+  green: number;
+  blue: number;
+  white: number;
+  purple: number;
+  parenthesis?: {
+    color: 'yellow' | 'green' | 'blue' | 'white' | 'purple';
+    value: number;
+  };
+}
+
 export interface WeaponNode {
   id: string;
   name: string;
   description: string;
-  stats: WeaponStats;
-  materials: Material[];
-  upgrade?: WeaponNode;
-  branches?: WeaponNode[];
+  rarity: number;
+  attack: number;
+  sharpness: Sharpness;
+  elementOrStatus?: {
+    type: ElementOrStatusType;
+    value: number;
+  };
+  affinity?: number;
+  defense?: number;
+  slots: Array<number>;
+  creationMaterials: {
+    upgrade?: Material[];
+    craft?: Material[]; // Optional, only for weapons that can be crafted directly
+  };
+  treeName: string;
+  canBuildDirectly?: boolean; // Changed from canCraftDirectly to canBuildDirectly
+  upgradedFrom?: string; // ID of the weapon it upgrades from, if applicable
 }
 
 export interface WeaponTree {
   id: string;
   name: string;
   type: string;
-  baseWeapons: WeaponNode[];
+  weapons: WeaponNode[];
 }
 
-const weaponTrees: WeaponTree[] = [greatSwordTree, longSwordTree, hammerTree, swordAndShieldTree];
+const weaponTrees: WeaponTree[] = [greatSwordTree];
 
 export function getAllWeaponTrees(): WeaponTree[] {
-  return weaponTrees;
+  return [
+    greatSwordTree,
+  ];
 }
 
 export function getWeaponById(id: string): WeaponNode | null {
   for (const tree of weaponTrees) {
-    const findWeapon = (node: WeaponNode): WeaponNode | null => {
-      if (node.id === id) return node;
-      if (node.upgrade) {
-        const found = findWeapon(node.upgrade);
-        if (found) return found;
-      }
-      if (node.branches) {
-        for (const branch of node.branches) {
-          const found = findWeapon(branch);
-          if (found) return found;
-        }
-      }
-      return null;
-    };
-    for (const baseWeapon of tree.baseWeapons) {
-      const weapon = findWeapon(baseWeapon);
-      if (weapon) return weapon;
-    }
+    const weapon = tree.weapons.find(w => w.id === id);
+    if (weapon) return weapon;
   }
   return null;
 }
 
 // Remove getWeaponTypeFromUrlName function as it's no longer needed
+
+export type ElementOrStatusType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon' | 'poison' | 'sleep' | 'paralysis' | 'blast' | 'none';

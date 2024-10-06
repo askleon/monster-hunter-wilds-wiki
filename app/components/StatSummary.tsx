@@ -1,95 +1,91 @@
 import React from 'react';
 import { Loadout } from './LoadoutBuilder';
-import { ArmorPiece } from '@/lib/armors';
-import { getColorClass, formatElementOrStatus } from '@/lib/types';
+import { getColorClass } from '@/lib/types';
+import { SharpnessBar } from './weapons/SharpnessBar';
 
 interface StatSummaryProps {
   loadout: Loadout;
 }
 
 export function StatSummary({ loadout }: StatSummaryProps) {
-  const calculateTotalDefense = () => {
-    return ['head', 'chest', 'arms', 'waist', 'legs'].reduce((total, part) => {
-      const piece = loadout[part as keyof Loadout];
-      return total + ((piece as ArmorPiece)?.defense || 0);
-    }, 0);
+  const armorPieces = [loadout.head, loadout.chest, loadout.arms, loadout.waist, loadout.legs];
+
+  const totalDefense = armorPieces.reduce((sum, piece) => sum + (piece?.defense || 0), 0);
+
+  const elementalResistances = {
+    fire: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.fire || 0), 0),
+    water: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.water || 0), 0),
+    thunder: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.thunder || 0), 0),
+    ice: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.ice || 0), 0),
+    dragon: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.dragon || 0), 0),
   };
 
-  const getElementInfo = () => {
-    const element = loadout.weapon?.stats.element;
-    if (!element) return <span>None</span>;
-    return (
-      <span className={getColorClass(element.type)}>
-        {formatElementOrStatus(element)}
-      </span>
-    );
+  const renderResistance = (value: number) => {
+    const color = value >= 0 ? 'text-green-500' : 'text-red-500';
+    const sign = value >= 0 ? '+' : '';
+    return <span className={color}>{sign}{value}</span>;
   };
-
-  const getStatusInfo = () => {
-    const status = loadout.weapon?.stats.status;
-    if (!status) return <span>None</span>;
-    return (
-      <span className={getColorClass(status.type)}>
-        {formatElementOrStatus(status)}
-      </span>
-    );
-  };
-
-  const calculateTotalResistances = () => {
-    const resistances = { fire: 0, water: 0, thunder: 0, ice: 0, dragon: 0 };
-    ['head', 'chest', 'arms', 'waist', 'legs'].forEach((part) => {
-      const piece = loadout[part as keyof Loadout] as ArmorPiece;
-      if (piece && piece.resistances) {
-        Object.entries(piece.resistances).forEach(([key, value]) => {
-          resistances[key as keyof typeof resistances] += value;
-        });
-      }
-    });
-    return resistances;
-  };
-
-  const totalResistances = calculateTotalResistances();
 
   return (
-    <div className="space-y-4">
-      <h3 className="text-lg font-bold">Stat Summary</h3>
-      <div className="grid grid-cols-2 gap-4">
-        <div>
-          <h4 className="font-semibold mb-2">Weapon Stats</h4>
+    <div className="bg-secondary p-4 rounded-lg">
+      <h3 className="text-lg font-semibold mb-2">Stats Summary</h3>
+      <div className="flex">
+        <div className="flex-1 pr-4">
+          <h4 className="font-semibold mb-1">Weapon Stats</h4>
           <ul className="space-y-1">
             <li className="flex justify-between">
               <span>Attack:</span>
-              <span>{loadout.weapon?.stats.attack || 0}</span>
+              <span>{loadout.weapon?.attack || 0}</span>
             </li>
             <li className="flex justify-between">
-              <span>Element:</span>
-              {getElementInfo()}
-            </li>
-            <li className="flex justify-between">
-              <span>Status:</span>
-              {getStatusInfo()}
+              <span>Element/Status:</span>
+              <span className={loadout.weapon?.elementOrStatus ? getColorClass(loadout.weapon.elementOrStatus.type) : ''}>
+                {loadout.weapon?.elementOrStatus
+                  ? `${loadout.weapon.elementOrStatus.type} (${loadout.weapon.elementOrStatus.value})`
+                  : 'None'}
+              </span>
             </li>
             <li className="flex justify-between">
               <span>Affinity:</span>
-              <span>{loadout.weapon?.stats.affinity || 0}%</span>
+              <span>{loadout.weapon?.affinity || 0}%</span>
+            </li>
+            <li>
+              <span>Sharpness:</span>
+              {loadout.weapon?.sharpness && (
+                <div className="mt-1">
+                  <SharpnessBar sharpness={loadout.weapon.sharpness} />
+                </div>
+              )}
             </li>
           </ul>
         </div>
-        <div>
-          <h4 className="font-semibold mb-2">Armor Stats</h4>
+        <div className="flex-1 pl-4 border-l border-gray-600">
+          <h4 className="font-semibold mb-1">Armor Stats</h4>
           <ul className="space-y-1">
             <li className="flex justify-between">
               <span>Defense:</span>
-              <span>{calculateTotalDefense()}</span>
+              <span>{totalDefense}</span>
             </li>
-            {Object.entries(totalResistances).map(([element, value]) => (
-              <li key={element} className="flex justify-between">
-                <span>{element.charAt(0).toUpperCase() + element.slice(1)} Res:</span>
-                <span className={value > 0 ? 'text-green-500' : value < 0 ? 'text-red-500' : ''}>
-                  {value > 0 ? '+' : ''}{value}
-                </span>
-              </li>
-            ))}
+            <li className="flex justify-between">
+              <span>Fire Res:</span>
+              {renderResistance(elementalResistances.fire)}
+            </li>
+            <li className="flex justify-between">
+              <span>Water Res:</span>
+              {renderResistance(elementalResistances.water)}
+            </li>
+            <li className="flex justify-between">
+              <span>Thunder Res:</span>
+              {renderResistance(elementalResistances.thunder)}
+            </li>
+            <li className="flex justify-between">
+              <span>Ice Res:</span>
+              {renderResistance(elementalResistances.ice)}
+            </li>
+            <li className="flex justify-between">
+              <span>Dragon Res:</span>
+              {renderResistance(elementalResistances.dragon)}
+            </li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,65 @@
+.weaponComponent {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  margin-bottom: 0.25rem;
+  border-radius: 2px;
+  background-color: var(--bg-secondary);
+  transition: background-color 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.weaponComponent:hover {
+  background-color: var(--bg-hover);
+}
+
+.weaponComponent.selected {
+  background-color: var(--bg-accent);
+  color: var(--text-accent);
+}
+
+.weaponName {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 0.25rem;
+}
+
+.weaponRarity {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  margin-right: 0.25rem;
+}
+
+.elementIndicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: 0.25rem;
+  flex-shrink: 0;
+}
+
+.directBuild {
+  margin-left: 0.25rem;
+  color: var(--text-accent);
+  flex-shrink: 0;
+  font-size: 0.8rem;
+}
+
+.tree {
+  width: 100%;
+}
+
+.list {
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  font-size: 1.1rem;
+}

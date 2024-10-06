@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { monsters } from '@/lib/monsters'
-import { getAllWeaponTrees } from '@/lib/weapons'
+import { getAllWeaponTrees, WeaponTree } from '@/lib/weapons/weapons'
 import { getAllArmorSets } from '@/lib/armors'
 import { getAllTalismans } from '@/lib/talismans'
 import { getAllDecorations } from '@/lib/decorations'
@@ -13,6 +13,7 @@ type SearchResult = {
   name: string;
   type: 'monster' | 'weapon' | 'armor' | 'talisman' | 'decoration';
   subtype?: string;
+  weaponType?: string;
 }
 
 export default function SearchBar() {
@@ -25,7 +26,15 @@ export default function SearchBar() {
 
   const allResults: SearchResult[] = [
     ...monsters.map(monster => ({ id: monster.id, name: monster.name, type: 'monster' as const })),
-    ...getAllWeaponTrees().flatMap(tree => tree.baseWeapons.map(weapon => ({ id: weapon.id, name: weapon.name, type: 'weapon' as const, subtype: tree.type }))),
+    ...getAllWeaponTrees().flatMap((tree: WeaponTree) =>
+      tree.weapons?.map(weapon => ({
+        id: weapon.id,
+        name: weapon.name,
+        type: 'weapon' as const,
+        subtype: tree.type,
+        weaponType: tree.id
+      })) || []
+    ),
     ...getAllArmorSets().flatMap(set => set.pieces.map(piece => ({ id: piece.id, name: piece.name, type: 'armor' as const, subtype: piece.type }))),
     ...getAllTalismans().map(talisman => ({ id: talisman.id, name: talisman.name, type: 'talisman' as const })),
     ...getAllDecorations().map(decoration => ({ id: decoration.id, name: decoration.name, type: 'decoration' as const }))
@@ -40,7 +49,11 @@ export default function SearchBar() {
   const navigateToResult = (result: SearchResult) => {
     setQuery('')
     setIsOpen(false)
-    router.push(`/${result.type}s/${result.id}`)
+    if (result.type === 'weapon' && result.weaponType) {
+      router.push(`/weapons/${result.weaponType}#${result.id}`)
+    } else {
+      router.push(`/${result.type}s/${result.id}`)
+    }
   }
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {

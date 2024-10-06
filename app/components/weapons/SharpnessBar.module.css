@@ -1,0 +1,78 @@
+.sharpnessBarContainer {
+  display: inline-block;
+  padding: 5px; /* Increased from 4px */
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 5px; /* Increased from 4px */
+}
+
+.sharpnessBar {
+  display: flex;
+  height: 20px; /* Increased from 16px */
+  overflow: hidden;
+}
+
+.sharpnessSegment {
+  height: 100%;
+  min-width: 30px; /* Increased from 20px */
+  position: relative;
+}
+
+.sharpnessSegment::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1); /* Reduced opacity for less darkening */
+}
+
+.withBorder {
+  border-left: 1px solid var(--border-color);
+}
+
+.divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px; /* Increased from 1px to 2px */
+  background-color: var(--bg-secondary); /* Changed to use the background color */
+  z-index: 1; /* Ensure dividers are above the darkening overlay */
+}
+
+.parenthesisSegment {
+  position: relative;
+}
+
+.parenthesisOverlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 50%;
+  left: 0;
+  background-color: var(--bg-secondary);
+  z-index: 2; /* Ensure parenthesis overlay is above the darkening overlay */
+}
+
+/* Brighter Sharpness colors */
+.red { background-color: #FF3333; }
+.orange { background-color: #FF9933; }
+.yellow { background-color: #FFFF00; }
+.green { background-color: #33FF33; }
+.blue { background-color: #3333FF; }
+.white { background-color: #FFFFFF; }
+.purple { background-color: #9933FF; }
+
+/* Adjust for dark mode */
+:global(.dark) .sharpnessBarContainer {
+  background-color: var(--bg-accent);
+}
+
+:global(.dark) .parenthesisOverlay {
+  background-color: var(--bg-accent);
+}
+
+:global(.dark) .divider {
+  background-color: rgba(0, 0, 0, 0.3);
+}

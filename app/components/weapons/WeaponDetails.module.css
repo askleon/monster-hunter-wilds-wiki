@@ -1,0 +1,28 @@
+.weaponDetails {
+  font-size: 0.9rem;
+}
+
+.weaponDetails h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.weaponDetails p {
+  margin: 0.25rem 0;
+}
+
+.creationMethods {
+  margin-top: 0.75rem;
+}
+
+.creationMethods h4 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.materialsList {
+  padding-left: 1rem;
+  margin: 0.25rem 0;
+}
+
+/* ... other styles ... */
