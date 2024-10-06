@@ -5,10 +5,10 @@ import { WeaponTree } from '@/app/components/weapons/WeaponTree';
 import { WeaponList } from '@/app/components/weapons/WeaponList';
 import { getWeaponTreeById, getWeaponTypeInfo, WeaponType } from '@/lib/weapons/weapons';
 
-export default function WeaponTreePage({ params }: { params: { id: string } }) {
+export default function WeaponTreePage({ params }: { params: { weaponType: string } }) {
   const [viewMode, setViewMode] = useState<'tree' | 'list'>('tree');
 
-  const id = params.id as WeaponType;
+  const id = params.weaponType as WeaponType;
   const weaponInfo = getWeaponTypeInfo(id);
   const weaponTree = getWeaponTreeById(id);
 
