@@ -7,6 +7,7 @@ import { FilterPanel, FilterOption } from '@/app/components/FilterPanel';
 import { getAllArmorSets, ArmorSet } from '@/lib/armors';
 import { Tooltip } from '@/app/components/Tooltip';
 import { getSkillById } from '@/lib/skills';
+import { GiBrutalHelm, GiChestArmor, GiGauntlet, GiBeltArmor, GiLegArmor } from 'react-icons/gi';
 
 export default function ArmorsPage() {
   const router = useRouter();
@@ -58,28 +59,23 @@ export default function ArmorsPage() {
   }, [updateUrlQuery]);
 
   const handleFilterChange = (filterType: string, value: string | string[]) => {
-    switch (filterType) {
-    case 'Filter by Tier':
-      setSelectedTier(value as string);
-      break;
-    case 'Filter by Piece Type':
-      setSelectedTypes(prev => {
-        if (prev.includes(value as string)) {
-          return prev.filter(type => type !== value);
-        } else {
-          return [...prev, value as string];
-        }
-      });
-      break;
-    case 'Filter by Skills':
-      setSelectedSkills(prev => {
-        if (prev.includes(value as string)) {
-          return prev.filter(skill => skill !== value);
-        } else {
-          return [...prev, value as string];
-        }
-      });
-      break;
+    const filterHandlers = {
+      'Filter by Tier': () => setSelectedTier(value as string),
+      'Filter by Piece Type': () => setSelectedTypes(prev =>
+        prev.includes(value as string)
+          ? prev.filter(type => type !== value)
+          : [...prev, value as string]
+      ),
+      'Filter by Skills': () => setSelectedSkills(prev =>
+        prev.includes(value as string)
+          ? prev.filter(skill => skill !== value)
+          : [...prev, value as string]
+      )
+    };
+
+    const handler = filterHandlers[filterType as keyof typeof filterHandlers];
+    if (handler) {
+      handler();
     }
   };
 
@@ -123,6 +119,16 @@ export default function ArmorsPage() {
 function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
   const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
+  const armorIcons = {
+    Head: <GiBrutalHelm className="w-8 h-8" />,
+    Chest: <GiChestArmor className="w-8 h-8" />,
+    Arms: <GiGauntlet className="w-8 h-8" />,
+    Waist: <GiBeltArmor className="w-8 h-8" />,
+    Legs: <GiLegArmor className="w-8 h-8" />,
+  };
+
+  const getArmorIcon = (type: string) => armorIcons[type as keyof typeof armorIcons] || null;
+
   return (
     <Card
       title={
@@ -160,12 +166,12 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
                 }
               >
                 <div className="text-center w-12 flex flex-col items-center">
-                  <div className="relative w-6 h-6 flex items-center justify-center">
-                    <span className={`font-semibold text-sm ${!piece ? 'opacity-30' : ''}`}>{type[0]}</span>
+                  <div className="relative w-8 h-8 flex items-center justify-center">
+                    {getArmorIcon(type)}
                     {!piece && (
-                      <span className="absolute inset-0 flex items-center justify-center text-red-500 font-bold text-xs">
-                        X
-                      </span>
+                      <div className="absolute inset-0 flex items-center justify-center text-red-500">
+                        <span className="text-3xl font-bold">✕</span>
+                      </div>
                     )}
                   </div>
                 </div>
