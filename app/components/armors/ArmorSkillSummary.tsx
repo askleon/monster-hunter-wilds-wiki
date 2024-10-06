@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArmorSet } from '@/lib/armors';
 import { Skill, getSkillById } from '@/lib/skills';
-import { SkillDisplay } from './SkillDisplay';
+import { SkillDisplay } from '../SkillDisplay';
 
 export function ArmorSkillSummary({ armorSet }: { armorSet: ArmorSet }) {
   const skillSummary = React.useMemo(() => {

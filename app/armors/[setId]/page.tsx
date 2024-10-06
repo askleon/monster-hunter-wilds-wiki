@@ -4,8 +4,8 @@ import React from 'react';
 import { getArmorSetById, ArmorPiece } from '@/lib/armors';
 import { getSkillById } from '@/lib/skills';
 import Link from 'next/link';
-import { ArmorSkillSummary } from '@/app/components/ArmorSkillSummary';
-import { ArmorDefenseSummary } from '@/app/components/ArmorDefenseSummary';
+import { ArmorSkillSummary } from '@/app/components/armors/ArmorSkillSummary';
+import { ArmorDefenseSummary } from '@/app/components/armors/ArmorDefenseSummary';
 import { Card } from '@/app/components/Card';
 import { SkillDisplay } from '@/app/components/SkillDisplay';
 
