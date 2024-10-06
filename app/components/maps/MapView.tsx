@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import { MapContainer, Rectangle, Marker, Popup, useMap } from 'react-leaflet'
 import { CRS, LatLngBounds, LatLng, Icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import { PointOfInterest } from '@/lib/maps';
+import { MapViewItem } from '@/lib/maps';
 import styles from './MapView.module.css';
 
 const customIcon = new Icon({
@@ -40,16 +40,7 @@ function MapTheme() {
   return null;
 }
 
-export interface MapViewProps {
-  id: string;
-  name: string;
-  description: string;
-  thumbnail: string;
-  imageUrl: string;
-  pointsOfInterest: PointOfInterest[];
-}
-
-export default function MapView({ mapData }: { mapData: MapViewProps }) {
+export default function MapView({ mapData }: { mapData: MapViewItem }) {
   const bounds = new LatLngBounds(
     [0, 0],
     [100, 100]

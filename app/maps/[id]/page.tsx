@@ -1,9 +1,9 @@
 'use client';
 
 import { getMapById } from '@/lib/maps';
-import MapView from '@/app/components/MapView';
-import MapFilter from '@/app/components/MapFilter';
-import MapSearch from '@/app/components/MapSearch';
+import MapView from '@/app/components/maps/MapView';
+import MapFilter from '@/app/components/maps/MapFilter';
+import MapSearch from '@/app/components/maps/MapSearch';
 import styles from './page.module.css';
 import { useState, useCallback, useMemo } from 'react';
 import { PointOfInterest } from '@/lib/maps';
@@ -11,7 +11,7 @@ import { PointOfInterest } from '@/lib/maps';
 export default function MapPage({ params }: { params: { id: string } }) {
   const mapId = params.id;
   const mapData = useMemo(() => getMapById(mapId), [mapId]);
-  
+
   const [filteredPOIs, setFilteredPOIs] = useState<PointOfInterest[]>([]);
   const [searchResults, setSearchResults] = useState<PointOfInterest[] | null>(null);
 

@@ -1,5 +1,3 @@
-import { MapViewProps } from "@/app/components/MapView";
-
 export interface PointOfInterest {
   id: number;
   latitude: number;
@@ -9,7 +7,16 @@ export interface PointOfInterest {
   description: string;
 }
 
-export const maps: MapViewProps[] = [
+export interface MapViewItem {
+  id: string;
+  name: string;
+  description: string;
+  thumbnail: string;
+  imageUrl: string;
+  pointsOfInterest: PointOfInterest[];
+}
+
+export const maps: MapViewItem[] = [
   {
     id: "windward-plains",
     name: "Windward Plains",
@@ -152,7 +159,7 @@ export const maps: MapViewProps[] = [
 ];
 
 
-export const getMapById = (id: string): MapViewProps | undefined => {
+export const getMapById = (id: string): MapViewItem | undefined => {
   return maps.find(map => map.id === id);
 };
 
