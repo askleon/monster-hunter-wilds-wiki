@@ -4,10 +4,10 @@ import React from 'react';
 import { getArmorSetById, ArmorPiece } from '@/lib/armors';
 import { getSkillById } from '@/lib/skills';
 import Link from 'next/link';
-import { ArmorSkillSummary } from '@/app/components/armors/ArmorSkillSummary';
-import { ArmorDefenseSummary } from '@/app/components/armors/ArmorDefenseSummary';
-import { Card } from '@/app/components/Card';
-import { SkillDisplay } from '@/app/components/SkillDisplay';
+import { ArmorSkillSummary } from '@/components/armors/ArmorSkillSummary';
+import { ArmorDefenseSummary } from '@/components/armors/ArmorDefenseSummary';
+import { Card } from '@/components/Card';
+import { SkillDisplay } from '@/components/SkillDisplay';
 
 const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 

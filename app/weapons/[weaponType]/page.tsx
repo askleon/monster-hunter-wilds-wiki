@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { WeaponTree } from '@/app/components/weapons/WeaponTree';
-import { WeaponList } from '@/app/components/weapons/WeaponList';
+import { WeaponTree } from '@/components/weapons/WeaponTree';
+import { WeaponList } from '@/components/weapons/WeaponList';
 import { getWeaponTreeById, getWeaponTypeInfo, WeaponType, WeaponNode } from '@/lib/weapons/weapons';
 import { useRouter } from 'next/navigation';
 

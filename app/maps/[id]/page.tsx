@@ -1,9 +1,9 @@
 'use client';
 
 import { getMapById } from '@/lib/maps';
-import MapView from '@/app/components/maps/MapView';
-import MapFilter from '@/app/components/maps/MapFilter';
-import MapSearch from '@/app/components/maps/MapSearch';
+import MapView from '@/components/maps/MapView';
+import MapFilter from '@/components/maps/MapFilter';
+import MapSearch from '@/components/maps/MapSearch';
 import styles from './page.module.css';
 import { useState, useCallback, useMemo } from 'react';
 import { PointOfInterest } from '@/lib/maps';

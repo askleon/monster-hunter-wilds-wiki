@@ -1,4 +1,4 @@
-import { Card } from '@/app/components/Card';
+import { Card } from '@/components/Card';
 import { getAllTalismans } from '@/lib/talismans';
 
 export default function TalismanListPage() {

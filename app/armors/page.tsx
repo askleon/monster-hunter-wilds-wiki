@@ -2,10 +2,10 @@
 
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Card } from '@/app/components/Card';
-import { FilterPanel, FilterOption } from '@/app/components/FilterPanel';
+import { Card } from '@/components/Card';
+import { FilterPanel, FilterOption } from '@/components/FilterPanel';
 import { getAllArmorSets, ArmorSet } from '@/lib/armors';
-import { Tooltip } from '@/app/components/Tooltip';
+import { Tooltip } from '@/components/Tooltip';
 import { getSkillById } from '@/lib/skills';
 import { GiBrutalHelm, GiChestArmor, GiGauntlet, GiBeltArmor, GiLegArmor } from 'react-icons/gi';
 

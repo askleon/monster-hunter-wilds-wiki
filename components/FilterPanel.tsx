@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CustomDropdown, Option } from '@/app/components/CustomDropdown';
+import { CustomDropdown, Option } from '@/components/CustomDropdown';
 
 export interface FilterOption {
   type: 'dropdown' | 'checkbox';

@@ -1,6 +1,6 @@
 'use client'
 
-import LoadoutBuilder from '@/app/components/LoadoutBuilder';
+import LoadoutBuilder from '@/components/LoadoutBuilder';
 
 export default function NewLoadoutPage() {
   return <LoadoutBuilder />;

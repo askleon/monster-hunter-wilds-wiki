@@ -1,6 +1,6 @@
 'use client'
 
-import LoadoutBuilder from '@/app/components/LoadoutBuilder';
+import LoadoutBuilder from '@/components/LoadoutBuilder';
 import { useSearchParams } from 'next/navigation';
 
 export default function EditLoadoutPage() {

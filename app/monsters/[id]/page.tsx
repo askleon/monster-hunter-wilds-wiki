@@ -4,7 +4,7 @@ import { useParams } from 'next/navigation';
 import { getMonsterById } from '@/lib/monsters';
 import styles from './MonsterDetails.module.css';
 import { useState } from 'react';
-import SortableFilterableMaterialDropTable from '@/app/components/SortableFilterableMaterialDropTable';
+import SortableFilterableMaterialDropTable from '@/components/SortableFilterableMaterialDropTable';
 
 export default function MonsterDetails() {
   const params = useParams();

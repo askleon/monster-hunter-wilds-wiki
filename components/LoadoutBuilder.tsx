@@ -4,11 +4,11 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons/weapons';
 import { getAllArmorSets, ArmorPiece, getArmorPieceById } from '@/lib/armors';
-import { Card } from '@/app/components/Card';
-import { useToast } from '@/app/components/Toast';
-import { StatSummary } from '@/app/components/StatSummary';
-import { SkillSummary } from '@/app/components/SkillSummary';
-import { SearchableDropdown } from '@/app/components/SearchableDropdown';
+import { Card } from '@/components/Card';
+import { useToast } from '@/components/Toast';
+import { StatSummary } from '@/components/StatSummary';
+import { SkillSummary } from '@/components/SkillSummary';
+import { SearchableDropdown } from '@/components/SearchableDropdown';
 
 export interface Loadout {
   name: string;

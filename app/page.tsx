@@ -1,4 +1,4 @@
-import { Card } from '@/app/components/Card';
+import { Card } from '@/components/Card';
 import { monsters } from '@/lib/monsters';
 import { maps } from '@/lib/maps';
 import styles from './Home.module.css';

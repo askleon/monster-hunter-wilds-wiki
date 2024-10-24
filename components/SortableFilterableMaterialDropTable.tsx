@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { MonsterMaterial } from '@/lib/monsters';
 import MaterialDropTable, { SortKey, SortOrder } from './MaterialDropTable';
-import { FilterPanel, FilterOption } from '@/app/components/FilterPanel';
-import styles from '@/app/components/SortableFilterableMaterialDropTable.module.css';
+import { FilterPanel, FilterOption } from '@/components/FilterPanel';
+import styles from '@/components/SortableFilterableMaterialDropTable.module.css';
 
 interface SortableFilterableMaterialDropTableProps {
   materials: MonsterMaterial[];

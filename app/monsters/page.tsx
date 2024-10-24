@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { monsters, Monster } from '@/lib/monsters';
-import { Card } from '@/app/components/Card';
-import { CustomDropdown, Option } from '@/app/components/CustomDropdown';
-import { weaknessConfigs, WeaknessConfig } from '@/app/components/WeaknessConfig';
+import { Card } from '@/components/Card';
+import { CustomDropdown, Option } from '@/components/CustomDropdown';
+import { weaknessConfigs, WeaknessConfig } from '@/components/WeaknessConfig';
 
 interface Weakness {
   part: string;

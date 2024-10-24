@@ -1,4 +1,4 @@
-import { Card } from '@/app/components/Card';
+import { Card } from '@/components/Card';
 import { getAllDecorations } from '@/lib/decorations';
 
 export default function DecorationListPage() {

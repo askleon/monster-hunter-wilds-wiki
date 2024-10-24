@@ -1,8 +1,8 @@
 'use client'
 
-import { ThemeProvider, useTheme } from './ThemeProvider'
-import { Header } from './Header'
-import Footer from './Footer'
+import { ThemeProvider, useTheme } from '@/components/ThemeProvider'
+import { Header } from '@/components/Header'
+import Footer from '@/components/Footer'
 
 function ThemedContent({ children }: { children: React.ReactNode }) {
   const { theme } = useTheme()

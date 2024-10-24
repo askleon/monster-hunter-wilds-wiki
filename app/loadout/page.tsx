@@ -3,8 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Card } from '@/app/components/Card';
-import { Loadout } from '@/app/components/LoadoutBuilder';
+import { Card } from '@/components/Card';
+import { Loadout } from '@/components/LoadoutBuilder';
 
 export default function LoadoutListPage() {
   const [loadouts, setLoadouts] = useState<Record<string, Loadout>>({});
