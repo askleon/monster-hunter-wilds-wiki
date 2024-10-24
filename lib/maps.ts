@@ -155,7 +155,23 @@ export const maps: MapViewItem[] = [
       }
     ]
   },
-
+  {
+    id: "oilwell-basin",
+    name: "Oilwell Basin",
+    description: "A volcanic region where oil wells and raging fires burn. Home to unique creatures that have adapted to its harsh environment.",
+    imageUrl: "/images/maps/oilwell-basin.jpg",
+    thumbnail: "/images/maps/oilwell-basin-thumb.jpg",
+    pointsOfInterest: [
+      {
+        id: 1,
+        latitude: 50,
+        longitude: 50,
+        name: "Azuz, the Everforge",
+        type: "Settlement",
+        description: "The village of Azuz formed around its large forge."
+      }
+    ]
+  }
 ];
 
 
