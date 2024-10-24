@@ -356,6 +356,42 @@ export const monsters: Monster[] = [
     difficulty: undefined,
     materials: undefined
   },
+  {
+    id: "rompopolo",
+    name: "Rompopolo",
+    type: "Brute Wyvern",
+    elements: undefined,
+    bodyParts: undefined,
+    habitats: ["Oilwell Basin"],
+    description: "A brute wyvern that inhabits areas of deep oilsilt.",
+    size: undefined,
+    difficulty: undefined,
+    materials: undefined
+  },
+  {
+    id: "ajarakan",
+    name: "Ajarakan",
+    type: "Fanged Beast",
+    elements: undefined,
+    bodyParts: undefined,
+    habitats: ["Oilwell Basin"],
+    description: "A fanged beast characterized by the flame-like protrusions that cover its back.",
+    size: undefined,
+    difficulty: undefined,
+    materials: undefined
+  },
+  {
+    id: "black-flame",
+    name: "The Black Flame",
+    type: "Fanged Beast",
+    elements: undefined,
+    bodyParts: undefined,
+    habitats: ["Oilwell Basin"],
+    description: "Known to the people of Azuz as the Black Flame, it reigns as the apex predator of this region.",
+    size: undefined,
+    difficulty: undefined,
+    materials: undefined
+  }
 ];
 
 export function getMonsterById(id: string): Monster | undefined {
