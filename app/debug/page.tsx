@@ -240,18 +240,18 @@ const SECTIONS = [
               title="Typography Styles"
               component={
                 <div className="space-y-4">
-                  <p className="mh-text-main">Main Text</p>
-                  <p className="mh-text-highlight">Highlight Text</p>
-                  <p className="mh-text-info">Info Text</p>
-                  <p className="mh-text-white">White Text</p>
-                  <p className="mh-text-gray">Gray Text</p>
+                  <p className="text-primary">Primary Text</p>
+                  <p className="text-secondary">Secondary Text</p>
+                  <p className="text-accent">Accent Text</p>
+                  <p className="text-inverse">Inverse Text</p>
+                  <p className="text-muted">Muted Text</p>
                 </div>
               }
-              code={`<p className="mh-text-main">Main Text</p>
-<p className="mh-text-highlight">Highlight Text</p>
-<p className="mh-text-info">Info Text</p>
-<p className="mh-text-white">White Text</p>
-<p className="mh-text-gray">Gray Text</p>`}
+              code={`<p className="text-primary">Primary Text</p>
+<p className="text-secondary">Secondary Text</p>
+<p className="text-accent">Accent Text</p>
+<p className="text-inverse">Inverse Text</p>
+<p className="text-muted">Muted Text</p>`}
             />
           </div>
         )
