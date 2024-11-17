@@ -14,6 +14,8 @@ import { WeaponTree } from '@/components/weapons/WeaponTree'
 import { ArmorSet } from '@/lib/armors';
 import { ArmorSkillSummary } from '@/components/armors/ArmorSkillSummary';
 import { ArmorDefenseSummary } from '@/components/armors/ArmorDefenseSummary';
+import { ComponentDebugContainer } from '@/components/debug/ComponentDebugContainer';
+import { GlassCanvas } from '@/components/GlassCanvas';
 
 const SECTIONS = [
   {
@@ -24,17 +26,37 @@ const SECTIONS = [
         id: 'cards',
         title: 'Cards',
         content: () => (
-          <div className="space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <Card
-                title="Base Card"
-                subtitle="Regular theme card"
-                description="Used for general content"
-              />
-              <MHCard title="Monster Hunter Card" titleVariant="main">
-                <p className="mh-text-white">Themed card variant</p>
-              </MHCard>
-            </div>
+          <div className="space-y-8">
+            <ComponentDebugContainer
+              title="Base Card"
+              component={
+                <Card
+                  title="Base Card"
+                  subtitle="Regular theme card"
+                  description="Used for general content"
+                />
+              }
+              code={`<Card
+  title="Base Card"
+  subtitle="Regular theme card"
+  description="Used for general content"
+/>`}
+            />
+
+            <ComponentDebugContainer
+              title="Monster Hunter Card"
+              component={
+                <MHCard title="Monster Hunter Card" titleVariant="main">
+                  <p className="mh-text-white">Themed card variant</p>
+                </MHCard>
+              }
+              code={`<MHCard 
+  title="Monster Hunter Card" 
+  titleVariant="main"
+>
+  <p className="mh-text-white">Themed card variant</p>
+</MHCard>`}
+            />
           </div>
         )
       },
@@ -42,16 +64,25 @@ const SECTIONS = [
         id: 'equipment',
         title: 'Equipment',
         content: () => (
-          <div className="space-y-4">
-            <div className="flex flex-wrap gap-4">
-              {[1, 4, 8].map(rarity => (
-                <EquipmentBox
-                  key={rarity}
-                  imageUrl="/icons/great-sword.svg"
-                  rarity={rarity}
-                />
-              ))}
-            </div>
+          <div className="space-y-8">
+            <ComponentDebugContainer
+              title="Equipment Box Variants"
+              component={
+                <div className="flex flex-wrap gap-4">
+                  {[1, 4, 8].map(rarity => (
+                    <EquipmentBox
+                      key={rarity}
+                      imageUrl="/icons/great-sword.svg"
+                      rarity={rarity}
+                    />
+                  ))}
+                </div>
+              }
+              code={`<EquipmentBox
+  imageUrl="/icons/great-sword.svg"
+  rarity={1}
+/>`}
+            />
           </div>
         )
       },
@@ -59,46 +90,98 @@ const SECTIONS = [
         id: 'sharpness-bar',
         title: 'Sharpness Bar',
         content: () => (
-          <div className="space-y-4">
-            <div className="grid gap-4">
-              <SharpnessBar
-                sharpness={{
-                  red: 50,
-                  orange: 50,
-                  yellow: 60,
-                  green: 80,
-                  blue: 60,
-                  white: 40,
-                  purple: 20
-                }}
-              />
-              <SharpnessBar
-                sharpness={{
-                  red: 50,
-                  orange: 50,
-                  yellow: 60,
-                  green: 80,
-                  blue: 60,
-                  white: 40,
-                  purple: 0,
-                  parenthesis: {
-                    color: 'purple',
-                    value: 20
-                  }
-                }}
-              />
-              <SharpnessBar
-                sharpness={{
-                  red: 80,
-                  orange: 70,
-                  yellow: 50,
-                  green: 30,
-                  blue: 0,
-                  white: 0,
-                  purple: 0
-                }}
-              />
-            </div>
+          <div className="space-y-8">
+            <ComponentDebugContainer
+              title="Full Sharpness Bar"
+              component={
+                <SharpnessBar
+                  sharpness={{
+                    red: 50,
+                    orange: 50,
+                    yellow: 60,
+                    green: 80,
+                    blue: 60,
+                    white: 40,
+                    purple: 20
+                  }}
+                />
+              }
+              code={`<SharpnessBar
+  sharpness={{
+    red: 50,
+    orange: 50,
+    yellow: 60,
+    green: 80,
+    blue: 60,
+    white: 40,
+    purple: 20
+  }}
+/>`}
+            />
+
+            <ComponentDebugContainer
+              title="Sharpness Bar with Handicraft"
+              component={
+                <SharpnessBar
+                  sharpness={{
+                    red: 50,
+                    orange: 50,
+                    yellow: 60,
+                    green: 80,
+                    blue: 60,
+                    white: 40,
+                    purple: 0,
+                    parenthesis: {
+                      color: 'purple',
+                      value: 20
+                    }
+                  }}
+                />
+              }
+              code={`<SharpnessBar
+  sharpness={{
+    red: 50,
+    orange: 50,
+    yellow: 60,
+    green: 80,
+    blue: 60,
+    white: 40,
+    purple: 0,
+    parenthesis: {
+      color: 'purple',
+      value: 20
+    }
+  }}
+/>`}
+            />
+
+            <ComponentDebugContainer
+              title="Basic Sharpness Bar"
+              component={
+                <SharpnessBar
+                  sharpness={{
+                    red: 80,
+                    orange: 70,
+                    yellow: 50,
+                    green: 30,
+                    blue: 0,
+                    white: 0,
+                    purple: 0
+                  }}
+                />
+              }
+              code={`<SharpnessBar
+  sharpness={{
+    red: 80,
+    orange: 70,
+    yellow: 50,
+    green: 30,
+    blue: 0,
+    white: 0,
+    purple: 0
+  }}
+/>`}
+            />
           </div>
         )
       },
@@ -133,11 +216,18 @@ const SECTIONS = [
         id: 'backgrounds',
         title: 'Background Patterns',
         content: () => (
-          <div className="space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="mh-background-pattern h-32 rounded-lg" />
-              <div className="mh-component-pattern h-32 rounded-lg" />
-            </div>
+          <div className="space-y-8">
+            <ComponentDebugContainer
+              title="Background Patterns"
+              component={
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="mh-background-pattern h-32 rounded-lg" />
+                  <div className="mh-component-pattern h-32 rounded-lg" />
+                </div>
+              }
+              code={`<div className="mh-background-pattern" />
+<div className="mh-component-pattern" />`}
+            />
           </div>
         )
       },
@@ -145,12 +235,24 @@ const SECTIONS = [
         id: 'typography',
         title: 'Typography',
         content: () => (
-          <div className="space-y-4">
-            <p className="mh-text-main">Main Text</p>
-            <p className="mh-text-highlight">Highlight Text</p>
-            <p className="mh-text-info">Info Text</p>
-            <p className="mh-text-white">White Text</p>
-            <p className="mh-text-gray">Gray Text</p>
+          <div className="space-y-8">
+            <ComponentDebugContainer
+              title="Typography Styles"
+              component={
+                <div className="space-y-4">
+                  <p className="mh-text-main">Main Text</p>
+                  <p className="mh-text-highlight">Highlight Text</p>
+                  <p className="mh-text-info">Info Text</p>
+                  <p className="mh-text-white">White Text</p>
+                  <p className="mh-text-gray">Gray Text</p>
+                </div>
+              }
+              code={`<p className="mh-text-main">Main Text</p>
+<p className="mh-text-highlight">Highlight Text</p>
+<p className="mh-text-info">Info Text</p>
+<p className="mh-text-white">White Text</p>
+<p className="mh-text-gray">Gray Text</p>`}
+            />
           </div>
         )
       }
@@ -305,42 +407,67 @@ const WeaponComponentsSection = () => {
 
   return (
     <div className="space-y-8">
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Single Weapon Component</h4>
-        <div className="max-w-md">
+      <ComponentDebugContainer
+        title="Single Weapon Component"
+        component={
           <WeaponComponent
             weapon={sampleWeapons[3]}
             isSelected={selectedWeapon?.id === sampleWeapons[3].id}
             onClick={() => setSelectedWeapon(sampleWeapons[3])}
             displayMode="list"
           />
-        </div>
-      </div>
+        }
+        code={`<WeaponComponent
+  weapon={weapon}
+  isSelected={false}
+  onClick={() => {}}
+  displayMode="list"
+/>`}
+      />
 
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Weapon Details</h4>
-        <div className="max-w-[300px] border border-gray-700 rounded-lg p-4">
-          <WeaponDetails weapon={selectedWeapon || sampleWeapons[3]} />
-        </div>
-      </div>
+      <ComponentDebugContainer
+        title="Weapon Details"
+        component={
+          <div className="max-w-[300px]">
+            <WeaponDetails weapon={selectedWeapon || sampleWeapons[3]} />
+          </div>
+        }
+        code={`<WeaponDetails
+  weapon={weapon}
+/>`}
+      />
 
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Weapon List View</h4>
-        <WeaponList
-          weaponTree={sampleTree}
-          selectedWeapon={selectedWeapon}
-          onWeaponSelect={setSelectedWeapon}
-        />
-      </div>
+      <ComponentDebugContainer
+        title="Weapon List View"
+        component={
+          <WeaponList
+            weaponTree={sampleTree}
+            selectedWeapon={selectedWeapon}
+            onWeaponSelect={setSelectedWeapon}
+          />
+        }
+        code={`<WeaponList
+  weaponTree={weaponTree}
+  selectedWeapon={selectedWeapon}
+  onWeaponSelect={setSelectedWeapon}
+/>`}
+      />
 
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Weapon Tree View</h4>
-        <WeaponTree
-          weaponTree={sampleTree}
-          selectedWeapon={selectedWeapon}
-          onWeaponSelect={setSelectedWeapon}
-        />
-      </div>
+      <ComponentDebugContainer
+        title="Weapon Tree View"
+        component={
+          <WeaponTree
+            weaponTree={sampleTree}
+            selectedWeapon={selectedWeapon}
+            onWeaponSelect={setSelectedWeapon}
+          />
+        }
+        code={`<WeaponTree
+  weaponTree={weaponTree}
+  selectedWeapon={selectedWeapon}
+  onWeaponSelect={setSelectedWeapon}
+/>`}
+      />
     </div>
   );
 };
@@ -462,12 +589,11 @@ const ArmorComponentsSection = () => {
 
   return (
     <div className="space-y-8">
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Single Armor Piece</h4>
-        <div className="max-w-md border border-gray-700 rounded-lg p-4">
+      <ComponentDebugContainer
+        title="Single Armor Piece"
+        component={
           <div className="flex items-center space-x-4">
             <div className="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center">
-              {/* Placeholder for armor icon */}
               <span className="text-3xl">🛡️</span>
             </div>
             <div>
@@ -475,49 +601,33 @@ const ArmorComponentsSection = () => {
               <p className="text-sm text-gray-400">Defense: {sampleArmorSet.pieces[0].defense}</p>
             </div>
           </div>
-        </div>
-      </div>
+        }
+        code={`<ArmorPiece
+  piece={armorPiece}
+  onClick={() => {}}
+/>`}
+      />
 
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Armor Set Summary</h4>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="border border-gray-700 rounded-lg p-4">
-            <h5 className="font-semibold mb-3">Defense Summary</h5>
-            <ArmorDefenseSummary armorSet={sampleArmorSet} />
-          </div>
-
-          <div className="border border-gray-700 rounded-lg p-4">
-            <h5 className="font-semibold mb-3">Skills Summary</h5>
-            <ArmorSkillSummary armorSet={sampleArmorSet} />
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Armor Set Pieces</h4>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {sampleArmorSet.pieces.map((piece) => (
-            <div
-              key={piece.id}
-              className="border border-gray-700 rounded-lg p-4 hover:bg-gray-800 transition-colors cursor-pointer"
-            >
-              <div className="flex items-center space-x-3 mb-2">
-                <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl">🛡️</span>
-                </div>
-                <div>
-                  <h3 className="font-semibold">{piece.name}</h3>
-                  <p className="text-sm text-gray-400">{piece.type}</p>
-                </div>
-              </div>
-              <div className="text-sm">
-                <p>Defense: {piece.defense}</p>
-                <p>Rarity: {piece.rarity}</p>
-              </div>
+      <ComponentDebugContainer
+        title="Armor Set Summary"
+        component={
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="border border-gray-700 rounded-lg p-4">
+              <h5 className="font-semibold mb-3">Defense Summary</h5>
+              <ArmorDefenseSummary armorSet={sampleArmorSet} />
             </div>
-          ))}
-        </div>
-      </div>
+            <div className="border border-gray-700 rounded-lg p-4">
+              <h5 className="font-semibold mb-3">Skills Summary</h5>
+              <ArmorSkillSummary armorSet={sampleArmorSet} />
+            </div>
+          </div>
+        }
+        code={`<ArmorSetSummary
+  armorSet={armorSet}
+/>`}
+      />
+
+      {/* ... other armor components ... */}
     </div>
   );
 };
@@ -552,41 +662,60 @@ export default function DebugPage() {
   return (
     <div className="flex min-h-screen">
       {/* Fixed Sidebar */}
-      <div className="w-64 fixed h-screen overflow-y-auto p-4 bg-secondary border-r border-color">
-        <div className="mb-4">
-          <input
-            type="text"
-            placeholder="Search components..."
-            className="w-full p-2 rounded bg-secondary text-primary border border-color"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-        </div>
-
-        <nav className="space-y-4">
-          {filteredSections.map(section => (
-            <div key={section.id}>
-              <h3 className="text-sm font-bold text-secondary uppercase tracking-wider mb-2">
-                {section.title}
-              </h3>
-              <ul className="space-y-1">
-                {section.items.map(item => (
-                  <li key={item.id}>
-                    <a
-                      href={`#${item.id}`}
-                      className={`block py-1 ${selectedId === item.id
-                        ? 'text-accent font-semibold'
-                        : 'text-primary hover:text-accent'
-                      }`}
-                    >
-                      {item.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+      <div className="w-64 fixed h-screen p-3">
+        <GlassCanvas className="flex flex-col" opacity="light">
+          <div className="p-3 border-b border-color">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search components..."
+                className="w-full p-2 pl-8 text-sm rounded-md bg-black/20 text-primary border border-color focus:ring-1 focus:ring-accent focus:border-accent"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              <svg
+                className="absolute left-2.5 top-2.5 h-4 w-4 text-gray-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
             </div>
-          ))}
-        </nav>
+          </div>
+          <nav className="p-2">
+            {filteredSections.map(section => (
+              <div key={section.id} className="mb-4 last:mb-0">
+                <h3 className="text-xs font-bold text-secondary uppercase tracking-wider px-2 mb-1">
+                  {section.title}
+                </h3>
+                <ul className="space-y-0.5">
+                  {section.items.map(item => (
+                    <li key={item.id}>
+                      <a
+                        href={`#${item.id}`}
+                        className={`
+                          block px-2 py-1.5 text-sm rounded-md transition-colors
+                          ${selectedId === item.id
+                      ? 'bg-white/10 text-accent font-medium'
+                      : 'text-primary hover:bg-white/5 hover:text-accent'
+                    }
+                        `}
+                      >
+                        {item.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </nav>
+        </GlassCanvas>
       </div>
 
       {/* Main Content */}
