@@ -159,6 +159,62 @@ export default function DebugPage() {
       </section>
 
       <section className="mb-12">
+        <h2 className="text-xl font-bold mb-4">MHCard Title Variants</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Simple string title */}
+          <MHCard 
+            title="Basic String Title" 
+            titleVariant="main"
+          >
+            <p className="mh-text-white">Basic card with string title</p>
+          </MHCard>
+
+          {/* Complex title with icon */}
+          <MHCard 
+            title={
+              <div className="flex items-center gap-2">
+                <span>⚔️</span>
+                <span>Weapon Details</span>
+              </div>
+            } 
+            titleVariant="highlight"
+          >
+            <p className="mh-text-white">Card with icon in title</p>
+          </MHCard>
+
+          {/* Title with multiple styles */}
+          <MHCard 
+            title={
+              <div className="flex items-center gap-2">
+                <span className="mh-text-highlight">Rathalos</span>
+                <span className="mh-text-gray">- Flying Wyvern</span>
+              </div>
+            } 
+            titleVariant="main"
+          >
+            <p className="mh-text-white">Card with mixed title styles</p>
+          </MHCard>
+
+          {/* Title with custom component */}
+          <MHCard 
+            title={
+              <div className="flex justify-between items-center">
+                <span>Rarity 8 Weapon</span>
+                <div className="flex gap-1">
+                  {[1,2,3].map(star => (
+                    <span key={star} className="text-yellow-400">★</span>
+                  ))}
+                </div>
+              </div>
+            } 
+            titleVariant="info"
+          >
+            <p className="mh-text-white">Card with complex title layout</p>
+          </MHCard>
+        </div>
+      </section>
+
+      <section className="mb-12">
         <h2 className="text-xl font-bold mb-4">Background Pattern Examples</h2>
         
         {/* Page Pattern */}
