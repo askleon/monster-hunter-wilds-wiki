@@ -1,20 +1,21 @@
 .sharpnessBarContainer {
   display: inline-block;
-  padding: 5px; /* Increased from 4px */
+  width: 100%;
+  padding: 5px;
   background-color: var(--bg-secondary);
   border: 1px solid var(--border-color);
-  border-radius: 5px; /* Increased from 4px */
+  border-radius: 5px;
 }
 
 .sharpnessBar {
   display: flex;
-  height: 20px; /* Increased from 16px */
+  height: 20px;
+  width: 100%;
   overflow: hidden;
 }
 
 .sharpnessSegment {
   height: 100%;
-  min-width: 30px; /* Increased from 20px */
   position: relative;
 }
 
@@ -25,7 +26,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.1); /* Reduced opacity for less darkening */
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .withBorder {
@@ -36,9 +37,9 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 2px; /* Increased from 1px to 2px */
-  background-color: var(--bg-secondary); /* Changed to use the background color */
-  z-index: 1; /* Ensure dividers are above the darkening overlay */
+  width: 2px;
+  background-color: var(--bg-secondary);
+  z-index: 1;
 }
 
 .parenthesisSegment {
@@ -52,7 +53,7 @@
   bottom: 50%;
   left: 0;
   background-color: var(--bg-secondary);
-  z-index: 2; /* Ensure parenthesis overlay is above the darkening overlay */
+  z-index: 2;
 }
 
 /* Brighter Sharpness colors */

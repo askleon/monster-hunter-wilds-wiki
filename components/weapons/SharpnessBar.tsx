@@ -7,43 +7,54 @@ interface SharpnessBarProps {
 }
 
 export function SharpnessBar({ sharpness }: SharpnessBarProps) {
-  const sharpnessColors = ['red', 'orange', 'yellow', 'green', 'blue', 'white', 'purple'];
-  const pixelsPerSharpness = 1.5; // Increased from 1 to 1.5
-  const pixelsPer10Sharpness = pixelsPerSharpness * 10;
+  // Calculate total sharpness
+  const totalSharpness = Object.entries(sharpness).reduce((sum, [key, value]) => {
+    return key !== 'parenthesis' ? sum + value : sum;
+  }, 0);
+
+  // Maximum sharpness value in Monster Hunter (typically 400)
+  const MAX_SHARPNESS = 400;
+
+  // Calculate width percentage for each segment
+  const getWidthPercentage = (value: number) => {
+    return `${(value / MAX_SHARPNESS) * 100}%`;
+  };
+
+  const sharpnessColors = {
+    red: '#ff0000',
+    orange: '#ff6600',
+    yellow: '#ffff00',
+    green: '#00ff00',
+    blue: '#0000ff',
+    white: '#ffffff',
+    purple: '#800080'
+  };
 
   return (
     <div className={styles.sharpnessBarContainer}>
       <div className={styles.sharpnessBar}>
-        {sharpnessColors.map((color, index) => {
-          const value = sharpness[color as keyof Sharpness];
-          if (typeof value === 'number' && value > 0) {
-            const width = value * pixelsPerSharpness;
-            const numDividers = Math.floor(value / 10);
-            return (
-              <div
-                key={color}
-                className={`${styles.sharpnessSegment} ${styles[color]} ${index > 0 ? styles.withBorder : ''}`}
-                style={{ width: `${width}px` }}
-              >
-                {[...Array(numDividers)].map((_, index) => (
-                  <div
-                    key={index}
-                    className={styles.divider}
-                    style={{ left: `${(index + 1) * pixelsPer10Sharpness - 1}px` }}
-                  />
-                ))}
-              </div>
-            );
-          }
-          return null;
+        {Object.entries(sharpness).map(([color, value], index) => {
+          if (color === 'parenthesis') return null;
+          return value > 0 ? (
+            <div
+              key={color}
+              className={`${styles.sharpnessSegment} ${index > 0 ? styles.withBorder : ''}`}
+              style={{
+                backgroundColor: sharpnessColors[color as keyof typeof sharpnessColors],
+                width: getWidthPercentage(value)
+              }}
+            />
+          ) : null;
         })}
-        {sharpness.parenthesis && (
+        {/* Fill remaining space with empty segment */}
+        {totalSharpness < MAX_SHARPNESS && (
           <div
-            className={`${styles.sharpnessSegment} ${styles[sharpness.parenthesis.color]} ${styles.parenthesisSegment} ${styles.withBorder}`}
-            style={{ width: `${sharpness.parenthesis.value * pixelsPerSharpness}px` }}
-          >
-            <div className={styles.parenthesisOverlay}></div>
-          </div>
+            className={styles.sharpnessSegment}
+            style={{
+              width: getWidthPercentage(MAX_SHARPNESS - totalSharpness),
+              backgroundColor: 'var(--bg-secondary)'
+            }}
+          />
         )}
       </div>
     </div>
