@@ -7,7 +7,6 @@ export function ThemeSwitcher() {
   const { theme, toggleTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
-  // useEffect only runs on the client, so now we can safely show the UI
   useEffect(() => {
     setMounted(true)
   }, [])
@@ -16,12 +15,25 @@ export function ThemeSwitcher() {
     return <button className="p-2 rounded-full bg-gray-200 dark:bg-gray-700">🌙</button>
   }
 
+  const getThemeIcon = () => {
+    switch (theme) {
+    case 'light':
+      return '🌙' // Indicates switching to dark
+    case 'dark':
+      return '🎮' // Indicates switching to monster-hunter
+    case 'monster-hunter':
+      return '☀️' // Indicates switching to light
+    default:
+      return '🌙'
+    }
+  }
+
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
+      className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 monster-hunter:bg-[#584b3d]"
     >
-      {theme === 'light' ? '🌙' : '☀️'}
+      {getThemeIcon()}
     </button>
   )
 }

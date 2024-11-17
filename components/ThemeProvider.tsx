@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react'
 
-type Theme = 'light' | 'dark'
+type Theme = 'light' | 'dark' | 'monster-hunter'
 
 const ThemeContext = createContext<{
   theme: Theme
@@ -39,7 +39,18 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   }, [theme, mounted])
 
   const toggleTheme = () => {
-    setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light')
+    setTheme(prevTheme => {
+      switch (prevTheme) {
+      case 'light':
+        return 'dark'
+      case 'dark':
+        return 'monster-hunter'
+      case 'monster-hunter':
+        return 'light'
+      default:
+        return 'light'
+      }
+    })
   }
 
   if (!mounted) {
