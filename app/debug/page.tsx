@@ -2,6 +2,7 @@
 
 import { useTheme } from '@/components/ThemeProvider'
 import { MHCard } from '@/components/MHCard/MHCard'
+import { EquipmentBox } from '@/components/EquipmentBox/EquipmentBox'
 
 export default function DebugPage() {
   const { theme } = useTheme()
@@ -195,9 +196,12 @@ export default function DebugPage() {
           <h3 className="text-sm text-secondary mb-2">Pattern with Card Overlay</h3>
           <div className="mh-component-pattern h-64 rounded-lg border border-gray-600 p-4">
             <MHCard title="Card Over Pattern" titleVariant="highlight">
-              <p className="mh-text-white">
-                This shows how cards look over the component pattern.
-              </p>
+              {/* Equipment Box */}
+              <p className="mh-text-white">Equipment Box Example</p>
+              <EquipmentBox imageUrl="icons/lance.svg"
+                rarity={1}
+                key="lance"
+              />
             </MHCard>
           </div>
         </div>
