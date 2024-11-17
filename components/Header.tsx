@@ -17,7 +17,7 @@ export function Header() {
   ];
 
   return (
-    <header className="bg-secondary shadow transition-colors duration-200">
+    <header className="bg-black/20 backdrop-blur-sm shadow transition-colors duration-200">
       <nav className="container mx-auto px-2 py-2 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Link href="/" className="text-primary hover:bg-accent hover:text-accent px-3 py-2 rounded-md transition-colors duration-200">

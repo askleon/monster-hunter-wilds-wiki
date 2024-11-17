@@ -18,13 +18,13 @@ export function ThemeSwitcher() {
   const getThemeIcon = () => {
     switch (theme) {
     case 'light':
-      return '🌙' // Indicates switching to dark
+      return '🌞'
     case 'dark':
-      return '🎮' // Indicates switching to monster-hunter
-    case 'monster-hunter':
-      return '☀️' // Indicates switching to light
-    default:
       return '🌙'
+    case 'monster-hunter':
+      return '🐉'
+    default:
+      return '💻'
     }
   }
 

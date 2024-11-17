@@ -30,9 +30,9 @@ function ThemedContent({ children }: { children: React.ReactNode }) {
   const { theme } = useTheme()
   
   return (
-    <div className={theme}>
+    <div className={`${theme} flex flex-col min-h-screen`}>
       <Header />
-      <main className="flex-grow">
+      <main className="flex-1">
         {children}
       </main>
       <Footer />
