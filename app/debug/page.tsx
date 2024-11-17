@@ -11,6 +11,9 @@ import { WeaponComponent } from '@/components/weapons/WeaponComponent'
 import { WeaponNode, WeaponTree as WeaponTreeType } from '@/lib/weapons/weapons'
 import { WeaponDetails } from '@/components/weapons/WeaponDetails'
 import { WeaponTree } from '@/components/weapons/WeaponTree'
+import { ArmorSet } from '@/lib/armors';
+import { ArmorSkillSummary } from '@/components/armors/ArmorSkillSummary';
+import { ArmorDefenseSummary } from '@/components/armors/ArmorDefenseSummary';
 
 const SECTIONS = [
   {
@@ -114,6 +117,11 @@ const SECTIONS = [
             </div>
           </div>
         )
+      },
+      {
+        id: 'armor-components',
+        title: 'Armor Components',
+        content: () => <ArmorComponentsSection />
       }
     ]
   },
@@ -337,6 +345,183 @@ const WeaponComponentsSection = () => {
   );
 };
 
+const ArmorComponentsSection = () => {
+  const sampleArmorSet: ArmorSet = {
+    id: 'sample-armor-set',
+    name: 'Hunter\'s Set',
+    tier: 1,
+    pieces: [
+      {
+        id: 'hunter-helm',
+        name: 'Hunter\'s Helm',
+        type: 'Head',
+        rarity: 1,
+        defense: 10,
+        skills: [
+          { id: 'attackBoost', level: 1 },
+          { id: 'criticalEye', level: 1 }
+        ],
+        resistances: {
+          fire: 0,
+          water: 0,
+          thunder: 0,
+          ice: 0,
+          dragon: 0
+        },
+        materials: [
+          { name: 'Monster Hide', quantity: 2 },
+          { name: 'Monster Bone S', quantity: 1 }
+        ]
+      },
+      {
+        id: 'hunter-mail',
+        name: 'Hunter\'s Mail',
+        type: 'Chest',
+        rarity: 1,
+        defense: 12,
+        skills: [
+          { id: 'attackBoost', level: 2 }
+        ],
+        resistances: {
+          fire: 1,
+          water: 0,
+          thunder: 0,
+          ice: 0,
+          dragon: 0
+        },
+        materials: [
+          { name: 'Monster Hide', quantity: 3 },
+          { name: 'Monster Bone M', quantity: 1 }
+        ]
+      },
+      {
+        id: 'hunter-vambraces',
+        name: 'Hunter\'s Vambraces',
+        type: 'Arms',
+        rarity: 1,
+        defense: 10,
+        skills: [
+          { id: 'criticalEye', level: 1 }
+        ],
+        resistances: {
+          fire: 0,
+          water: 1,
+          thunder: 0,
+          ice: 0,
+          dragon: 0
+        },
+        materials: [
+          { name: 'Monster Hide', quantity: 2 },
+          { name: 'Monster Bone S', quantity: 2 }
+        ]
+      },
+      {
+        id: 'hunter-coil',
+        name: 'Hunter\'s Coil',
+        type: 'Waist',
+        rarity: 1,
+        defense: 10,
+        skills: [
+          { id: 'constitution', level: 1 }
+        ],
+        resistances: {
+          fire: 0,
+          water: 0,
+          thunder: 1,
+          ice: 0,
+          dragon: 0
+        },
+        materials: [
+          { name: 'Monster Hide', quantity: 2 },
+          { name: 'Monster Bone S', quantity: 1 }
+        ]
+      },
+      {
+        id: 'hunter-greaves',
+        name: 'Hunter\'s Greaves',
+        type: 'Legs',
+        rarity: 1,
+        defense: 10,
+        skills: [
+          { id: 'constitution', level: 1 }
+        ],
+        resistances: {
+          fire: 0,
+          water: 0,
+          thunder: 0,
+          ice: 1,
+          dragon: 0
+        },
+        materials: [
+          { name: 'Monster Hide', quantity: 2 },
+          { name: 'Monster Bone S', quantity: 2 }
+        ]
+      }
+    ]
+  };
+
+  return (
+    <div className="space-y-8">
+      <div>
+        <h4 className="text-lg font-semibold mb-4">Single Armor Piece</h4>
+        <div className="max-w-md border border-gray-700 rounded-lg p-4">
+          <div className="flex items-center space-x-4">
+            <div className="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center">
+              {/* Placeholder for armor icon */}
+              <span className="text-3xl">🛡️</span>
+            </div>
+            <div>
+              <h3 className="font-semibold">{sampleArmorSet.pieces[0].name}</h3>
+              <p className="text-sm text-gray-400">Defense: {sampleArmorSet.pieces[0].defense}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h4 className="text-lg font-semibold mb-4">Armor Set Summary</h4>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="border border-gray-700 rounded-lg p-4">
+            <h5 className="font-semibold mb-3">Defense Summary</h5>
+            <ArmorDefenseSummary armorSet={sampleArmorSet} />
+          </div>
+
+          <div className="border border-gray-700 rounded-lg p-4">
+            <h5 className="font-semibold mb-3">Skills Summary</h5>
+            <ArmorSkillSummary armorSet={sampleArmorSet} />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h4 className="text-lg font-semibold mb-4">Armor Set Pieces</h4>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {sampleArmorSet.pieces.map((piece) => (
+            <div
+              key={piece.id}
+              className="border border-gray-700 rounded-lg p-4 hover:bg-gray-800 transition-colors cursor-pointer"
+            >
+              <div className="flex items-center space-x-3 mb-2">
+                <div className="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center">
+                  <span className="text-2xl">🛡️</span>
+                </div>
+                <div>
+                  <h3 className="font-semibold">{piece.name}</h3>
+                  <p className="text-sm text-gray-400">{piece.type}</p>
+                </div>
+              </div>
+              <div className="text-sm">
+                <p>Defense: {piece.defense}</p>
+                <p>Rarity: {piece.rarity}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default function DebugPage() {
   const { theme } = useTheme()
   const [searchQuery, setSearchQuery] = useState('')
@@ -367,12 +552,12 @@ export default function DebugPage() {
   return (
     <div className="flex min-h-screen">
       {/* Fixed Sidebar */}
-      <div className="w-64 fixed h-screen overflow-y-auto p-4 bg-gray-900">
+      <div className="w-64 fixed h-screen overflow-y-auto p-4 bg-secondary border-r border-color">
         <div className="mb-4">
           <input
             type="text"
             placeholder="Search components..."
-            className="w-full p-2 rounded bg-gray-800 text-white border border-gray-700"
+            className="w-full p-2 rounded bg-secondary text-primary border border-color"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -381,7 +566,7 @@ export default function DebugPage() {
         <nav className="space-y-4">
           {filteredSections.map(section => (
             <div key={section.id}>
-              <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">
+              <h3 className="text-sm font-bold text-secondary uppercase tracking-wider mb-2">
                 {section.title}
               </h3>
               <ul className="space-y-1">
@@ -390,8 +575,8 @@ export default function DebugPage() {
                     <a
                       href={`#${item.id}`}
                       className={`block py-1 ${selectedId === item.id
-                        ? 'text-blue-300 font-semibold'
-                        : 'text-blue-400 hover:text-blue-300'
+                        ? 'text-accent font-semibold'
+                        : 'text-primary hover:text-accent'
                       }`}
                     >
                       {item.title}
@@ -408,7 +593,7 @@ export default function DebugPage() {
       <div className="ml-64 flex-1 p-8">
         <div className="mb-8">
           <h1 className="text-2xl font-bold mb-2">Component Debug Page</h1>
-          <p className="text-gray-400">Current Theme: {theme}</p>
+          <p className="text-secondary">Current Theme: {theme}</p>
         </div>
 
         <div className="space-y-12">
