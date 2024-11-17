@@ -1,14 +1,14 @@
 'use client'
 
-import React from 'react'
+import React, { ReactNode } from 'react'
 import styles from './MHCard.module.css'
 
 type TitleVariant = 'main' | 'highlight' | 'info' | 'white' | 'gray'
 
 interface MHCardProps {
-  title: string
+  title: ReactNode
   titleVariant?: TitleVariant
-  children: React.ReactNode
+  children: ReactNode
   className?: string
 }
 
@@ -28,25 +28,21 @@ export function MHCard({
 
   return (
     <div className={`${styles.card} ${className}`}>
-      {/* SVG Border Decorations */}
-      <svg className={styles.cornerTL} viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 0 L100 0 L0 100 Z" fill="rgba(0,0,0,0.3)" />
-      </svg>
-      <svg className={styles.cornerTR} viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 0 L100 0 L100 100 Z" fill="rgba(0,0,0,0.3)" />
-      </svg>
-      <svg className={styles.cornerBL} viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M0 0 L0 100 L100 100 Z" fill="rgba(0,0,0,0.3)" />
-      </svg>
-      <svg className={styles.cornerBR} viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path d="M100 0 L0 100 L100 100 Z" fill="rgba(0,0,0,0.3)" />
-      </svg>
+      {/* Corner decorations remain the same */}
+      <div className={styles.cornerTL}>
+        <div className={styles.horizontalLine} />
+        <div className={styles.verticalLine} />
+      </div>
+      <div className={styles.cornerBR}>
+        <div className={styles.horizontalLine} />
+        <div className={styles.verticalLine} />
+      </div>
       
-      {/* Content Container */}
       <div className={styles.contentContainer}>
-        <h3 className={`${styles.title} ${titleClasses[titleVariant]}`}>
+        {/* Title can now be any React node */}
+        <div className={`${styles.title} ${titleClasses[titleVariant]}`}>
           {title}
-        </h3>
+        </div>
         <div className={styles.content}>
           {children}
         </div>
