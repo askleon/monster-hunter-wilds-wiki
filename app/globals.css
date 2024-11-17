@@ -31,6 +31,163 @@
   --skill-inactive: #4b5563;  /* Darker gray for inactive skill boxes in dark mode */
 }
 
+.monster-hunter {
+  /* Base colors */
+  --mh-yellow-pale: #f4e4bc;
+  --mh-yellow: #ffd700;
+  --mh-blue-light: #a8c7dd;
+  --mh-white: #ffffff;
+  --mh-gray: rgba(204, 204, 204, 0.85);
+  --mh-red: #ff4444;
+  --mh-green: #44ff44;
+  
+  /* Theme variables */
+  --bg-primary: #1a1510;
+  --bg-secondary: #2a241c;
+  --bg-accent: #3d3428;
+  --text-primary: var(--mh-yellow-pale);
+  --text-secondary: var(--mh-gray);
+  --text-accent: var(--mh-yellow);
+  --text-highlight: var(--mh-blue-light);
+  --text-white: var(--mh-white);
+  --text-negative: var(--mh-red);
+  --text-positive: var(--mh-green);
+  --border-color: #584b3d;
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  --bg-hover: rgba(198, 168, 117, 0.1);
+  --skill-active: var(--mh-yellow);
+  --skill-inactive: #584b3d;
+
+  /* Background pattern variables */
+  --pattern-primary: rgba(255, 255, 255, 0.03);
+  --pattern-secondary: rgba(198, 168, 117, 0.02);
+}
+
+/* Background pattern */
+.mh-background-pattern {
+  background-color: var(--bg-primary);
+  background-image: 
+    /* Large hexagonal grid */
+    linear-gradient(30deg, var(--pattern-primary) 12%, transparent 12.5%, transparent 87%, var(--pattern-primary) 87.5%, var(--pattern-primary)),
+    linear-gradient(150deg, var(--pattern-primary) 12%, transparent 12.5%, transparent 87%, var(--pattern-primary) 87.5%, var(--pattern-primary)),
+    linear-gradient(30deg, var(--pattern-primary) 12%, transparent 12.5%, transparent 87%, var(--pattern-primary) 87.5%, var(--pattern-primary)),
+    linear-gradient(150deg, var(--pattern-primary) 12%, transparent 12.5%, transparent 87%, var(--pattern-primary) 87.5%, var(--pattern-primary)),
+    /* Smaller decorative elements */
+    linear-gradient(60deg, var(--pattern-secondary) 25%, transparent 25.5%, transparent 75%, var(--pattern-secondary) 75%, var(--pattern-secondary)),
+    linear-gradient(60deg, var(--pattern-secondary) 25%, transparent 25.5%, transparent 75%, var(--pattern-secondary) 75%, var(--pattern-secondary));
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+/* New component pattern - more compact and subtle */
+.mh-component-pattern {
+  background-color: rgba(32, 32, 32, 0.85);
+  background-image: 
+    /* Diagonal lines pattern */
+    linear-gradient(45deg, 
+      var(--pattern-secondary) 25%, 
+      transparent 25%, 
+      transparent 75%, 
+      var(--pattern-secondary) 75%
+    ),
+    linear-gradient(45deg, 
+      var(--pattern-secondary) 25%, 
+      transparent 25%, 
+      transparent 75%, 
+      var(--pattern-secondary) 75%
+    );
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  /* Add subtle inner shadow */
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Alternative component pattern - dots */
+.mh-component-pattern-dots {
+  background-color: rgba(32, 32, 32, 0.85);
+  background-image: 
+    radial-gradient(
+      var(--pattern-secondary) 1px, 
+      transparent 1px
+    );
+  background-size: 16px 16px;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Monster Hunter Text Styles */
+.monster-hunter .mh-text-main {
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+  color: var(--mh-yellow-pale);
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.monster-hunter .mh-text-highlight {
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+  color: var(--mh-yellow);
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.monster-hunter .mh-text-info {
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+  color: var(--mh-blue-light);
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.monster-hunter .mh-text-white {
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  color: var(--mh-white);
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.monster-hunter .mh-text-gray {
+  font-family: 'Arial', sans-serif;
+  font-weight: normal;
+  color: var(--mh-gray);
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.monster-hunter .mh-text-negative {
+  color: var(--mh-red);
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.monster-hunter .mh-text-positive {
+  color: var(--mh-green);
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);

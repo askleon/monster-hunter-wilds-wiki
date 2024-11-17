@@ -15,6 +15,15 @@ const config: Config = {
         'text-primary': 'var(--text-primary)',
         'text-secondary': 'var(--text-secondary)',
         'text-accent': 'var(--text-accent)',
+        'mh': {
+          'yellow-pale': 'var(--mh-yellow-pale)',
+          'yellow': 'var(--mh-yellow)',
+          'blue-light': 'var(--mh-blue-light)',
+          'white': 'var(--mh-white)',
+          'gray': 'var(--mh-gray)',
+          'red': 'var(--mh-red)',
+          'green': 'var(--mh-green)',
+        },
       },
       backgroundColor: {
         primary: 'var(--bg-primary)',
@@ -32,6 +41,9 @@ const config: Config = {
       },
       boxShadow: {
         DEFAULT: '0 2px 4px var(--shadow-color)',
+      },
+      textShadow: {
+        'mh': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000',
       },
     },
   },
