@@ -4,12 +4,37 @@ import { ThemeProvider, useTheme } from '@/components/ThemeProvider'
 import { Header } from '@/components/Header'
 import Footer from '@/components/Footer'
 
+interface PageBackgroundProps {
+  pattern?: boolean
+  image?: string
+  children: React.ReactNode
+}
+
+function PageBackground({ pattern, image, children }: PageBackgroundProps) {
+  const backgroundClasses = [
+    'min-h-screen w-full',
+    pattern ? 'mh-background-pattern' : '',
+    image ? 'bg-cover bg-center bg-no-repeat' : '',
+  ].filter(Boolean).join(' ')
+
+  const style = image ? { backgroundImage: `url(${image})` } : undefined
+
+  return (
+    <div className={backgroundClasses} style={style}>
+      {children}
+    </div>
+  )
+}
+
 function ThemedContent({ children }: { children: React.ReactNode }) {
   const { theme } = useTheme()
+  
   return (
-    <div className={`flex flex-col min-h-screen ${theme}`}>
+    <div className={theme}>
       <Header />
-      <main className="container mx-auto flex-grow p-4">{children}</main>
+      <main className="flex-grow">
+        {children}
+      </main>
       <Footer />
     </div>
   )
@@ -18,7 +43,9 @@ function ThemedContent({ children }: { children: React.ReactNode }) {
 export default function ClientRoot({ children }: { children: React.ReactNode }) {
   return (
     <ThemeProvider>
-      <ThemedContent>{children}</ThemedContent>
+      <PageBackground pattern>
+        <ThemedContent>{children}</ThemedContent>
+      </PageBackground>
     </ThemeProvider>
   )
 }
