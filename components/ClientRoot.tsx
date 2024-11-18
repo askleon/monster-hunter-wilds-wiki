@@ -3,6 +3,7 @@
 import { ThemeProvider, useTheme } from '@/components/ThemeProvider'
 import { Header } from '@/components/Header'
 import Footer from '@/components/Footer'
+import { useEffect } from 'react'
 
 interface PageBackgroundProps {
   pattern?: boolean
@@ -29,6 +30,14 @@ function PageBackground({ pattern, image, children }: PageBackgroundProps) {
 function ThemedContent({ children }: { children: React.ReactNode }) {
   const { theme } = useTheme()
   
+  useEffect(() => {
+    // Force a repaint when theme changes
+    const body = document.body
+    body.style.display = 'none'
+    void body.offsetHeight
+    body.style.display = ''
+  }, [theme])
+
   return (
     <div className={`${theme} flex flex-col min-h-screen`}>
       <Header />

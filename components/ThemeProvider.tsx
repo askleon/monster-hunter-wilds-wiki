@@ -32,9 +32,16 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (mounted) {
-      document.documentElement.classList.remove('light', 'dark')
+      // Remove all theme classes first
+      document.documentElement.classList.remove('light', 'dark', 'monster-hunter')
+      // Add new theme class
       document.documentElement.classList.add(theme)
+      // Store in localStorage
       localStorage.setItem('theme', theme)
+      // Force a repaint using void operator
+      document.documentElement.style.display = 'none'
+      void document.documentElement.offsetHeight
+      document.documentElement.style.display = ''
     }
   }, [theme, mounted])
 
