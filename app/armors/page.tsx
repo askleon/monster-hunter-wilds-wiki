@@ -7,7 +7,7 @@ import { FilterPanel, FilterOption } from '@/components/FilterPanel';
 import { getAllArmorSets, ArmorSet } from '@/lib/armors';
 import { Tooltip } from '@/components/Tooltip';
 import { getSkillById } from '@/lib/skills';
-import { GiBrutalHelm, GiChestArmor, GiGauntlet, GiBeltArmor, GiLegArmor } from 'react-icons/gi';
+import Image from 'next/image';
 
 export default function ArmorsPage() {
   const router = useRouter();
@@ -107,7 +107,7 @@ export default function ArmorsPage() {
         onFilterChange={handleFilterChange}
         onClearFilters={handleClearFilters}
       />
-      <div className="space-y-6">
+      <div className="space-y-6 max-w-3xl">
         {filteredArmorSets.map((set) => (
           <ArmorSetCard key={set.id} armorSet={set} />
         ))}
@@ -120,14 +120,14 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
   const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
   const armorIcons = {
-    Head: <GiBrutalHelm className="w-8 h-8" />,
-    Chest: <GiChestArmor className="w-8 h-8" />,
-    Arms: <GiGauntlet className="w-8 h-8" />,
-    Waist: <GiBeltArmor className="w-8 h-8" />,
-    Legs: <GiLegArmor className="w-8 h-8" />,
+    Head: '/icons/head.svg',
+    Chest: '/icons/chest.svg',
+    Arms: '/icons/arms.svg',
+    Waist: '/icons/waist.svg',
+    Legs: '/icons/legs.svg',
   };
 
-  const getArmorIcon = (type: string) => armorIcons[type as keyof typeof armorIcons] || null;
+  const getArmorIcon = (type: string) => armorIcons[type as keyof typeof armorIcons] || undefined;
 
   return (
     <Card
@@ -165,9 +165,9 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
                   )
                 }
               >
-                <div className="text-center w-12 flex flex-col items-center">
-                  <div className="relative w-8 h-8 flex items-center justify-center">
-                    {getArmorIcon(type)}
+                <div className="text-center flex flex-col items-center">
+                  <div className="relative flex items-center justify-center">
+                    <Image src={getArmorIcon(type)!} alt={type} width={64} height={64} />
                     {!piece && (
                       <div className="absolute inset-0 flex items-center justify-center text-red-500">
                         <span className="text-3xl font-bold">✕</span>
