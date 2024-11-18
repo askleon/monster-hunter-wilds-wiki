@@ -58,4 +58,8 @@ export const weaknessConfigs: Record<string, WeaknessConfig> = {
     color: 'text-orange-500',
     fallback: '💥',
   },
+  exhaust: {
+    color: 'text-gray-400',
+    fallback: '💀',
+  }
 };

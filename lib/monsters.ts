@@ -1,17 +1,27 @@
 export type PhysicalDamageType = 'blunt' | 'slashing' | 'piercing';
 export type ElementType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon';
-export type StatusType = 'poison' | 'paralysis' | 'sleep' | 'blast';
+export type AilmentType = "poison" | "stun" | "paralysis" | "sleep" | "blast" | "exhaust" | "fireblight" | "waterblight" | "thunderblight" | "iceblight";
+
+export interface Ailment {
+  type: AilmentType;
+  duration: number;
+  initialResistance: number;
+  nextResistanceThreshold: number;
+  maximumResistance: number;
+  naturalBuildupDegradation: number;
+  totalDamage: number;
+}
 
 export interface WeaponDamage {
   physical: PhysicalDamageType;
   element?: ElementType;
-  status?: StatusType;
+  status?: AilmentType;
 }
 
 export interface BodyPartWeakness {
   physical: Record<PhysicalDamageType, number>;
   elemental: Partial<Record<ElementType, number>>;
-  status: Partial<Record<StatusType, number>>;
+  status: Partial<Record<AilmentType, number>>;
 }
 
 export interface BodyPart {
