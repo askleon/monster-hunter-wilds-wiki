@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import { monsters } from '@/lib/monsters'
 import { getAllWeaponTrees, WeaponTree } from '@/lib/weapons/weapons'
@@ -24,8 +24,12 @@ export default function SearchBar() {
   const inputRef = useRef<HTMLInputElement>(null)
   const router = useRouter()
 
-  const allResults: SearchResult[] = [
-    ...monsters.map(monster => ({ id: monster.id, name: monster.name, type: 'monster' as const })),
+  const allResults = useMemo(() => [
+    ...monsters.map(monster => ({ 
+      id: monster.id, 
+      name: monster.name, 
+      type: 'monster' as const 
+    })),
     ...getAllWeaponTrees().flatMap((tree: WeaponTree) =>
       tree.weapons?.map(weapon => ({
         id: weapon.id,
@@ -35,16 +39,36 @@ export default function SearchBar() {
         weaponType: tree.id
       })) || []
     ),
-    ...getAllArmorSets().flatMap(set => set.pieces.map(piece => ({ id: piece.id, name: piece.name, type: 'armor' as const, subtype: piece.type }))),
-    ...getAllTalismans().map(talisman => ({ id: talisman.id, name: talisman.name, type: 'talisman' as const })),
-    ...getAllDecorations().map(decoration => ({ id: decoration.id, name: decoration.name, type: 'decoration' as const }))
-  ];
+    ...getAllArmorSets().flatMap(set => 
+      set.pieces.map(piece => ({ 
+        id: piece.id, 
+        name: piece.name, 
+        type: 'armor' as const, 
+        subtype: piece.type 
+      }))
+    ),
+    ...getAllTalismans().map(talisman => ({ 
+      id: talisman.id, 
+      name: talisman.name, 
+      type: 'talisman' as const 
+    })),
+    ...getAllDecorations().map(decoration => ({ 
+      id: decoration.id, 
+      name: decoration.name, 
+      type: 'decoration' as const 
+    }))
+  ], [])
+
+  const currentFilteredResults = useMemo(() => {
+    return allResults.filter(result => 
+      result.name.toLowerCase().includes(query.toLowerCase())
+    )
+  }, [query, allResults])
 
   useEffect(() => {
-    const results = allResults.filter(result => result.name.toLowerCase().includes(query.toLowerCase()))
-    setFilteredResults(results)
+    setFilteredResults(currentFilteredResults)
     setSelectedIndex(-1)
-  }, [query])
+  }, [currentFilteredResults])
 
   const navigateToResult = (result: SearchResult) => {
     setQuery('')
@@ -52,7 +76,6 @@ export default function SearchBar() {
     if (result.type === 'weapon' && result.weaponType) {
       router.push(`/weapons/${result.weaponType}#${result.id}`)
     } else if (result.type === 'armor') {
-      // Find the armor set ID from the piece ID
       const armorSet = getAllArmorSets().find(set =>
         set.pieces.some(piece => piece.id === result.id)
       )
