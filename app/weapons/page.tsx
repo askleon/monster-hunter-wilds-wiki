@@ -35,7 +35,9 @@ function WeaponTypeCard({ weaponInfo }: { weaponInfo: WeaponTypeInfo }) {
       }
       description=""
       link={`/weapons/${weaponInfo.id}`}
-      className="bg-secondary hover:shadow-lg transition-shadow w-full"
+      className="hover:shadow-lg transition-shadow w-full"
+      blur="sm"
+      opacity="medium"
     />
   );
 }

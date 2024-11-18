@@ -22,7 +22,9 @@ export default function Home() {
           subtitle={`${featuredMonster.type} | ${featuredMonster.habitats?.join(', ') || 'Unknown'}`}
           description={<p>{featuredMonster.description}</p>}
           link={`/monsters/${featuredMonster.id}`}
-          className={`${styles.featuredMonsterCard} bg-secondary hover:shadow-lg transition-shadow w-full`}
+          className={`hover:shadow-lg transition-shadow w-full`}
+          blur="sm"
+          opacity="medium"
         />
       </section>
 
@@ -41,13 +43,17 @@ export default function Home() {
                 }
                 subtitle={`${monster.type} | ${monster.habitats?.join(', ') || 'Unknown'}`}
                 link={`/monsters/${monster.id}`}
-                className="bg-secondary hover:shadow-lg transition-shadow w-full"
+                className="hover:shadow-lg transition-shadow w-full"
+                blur="sm"
+                opacity="medium"
               />
             ))}
             <Card
               title={<span className="text-xl font-bold">View all monsters</span>}
               link="/monsters"
-              className="bg-secondary hover:shadow-lg transition-shadow w-full text-center"
+              className="hover:shadow-lg transition-shadow w-full text-center"
+              blur="sm"
+              opacity="medium"
             />
           </div>
         </section>
@@ -62,13 +68,17 @@ export default function Home() {
                 subtitle={`Points of Interest: ${map.pointsOfInterest.length}`}
                 description={<p className="text-sm">{map.description}</p>}
                 link={`/maps/${map.id}`}
-                className="bg-secondary hover:shadow-lg transition-shadow w-full"
+                className="hover:shadow-lg transition-shadow"
+                blur="sm"
+                opacity="medium"
               />
             ))}
             <Card
               title={<span className="text-xl font-bold">View all maps</span>}
               link="/maps"
-              className="bg-secondary hover:shadow-lg transition-shadow w-full text-center"
+              className="hover:shadow-lg transition-shadow w-full text-center"
+              blur="sm"
+              opacity="medium"
             />
           </div>
         </section>

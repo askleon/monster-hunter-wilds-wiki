@@ -121,7 +121,9 @@ export default function MonsterPage() {
                 </div>
               }
               link={`/monsters/${monster.id}`}
-              className="bg-secondary hover:shadow-lg transition-shadow w-full"
+              className="hover:shadow-lg transition-shadow w-full mb-4"
+              blur="sm"
+              opacity="medium"
             />
           );
         })}

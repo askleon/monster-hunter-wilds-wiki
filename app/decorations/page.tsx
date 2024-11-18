@@ -23,7 +23,9 @@ export default function DecorationListPage() {
               </div>
             }
             link={`/decorations/${decoration.id}`}
-            className="bg-secondary hover:shadow-lg transition-shadow"
+            className="hover:shadow-lg transition-shadow"
+            blur="sm"
+            opacity="medium"
           />
         ))}
       </div>
