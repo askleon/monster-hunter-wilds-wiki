@@ -2,6 +2,7 @@ import { Card } from '@/components/Card';
 import { monsters } from '@/lib/monsters';
 import { maps } from '@/lib/maps';
 import styles from './Home.module.css';
+import Countdown from '@/components/time/Countdown';
 
 export default function Home() {
   const featuredMonster = monsters[Math.floor(Math.random() * monsters.length)];
@@ -9,6 +10,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Monster Hunter Wilds Wiki</h1>
+
+      <section className={styles.section}>
+        <Countdown />
+      </section>
 
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Featured Monster</h2>
