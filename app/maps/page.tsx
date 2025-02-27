@@ -18,13 +18,15 @@ export default function MapsPage() {
             description={
               <div>
                 <div className="relative w-full h-48 mb-4">
-                  <Image
-                    src={map.thumbnail}
-                    alt={map.name}
-                    fill
-                    style={{objectFit: 'cover'}}
-                    className="rounded"
-                  />
+                  {map.thumbnail && (
+                    <Image
+                      src={map.thumbnail}
+                      alt={map.name}
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded"
+                    />
+                  )}
                 </div>
                 <p className="text-sm">{map.description}</p>
               </div>
