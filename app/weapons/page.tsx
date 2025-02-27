@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Card } from '@/components/Card';
-import { WeaponTypes, WeaponTypeInfo } from '@/lib/weapons/weapons';
+import { WeaponTypes, WeaponTypeInfo } from '@/lib/weapons';
 
 export default function WeaponsPage() {
   return (

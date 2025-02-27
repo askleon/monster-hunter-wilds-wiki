@@ -1,4 +1,4 @@
-import { ElementOrStatusType } from './weapons/weapons';
+import { ElementOrStatusType } from './weapons';
 
 export type PhysicalDamageType = 'blunt' | 'slashing' | 'piercing';
 export type ElementType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon';

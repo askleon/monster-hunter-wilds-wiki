@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { WeaponTree as WeaponTreeType, WeaponNode } from '@/lib/weapons/weapons';
+import { WeaponTree as WeaponTreeType, WeaponNode } from '@/lib/weapons';
 import { WeaponComponent } from './WeaponComponent';
 import { WeaponDetails } from './WeaponDetails';
 import styles from './WeaponTree.module.css';

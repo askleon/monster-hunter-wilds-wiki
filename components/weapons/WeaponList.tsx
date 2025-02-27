@@ -1,5 +1,5 @@
 import React from 'react';
-import { WeaponTree, WeaponNode } from '@/lib/weapons/weapons';
+import { WeaponTree, WeaponNode } from '@/lib/weapons';
 import { WeaponComponent } from './WeaponComponent';
 import { WeaponDetails } from './WeaponDetails';
 import styles from './WeaponList.module.css';

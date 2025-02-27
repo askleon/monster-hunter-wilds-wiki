@@ -1,5 +1,5 @@
 import React from 'react';
-import { WeaponNode, Material } from '@/lib/weapons/weapons';
+import { WeaponNode, Material } from '@/lib/weapons';
 import { getColorClass } from '@/lib/types';
 import { SharpnessBar } from './SharpnessBar';
 import styles from './WeaponDetails.module.css';
