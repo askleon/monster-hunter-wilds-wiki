@@ -55,8 +55,9 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 - `/app`: Contains the main application code
 - `/components`: Reusable React components
-- `/lib`: Utility functions and data
+- `/lib`: Interfaces, functions, utilities
 - `/public`: Static assets
+- `/data`: Data stored in json
 
 ## License
 
