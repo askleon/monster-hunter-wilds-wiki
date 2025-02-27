@@ -17,7 +17,7 @@ export default function Countdown() {
       const diff = moment.duration(endTime.diff(now))
 
       if (now.isAfter(endTime)) {
-        setCountdown('Event has ended')
+        setCountdown('The hunt has begun!')
         setProgress(100)
         clearInterval(timer)
         return
@@ -51,7 +51,7 @@ export default function Countdown() {
 
   return (
     <div className="text-center text-2xl">
-      <div className="text-green-400  font-bold">
+      <div className="text-green-400 font-bold">
         {countdown}
       </div>
       <div>
@@ -59,9 +59,11 @@ export default function Countdown() {
           progress={progress}
           size={120}
         />
-        <div className="font-bold">
-          Until the hunt begins!
-        </div>
+        {progress < 100 && (
+          <div className="font-bold">
+            Until the hunt begins!
+          </div>
+        )}
       </div>
     </div>
   )
