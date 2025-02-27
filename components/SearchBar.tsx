@@ -44,7 +44,7 @@ export default function SearchBar() {
     const results = allResults.filter(result => result.name.toLowerCase().includes(query.toLowerCase()))
     setFilteredResults(results)
     setSelectedIndex(-1)
-  }, [query])
+  }, [query, allResults])
 
   const navigateToResult = (result: SearchResult) => {
     setQuery('')
