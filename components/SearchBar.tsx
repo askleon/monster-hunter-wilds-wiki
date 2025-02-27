@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { monsters } from '@/lib/monsters'
-import { getAllWeaponTrees, WeaponTree } from '@/lib/weapons/weapons'
+import { getAllWeaponTrees, WeaponTree } from '@/lib/weapons'
 import { getAllArmorSets } from '@/lib/armors'
 import { getAllTalismans } from '@/lib/talismans'
 import { getAllDecorations } from '@/lib/decorations'

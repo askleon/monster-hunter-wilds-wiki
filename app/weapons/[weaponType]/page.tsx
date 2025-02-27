@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { WeaponTree } from '@/components/weapons/WeaponTree';
 import { WeaponList } from '@/components/weapons/WeaponList';
-import { getWeaponTreeById, getWeaponTypeInfo, WeaponType, WeaponNode } from '@/lib/weapons/weapons';
+import { getWeaponTreeById, getWeaponTypeInfo, WeaponType, WeaponNode } from '@/lib/weapons';
 import { useRouter } from 'next/navigation';
 
 export default function WeaponTreePage({ params }: { params: { weaponType: string } }) {

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons/weapons';
+import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons';
 import { getAllArmorSets, ArmorPiece, getArmorPieceById } from '@/lib/armors';
 import { Card } from '@/components/Card';
 import { useToast } from '@/components/Toast';
