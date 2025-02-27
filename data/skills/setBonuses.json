@@ -1,0 +1,18 @@
+[
+  {
+    "id": "rathalosWill",
+    "name": "Rathalos Mastery",
+    "skills": [
+      { "skillId": "mindEye", "requiredPieces": 2 },
+      { "skillId": "criticalElement", "requiredPieces": 4 }
+    ]
+  },
+  {
+    "id": "odogaronPower",
+    "name": "Odogaron Mastery",
+    "skills": [
+      { "skillId": "punishingDraw", "requiredPieces": 2 },
+      { "skillId": "protectivePolish", "requiredPieces": 4 }
+    ]
+  }
+]
