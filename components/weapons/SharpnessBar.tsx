@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sharpness } from '@/lib/weapons/weapons';
+import { Sharpness } from '@/lib/weapons';
 import styles from './SharpnessBar.module.css';
 
 interface SharpnessBarProps {

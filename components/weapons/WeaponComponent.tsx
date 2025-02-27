@@ -1,5 +1,5 @@
 import React from 'react';
-import { WeaponNode } from '@/lib/weapons/weapons';
+import { WeaponNode } from '@/lib/weapons';
 import { getColorClass } from '@/lib/types';
 import styles from './WeaponComponent.module.css';
 
