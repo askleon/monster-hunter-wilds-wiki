@@ -38,14 +38,14 @@ export default function MaterialDropTable({ materials, onSort, sortKey, sortOrde
         </thead>
         <tbody>
           {materials.map((material, index) => (
-            <tr key={`${material.Monster}-${index}`}>
-              <td>{material.Material}</td>
-              <td>{material.Rarity}</td>
-              <td>{material.Rank}</td>
-              <td>{material.Method}</td>
-              <td>{material.Rate}</td>
-              <td>{material.Quantity || '-'}</td>
-              <td>{material.Condition || '-'}</td>
+            <tr key={`${material.monster}-${index}`}>
+              <td>{material.material}</td>
+              <td>{material.rarity}</td>
+              <td>{material.rank}</td>
+              <td>{material.method}</td>
+              <td>{material.rate}</td>
+              <td>{material.quantity || '-'}</td>
+              <td>{material.condition || '-'}</td>
             </tr>
           ))}
         </tbody>

@@ -20,7 +20,7 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
   const [conditionFilter, setConditionFilter] = useState<string[]>([]);
 
   const nameOptions = useMemo(() => {
-    const names = Array.from(new Set(materials.map(m => m.Material)));
+    const names = Array.from(new Set(materials.map(m => m.material)));
     return [{ value: '', label: 'All Names' }, ...names.map(name => ({ value: name, label: name }))];
   }, [materials]);
 
@@ -35,7 +35,7 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
   }, [materials]);
 
   const rarityOptions = useMemo(() => {
-    const rarities = Array.from(new Set(materials.map(m => m.Rarity)));
+    const rarities = Array.from(new Set(materials.map(m => m.rarity)));
     return rarities.map(rarity => rarity.toString());
   }, [materials]);
 
@@ -102,7 +102,7 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
     let result = materials;
 
     if (nameFilter) {
-      result = result.filter(item => item.Material === nameFilter);
+      result = result.filter(item => item.material === nameFilter);
     }
 
     if (rankFilter !== 'All') {
@@ -114,7 +114,7 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
     }
 
     if (rarityFilter.length > 0) {
-      result = result.filter(item => rarityFilter.includes(item.Rarity));
+      result = result.filter(item => rarityFilter.includes(item.rarity));
     }
 
     if (conditionFilter.length > 0) {

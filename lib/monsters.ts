@@ -69,14 +69,14 @@ export interface MonsterSpecialAttack {
 }
 
 export interface MonsterMaterial {
-  Monster: string;
-  Material: string;
-  Rank: string;
-  Rarity: string;
-  Method: string;
-  Condition: string;
-  Quantity: number;
-  Rate: string;
+  monster: string;
+  material: string;
+  rank: string;
+  rarity: string;
+  method: string;
+  condition: string;
+  quantity: number;
+  rate: string;
 }
 
 interface MonsterDetailedInfo {
@@ -114,13 +114,13 @@ export const monsters: Monster[] = (monsterData as RawMonsterData[]).map(monster
   specialAttacks: monster.specialAttacks.split(', '),
   description: monster.description,
   weaknesses: monsterWeaknessData.filter(weakness => weakness.monster === monster.name),
-  materials: monsterMaterialsData.filter(material => material.Monster === monster.name).map(material => ({
+  materials: monsterMaterialsData.filter(material => material.monster === monster.name).map(material => ({
     ...material,
-    rank: material.Rank,
-    method: material.Method,
-    rate: material.Rate,
-    quantity: material.Quantity,
-    condition: material.Condition
+    rank: material.rank,
+    method: material.method,
+    rate: material.rate,
+    quantity: Number(material.quantity), // Ensure quantity is a number
+    condition: material.condition
   })),
   detailedInfo: monsterDetailedInfoData.find(info => info.name === monster.name) || {} as MonsterDetailedInfo
 }));
