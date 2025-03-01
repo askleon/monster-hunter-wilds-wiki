@@ -21,7 +21,6 @@ export default function Home() {
           title={
             <div className="flex justify-between items-center">
               <span className="text-xl font-bold">{featuredMonster.name}</span>
-              <span className="text-sm text-secondary">Difficulty: {featuredMonster.difficulty}</span>
             </div>
           }
           subtitle={`${featuredMonster.type} | ${featuredMonster.habitats?.join(', ') || 'Unknown'}`}
@@ -41,7 +40,6 @@ export default function Home() {
                 title={
                   <div className="flex justify-between items-center">
                     <span className="text-xl font-bold">{monster.name}</span>
-                    <span className="text-sm text-secondary">Difficulty: {monster.difficulty}</span>
                   </div>
                 }
                 subtitle={`${monster.type} | ${monster.habitats?.join(', ') || 'Unknown'}`}

@@ -4,30 +4,6 @@ import { useState, useEffect } from 'react';
 import { monsters, Monster } from '@/lib/monsters';
 import { Card } from '@/components/Card';
 import { CustomDropdown, Option } from '@/components/CustomDropdown';
-import { weaknessConfigs, WeaknessConfig } from '@/components/WeaknessConfig';
-
-interface Weakness {
-  part: string;
-  type: string;
-  effectiveness: number;
-}
-
-function WeaknessDisplay({ weakness }: { weakness: Weakness }) {
-  const config: WeaknessConfig = weaknessConfigs[weakness.type.toLowerCase()] || {
-    color: 'text-gray-500',
-    fallback: weakness.type,
-  };
-
-  return (
-    <div className="flex items-center space-x-1">
-      <span className="font-medium">{weakness.part}:</span>
-      <span className={`flex items-center space-x-1 ${config.color}`}>
-        <span>{config.icon || config.fallback}</span>
-        <span>{weakness.effectiveness}</span>
-      </span>
-    </div>
-  );
-}
 
 export default function MonsterPage() {
   const [typeFilter, setTypeFilter] = useState<string>('All');
@@ -48,36 +24,6 @@ export default function MonsterPage() {
       (habitatFilter === 'All' || monster.habitats?.includes(habitatFilter))
     ));
   }, [typeFilter, habitatFilter]);
-
-  const getTopWeaknesses = (monster: Monster): Weakness[] => {
-    if (!monster.bodyParts) return [];
-
-    const weaknessesByPart: { [key: string]: Weakness } = {};
-
-    monster.bodyParts.forEach(bodyPart => {
-      const allWeaknesses = [
-        ...Object.entries(bodyPart.weakness.elemental),
-        ...Object.entries(bodyPart.weakness.status)
-      ];
-
-      const highestWeakness = allWeaknesses.reduce(
-        (max, [type, effectiveness]) => (effectiveness || 0) > max.effectiveness ? { type, effectiveness: effectiveness || 0 } : max,
-        { type: '', effectiveness: 0 }
-      );
-
-      if (highestWeakness.effectiveness > (weaknessesByPart[bodyPart.name]?.effectiveness || 0)) {
-        weaknessesByPart[bodyPart.name] = {
-          part: bodyPart.name,
-          type: highestWeakness.type,
-          effectiveness: highestWeakness.effectiveness
-        };
-      }
-    });
-
-    return Object.values(weaknessesByPart)
-      .sort((a, b) => b.effectiveness - a.effectiveness)
-      .slice(0, 3);
-  };
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -101,30 +47,24 @@ export default function MonsterPage() {
         </div>
       </div>
       <div className="space-y-4">
-        {filteredMonsters.map((monster) => {
-          const topWeaknesses = getTopWeaknesses(monster);
-          return (
-            <Card
-              key={monster.id}
-              title={
-                <div className="flex justify-between items-center">
-                  <span className="text-xl font-bold">{monster.name}</span>
-                  <span className="text-sm text-secondary">Difficulty: {monster.difficulty ?? 'Unknown'}</span>
-                </div>
-              }
-              subtitle={`${monster.type || 'Unknown'} | ${monster.habitats?.join(', ') || 'Unknown'}`}
-              description={
-                <div className="text-sm grid grid-cols-1 md:grid-cols-3 gap-2 mt-2">
-                  {topWeaknesses.length > 0 ? topWeaknesses.map((weakness, index) => (
-                    <WeaknessDisplay key={index} weakness={weakness} />
-                  )) : <span>No weakness data available</span>}
-                </div>
-              }
-              link={`/monsters/${monster.id}`}
-              className="bg-secondary hover:shadow-lg transition-shadow w-full"
-            />
-          );
-        })}
+        {filteredMonsters.map((monster) => (
+          <Card
+            key={monster.id}
+            title={
+              <div className="flex justify-between items-center">
+                <span className="text-xl font-bold">{monster.name}</span>
+              </div>
+            }
+            subtitle={`${monster.type || 'Unknown'} | ${monster.habitats?.join(', ') || 'Unknown'}`}
+            description={
+              <div className="text-sm mt-2">
+                {monster.description}
+              </div>
+            }
+            link={`/monsters/${monster.id}`}
+            className="bg-secondary hover:shadow-lg transition-shadow w-full"
+          />
+        ))}
       </div>
     </div>
   );

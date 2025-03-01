@@ -1,0 +1,40 @@
+{
+  "monsterTypes": [
+    {
+      "name": "Amphibian",
+      "description": ""
+    },
+    {
+      "name": "Bird Wyvern",
+      "description": ""
+    },
+    {
+      "name": "Brute Wyvern",
+      "description": ""
+    },
+    {
+      "name": "Cephalopod",
+      "description": ""
+    },
+    {
+      "name": "Construct",
+      "description": ""
+    },
+    {
+      "name": "Fanged Beast",
+      "description": ""
+    },
+    {
+      "name": "Flying Wyvern",
+      "description": ""
+    },
+    {
+      "name": "Leviathan",
+      "description": ""
+    },
+    {
+      "name": "Temnoceran",
+      "description": ""
+    }
+  ]
+}

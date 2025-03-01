@@ -5,11 +5,13 @@ import { FilterPanel, FilterOption } from '@/components/FilterPanel';
 import styles from '@/components/SortableFilterableMaterialDropTable.module.css';
 
 interface SortableFilterableMaterialDropTableProps {
-  materials: MonsterMaterial[];
+  materials: (MonsterMaterial & { rank: string; method: string; rate: string; quantity?: number; condition?: string })[];
 }
 
+type ExtendedSortKey = 'Material' | 'Rarity' | 'Rank' | 'Method' | 'Condition' | 'Rate';
+
 export default function SortableFilterableMaterialDropTable({ materials }: SortableFilterableMaterialDropTableProps) {
-  const [sortKey, setSortKey] = useState<SortKey>('name');
+  const [sortKey, setSortKey] = useState<ExtendedSortKey>('Material');
   const [sortOrder, setSortOrder] = useState<SortOrder>('asc');
   const [nameFilter, setNameFilter] = useState<string>('');
   const [rankFilter, setRankFilter] = useState<string>('All');
@@ -18,27 +20,27 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
   const [conditionFilter, setConditionFilter] = useState<string[]>([]);
 
   const nameOptions = useMemo(() => {
-    const names = Array.from(new Set(materials.map(m => m.name)));
+    const names = Array.from(new Set(materials.map(m => m.material)));
     return [{ value: '', label: 'All Names' }, ...names.map(name => ({ value: name, label: name }))];
   }, [materials]);
 
   const rankOptions = useMemo(() => {
-    const ranks = Array.from(new Set(materials.flatMap(m => m.sources.map(s => s.rank))));
+    const ranks = Array.from(new Set(materials.map(m => m.rank)));
     return [{ value: 'All', label: 'All Ranks' }, ...ranks.map(rank => ({ value: rank, label: rank }))];
   }, [materials]);
 
   const methodOptions = useMemo(() => {
-    const methods = Array.from(new Set(materials.flatMap(m => m.sources.map(s => s.method))));
+    const methods = Array.from(new Set(materials.map(m => m.method)));
     return methods;
   }, [materials]);
 
   const rarityOptions = useMemo(() => {
-    const rarities = Array.from(new Set(materials.map(m => m.rarity))).sort((a, b) => a - b);
+    const rarities = Array.from(new Set(materials.map(m => m.rarity)));
     return rarities.map(rarity => rarity.toString());
   }, [materials]);
 
   const conditionOptions = useMemo(() => {
-    const conditions = Array.from(new Set(materials.flatMap(m => m.sources.map(s => s.condition || 'None'))));
+    const conditions = Array.from(new Set(materials.map(m => m.condition || 'None')));
     return conditions;
   }, [materials]);
 
@@ -97,12 +99,10 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
   };
 
   const sortedAndFilteredMaterials = useMemo(() => {
-    let result = materials.flatMap(material =>
-      material.sources.map(source => ({ ...material, ...source }))
-    );
+    let result = materials;
 
     if (nameFilter) {
-      result = result.filter(item => item.name === nameFilter);
+      result = result.filter(item => item.material === nameFilter);
     }
 
     if (rankFilter !== 'All') {
@@ -114,7 +114,7 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
     }
 
     if (rarityFilter.length > 0) {
-      result = result.filter(item => rarityFilter.includes(item.rarity.toString()));
+      result = result.filter(item => rarityFilter.includes(item.rarity));
     }
 
     if (conditionFilter.length > 0) {
@@ -122,8 +122,8 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
     }
 
     return result.sort((a, b) => {
-      const aValue = a[sortKey];
-      const bValue = b[sortKey];
+      const aValue = a[sortKey as keyof MonsterMaterial];
+      const bValue = b[sortKey as keyof MonsterMaterial];
 
       if (aValue === undefined && bValue === undefined) return 0;
       if (aValue === undefined) return 1;
@@ -143,7 +143,7 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
     if (key === sortKey) {
       setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
     } else {
-      setSortKey(key);
+      setSortKey(key as ExtendedSortKey);
       setSortOrder('asc');
     }
   };
@@ -159,7 +159,7 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
       <MaterialDropTable
         materials={sortedAndFilteredMaterials}
         onSort={handleSort}
-        sortKey={sortKey}
+        sortKey={sortKey as SortKey}
         sortOrder={sortOrder}
       />
     </div>

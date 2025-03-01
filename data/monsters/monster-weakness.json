@@ -1,0 +1,98 @@
+[
+  {
+    "monster": "Chatacabra",
+    "part": "Head",
+    "slash": 4,
+    "blunt": 4,
+    "ammo": 4,
+    "fire": 1,
+    "water": 1,
+    "lightning": 2,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "monster": "Chatacabra",
+    "part": "Tongue",
+    "slash": 4,
+    "blunt": 4,
+    "ammo": 4,
+    "fire": 1,
+    "water": 1,
+    "lightning": 2,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "monster": "Chatacabra",
+    "part": "Torso",
+    "slash": 3,
+    "blunt": 3,
+    "ammo": 3,
+    "fire": 1,
+    "water": 1,
+    "lightning": 2,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "monster": "Chatacabra",
+    "part": "Left foreleg",
+    "slash": 4,
+    "blunt": 4,
+    "ammo": 4,
+    "fire": 1,
+    "water": 1,
+    "lightning": 1,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "monster": "Chatacabra",
+    "part": "Right foreleg",
+    "slash": 4,
+    "blunt": 4,
+    "ammo": 4,
+    "fire": 1,
+    "water": 1,
+    "lightning": 1,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "monster": "Chatacabra",
+    "part": "Left hind leg",
+    "slash": 3,
+    "blunt": 3,
+    "ammo": 3,
+    "fire": 0,
+    "water": 0,
+    "lightning": 2,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "monster": "Chatacabra",
+    "part": "Right hind leg",
+    "slash": 3,
+    "blunt": 3,
+    "ammo": 3,
+    "fire": 0,
+    "water": 0,
+    "lightning": 2,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "monster": "Chatacabra",
+    "part": "Rear",
+    "slash": 3,
+    "blunt": 3,
+    "ammo": 3,
+    "fire": 1,
+    "water": 1,
+    "lightning": 2,
+    "ice": 1,
+    "dragon": 0
+  }
+]
