@@ -43,7 +43,7 @@ export default function MaterialDropTable({ materials, onSort, sortKey, sortOrde
               <td>{material.rarity}</td>
               <td>{material.rank}</td>
               <td>{material.method}</td>
-              <td>{material.rate}</td>
+              <td>{material.rate}%</td>
               <td>{material.quantity || '-'}</td>
               <td>{material.condition || '-'}</td>
             </tr>
