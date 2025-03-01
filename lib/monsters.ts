@@ -103,7 +103,7 @@ export interface Monster {
   description: string;
   weaknesses: MonsterWeakness[];
   materials: (MonsterMaterial & { rank: string; method: string; rate: string; quantity?: number; condition?: string })[];
-  detailedInfo: MonsterDetailedInfo;
+  detailedInfo?: MonsterDetailedInfo;
 }
 
 export const monsters: Monster[] = (monsterData as RawMonsterData[]).map(monster => ({
@@ -122,7 +122,7 @@ export const monsters: Monster[] = (monsterData as RawMonsterData[]).map(monster
     quantity: Number(material.quantity), // Ensure quantity is a number
     condition: material.condition
   })),
-  detailedInfo: monsterDetailedInfoData.find(info => info.name === monster.name) || {} as MonsterDetailedInfo
+  detailedInfo: monsterDetailedInfoData.find(info => info.name === monster.name) || undefined
 }));
 
 export function getMonsterById(id: string): Monster | undefined {

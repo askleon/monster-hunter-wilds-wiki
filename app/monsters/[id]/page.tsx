@@ -114,67 +114,69 @@ export default function MonsterDetails() {
         </section>
       )}
 
-      <section className={"mt-10"}>
-        <div className={styles.tableWrapper}>
-          <table className={styles.weaknessTable}>
-            <thead>
-              <tr className={styles.weaknessHeader}>
-                <th colSpan={2}>Detailed Info</th>
-              </tr>
-              <tr>
-                <th>Icon</th>
-                <th>Info</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><FaFire className={styles.icon} /></td>
-                <td>Recommended Elemental Attack: {monster.detailedInfo.recommended_elemental_attack}</td>
-              </tr>
-              <tr>
-                <td><FaSkull className={styles.icon} /></td>
-                <td>Poison: {monster.detailedInfo.poison}</td>
-              </tr>
-              <tr>
-                <td><FaBed className={styles.icon} /></td>
-                <td>Sleep: {monster.detailedInfo.sleep}</td>
-              </tr>
-              <tr>
-                <td><FaBolt className={styles.icon} /></td>
-                <td>Paralysis: {monster.detailedInfo.paralysis}</td>
-              </tr>
-              <tr>
-                <td><FaBomb className={styles.icon} /></td>
-                <td>Blastblight: {monster.detailedInfo.blastblight}</td>
-              </tr>
-              <tr>
-                <td><FaStar className={styles.icon} /></td>
-                <td>Stun: {monster.detailedInfo.stun}</td>
-              </tr>
-              <tr>
-                <td><FaExclamationTriangle className={styles.icon} /></td>
-                <td>Exhaus: {monster.detailedInfo.exhaus}</td>
-              </tr>
-              <tr>
-                <td><FaEye className={styles.icon} /></td>
-                <td>Flash: {monster.detailedInfo.flash ? 'Yes' : 'No'}</td>
-              </tr>
-              <tr>
-                <td><FaVolumeUp className={styles.icon} /></td>
-                <td>Sonic: {monster.detailedInfo.sonic ? 'Yes' : 'No'}</td>
-              </tr>
-              <tr>
-                <td><FaBolt className={styles.icon} /></td>
-                <td>Shock: {monster.detailedInfo.shock ? 'Yes' : 'No'}</td>
-              </tr>
-              <tr>
-                <td><FaExclamationTriangle className={styles.icon} /></td>
-                <td>Pitfall: {monster.detailedInfo.pitfall ? 'Yes' : 'No'}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+      {monster.detailedInfo && (
+        <section className={"mt-10"}>
+          <div className={styles.tableWrapper}>
+            <table className={styles.weaknessTable}>
+              <thead>
+                <tr className={styles.weaknessHeader}>
+                  <th colSpan={2}>Detailed Info</th>
+                </tr>
+                <tr>
+                  <th>Icon</th>
+                  <th>Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><FaFire className={styles.icon} /></td>
+                  <td>Recommended Elemental Attack: {monster.detailedInfo.recommended_elemental_attack}</td>
+                </tr>
+                <tr>
+                  <td><FaSkull className={styles.icon} /></td>
+                  <td>Poison: {monster.detailedInfo.poison}</td>
+                </tr>
+                <tr>
+                  <td><FaBed className={styles.icon} /></td>
+                  <td>Sleep: {monster.detailedInfo.sleep}</td>
+                </tr>
+                <tr>
+                  <td><FaBolt className={styles.icon} /></td>
+                  <td>Paralysis: {monster.detailedInfo.paralysis}</td>
+                </tr>
+                <tr>
+                  <td><FaBomb className={styles.icon} /></td>
+                  <td>Blastblight: {monster.detailedInfo.blastblight}</td>
+                </tr>
+                <tr>
+                  <td><FaStar className={styles.icon} /></td>
+                  <td>Stun: {monster.detailedInfo.stun}</td>
+                </tr>
+                <tr>
+                  <td><FaExclamationTriangle className={styles.icon} /></td>
+                  <td>Exhaus: {monster.detailedInfo.exhaus}</td>
+                </tr>
+                <tr>
+                  <td><FaEye className={styles.icon} /></td>
+                  <td>Flash: {monster.detailedInfo.flash ? 'Yes' : 'No'}</td>
+                </tr>
+                <tr>
+                  <td><FaVolumeUp className={styles.icon} /></td>
+                  <td>Sonic: {monster.detailedInfo.sonic ? 'Yes' : 'No'}</td>
+                </tr>
+                <tr>
+                  <td><FaBolt className={styles.icon} /></td>
+                  <td>Shock: {monster.detailedInfo.shock ? 'Yes' : 'No'}</td>
+                </tr>
+                <tr>
+                  <td><FaExclamationTriangle className={styles.icon} /></td>
+                  <td>Pitfall: {monster.detailedInfo.pitfall ? 'Yes' : 'No'}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
     </div>
   );
 }
