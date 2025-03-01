@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Chatacabra",
+    "recommended_elemental_attack": "Ice, Thunder",
+    "poison": 3,
+    "sleep": 2,
+    "paralysis": 3,
+    "blastblight": 2,
+    "stun": 3,
+    "exhaus": 2,
+    "flash": true,
+    "sonic": false,
+    "shock": true,
+    "pitfall": true
+  }
+]

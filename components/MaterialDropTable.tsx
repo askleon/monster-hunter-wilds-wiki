@@ -2,11 +2,11 @@ import React from 'react';
 import { MonsterMaterial } from '@/lib/monsters';
 import styles from './MaterialDropTable.module.css';
 
-export type SortKey = 'name' | 'rarity' | 'rank' | 'method' | 'rate' | 'quantity' | 'condition';
+export type SortKey = 'Material' | 'Rarity' | 'Rank' | 'Method' | 'Rate' | 'Quantity' | 'Condition';
 export type SortOrder = 'asc' | 'desc';
 
 interface MaterialDropTableProps {
-  materials: (MonsterMaterial & { rank: string; method: string; rate: number; quantity?: number; condition?: string })[];
+  materials: (MonsterMaterial & { rank: string; method: string; rate: string; quantity?: number; condition?: string })[];
   onSort: (key: SortKey) => void;
   sortKey: SortKey;
   sortOrder: SortOrder;
@@ -27,25 +27,25 @@ export default function MaterialDropTable({ materials, onSort, sortKey, sortOrde
       <table className={styles.materialTable}>
         <thead>
           <tr>
-            <th onClick={() => handleSort('name')}>Material <SortIndicator column="name" /></th>
-            <th onClick={() => handleSort('rarity')}>Rarity <SortIndicator column="rarity" /></th>
-            <th onClick={() => handleSort('rank')}>Rank <SortIndicator column="rank" /></th>
-            <th onClick={() => handleSort('method')}>Method <SortIndicator column="method" /></th>
-            <th onClick={() => handleSort('rate')}>Rate <SortIndicator column="rate" /></th>
-            <th onClick={() => handleSort('quantity')}>Quantity <SortIndicator column="quantity" /></th>
-            <th onClick={() => handleSort('condition')}>Condition <SortIndicator column="condition" /></th>
+            <th onClick={() => handleSort('Material')}>Material <SortIndicator column="Material" /></th>
+            <th onClick={() => handleSort('Rarity')}>Rarity <SortIndicator column="Rarity" /></th>
+            <th onClick={() => handleSort('Rank')}>Rank <SortIndicator column="Rank" /></th>
+            <th onClick={() => handleSort('Method')}>Method <SortIndicator column="Method" /></th>
+            <th onClick={() => handleSort('Rate')}>Rate <SortIndicator column="Rate" /></th>
+            <th onClick={() => handleSort('Quantity')}>Quantity <SortIndicator column="Quantity" /></th>
+            <th onClick={() => handleSort('Condition')}>Condition <SortIndicator column="Condition" /></th>
           </tr>
         </thead>
         <tbody>
           {materials.map((material, index) => (
-            <tr key={`${material.id}-${index}`}>
-              <td>{material.name}</td>
-              <td>{material.rarity}</td>
-              <td>{material.rank}</td>
-              <td>{material.method}</td>
-              <td>{material.rate}%</td>
-              <td>{material.quantity || '-'}</td>
-              <td>{material.condition || '-'}</td>
+            <tr key={`${material.Monster}-${index}`}>
+              <td>{material.Material}</td>
+              <td>{material.Rarity}</td>
+              <td>{material.Rank}</td>
+              <td>{material.Method}</td>
+              <td>{material.Rate}</td>
+              <td>{material.Quantity || '-'}</td>
+              <td>{material.Condition || '-'}</td>
             </tr>
           ))}
         </tbody>

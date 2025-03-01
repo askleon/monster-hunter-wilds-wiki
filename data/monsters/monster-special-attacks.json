@@ -1,0 +1,84 @@
+{
+  "monsterSpecialAttacks": [
+    {
+      "name": "Blastblight",
+      "description": ""
+    },
+    {
+      "name": "Bleeding",
+      "description": ""
+    },
+    {
+      "name": "Defense Down",
+      "description": ""
+    },
+    {
+      "name": "Dragon Wind Pressure",
+      "description": ""
+    },
+    {
+      "name": "Dragonblight",
+      "description": ""
+    },
+    {
+      "name": "Fireblight",
+      "description": ""
+    },
+    {
+      "name": "Flash",
+      "description": ""
+    },
+    {
+      "name": "Frostblight",
+      "description": ""
+    },
+    {
+      "name": "Iceblight",
+      "description": ""
+    },
+    {
+      "name": "Minor Tremor",
+      "description": ""
+    },
+    {
+      "name": "Minor Wind Pressure",
+      "description": ""
+    },
+    {
+      "name": "Paralysis",
+      "description": ""
+    },
+    {
+      "name": "Poison",
+      "description": ""
+    },
+    {
+      "name": "Sleep",
+      "description": ""
+    },
+    {
+      "name": "Stench",
+      "description": ""
+    },
+    {
+      "name": "Strong Roar",
+      "description": ""
+    },
+    {
+      "name": "Thunderblight",
+      "description": ""
+    },
+    {
+      "name": "Waterblight",
+      "description": ""
+    },
+    {
+      "name": "Weak Roar",
+      "description": ""
+    },
+    {
+      "name": "Webbed",
+      "description": ""
+    }
+  ]
+}

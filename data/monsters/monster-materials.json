@@ -1,0 +1,262 @@
+[
+  {
+    "Monster": "Chatacabra",
+    "Material": "Shell",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "15%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Shell",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Broken Part Rewards",
+    "Condition": "Left Foreleg",
+    "Quantity": 1,
+    "Rate": "100%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Shell",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Broken Part Rewards",
+    "Condition": "Right Foreleg",
+    "Quantity": 1,
+    "Rate": "100%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Shell",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Carving",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "15%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Scale",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "27%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Scale",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Wound Destroyed Reward",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "50%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Scale",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Carving",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "35%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Hide",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "27%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Hide",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Wound Destroyed Reward",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "50%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Hide",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Carving",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "30%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Jaw",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "23%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Jaw",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Carving",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "20%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Certificate",
+    "Rank": "Low Rank",
+    "Rarity": "Rarity 4",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "8%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Carapace",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 6",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "15%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Carapace",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 6",
+    "Method": "Broken Part Rewards",
+    "Condition": "Left Foreleg",
+    "Quantity": 1,
+    "Rate": "100%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Carapace",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 6",
+    "Method": "Broken Part Rewards",
+    "Condition": "Right Foreleg",
+    "Quantity": 1,
+    "Rate": "100%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Carapace",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 6",
+    "Method": "Carving",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "15%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Scale+",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 7",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "27%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Scale+",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 8",
+    "Method": "Wound Destroyed Reward",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "50%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Scale+",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 9",
+    "Method": "Carving",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "35%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Hide+",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 10",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "27%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Hide+",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 11",
+    "Method": "Wound Destroyed Reward",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "50%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Hide+",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 12",
+    "Method": "Carving",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "30%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Jaw+",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 13",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "23%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Jaw+",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 14",
+    "Method": "Carving",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "20%"
+  },
+  {
+    "Monster": "Chatacabra",
+    "Material": "Cetificate S",
+    "Rank": "High Rank",
+    "Rarity": "Rarity 15",
+    "Method": "Target Rewards",
+    "Condition": "",
+    "Quantity": 1,
+    "Rate": "8%"
+  }
+]
