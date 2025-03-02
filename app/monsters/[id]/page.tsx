@@ -154,7 +154,7 @@ export default function MonsterDetails() {
                 </tr>
                 <tr>
                   <td><FaExclamationTriangle className={styles.icon} /></td>
-                  <td>Exhaus: {monster.detailedInfo.exhaust}</td>
+                  <td>Exhaust: {monster.detailedInfo.exhaust}</td>
                 </tr>
                 <tr>
                   <td><FaEye className={styles.icon} /></td>
