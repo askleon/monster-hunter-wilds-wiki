@@ -5,7 +5,7 @@ import { FilterPanel, FilterOption } from '@/components/FilterPanel';
 import styles from '@/components/SortableFilterableMaterialDropTable.module.css';
 
 interface SortableFilterableMaterialDropTableProps {
-  materials: (MonsterMaterial & { rank: string; method: string; rate: string; quantity?: number; condition?: string })[];
+  materials: MonsterMaterial[];
 }
 
 type ExtendedSortKey = 'Material' | 'Rarity' | 'Rank' | 'Method' | 'Condition' | 'Rate';
@@ -114,7 +114,7 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
     }
 
     if (rarityFilter.length > 0) {
-      result = result.filter(item => rarityFilter.includes(item.rarity));
+      result = result.filter(item => rarityFilter.includes(item.rarity.toString()));
     }
 
     if (conditionFilter.length > 0) {
@@ -124,6 +124,10 @@ export default function SortableFilterableMaterialDropTable({ materials }: Sorta
     return result.sort((a, b) => {
       const aValue = a[sortKey as keyof MonsterMaterial];
       const bValue = b[sortKey as keyof MonsterMaterial];
+
+      if (aValue === null && bValue === null) return 0;
+      if (aValue === null) return 1;
+      if (bValue === null) return -1;
 
       if (aValue === undefined && bValue === undefined) return 0;
       if (aValue === undefined) return 1;

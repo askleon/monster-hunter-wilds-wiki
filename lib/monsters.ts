@@ -36,15 +36,6 @@ export interface BodyPart {
   weakness: BodyPartWeakness;
 }
 
-interface RawMonsterData {
-  name: string;
-  defaultOrder: number;
-  type: string;
-  habitats: string;
-  specialAttacks: string;
-  description: string;
-}
-
 interface MonsterWeakness {
   monster: string;
   part: string;
@@ -72,22 +63,22 @@ export interface MonsterMaterial {
   monster: string;
   material: string;
   rank: string;
-  rarity: string;
+  rarity: number;
   method: string;
-  condition: string;
+  condition: string | null;
   quantity: number;
-  rate: string;
+  rate: number | null;
 }
 
 interface MonsterDetailedInfo {
   name: string;
-  recommended_elemental_attack: string;
+  recommendedElementalAttack: string;
   poison: number;
   sleep: number;
   paralysis: number;
   blastblight: number;
   stun: number;
-  exhaus: number;
+  exhaust: number;
   flash: boolean;
   sonic: boolean;
   shock: boolean;
@@ -102,33 +93,30 @@ export interface Monster {
   specialAttacks: string[];
   description: string;
   weaknesses: MonsterWeakness[];
-  materials: (MonsterMaterial & { rank: string; method: string; rate: string; quantity?: number; condition?: string })[];
+  materials: MonsterMaterial[];
   detailedInfo?: MonsterDetailedInfo;
 }
 
-export const monsters: Monster[] = (monsterData as RawMonsterData[]).map(monster => ({
+export const monsterWeaknesses: MonsterWeakness[] = monsterWeaknessData;
+export const monsterMaterials: MonsterMaterial[] = monsterMaterialsData.map(material => ({
+  ...material,
+  quantity: material.quantity ?? 1
+}));
+export const monsterDetailedInfo: MonsterDetailedInfo[] = monsterDetailedInfoData;
+export const monsterTypes: MonsterType[] = monsterTypesData.monsterTypes;
+export const monsterSpecialAttacks: MonsterSpecialAttack[] = monsterSpecialAttacksData.monsterSpecialAttacks;
+
+export const monsters: Monster[] = monsterData.map(monster => ({
+  ...monster,
   id: monster.defaultOrder.toString(),
-  name: monster.name,
-  type: monster.type,
-  habitats: monster.habitats.split(', '),
-  specialAttacks: monster.specialAttacks.split(', '),
-  description: monster.description,
-  weaknesses: monsterWeaknessData.filter(weakness => weakness.monster === monster.name),
-  materials: monsterMaterialsData.filter(material => material.monster === monster.name).map(material => ({
-    ...material,
-    rank: material.rank,
-    method: material.method,
-    rate: material.rate,
-    quantity: Number(material.quantity), // Ensure quantity is a number
-    condition: material.condition
-  })),
-  detailedInfo: monsterDetailedInfoData.find(info => info.name === monster.name) || undefined
+  weaknesses: monsterWeaknesses.filter(weakness => weakness.monster === monster.name),
+  materials: monsterMaterials.filter(material => material.monster === monster.name),
+  habitats: monster.habitats?.split(',').map(habitat => habitat.trim()) ?? [],
+  specialAttacks: monster.specialAttacks?.split(',').map(specialAttack => specialAttack.trim()) ?? [],
+  description: monster.description ?? '',
+  detailedInfo: monsterDetailedInfo.find(info => info.name === monster.name),
 }));
 
 export function getMonsterById(id: string): Monster | undefined {
   return monsters.find(monster => monster.id === id);
 }
-
-export const monsterTypes: MonsterType[] = monsterTypesData.monsterTypes as MonsterType[];
-
-export const monsterSpecialAttacks: MonsterSpecialAttack[] = monsterSpecialAttacksData.monsterSpecialAttacks;

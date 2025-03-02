@@ -39,7 +39,7 @@ export default function MonsterDetails() {
       <section className={styles.infoCard}>
         <div className={styles.infoItem}>
           <h3>Habitats</h3>
-          {monster.habitats.length > 0 ? (
+          {monster.habitats && monster.habitats.length > 0 ? (
             <ul className={styles.list}>
               {monster.habitats.map((habitat, index) => (
                 <li key={index}>{habitat}</li>
@@ -51,7 +51,7 @@ export default function MonsterDetails() {
         </div>
         <div className={styles.infoItem}>
           <h3>Special Attacks</h3>
-          {monster.specialAttacks.length > 0 ? (
+          {monster.specialAttacks && monster.specialAttacks.length > 0 ? (
             <ul className={styles.list}>
               {monster.specialAttacks.map((attack, index) => (
                 <li key={index}>{attack}</li>
@@ -63,7 +63,7 @@ export default function MonsterDetails() {
         </div>
       </section>
 
-      {monster.weaknesses.length > 0 && (
+      {monster.weaknesses && (
         <section className={styles.weaknesses}>
           <div className={styles.tableWrapper}>
             <table className={styles.weaknessTable}>
@@ -108,7 +108,7 @@ export default function MonsterDetails() {
         </section>
       )}
 
-      {monster.materials.length > 0 && (
+      {monster.materials && (
         <section className={styles.materials}>
           <SortableFilterableMaterialDropTable materials={monster.materials} />
         </section>
@@ -130,7 +130,7 @@ export default function MonsterDetails() {
               <tbody>
                 <tr>
                   <td><FaFire className={styles.icon} /></td>
-                  <td>Recommended Elemental Attack: {monster.detailedInfo.recommended_elemental_attack}</td>
+                  <td>Recommended Elemental Attack: {monster.detailedInfo.recommendedElementalAttack}</td>
                 </tr>
                 <tr>
                   <td><FaSkull className={styles.icon} /></td>
@@ -154,7 +154,7 @@ export default function MonsterDetails() {
                 </tr>
                 <tr>
                   <td><FaExclamationTriangle className={styles.icon} /></td>
-                  <td>Exhaus: {monster.detailedInfo.exhaus}</td>
+                  <td>Exhaus: {monster.detailedInfo.exhaust}</td>
                 </tr>
                 <tr>
                   <td><FaEye className={styles.icon} /></td>

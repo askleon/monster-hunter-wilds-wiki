@@ -25,7 +25,7 @@ export default function SearchBar() {
   const router = useRouter()
 
   const allResults: SearchResult[] = [
-    ...monsters.map(monster => ({ id: monster.id, name: monster.name, type: 'monster' as const })),
+    ...monsters.map(monster => ({ id: monster.id.toString(), name: monster.name, type: 'monster' as const })),
     ...getAllWeaponTrees().flatMap((tree: WeaponTree) =>
       tree.weapons?.map(weapon => ({
         id: weapon.id,

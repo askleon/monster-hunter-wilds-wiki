@@ -3,6030 +3,6250 @@
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Jaw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Jaw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Jaw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Jaw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Chatacabra",
     "rank": "High Rank",
     "material": "Cetificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "33",
-    "condition": "",
-    "quantity": "1"
+    "rate": 33,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Crest",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "14",
-    "condition": "",
-    "quantity": "1"
+    "rate": 14,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Crest",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Crest",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Igniter",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Igniter",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Igniter",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Crest+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Crest+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "hHead",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Crest+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "93",
-    "condition": "",
-    "quantity": "1"
+    "rate": 93,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Igniter+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Igniter+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Igniter+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Quematrice",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving (Severed Part)",
-    "rate": "7",
+    "rate": 7,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Claw",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Claw",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Floret",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Floret",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Floret",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "33",
-    "condition": "",
-    "quantity": "1"
+    "rate": 33,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Stinger",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Stinger",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Petals",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Stinger",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Mucus",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Mucus",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Mucus",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Monster Fluid",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Claw",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Claw",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "100",
-    "condition": "",
-    "quantity": "1"
+    "rate": 100,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Floret+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Floret+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Floret+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "33",
-    "condition": "",
-    "quantity": "1"
+    "rate": 33,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Stinger+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Stinger+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Petals",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Stinger+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Mucus+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Mucus+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Mucus+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Monster Broth",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Lala Barina",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "100",
-    "condition": "",
-    "quantity": "1"
+    "rate": 100,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Congalala",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "48",
-    "condition": "",
-    "quantity": "1"
+    "rate": 48,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "33",
-    "condition": "",
-    "quantity": "1"
+    "rate": 33,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "47",
-    "condition": "",
-    "quantity": "1"
+    "rate": 47,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Skull",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Skull",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "80",
+    "rate": 80,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Skull",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Aqua Sac",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Black Pearl",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Black Pearl",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "20",
+    "rate": 20,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Black Pearl",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "Low Rank",
     "material": "Black Pearl",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Wound Destroyed Reward",
-    "rate": "48",
-    "condition": "",
-    "quantity": "1"
+    "rate": 48,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Wound Destroyed Reward",
-    "rate": "47",
-    "condition": "",
-    "quantity": "1"
+    "rate": 47,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Skull+",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Skull+",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Broken Part Rewards",
-    "rate": "80",
+    "rate": 80,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Skull+",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "17",
-    "condition": "",
-    "quantity": "1"
+    "rate": 17,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "93",
+    "rate": 93,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Torrent Sac",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Black Pearl",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Black Pearl",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Black Pearl",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "14",
-    "condition": "",
-    "quantity": "1"
+    "rate": 14,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Black Pearl",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "20",
+    "rate": 20,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Balahara",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving (Severed Part)",
-    "rate": "7",
+    "rate": 7,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Fur",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Fur",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail Hair",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Fur",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Fur",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Doshaguma",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "80",
-    "condition": "",
-    "quantity": "1"
+    "rate": 80,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Beak",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Beak",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Beak",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Spotted Poison Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "10",
-    "condition": "",
-    "quantity": "1"
+    "rate": 10,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Spotted Poison Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Spotted Poison Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Back",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Spotted Poison Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Spotted Poison Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Spotted Poison Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Poison Sac",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Poison Sac",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Back",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Poison Sac",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "80",
-    "condition": "",
-    "quantity": "1"
+    "rate": 80,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "33",
-    "condition": "",
-    "quantity": "1"
+    "rate": 33,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Spotted Poison Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "0",
-    "condition": "",
-    "quantity": "1"
+    "rate": 0,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Spotted Poison Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Spotted Poison Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Back",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Spotted Poison Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Spotted Poison Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Spotted Poison Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Toxin Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Toxin Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Back",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Toxin Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Beak+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Beak+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Beak+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rompopolo",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Wingtalon",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Wingtalon",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Wing",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Wingtalon",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Wing",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Wingtalon",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "28",
-    "condition": "",
-    "quantity": "1"
+    "rate": 28,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Thunderhorn",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Thunderhorn",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Horn",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Thunderhorn",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "88",
+    "rate": 88,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Plate",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Plate",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rey Dau",
     "rank": "Low Rank",
     "material": "Plate",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving (Severed Part)",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Claw",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Mantle",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "38",
-    "condition": "",
-    "quantity": "1"
+    "rate": 38,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Spike",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Spike",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Stinger",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Spike",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Spike",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Chelicera",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Chelicera",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Sleep Sac",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "21",
-    "condition": "",
-    "quantity": "1"
+    "rate": 21,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Claw",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "63",
-    "condition": "",
-    "quantity": "1"
+    "rate": 63,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Mantle",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Spike+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Spike+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Stinger",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Spike+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Spike+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Shear",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Shear",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Coma Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "21",
-    "condition": "",
-    "quantity": "1"
+    "rate": 21,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nerscylla",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Tail Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "10",
-    "condition": "",
-    "quantity": "1"
+    "rate": 10,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Tail Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Tail Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Tail Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Webbing",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Webbing",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Webbing",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Webbing",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Frost Sac",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Hirabami",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "28",
-    "condition": "",
-    "quantity": "1"
+    "rate": 28,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Ridge",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Ridge",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Back",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Ridge",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "88",
-    "condition": "",
-    "quantity": "1"
+    "rate": 88,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Jewel",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Jewel",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Jewel",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Marrow",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Marrow",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "Low Rank",
     "material": "Marrow",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving (Severed Part)",
-    "rate": "12",
+    "rate": 12,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Ridge+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Ridge+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Back",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Ridge+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "93",
-    "condition": "",
-    "quantity": "1"
+    "rate": 93,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Jewel+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "16",
-    "condition": "",
-    "quantity": "1"
+    "rate": 16,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Jewel+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Jewel+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Marrow",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Medulla",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Medulla",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Ajarakan",
     "rank": "High Rank",
     "material": "Medulla",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving (Severed Part)",
-    "rate": "7",
+    "rate": 7,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "28",
-    "condition": "",
-    "quantity": "1"
+    "rate": 28,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Oilmucus",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "25",
-    "condition": "",
-    "quantity": "1"
+    "rate": 25,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Oilmucus",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Oilmucus",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Horn",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Horn",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Horn",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Spike",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Spike",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Spike",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Spike",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "35",
+    "rate": 35,
     "condition": "Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Tentacle",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Tentacle",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Tentacle",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "60",
+    "rate": 60,
     "condition": "Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Cerebrospinal Fluid",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Cerebrospinal Fluid",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Nu Udra",
     "rank": "Low Rank",
     "material": "Cerebrospinal Fluid",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving (Severed Part)",
-    "rate": "5",
+    "rate": 5,
     "condition": "Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Fur",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Fur",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail Hair",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Fur",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Fur",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Nourishing Extract",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Doshaguma",
     "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Webbing",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Webbing",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Wing",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Webbing",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Wing",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Webbing",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "33",
-    "condition": "",
-    "quantity": "1"
+    "rate": 33,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "10",
-    "condition": "",
-    "quantity": "1"
+    "rate": 10,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "93",
-    "condition": "",
-    "quantity": "1"
+    "rate": 93,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Shell",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Flame Sac",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Plate",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Rathalos",
     "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Hindleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Sinew",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Sinew",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Sinew",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Sinew",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "93",
-    "condition": "",
-    "quantity": "1"
+    "rate": 93,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Nourishing Extract",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Plate",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Plate",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Plate",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving (Severed Part)",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "14",
-    "condition": "",
-    "quantity": "1"
+    "rate": 14,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Hind Leg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Sinew+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Sinew+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Sinew+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Sinew+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "93",
+    "rate": 93,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Nourishing Extract",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "16",
-    "condition": "",
-    "quantity": "1"
+    "rate": 16,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Plate",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving (Severed Part)",
-    "rate": "7",
+    "rate": 7,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Guardian Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Ebony Odogaron",
     "rank": "High Rank",
     "material": "Guardian Blood+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Golden Corneum",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Golden Corneum",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "",
+    "rate": null,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Golden Corneum",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Golden Corneum",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "",
+    "rate": null,
     "condition": "Front Left Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "",
+    "rate": null,
     "condition": "Front Right Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Claw",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Hide",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Tentacle",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Tentacle",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Tentacle",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "",
+    "rate": null,
     "condition": "Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "",
+    "rate": null,
     "condition": "Mouth",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Fang",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Certificate",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "",
-    "condition": "",
-    "quantity": "1"
+    "rate": null,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Cerebrospinal Fluid",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "",
-    "condition": "",
-    "quantity": ""
+    "rate": null,
+    "condition": null,
+    "quantity": null
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Cerebrospinal Fluid",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Broken Part Rewards",
-    "rate": "",
+    "rate": null,
     "condition": "Head",
-    "quantity": ""
+    "quantity": null
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Cerebrospinal Fluid",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving",
-    "rate": "",
-    "condition": "",
-    "quantity": ""
+    "rate": null,
+    "condition": null,
+    "quantity": null
   },
   {
     "monster": "Xu Wu",
     "rank": "Low Rank",
     "material": "Cerebrospinal Fluid",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Carving (Severed Part)",
-    "rate": "",
+    "rate": null,
     "condition": "Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Golden Corneum+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Golden Corneum+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "93",
+    "rate": 93,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Golden Corneum+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Golden Corneum+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "16",
-    "condition": "",
-    "quantity": "1"
+    "rate": 16,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Front Left Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Front Right Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Claw+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Tentacle+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Tentacle+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Tentacle+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving (Severed Part)",
-    "rate": "95",
+    "rate": 95,
     "condition": "Arm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Mouth",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Cerebrospinal Fluid",
-    "rarity": "5",
+    "rarity": 5,
     "method": "Target Rewards",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Umbragem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Umbragem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Broken Part Rewards",
-    "rate": "7",
+    "rate": 7,
     "condition": "Head",
-    "quantity": ""
+    "quantity": null
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Umbragem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": ""
+    "rate": 5,
+    "condition": null,
+    "quantity": null
   },
   {
     "monster": "Xu Wu",
     "rank": "High Rank",
     "material": "Umbragem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving (Severed Part)",
-    "rate": "5",
+    "rate": 5,
     "condition": "Arm",
-    "quantity": ""
+    "quantity": null
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Chainblade",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Chainblade",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
-    "rank": "G. Arkveld",
+    "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
-    "rank": "G. Arkveld",
+    "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "10",
-    "condition": "",
-    "quantity": ""
+    "rate": 10,
+    "condition": null,
+    "quantity": null
   },
   {
     "monster": "G. Arkveld",
-    "rank": "G. Arkveld",
+    "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": ""
+    "rate": 12,
+    "condition": null,
+    "quantity": null
   },
   {
     "monster": "G. Arkveld",
-    "rank": "G. Arkveld",
+    "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": ""
+    "rate": 20,
+    "condition": null,
+    "quantity": null
   },
   {
     "monster": "G. Arkveld",
-    "rank": "G. Arkveld",
+    "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": ""
+    "quantity": null
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Nourishing Extract",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Arkveld",
     "rank": "Low Rank",
     "material": "Tough Guardian Bone",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Foreleg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Scale",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Wingarm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Wingarm",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Pelt",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Guardian Blood",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Carving (Severed Part)",
-    "rate": "100",
+    "rate": 100,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Nourishing Extract",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Zoh Shia",
     "rank": "Low Rank",
     "material": "Tough Guardian Bone",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Ear",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Ear",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Ear",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Wing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Wing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Inferno Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Giant Beak",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Giant Beak",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Bird Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Kut-Ku",
     "rank": "High Rank",
     "material": "Bird Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Hide+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "33",
-    "condition": "",
-    "quantity": "1"
+    "rate": 33,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Head",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "10",
-    "condition": "",
-    "quantity": "1"
+    "rate": 10,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Head",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "70",
+    "rate": 70,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Head",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Dash Extract",
-    "rarity": "4",
+    "rarity": 4,
     "method": "Wound Destroyed Reward",
-    "rate": "43",
-    "condition": "",
-    "quantity": "1"
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Wing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "22",
-    "condition": "",
-    "quantity": "1"
+    "rate": 22,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Wing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "27",
-    "condition": "",
-    "quantity": "1"
+    "rate": 27,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Toxin Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Novacrystal",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Broken Part Rewards",
-    "rate": "30",
+    "rate": 30,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Novacrystal",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Bird Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gypceros",
     "rank": "High Rank",
     "material": "Bird Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Webbing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Webbing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Wing",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Webbing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Wing",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Webbing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "50",
-    "condition": "",
-    "quantity": "1"
+    "rate": 50,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "42",
-    "condition": "",
-    "quantity": "1"
+    "rate": 42,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Spike+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Spike+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Spike+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Spike+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving (Severed Part)",
-    "rate": "80",
+    "rate": 80,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Inferno Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Rath Medulla",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Rath Medulla",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": ""
+    "rate": 11,
+    "condition": null,
+    "quantity": null
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Rath Medulla",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving (Severed Part)",
-    "rate": "13",
+    "rate": 13,
     "condition": "Tail",
-    "quantity": ""
+    "quantity": null
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Ruby",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Ruby",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": ""
+    "rate": 5,
+    "condition": null,
+    "quantity": null
   },
   {
     "monster": "Rathian",
     "rank": "High Rank",
     "material": "Ruby",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving (Severed Part)",
-    "rate": "7",
+    "rate": 7,
     "condition": "Tail",
-    "quantity": ""
+    "quantity": null
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Leg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Leg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "45",
-    "condition": "",
-    "quantity": "1"
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Scale+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Nosebone+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Nosebone+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "70",
+    "rate": 70,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Nosebone+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Tail",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving (Severed Part)",
-    "rate": "93",
+    "rate": 93,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Pelt+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Pelt+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "35",
-    "condition": "",
-    "quantity": "1"
+    "rate": 35,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Pelt+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "30",
+    "rate": 30,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Fang+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Thunder Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving (Severed Part)",
-    "rate": "7",
-    "condition": "",
-    "quantity": "1"
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Guardian Pelt+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "12",
-    "condition": "",
-    "quantity": "1"
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "G. Fulgur Anjanath",
     "rank": "High Rank",
     "material": "Guardian Blood+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Wing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Wing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Left Wing",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Wing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Right Wing",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Wing",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "23",
-    "condition": "",
-    "quantity": "1"
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Back",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Left Leg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "60",
+    "rate": 60,
     "condition": "Right Leg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "80",
-    "condition": "",
-    "quantity": "1"
+    "rate": 80,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "30",
-    "condition": "",
-    "quantity": "1"
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Carapace",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving (Severed Part)",
-    "rate": "78",
+    "rate": 78,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Skull",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Head",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Skull",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Pleura+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "15",
-    "condition": "",
-    "quantity": "1"
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Pleura+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Broken Part Rewards",
-    "rate": "100",
+    "rate": 100,
     "condition": "Belly",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Pleura+",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Carving",
-    "rate": "18",
-    "condition": "",
-    "quantity": "1"
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Firecell Stone",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Back",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Firecell Stone",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Left Leg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Firecell Stone",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Broken Part Rewards",
-    "rate": "40",
+    "rate": 40,
     "condition": "Right Leg",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Firecell Stone",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Wound Destroyed Reward",
-    "rate": "20",
-    "condition": "",
-    "quantity": "1"
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Certificate S",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Medulla",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "8",
-    "condition": "",
-    "quantity": "1"
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Medulla",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "11",
-    "condition": "",
-    "quantity": "1"
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Medulla",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving (Severed Part)",
-    "rate": "22",
+    "rate": 22,
     "condition": "Tail",
-    "quantity": "1"
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Inferno Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Coma Sac",
-    "rarity": "6",
+    "rarity": 6,
     "method": "Target Rewards",
-    "rate": "13",
-    "condition": "",
-    "quantity": "1"
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Target Rewards",
-    "rate": "3",
-    "condition": "",
-    "quantity": "1"
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
   },
   {
     "monster": "Gravios",
     "rank": "High Rank",
     "material": "Wyvern Gem",
-    "rarity": "7",
+    "rarity": 7,
     "method": "Carving",
-    "rate": "5",
-    "condition": "",
-    "quantity": "1"
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Calloushell",
+    "rarity": 6,
+    "method": "Broken Part Rewards",
+    "rate": 100,
+    "condition": "Left Chainblade",
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Calloushell",
+    "rarity": 6,
+    "method": "Broken Part Rewards",
+    "rate": 100,
+    "condition": "Right Chainblade",
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Scale+",
+    "rarity": 6,
+    "method": "Broken Part Rewards",
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Scale+",
+    "rarity": 6,
+    "method": "Wound Destroyed Reward",
+    "rate": 45,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Scale+",
+    "rarity": 6,
+    "method": "Carving",
+    "rate": 30,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Horn+",
+    "rarity": 6,
+    "method": "Target Rewards",
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Horn+",
+    "rarity": 6,
+    "method": "Broken Part Rewards",
+    "rate": 100,
+    "condition": "Head",
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Horn+",
+    "rarity": 6,
+    "method": "Carving",
+    "rate": 13,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Tail",
+    "rarity": 6,
+    "method": "Target Rewards",
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Tail",
+    "rarity": 6,
+    "method": "Carving",
+    "rate": 11,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Tail",
+    "rarity": 6,
+    "method": "Carving (Severed Part)",
+    "rate": 93,
+    "condition": "Tail",
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Armorplate",
+    "rarity": 6,
+    "method": "Target Rewards",
+    "rate": 20,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Armorplate",
+    "rarity": 6,
+    "method": "Wound Destroyed Reward",
+    "rate": 43,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Armorplate",
+    "rarity": 6,
+    "method": "Carving",
+    "rate": 23,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Pelt",
+    "rarity": 6,
+    "method": "Target Rewards",
+    "rate": 15,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Pelt",
+    "rarity": 6,
+    "method": "Wound Destroyed Reward",
+    "rate": 12,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Pelt",
+    "rarity": 6,
+    "method": "Carving",
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Monster Hardbone",
+    "rarity": 6,
+    "method": "Target Rewards",
+    "rate": 18,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Certificate S",
+    "rarity": 6,
+    "method": "Target Rewards",
+    "rate": 8,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Gem",
+    "rarity": 7,
+    "method": "Target Rewards",
+    "rate": 3,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Gem",
+    "rarity": 7,
+    "method": "Carving",
+    "rate": 5,
+    "condition": null,
+    "quantity": 1
+  },
+  {
+    "monster": "Arkveld",
+    "rank": "High Rank",
+    "material": "Gem",
+    "rarity": 7,
+    "method": "Carving (Severed Part)",
+    "rate": 7,
+    "condition": null,
+    "quantity": 1
   }
 ]
