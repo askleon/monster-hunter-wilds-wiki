@@ -9,6 +9,7 @@ function ThemedContent({ children }: { children: React.ReactNode }) {
   return (
     <div className={`flex flex-col min-h-screen ${theme}`}>
       <Header />
+      <div className=''>NOTICE: Under development. Data not final.</div>
       <main className="container mx-auto flex-grow p-4">{children}</main>
       <Footer />
     </div>
