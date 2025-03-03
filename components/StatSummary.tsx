@@ -13,11 +13,11 @@ export function StatSummary({ loadout }: StatSummaryProps) {
   const totalDefense = armorPieces.reduce((sum, piece) => sum + (piece?.defense || 0), 0);
 
   const elementalResistances = {
-    fire: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.fire || 0), 0),
-    water: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.water || 0), 0),
-    thunder: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.thunder || 0), 0),
-    ice: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.ice || 0), 0),
-    dragon: armorPieces.reduce((sum, piece) => sum + (piece?.resistances?.dragon || 0), 0),
+    fire: armorPieces.reduce((sum, piece) => sum + (piece?.fire || 0), 0),
+    water: armorPieces.reduce((sum, piece) => sum + (piece?.water || 0), 0),
+    thunder: armorPieces.reduce((sum, piece) => sum + (piece?.thunder || 0), 0),
+    ice: armorPieces.reduce((sum, piece) => sum + (piece?.ice || 0), 0),
+    dragon: armorPieces.reduce((sum, piece) => sum + (piece?.dragon || 0), 0),
   };
 
   const renderResistance = (value: number) => {

@@ -6,10 +6,7 @@ export interface Decoration {
   name: string;
   rarity: number;
   slotSize: number;
-  skill: {
-    skill: Skill;
-    level: number;
-  };
+  skill: Skill;
   description: string;
 }
 

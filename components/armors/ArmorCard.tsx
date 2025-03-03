@@ -10,8 +10,12 @@ export function ArmorCard({ armorSet }: ArmorCardProps) {
   const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
   const getSetBonus = () => {
-    const setBonusSkill = armorSet.pieces[0].skills.find(skill => skill.id.includes('Mastery'));
-    return setBonusSkill ? setBonusSkill.id : null;
+    const setBonusSkills = armorSet.pieces
+      .flatMap(piece => piece.skills || [])
+      .filter(skill => skill.skillType === 'setbonus')
+      .map(skill => `${skill.skillName} Lv.${skill.skillLevel}`);
+
+    return setBonusSkills.length > 0 ? setBonusSkills.join(', ') : null;
   };
 
   return (

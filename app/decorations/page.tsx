@@ -17,7 +17,7 @@ export default function DecorationListPage() {
               <div>
                 <h3 className="font-semibold text-primary">Skill:</h3>
                 <p className="text-secondary">
-                  {decoration.skill.skill.name} Lv. {decoration.skill.level}
+                  {decoration.skill.name} Lv. {decoration.skill.level}
                 </p>
                 <p className="mt-2 text-secondary">{decoration.description}</p>
               </div>

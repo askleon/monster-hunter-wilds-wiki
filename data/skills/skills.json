@@ -1,200 +1,1310 @@
 [
   {
-    "id": "attackBoost",
+    "name": "Adaptability",
+    "description": "Grants protection against environmental damage, such as from heat or cold.",
+    "level": 1,
+    "effect": "Negates the effects of heat and cold."
+  },
+  {
+    "name": "Adaptability",
+    "description": "Grants protection against environmental damage, such as from heat or cold.",
+    "level": 2,
+    "effect": "Negates environmental damage."
+  },
+  {
+    "name": "Adrenaline Rush",
+    "description": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+    "level": 1,
+    "effect": "Attack +10 while active."
+  },
+  {
+    "name": "Adrenaline Rush",
+    "description": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+    "level": 2,
+    "effect": "Attack +15 while active."
+  },
+  {
+    "name": "Adrenaline Rush",
+    "description": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+    "level": 3,
+    "effect": "Attack +20 while active."
+  },
+  {
+    "name": "Adrenaline Rush",
+    "description": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+    "level": 4,
+    "effect": "Attack +25 while active."
+  },
+  {
+    "name": "Adrenaline Rush",
+    "description": "Temporarily increases attack power after executing a perfectly-timed evade just as a monster attacks.",
+    "level": 5,
+    "effect": "Attack +30 while active."
+  },
+  {
+    "name": "Ambush",
+    "description": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+    "level": 1,
+    "effect": "Attack +5% while active."
+  },
+  {
+    "name": "Ambush",
+    "description": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+    "level": 2,
+    "effect": "Attack +10% while active."
+  },
+  {
+    "name": "Ambush",
+    "description": "Temporarily increases damage to large monsters with a successful Sneak Attack.",
+    "level": 3,
+    "effect": "Attack +15% while active."
+  },
+  {
+    "name": "Aquatic/Oilsilt Mobility",
+    "description": "Grants resistance against impairments to mobility while in water, oilsilt, or streams.",
+    "level": 1,
+    "effect": "Negates the effects of muddy streams, and prevents you from being slowed down in water or oilsilt."
+  },
+  {
+    "name": "Aquatic/Oilsilt Mobility",
+    "description": "Grants resistance against impairments to mobility while in water, oilsilt, or streams.",
+    "level": 2,
+    "effect": "Also negates the effects of waves."
+  },
+  {
+    "name": "Artillery",
+    "description": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
+    "level": 1,
+    "effect": "Moderately increases each attack and Wyvern's Fire firing speed. Shelling fire attack +30."
+  },
+  {
+    "name": "Artillery",
+    "description": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
+    "level": 2,
+    "effect": "Increases each attack and Wyvern's Fire firing speed. Shelling fire attack +60."
+  },
+  {
+    "name": "Artillery",
+    "description": "Strengthens explosive attacks like shells, Wyvern's Fire, charge blade phial attacks, and Sticky Ammo.",
+    "level": 3,
+    "effect": "Greatly increases each attack and Wyvern's Fire firing speed. Shelling fire attack +90."
+  },
+  {
     "name": "Attack Boost",
-    "maxLevel": 7,
     "description": "Increases attack power.",
-    "effects": [
-      { "level": 1, "description": "Attack +3" },
-      { "level": 4, "description": "Attack +5%, Bonus: +5" },
-      { "level": 7, "description": "Attack +10%, Bonus: +8" }
-    ]
+    "level": 1,
+    "effect": "Attack +3"
   },
   {
-    "id": "criticalEye",
-    "name": "Critical Eye",
-    "maxLevel": 7,
-    "description": "Increases affinity.",
-    "effects": [
-      { "level": 1, "description": "Affinity +5%" },
-      { "level": 4, "description": "Affinity +15%" },
-      { "level": 7, "description": "Affinity +40%" }
-    ]
+    "name": "Attack Boost",
+    "description": "Increases attack power.",
+    "level": 2,
+    "effect": "Attack +5"
   },
   {
-    "id": "poisonResistance",
-    "name": "Poison Resistance",
-    "maxLevel": 3,
-    "description": "Reduces damage from poison.",
-    "effects": [
-      { "level": 1, "description": "Reduces the duration of poison by 30%" },
-      { "level": 3, "description": "Prevents poison" }
-    ]
+    "name": "Attack Boost",
+    "description": "Increases attack power.",
+    "level": 3,
+    "effect": "Attack +7"
   },
   {
-    "id": "botanist",
+    "name": "Attack Boost",
+    "description": "Increases attack power.",
+    "level": 4,
+    "effect": "Attack +2% Bonus: +8"
+  },
+  {
+    "name": "Attack Boost",
+    "description": "Increases attack power.",
+    "level": 5,
+    "effect": "Attack +4% Bonus: +9"
+  },
+  {
+    "name": "Ballistics",
+    "description": "Extends the range in which ammo and arrows have maximum power.",
+    "level": 1,
+    "effect": "Slightly extends range."
+  },
+  {
+    "name": "Ballistics",
+    "description": "Extends the range in which ammo and arrows have maximum power.",
+    "level": 2,
+    "effect": "Extends range."
+  },
+  {
+    "name": "Ballistics",
+    "description": "Extends the range in which ammo and arrows have maximum power.",
+    "level": 3,
+    "effect": "Greatly extends range."
+  },
+  {
+    "name": "Bind Resistance",
+    "description": "Grants protection against webbed status and frostblight.",
+    "level": 1,
+    "effect": "Allows you to quickly recover from webbed status or frostblight."
+  },
+  {
+    "name": "Bind Resistance",
+    "description": "Grants protection against webbed status and frostblight.",
+    "level": 2,
+    "effect": "Allows you to very quickly recover from webbed status or frostblight."
+  },
+  {
+    "name": "Bind Resistance",
+    "description": "Grants protection against webbed status and frostblight.",
+    "level": 3,
+    "effect": "Prevents webbed status and frostblight."
+  },
+  {
+    "name": "Blast Attack",
+    "description": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
+    "level": 1,
+    "effect": "Blast buildup +5% Bonus: +10"
+  },
+  {
+    "name": "Blast Attack",
+    "description": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
+    "level": 2,
+    "effect": "Blast buildup +10% Bonus: +20"
+  },
+  {
+    "name": "Blast Attack",
+    "description": "Increases the rate of blast buildup. (Blast buildup has a maximum limit.)",
+    "level": 3,
+    "effect": "Blast buildup +20% Bonus: +50"
+  },
+  {
+    "name": "Blast Functionality",
+    "description": "Allows you to apply blast coatings.",
+    "level": 1,
+    "effect": "Lets you use blast coatings."
+  },
+  {
+    "name": "Blast Resistance",
+    "description": "Grants protection against blastblight.",
+    "level": 1,
+    "effect": "Delays blastblight and reduces blast damage."
+  },
+  {
+    "name": "Blast Resistance",
+    "description": "Grants protection against blastblight.",
+    "level": 2,
+    "effect": "Greatly delays blastblight and greatly reduces blast damage."
+  },
+  {
+    "name": "Blast Resistance",
+    "description": "Grants protection against blastblight.",
+    "level": 3,
+    "effect": "Prevents blastblight."
+  },
+  {
+    "name": "Bleeding Resistance",
+    "description": "Grants protection against bleeding.",
+    "level": 1,
+    "effect": "Reduces damage while bleeding."
+  },
+  {
+    "name": "Bleeding Resistance",
+    "description": "Grants protection against bleeding.",
+    "level": 2,
+    "effect": "Greatly reduces damage while bleeding."
+  },
+  {
+    "name": "Bleeding Resistance",
+    "description": "Grants protection against bleeding.",
+    "level": 3,
+    "effect": "Prevents bleeding."
+  },
+  {
+    "name": "Blindsider",
+    "description": "Improves the effectiveness of flash attacks and items.",
+    "level": 1,
+    "effect": "Improves the effectiveness of flash attacks and items."
+  },
+  {
+    "name": "Bludgeoner",
+    "description": "Increases attack power when your weapon sharpness is low.",
+    "level": 1,
+    "effect": "+5% attack power when your sharpness gauge is yellow or lower."
+  },
+  {
+    "name": "Bludgeoner",
+    "description": "Increases attack power when your weapon sharpness is low.",
+    "level": 2,
+    "effect": "+10% attack power when your sharpness gauge is yellow or lower."
+  },
+  {
+    "name": "Bludgeoner",
+    "description": "Increases attack power when your weapon sharpness is low.",
+    "level": 3,
+    "effect": "+10% attack power when your sharpness gauge is green or lower."
+  },
+  {
     "name": "Botanist",
-    "maxLevel": 4,
     "description": "Increases the quantity of herbs and other consumable items you gather.",
-    "effects": [
-      { "level": 1, "description": "Increases the quantity of herbs gathered by 1" },
-      { "level": 4, "description": "Increases the quantity of herbs gathered by 2" }
-    ]
+    "level": 1,
+    "effect": "One extra consumable herb item per gather."
   },
   {
-    "id": "poisonAttack",
-    "name": "Poison Attack",
-    "maxLevel": 3,
-    "description": "Increases the potency of poison attacks.",
-    "effects": [
-      { "level": 1, "description": "Poison buildup +5%, Poison damage +10%" },
-      { "level": 3, "description": "Poison buildup +20%, Poison damage +20%" }
-    ]
+    "name": "Botanist",
+    "description": "Increases the quantity of herbs and other consumable items you gather.",
+    "level": 2,
+    "effect": "Additionally adds one extra consumable fruit, nut, or seed item per gather."
   },
   {
-    "id": "itemProlonger",
-    "name": "Item Prolonger",
-    "maxLevel": 3,
-    "description": "Extends the duration of some item effects.",
-    "effects": [
-      { "level": 1, "description": "Item effect duration +10%" },
-      { "level": 3, "description": "Item effect duration +50%" }
-    ]
+    "name": "Botanist",
+    "description": "Increases the quantity of herbs and other consumable items you gather.",
+    "level": 3,
+    "effect": "Additionally adds one extra consumable insect item per gather."
   },
   {
-    "id": "sporepuffExpert",
-    "name": "Sporepuff Expert",
-    "maxLevel": 3,
-    "description": "Increases the effectiveness of Sporepuffs.",
-    "effects": [
-      { "level": 1, "description": "Slightly increases Sporepuff effectiveness" },
-      { "level": 3, "description": "Greatly increases Sporepuff effectiveness" }
-    ]
+    "name": "Botanist",
+    "description": "Increases the quantity of herbs and other consumable items you gather.",
+    "level": 4,
+    "effect": "Additionally adds one extra consumable mushroom item per gather."
   },
   {
-    "id": "fireAttack",
-    "name": "Fire Attack",
-    "maxLevel": 5,
-    "description": "Increases fire element attack power.",
-    "effects": [
-      { "level": 1, "description": "Fire attack +30" },
-      { "level": 5, "description": "Fire attack +100, +5%" }
-    ]
+    "name": "Charge Master",
+    "description": "Increases element power and status buildup for charged attacks.",
+    "level": 1,
+    "effect": "Slightly increases elemental damage and status buildup for charged attacks."
   },
   {
-    "id": "weaknessExploit",
-    "name": "Weakness Exploit",
-    "maxLevel": 3,
-    "description": "Increases affinity for weak spots.",
-    "effects": [
-      { "level": 1, "description": "Affinity +15% for weak spots" },
-      { "level": 3, "description": "Affinity +50% for weak spots" }
-    ]
+    "name": "Charge Master",
+    "description": "Increases element power and status buildup for charged attacks.",
+    "level": 2,
+    "effect": "Increases elemental damage and status buildup for charged attacks."
   },
   {
-    "id": "jumpMaster",
-    "name": "Jump Master",
-    "maxLevel": 1,
-    "description": "Prevents attacks from knocking you back during a jump.",
-    "effects": [
-      { "level": 1, "description": "Prevents knockback during jumps" }
-    ]
+    "name": "Charge Master",
+    "description": "Increases element power and status buildup for charged attacks.",
+    "level": 3,
+    "effect": "Greatly increases elemental damage and status buildup for charged attacks."
   },
   {
-    "id": "speedSharpening",
-    "name": "Speed Sharpening",
-    "maxLevel": 3,
-    "description": "Speeds up weapon sharpening.",
-    "effects": [
-      { "level": 1, "description": "Removes 1 cycle from the sharpening process" },
-      { "level": 3, "description": "Removes 3 cycles from the sharpening process" }
-    ]
+    "name": "Charge Up",
+    "description": "Increases your power to induce stun when you hit a monster with a hammer's charged attack.",
+    "level": 1,
+    "effect": "Activates skill effect."
   },
   {
-    "id": "constitution",
+    "name": "Cliffhanger",
+    "description": "Decreases stamina depletion when climbing on vines.",
+    "level": 1,
+    "effect": "Reduces stamina depletion while climbing by 50%."
+  },
+  {
+    "name": "Coalescence",
+    "description": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+    "level": 1,
+    "effect": "When active, grants a slight increase to elemental damage and status buildup."
+  },
+  {
+    "name": "Coalescence",
+    "description": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+    "level": 2,
+    "effect": "When active, grants an increase to elemental damage and status buildup."
+  },
+  {
+    "name": "Coalescence",
+    "description": "Temporarily increases elemental attack power and status effects after recovering from blights or abnormal status.",
+    "level": 3,
+    "effect": "When active, grants a large increase to elemental damage and status buildup."
+  },
+  {
     "name": "Constitution",
-    "maxLevel": 5,
-    "description": "Reduces stamina depletion for actions other than running.",
-    "effects": [
-      { "level": 1, "description": "Stamina depletion -10%" },
-      { "level": 5, "description": "Stamina depletion -50%" }
-    ]
+    "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "level": 1,
+    "effect": "Reduces fixed stamina depletion by 10%."
   },
   {
-    "id": "fortify",
-    "name": "Fortify",
-    "maxLevel": 1,
-    "description": "Increases your attack and defense when you fall in battle.",
-    "effects": [
-      { "level": 1, "description": "Attack +10% and defense +15% with each use" }
-    ]
+    "name": "Constitution",
+    "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "level": 2,
+    "effect": "Reduces fixed stamina depletion by 20%."
   },
   {
-    "id": "criticalElement",
+    "name": "Constitution",
+    "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "level": 3,
+    "effect": "Reduces fixed stamina depletion by 30%."
+  },
+  {
+    "name": "Constitution",
+    "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "level": 4,
+    "effect": "Reduces fixed stamina depletion by 40%."
+  },
+  {
+    "name": "Constitution",
+    "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+    "level": 5,
+    "effect": "Reduces fixed stamina depletion by 50%."
+  },
+  {
+    "name": "Counterstrike",
+    "description": "Temporarily increases attack power after being knocked back.",
+    "level": 1,
+    "effect": "Attack +10 while active."
+  },
+  {
+    "name": "Counterstrike",
+    "description": "Temporarily increases attack power after being knocked back.",
+    "level": 2,
+    "effect": "Attack +15 while active. Moderately extends effect time."
+  },
+  {
+    "name": "Counterstrike",
+    "description": "Temporarily increases attack power after being knocked back.",
+    "level": 3,
+    "effect": "Attack +25 while active. Extends effect time."
+  },
+  {
+    "name": "Critical Boost",
+    "description": "Increases the damage of critical hits.",
+    "level": 1,
+    "effect": "Increases damage dealt by critical hits to 28%."
+  },
+  {
+    "name": "Critical Boost",
+    "description": "Increases the damage of critical hits.",
+    "level": 2,
+    "effect": "Increases damage dealt by critical hits to 31%"
+  },
+  {
+    "name": "Critical Boost",
+    "description": "Increases the damage of critical hits.",
+    "level": 3,
+    "effect": "Increases damage dealt by critical hits to 34%."
+  },
+  {
+    "name": "Critical Boost",
+    "description": "Increases the damage of critical hits.",
+    "level": 4,
+    "effect": "Increases damage dealt by critical hits to 37%."
+  },
+  {
+    "name": "Critical Boost",
+    "description": "Increases the damage of critical hits.",
+    "level": 5,
+    "effect": "Increases damage dealt by critical hits to 40%."
+  },
+  {
+    "name": "Critical Draw",
+    "description": "Increases affinity when performing draw attacks. (Not effective while riding.)",
+    "level": 1,
+    "effect": "Affinity +50%"
+  },
+  {
+    "name": "Critical Draw",
+    "description": "Increases affinity when performing draw attacks. (Not effective while riding.)",
+    "level": 2,
+    "effect": "Affinity +75%"
+  },
+  {
+    "name": "Critical Draw",
+    "description": "Increases affinity when performing draw attacks. (Not effective while riding.)",
+    "level": 3,
+    "effect": "Affinity +100%"
+  },
+  {
     "name": "Critical Element",
-    "maxLevel": 3,
-    "description": "Increases elemental damage when landing critical hits.",
-    "effects": [
-      { "level": 1, "description": "Slightly increases elemental damage on critical hits" },
-      { "level": 3, "description": "Greatly increases elemental damage on critical hits" }
-    ]
+    "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+    "level": 1,
+    "effect": "Slightly increases elemental damage while active."
   },
   {
-    "id": "evadeWindow",
-    "name": "Evade Window",
-    "maxLevel": 5,
-    "description": "Extends the invulnerability period when evading.",
-    "effects": [
-      { "level": 1, "description": "Slightly increases invulnerability window" },
-      { "level": 5, "description": "Greatly increases invulnerability window" }
-    ]
+    "name": "Critical Element",
+    "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+    "level": 2,
+    "effect": "Increases elemental damage while active."
   },
   {
-    "id": "trueCriticalElement",
-    "name": "True Critical Element",
-    "maxLevel": 1,
-    "description": "Further increases elemental damage when landing critical hits.",
-    "effects": [
-      { "level": 1, "description": "Greatly increases elemental damage on critical hits" }
-    ]
+    "name": "Critical Element",
+    "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+    "level": 3,
+    "effect": "Greatly increases elemental damage while active."
   },
   {
-    "id": "focus",
-    "name": "Focus",
-    "maxLevel": 3,
-    "description": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
-    "effects": [
-      { "level": 1, "description": "Charge rate +5%" },
-      { "level": 3, "description": "Charge rate +20%" }
-    ]
+    "name": "Critical Eye",
+    "description": "Increases affinity.",
+    "level": 1,
+    "effect": "Affinity +4%"
   },
   {
-    "id": "rathalosMastery",
-    "name": "Rathalos Mastery",
-    "maxLevel": 1,
-    "description": "Rathalos set bonus skill.",
-    "effects": [
-      { "level": 1, "description": "Activates set bonus effect" }
-    ]
+    "name": "Critical Eye",
+    "description": "Increases affinity.",
+    "level": 2,
+    "effect": "Affinity +8%"
   },
   {
-    "id": "odogaronMastery",
-    "name": "Odogaron Mastery",
-    "maxLevel": 1,
-    "description": "Odogaron set bonus skill.",
-    "effects": [
-      { "level": 1, "description": "Activates set bonus effect" }
-    ]
+    "name": "Critical Eye",
+    "description": "Increases affinity.",
+    "level": 3,
+    "effect": "Affinity +12%"
   },
   {
-    "id": "goodLuck",
-    "name": "Good Luck",
-    "maxLevel": 3,
-    "description": "Increases the chance of receiving more items at the end of a quest.",
-    "effects": [
-      { "level": 1, "description": "Slightly increases rewards" },
-      { "level": 2, "description": "Moderately increases rewards" },
-      { "level": 3, "description": "Greatly increases rewards" }
-    ]
+    "name": "Critical Eye",
+    "description": "Increases affinity.",
+    "level": 4,
+    "effect": "Affinity +16%"
+  },
+  {
+    "name": "Critical Eye",
+    "description": "Increases affinity.",
+    "level": 5,
+    "effect": "Affinity +20%"
+  },
+  {
+    "name": "Critical Status",
+    "description": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
+    "level": 1,
+    "effect": "Slightly increases abnormal status effects when landing critical hits."
+  },
+  {
+    "name": "Critical Status",
+    "description": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
+    "level": 2,
+    "effect": "Increases abnormal status effects when landing critical hits."
+  },
+  {
+    "name": "Critical Status",
+    "description": "Increases abnormal status effects (paralysis, poison, sleep, blast) when landing critical hits.",
+    "level": 3,
+    "effect": "Greatly increases abnormal status effects when landing critical hits."
+  },
+  {
+    "name": "Defense Boost",
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "level": 1,
+    "effect": "Defense +5"
+  },
+  {
+    "name": "Defense Boost",
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "level": 2,
+    "effect": "Defense +10"
+  },
+  {
+    "name": "Defense Boost",
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "level": 3,
+    "effect": "Defense +5% Bonus: +10"
+  },
+  {
+    "name": "Defense Boost",
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "level": 4,
+    "effect": "Defense +5% Bonus: +20 All elemental resistances +3"
+  },
+  {
+    "name": "Defense Boost",
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "level": 5,
+    "effect": "Defense +8% Bonus: +20 All elemental resistances +3"
+  },
+  {
+    "name": "Defense Boost",
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "level": 6,
+    "effect": "Defense +8% Bonus: +20 All elemental resistances +3"
+  },
+  {
+    "name": "Defense Boost",
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "level": 7,
+    "effect": "Defense +8% Bonus: +35 All elemental resistances +5"
+  },
+  {
+    "name": "Defense Boost",
+    "description": "Increases defense. Also improves resistances at higher levels.",
+    "level": 8,
+    "effect": "Defense +10% Bonus: +35 All elemental resistances +5"
+  },
+  {
+    "name": "Divine Blessing",
+    "description": "Has a predetermined chance of reducing the damage you take.",
+    "level": 1,
+    "effect": "While active, reduces damage taken by 15%."
+  },
+  {
+    "name": "Divine Blessing",
+    "description": "Has a predetermined chance of reducing the damage you take.",
+    "level": 2,
+    "effect": "While active, reduces damage taken by 30%."
+  },
+  {
+    "name": "Divine Blessing",
+    "description": "Has a predetermined chance of reducing the damage you take.",
+    "level": 3,
+    "effect": "While active, reduces damage taken by 50%."
+  },
+  {
+    "name": "Dragon Attack",
+    "description": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 1,
+    "effect": "Dragon attack +40"
+  },
+  {
+    "name": "Dragon Attack",
+    "description": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 2,
+    "effect": "Dragon attack +10% Bonus: +50"
+  },
+  {
+    "name": "Dragon Attack",
+    "description": "Increases dragon element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 3,
+    "effect": "Dragon attack +20% Bonus: +60"
+  },
+  {
+    "name": "Dragon Resistance",
+    "description": "Increases dragon resistance. Also improves defense at higher levels.",
+    "level": 1,
+    "effect": "Dragon resistance +6"
+  },
+  {
+    "name": "Dragon Resistance",
+    "description": "Increases dragon resistance. Also improves defense at higher levels.",
+    "level": 2,
+    "effect": "Dragon resistance +12"
+  },
+  {
+    "name": "Dragon Resistance",
+    "description": "Increases dragon resistance. Also improves defense at higher levels.",
+    "level": 3,
+    "effect": "Dragon resistance +20 Defense +10"
+  },
+  {
+    "name": "Earplugs",
+    "description": "Grants protection from large monsters' roars.",
+    "level": 1,
+    "effect": "Reduces the effects of weak monster roars."
+  },
+  {
+    "name": "Earplugs",
+    "description": "Grants protection from large monsters' roars.",
+    "level": 2,
+    "effect": "Nullifies weak monster roars and reduces the effects of strong monster roars."
+  },
+  {
+    "name": "Earplugs",
+    "description": "Grants protection from large monsters' roars.",
+    "level": 3,
+    "effect": "Nullifies weak and strong monster roars."
+  },
+  {
+    "name": "Evade Extender",
+    "description": "Increases evade distance.",
+    "level": 1,
+    "effect": "Slightly extends evasion distance."
+  },
+  {
+    "name": "Evade Extender",
+    "description": "Increases evade distance.",
+    "level": 2,
+    "effect": "Extends evasion distance."
+  },
+  {
+    "name": "Evade Extender",
+    "description": "Increases evade distance.",
+    "level": 3,
+    "effect": "Greatly extends evasion distance."
+  },
+  {
+    "name": "Item Prolonger",
+    "description": "Extends the duration of some item effects.",
+    "level": 1,
+    "effect": "Item effect duration +10%"
+  },
+  {
+    "name": "Item Prolonger",
+    "description": "Extends the duration of some item effects.",
+    "level": 2,
+    "effect": "Item effect duration +25%"
+  },
+  {
+    "name": "Item Prolonger",
+    "description": "Extends the duration of some item effects.",
+    "level": 3,
+    "effect": "Item effect duration +50%"
+  },
+  {
+    "name": "Jump Master",
+    "description": "Prevents attacks from knocking you back during a jump.",
+    "level": 1,
+    "effect": "Negates knockback during jumps."
+  },
+  {
+    "name": "Latent Power",
+    "description": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "level": 1,
+    "effect": "While active, affinity +10% and reduces stamina depletion by 30%."
+  },
+  {
+    "name": "Latent Power",
+    "description": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "level": 2,
+    "effect": "While active, affinity +20% and reduces stamina depletion by 30%."
+  },
+  {
+    "name": "Latent Power",
+    "description": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "level": 3,
+    "effect": "While active, affinity +30% and reduces stamina depletion by 50%."
+  },
+  {
+    "name": "Latent Power",
+    "description": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "level": 4,
+    "effect": "While active, affinity +40% and reduces stamina depletion by 50%."
+  },
+  {
+    "name": "Latent Power",
+    "description": "Temporarily increases affinity and reduces stamina depletion when certain conditions are met.",
+    "level": 5,
+    "effect": "While active, affinity +50% and reduces stamina depletion by 50%."
+  },
+  {
+    "name": "Load Shells",
+    "description": "Improves reloading, and increases the gunlance's shell capacity and charge blade's phial capacity.",
+    "level": 1,
+    "effect": "Increases shell and phial reloading speed."
+  },
+  {
+    "name": "Load Shells",
+    "description": "Improves reloading, and increases the gunlance's shell capacity and charge blade's phial capacity.",
+    "level": 2,
+    "effect": "Increases shell/phial reloading speed. Gunlance loading capacity +1. Charge blade charges 5 phials on yellow gauge."
+  },
+  {
+    "name": "Marathon Runner",
+    "description": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+    "level": 1,
+    "effect": "Reduces continuous stamina depletion by 15%."
+  },
+  {
+    "name": "Marathon Runner",
+    "description": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+    "level": 2,
+    "effect": "Reduces continuous stamina depletion by 30%."
+  },
+  {
+    "name": "Marathon Runner",
+    "description": "Slows down stamina depletion for actions that continuously drain stamina (such as dashing).",
+    "level": 3,
+    "effect": "Reduces continuous stamina depletion by 50%."
+  },
+  {
+    "name": "Maximum Might",
+    "description": "Increases affinity if stamina is kept full for a period of time.",
+    "level": 1,
+    "effect": "Affinity +10% while active"
+  },
+  {
+    "name": "Maximum Might",
+    "description": "Increases affinity if stamina is kept full for a period of time.",
+    "level": 2,
+    "effect": "Affinity +20% while active"
+  },
+  {
+    "name": "Maximum Might",
+    "description": "Increases affinity if stamina is kept full for a period of time.",
+    "level": 3,
+    "effect": "Affinity +30% while active"
+  },
+  {
+    "name": "Mind's Eye",
+    "description": "Your attacks are deflected less and deal more damage to hard targets.",
+    "level": 1,
+    "effect": "50% chance of your attacks not being deflected, +10% damage to hard targets."
+  },
+  {
+    "name": "Mind's Eye",
+    "description": "Your attacks are deflected less and deal more damage to hard targets.",
+    "level": 2,
+    "effect": "100% chance of your attacks not being deflected, +15% damage to hard targets."
+  },
+  {
+    "name": "Mind's Eye",
+    "description": "Your attacks are deflected less and deal more damage to hard targets.",
+    "level": 3,
+    "effect": "100% chance of your attacks not being deflected, +30% damage to hard targets."
+  },
+  {
+    "name": "Mushroomancer",
+    "description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+    "level": 1,
+    "effect": "Lets you digest blue mushrooms and toadstools."
+  },
+  {
+    "name": "Mushroomancer",
+    "description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+    "level": 2,
+    "effect": "Additionally lets you digest nitroshrooms and parashrooms."
+  },
+  {
+    "name": "Mushroomancer",
+    "description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+    "level": 3,
+    "effect": "Additionally lets you digest mandragoras, devil's blight, and exciteshrooms."
+  },
+  {
+    "name": "Offensive Guard",
+    "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
+    "level": 1,
+    "effect": "Attack +5% while active."
+  },
+  {
+    "name": "Offensive Guard",
+    "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
+    "level": 2,
+    "effect": "Attack +10% while active."
+  },
+  {
+    "name": "Offensive Guard",
+    "description": "Temporarily increases attack power after executing a perfectly-timed guard.",
+    "level": 3,
+    "effect": "Attack +15% while active."
+  },
+  {
+    "name": "Opening Shot",
+    "description": "Increases the bowgun's reload speed and increases the power of bullets when fully loaded.",
+    "level": 1,
+    "effect": "Moderately increases bowgun reload speed and attack power of ammo when certain conditions are met."
+  },
+  {
+    "name": "Opening Shot",
+    "description": "Increases the bowgun's reload speed and increases the power of bullets when fully loaded.",
+    "level": 2,
+    "effect": "Increases bowgun reload speed and attack power of ammo when certain conditions are met."
+  },
+  {
+    "name": "Opening Shot",
+    "description": "Increases the bowgun's reload speed and increases the power of bullets when fully loaded.",
+    "level": 3,
+    "effect": "Greatly increases bowgun reload speed and attack power of ammo when certain conditions are met."
+  },
+  {
+    "name": "Outdoorsman",
+    "description": "Improves fishing, grilling, and transporting abilities.",
+    "level": 1,
+    "effect": "Improves fishing, grilling, and transporting abilities."
+  },
+  {
+    "name": "Paralysis Attack",
+    "description": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
+    "level": 1,
+    "effect": "Paralysis buildup +5% Bonus: +10"
+  },
+  {
+    "name": "Paralysis Attack",
+    "description": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
+    "level": 2,
+    "effect": "Paralysis buildup +10% Bonus: +20"
+  },
+  {
+    "name": "Paralysis Attack",
+    "description": "Increases the rate of paralysis buildup. (Paralysis buildup has a maximum limit.)",
+    "level": 3,
+    "effect": "Paralysis buildup +20% Bonus: +50"
+  },
+  {
+    "name": "Partbreaker",
+    "description": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+    "level": 1,
+    "effect": "Increases part damage and damage dealt when conditions are met by 10%."
+  },
+  {
+    "name": "Partbreaker",
+    "description": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+    "level": 2,
+    "effect": "Increases part damage and damage dealt when conditions are met by 20%."
+  },
+  {
+    "name": "Partbreaker",
+    "description": "Makes it easier to break large monster parts, and increases damage dealt when destroying a wound with a Focus Strike.",
+    "level": 3,
+    "effect": "Increases part damage and damage dealt when conditions are met by 30%."
+  },
+  {
+    "name": "Poison Resistance",
+    "description": "Reduces damage while poisoned.",
+    "level": 1,
+    "effect": "Reduces the number of times you take poison damage."
+  },
+  {
+    "name": "Poison Resistance",
+    "description": "Reduces damage while poisoned.",
+    "level": 2,
+    "effect": "Greatly reduces the number of times you take poison damage."
+  },
+  {
+    "name": "Poison Resistance",
+    "description": "Reduces damage while poisoned.",
+    "level": 3,
+    "effect": "Prevents poison."
+  },
+  {
+    "name": "Power Prolonger",
+    "description": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
+    "level": 1,
+    "effect": "Moderately boosts the duration weapons are powered up."
+  },
+  {
+    "name": "Power Prolonger",
+    "description": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
+    "level": 2,
+    "effect": "Boosts the duration weapons are powered up."
+  },
+  {
+    "name": "Power Prolonger",
+    "description": "Allows long swords, dual blades, insect glaives, switch axes, and charge blades to stay powered up longer.",
+    "level": 3,
+    "effect": "Greatly boosts the duration weapons are powered up."
+  },
+  {
+    "name": "Protective Polish",
+    "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+    "level": 1,
+    "effect": "Grants no sharpness loss for 30 seconds after activation."
+  },
+  {
+    "name": "Protective Polish",
+    "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+    "level": 2,
+    "effect": "Grants no sharpness loss for 60 seconds after activation."
+  },
+  {
+    "name": "Protective Polish",
+    "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+    "level": 3,
+    "effect": "Grants no sharpness loss for 90 seconds after activation."
+  },
+  {
+    "name": "Punishing Draw",
+    "description": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
+    "level": 1,
+    "effect": "Draw attacks deal a small amount of stun damage and gain attack +3."
+  },
+  {
+    "name": "Punishing Draw",
+    "description": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
+    "level": 2,
+    "effect": "Draw attacks deal a medium amount of stun damage and gain attack +5."
+  },
+  {
+    "name": "Punishing Draw",
+    "description": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
+    "level": 3,
+    "effect": "Draw attacks deal a large amount of stun damage and gain attack +7."
+  },
+  {
+    "name": "Quick Sheathe",
+    "description": "Speeds up weapon sheathing.",
+    "level": 1,
+    "effect": "Slightly increases sheathing speed."
+  },
+  {
+    "name": "Quick Sheathe",
+    "description": "Speeds up weapon sheathing.",
+    "level": 2,
+    "effect": "Increases sheathing speed."
+  },
+  {
+    "name": "Quick Sheathe",
+    "description": "Speeds up weapon sheathing.",
+    "level": 3,
+    "effect": "Greatly increases sheathing speed."
+  },
+  {
+    "name": "Rapid Morph",
+    "description": "Increases switch speed and power for switch axes and charge blades.",
+    "level": 1,
+    "effect": "Speed +10% Morph attack damage +10%"
+  },
+  {
+    "name": "Rapid Morph",
+    "description": "Increases switch speed and power for switch axes and charge blades.",
+    "level": 2,
+    "effect": "Speed +20% Morph attack damage +10%"
+  },
+  {
+    "name": "Rapid Morph",
+    "description": "Increases switch speed and power for switch axes and charge blades.",
+    "level": 3,
+    "effect": "Speed +30% Morph attack damage +20%"
+  },
+  {
+    "name": "Razor Sharp",
+    "description": "Prevents your weapon from losing sharpness.",
+    "level": 1,
+    "effect": "Grants a 10% chance of no sharpness loss."
+  },
+  {
+    "name": "Razor Sharp",
+    "description": "Prevents your weapon from losing sharpness.",
+    "level": 2,
+    "effect": "Grants a 25% chance of no sharpness loss."
+  },
+  {
+    "name": "Razor Sharp",
+    "description": "Prevents your weapon from losing sharpness.",
+    "level": 3,
+    "effect": "Grants a 50% chance of no sharpness loss."
+  },
+  {
+    "name": "Recovery Speed",
+    "description": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+    "level": 1,
+    "effect": "Doubles the speed at which you heal recoverable damage."
+  },
+  {
+    "name": "Recovery Speed",
+    "description": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+    "level": 2,
+    "effect": "Triples the speed at which you heal recoverable damage."
+  },
+  {
+    "name": "Recovery Speed",
+    "description": "Speeds healing of recoverable damage (the red portion of the Health Gauge).",
+    "level": 3,
+    "effect": "Quadruples the speed at which you heal recoverable damage."
+  },
+  {
+    "name": "Recovery Up",
+    "description": "Increases the amount recovered when restoring health.",
+    "level": 1,
+    "effect": "Slightly increases recovery."
+  },
+  {
+    "name": "Recovery Up",
+    "description": "Increases the amount recovered when restoring health.",
+    "level": 2,
+    "effect": "Moderately increases recovery."
+  },
+  {
+    "name": "Recovery Up",
+    "description": "Increases the amount recovered when restoring health.",
+    "level": 3,
+    "effect": "Greatly increases recovery."
+  },
+  {
+    "name": "Self-improvement",
+    "description": "Attack and defense increase as time passes while on a quest. (The maximum is reached after 30 minutes.)",
+    "level": 1,
+    "effect": "Activates skill effect."
+  },
+  {
+    "name": "Shock Absorber",
+    "description": "Disables damage reactions when you hit a friend or when a friend hits you.",
+    "level": 1,
+    "effect": "Activates skill effect."
+  },
+  {
+    "name": "Sleep Attack",
+    "description": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
+    "level": 1,
+    "effect": "Sleep buildup +5% Bonus: +10"
+  },
+  {
+    "name": "Sleep Attack",
+    "description": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
+    "level": 2,
+    "effect": "Sleep buildup +10% Bonus: +20"
+  },
+  {
+    "name": "Sleep Attack",
+    "description": "Increases the rate of sleep buildup. (Sleep buildup has a maximum limit.)",
+    "level": 3,
+    "effect": "Sleep buildup +20% Bonus: +50"
+  },
+  {
+    "name": "Slugger",
+    "description": "Makes it easier to stun monsters.",
+    "level": 1,
+    "effect": "Stun power +20%"
+  },
+  {
+    "name": "Slugger",
+    "description": "Makes it easier to stun monsters.",
+    "level": 2,
+    "effect": "Stun power +30%"
+  },
+  {
+    "name": "Slugger",
+    "description": "Makes it easier to stun monsters.",
+    "level": 3,
+    "effect": "Stun power +40%"
+  },
+  {
+    "name": "Special Ammo Boost",
+    "description": "Increases the power of the bowgun's special ammo, and the bow's Dragon Piercer, Thousand Dragons, and Tracer.",
+    "level": 1,
+    "effect": "Moderately increases the power of specified ammo and arrows."
+  },
+  {
+    "name": "Special Ammo Boost",
+    "description": "Increases the power of the bowgun's special ammo, and the bow's Dragon Piercer, Thousand Dragons, and Tracer.",
+    "level": 2,
+    "effect": "Increases the power of specified ammo and arrows."
+  },
+  {
+    "name": "Speed Eating",
+    "description": "Increases meat-eating and item-consumption speed.",
+    "level": 1,
+    "effect": "Moderately increases eating speed."
+  },
+  {
+    "name": "Speed Eating",
+    "description": "Increases meat-eating and item-consumption speed.",
+    "level": 2,
+    "effect": "Increases eating speed."
+  },
+  {
+    "name": "Speed Eating",
+    "description": "Increases meat-eating and item-consumption speed.",
+    "level": 3,
+    "effect": "Greatly increases eating speed."
+  },
+  {
+    "name": "Speed Sharpening",
+    "description": "Speeds up weapon sharpening when using a whetstone.",
+    "level": 1,
+    "effect": "Removes one cycle from the sharpening process."
+  },
+  {
+    "name": "Speed Sharpening",
+    "description": "Speeds up weapon sharpening when using a whetstone.",
+    "level": 2,
+    "effect": "Removes two cycles from the sharpening process."
+  },
+  {
+    "name": "Speed Sharpening",
+    "description": "Speeds up weapon sharpening when using a whetstone.",
+    "level": 3,
+    "effect": "Removes three cycles from the sharpening process."
+  },
+  {
+    "name": "Stamina Surge",
+    "description": "Speeds up stamina recovery.",
+    "level": 1,
+    "effect": "Stamina recovery speed +10%"
+  },
+  {
+    "name": "Stamina Surge",
+    "description": "Speeds up stamina recovery.",
+    "level": 2,
+    "effect": "Stamina recovery speed +30%"
+  },
+  {
+    "name": "Stamina Surge",
+    "description": "Speeds up stamina recovery.",
+    "level": 3,
+    "effect": "Stamina recovery speed +50%"
+  },
+  {
+    "name": "Stamina Thief",
+    "description": "Increases certain attacks' ability to exhaust monsters.",
+    "level": 1,
+    "effect": "Exhaust power +20%"
+  },
+  {
+    "name": "Stamina Thief",
+    "description": "Increases certain attacks' ability to exhaust monsters.",
+    "level": 2,
+    "effect": "Exhaust power +30%"
+  },
+  {
+    "name": "Stamina Thief",
+    "description": "Increases certain attacks' ability to exhaust monsters.",
+    "level": 3,
+    "effect": "Exhaust power +40%"
+  },
+  {
+    "name": "Tetrad Shot",
+    "description": "Increases affinity of bowgun ammo/coatings from the fourth shot and attack of the fourth and sixth shots.",
+    "level": 1,
+    "effect": "Slightly increases the attack power and affinity of ammo after certain conditions are met."
+  },
+  {
+    "name": "Tetrad Shot",
+    "description": "Increases affinity of bowgun ammo/coatings from the fourth shot and attack of the fourth and sixth shots.",
+    "level": 2,
+    "effect": "Moderately increases attack power and affinity of ammo after certain conditions are met."
+  },
+  {
+    "name": "Tetrad Shot",
+    "description": "Increases affinity of bowgun ammo/coatings from the fourth shot and attack of the fourth and sixth shots.",
+    "level": 3,
+    "effect": "Increases the attack power and affinity of ammo after certain conditions are met."
+  },
+  {
+    "name": "Thunder Attack",
+    "description": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 1,
+    "effect": "Thunder attack +40"
+  },
+  {
+    "name": "Thunder Attack",
+    "description": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 2,
+    "effect": "Thunder attack +10% Bonus: +50"
+  },
+  {
+    "name": "Thunder Attack",
+    "description": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 3,
+    "effect": "Thunder attack +20% Bonus: +60"
+  },
+  {
+    "name": "Tool Specialist",
+    "description": "Reduces the recharge time for specialized tools.",
+    "level": 1,
+    "effect": "Shortens recharge time by 10%."
+  },
+  {
+    "name": "Tool Specialist",
+    "description": "Reduces the recharge time for specialized tools.",
+    "level": 2,
+    "effect": "Shortens recharge time by 20%."
+  },
+  {
+    "name": "Tool Specialist",
+    "description": "Reduces the recharge time for specialized tools.",
+    "level": 3,
+    "effect": "Shortens recharge time by 30%."
+  },
+  {
+    "name": "Tool Specialist",
+    "description": "Reduces the recharge time for specialized tools.",
+    "level": 4,
+    "effect": "Shortens recharge time by 40%."
+  },
+  {
+    "name": "Tool Specialist",
+    "description": "Reduces the recharge time for specialized tools.",
+    "level": 5,
+    "effect": "Shortens recharge time by 50%."
+  },
+  {
+    "name": "Tremor Resistance",
+    "description": "Grants protection against ground tremors.",
+    "level": 1,
+    "effect": "Nullifies very minor ground tremors and halves effects of minor ground tremors."
+  },
+  {
+    "name": "Tremor Resistance",
+    "description": "Grants protection against ground tremors.",
+    "level": 2,
+    "effect": "Nullifies up to minor ground tremors and greatly reduces the effects of major ground tremors."
+  },
+  {
+    "name": "Tremor Resistance",
+    "description": "Grants protection against ground tremors.",
+    "level": 3,
+    "effect": "Nullifies all ground tremors."
+  },
+  {
+    "name": "Water Attack",
+    "description": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 1,
+    "effect": "Water attack +40"
+  },
+  {
+    "name": "Water Attack",
+    "description": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 2,
+    "effect": "Water attack +10% Bonus: +50"
+  },
+  {
+    "name": "Water Attack",
+    "description": "Increases water element attack power. (Elemental attack power has a maximum limit.)",
+    "level": 3,
+    "effect": "Water attack +20% Bonus: +60"
+  },
+  {
+    "name": "Water Resistance",
+    "description": "Increases water resistance. Also improves defense at higher levels.",
+    "level": 1,
+    "effect": "Water resistance +6"
+  },
+  {
+    "name": "Water Resistance",
+    "description": "Increases water resistance. Also improves defense at higher levels.",
+    "level": 2,
+    "effect": "Water resistance +12"
+  },
+  {
+    "name": "Water Resistance",
+    "description": "Increases water resistance. Also improves defense at higher levels.",
+    "level": 3,
+    "effect": "Water resistance +20 Defense +10"
+  },
+  {
+    "name": "Wide-Range",
+    "description": "Allows the effects of certain items to also affect nearby allies.",
+    "level": 1,
+    "effect": "Items affect nearby allies with 33% of their efficacy."
+  },
+  {
+    "name": "Wide-Range",
+    "description": "Allows the effects of certain items to also affect nearby allies.",
+    "level": 2,
+    "effect": "Items affect nearby allies in a wider radius with 33% of their efficacy."
+  },
+  {
+    "name": "Wide-Range",
+    "description": "Allows the effects of certain items to also affect nearby allies.",
+    "level": 3,
+    "effect": "Items affect nearby allies in a wider radius with 66% of their efficacy."
+  },
+  {
+    "name": "Wide-Range",
+    "description": "Allows the effects of certain items to also affect nearby allies.",
+    "level": 4,
+    "effect": "Items affect nearby allies in a much wider radius with 66% of their efficacy."
+  },
+  {
+    "name": "Wide-Range",
+    "description": "Allows the effects of certain items to also affect nearby allies.",
+    "level": 5,
+    "effect": "Items affect nearby allies in a much wider radius with full efficacy."
+  },
+  {
+    "name": "Windproof",
+    "description": "Grants protection against wind pressure.",
+    "level": 1,
+    "effect": "Negates minor wind pressure and halves the effects of major wind pressure."
+  },
+  {
+    "name": "Windproof",
+    "description": "Grants protection against wind pressure.",
+    "level": 2,
+    "effect": "Negates minor and major wind pressure and halves the effects of dragon wind pressure."
+  },
+  {
+    "name": "Windproof",
+    "description": "Grants protection against wind pressure.",
+    "level": 3,
+    "effect": "Negates all kinds of wind pressure."
+  },
+  {
+    "name": "Stun Resistance",
+    "description": null,
+    "level": 1,
+    "effect": null
+  },
+  {
+    "name": "Stun Resistance",
+    "description": null,
+    "level": 2,
+    "effect": null
+  },
+  {
+    "name": "Stun Resistance",
+    "description": null,
+    "level": 3,
+    "effect": null
   }
 ]

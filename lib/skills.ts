@@ -1,46 +1,22 @@
 import skillData from '../data/skills/skills.json';
-import setBonusesData from '../data/skills/setBonuses.json';
 
 export interface Skill {
-  id: string;
   name: string;
-  maxLevel: number;
-  description: string;
-  effects: SkillEffect[];
-}
-
-interface SkillEffect {
+  description: string | null;
   level: number;
-  description: string;
-}
-
-export interface SetBonus {
-  id: string;
-  name: string;
-  skills: SetBonusSkill[];
-}
-
-interface SetBonusSkill {
-  skillId: string;
-  requiredPieces: number;
+  effect: string | null;
 }
 
 export const skills: Array<Skill> = skillData;
 
-export const setBonuses: Array<SetBonus> = setBonusesData;
-
-export function getSkillById(id: string): Skill | undefined {
-  return skills.find(skill => skill.id === id);
-}
-
-export function getSetBonusById(id: string): SetBonus | undefined {
-  return setBonuses.find(setBonus => setBonus.id === id);
+export function getSkill(name: string): Skill | undefined {
+  return skills.find(skill => skill.name === name);
 }
 
 export function getAllSkills(): Skill[] {
   return Object.values(skills);
 }
 
-export function getAllSetBonuses(): SetBonus[] {
-  return Object.values(setBonuses);
+export function getSkillsByName(names: string[]): Skill[] {
+  return skills.filter(skill => names.includes(skill.name));
 }

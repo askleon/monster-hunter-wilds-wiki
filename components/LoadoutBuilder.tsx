@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons';
-import { getAllArmorSets, ArmorPiece, getArmorPieceById } from '@/lib/armors';
+import { ArmorPiece, getArmorPieceById, getAllArmors } from '@/lib/armors';
 import { Card } from '@/components/Card';
 import { useToast } from '@/components/Toast';
 import { StatSummary } from '@/components/StatSummary';
@@ -24,7 +24,7 @@ interface LoadoutBuilderProps {
   loadoutName?: string;
 }
 
-export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
+export default function LoadoutBuilder({ }: LoadoutBuilderProps) {
   const searchParams = useSearchParams();
   const { showToast } = useToast();
   const [loadout, setLoadout] = useState<Loadout>({
@@ -40,11 +40,12 @@ export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
   const shareUrlInputRef = useRef<HTMLInputElement>(null);
 
   const weaponTrees = getAllWeaponTrees();
-  const armorSets = getAllArmorSets();
 
   const allWeapons = useMemo(() => {
     return weaponTrees.flatMap(tree => tree.weapons);
   }, [weaponTrees]);
+
+  const armorPieces = useMemo(() => getAllArmors(), []);
 
   useEffect(() => {
     const initializeLoadout = () => {
@@ -94,7 +95,7 @@ export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
   };
 
   const handleArmorSelect = (pieceType: keyof Omit<Loadout, 'weapon' | 'name'>, armorId: string) => {
-    const selectedArmor = armorSets.flatMap(set => set.pieces).find(piece => piece.id === armorId);
+    const selectedArmor = armorPieces.find(piece => piece.id === armorId);
     handleLoadoutChange({ ...loadout, [pieceType]: selectedArmor || null });
   };
 
@@ -121,9 +122,12 @@ export default function LoadoutBuilder({  }: LoadoutBuilderProps) {
   };
 
   const renderArmorSelect = (pieceType: keyof Omit<Loadout, 'weapon' | 'name'>) => {
-    const options = armorSets.flatMap(set =>
-      set.pieces.filter(piece => piece.type.toLowerCase() === pieceType)
-    ).map(piece => ({ value: piece.id, label: piece.name }));
+    const options = armorPieces
+      .filter(piece => piece.type.toLowerCase() === pieceType)
+      .map(piece => ({
+        value: piece.id,
+        label: `${piece.name} (${piece.set})`
+      }));
 
     return (
       <SearchableDropdown

@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { monsters } from '@/lib/monsters'
 import { getAllWeaponTrees, WeaponTree } from '@/lib/weapons'
-import { getAllArmorSets } from '@/lib/armors'
+import { getAllArmors } from '@/lib/armors'
 import { getAllTalismans } from '@/lib/talismans'
 import { getAllDecorations } from '@/lib/decorations'
 
@@ -14,6 +14,7 @@ type SearchResult = {
   type: 'monster' | 'weapon' | 'armor' | 'talisman' | 'decoration';
   subtype?: string;
   weaponType?: string;
+  setName?: string; // Added for armor navigation
 }
 
 export default function SearchBar() {
@@ -25,7 +26,11 @@ export default function SearchBar() {
   const router = useRouter()
 
   const allResults: SearchResult[] = [
-    ...monsters.map(monster => ({ id: monster.id.toString(), name: monster.name, type: 'monster' as const })),
+    ...monsters.map(monster => ({
+      id: monster.id.toString(),
+      name: monster.name,
+      type: 'monster' as const
+    })),
     ...getAllWeaponTrees().flatMap((tree: WeaponTree) =>
       tree.weapons?.map(weapon => ({
         id: weapon.id,
@@ -35,9 +40,23 @@ export default function SearchBar() {
         weaponType: tree.id
       })) || []
     ),
-    ...getAllArmorSets().flatMap(set => set.pieces.map(piece => ({ id: piece.id, name: piece.name, type: 'armor' as const, subtype: piece.type }))),
-    ...getAllTalismans().map(talisman => ({ id: talisman.id, name: talisman.name, type: 'talisman' as const })),
-    ...getAllDecorations().map(decoration => ({ id: decoration.id, name: decoration.name, type: 'decoration' as const }))
+    ...getAllArmors().map(armor => ({
+      id: armor.id,
+      name: armor.name,
+      type: 'armor' as const,
+      subtype: armor.type,
+      setName: armor.set
+    })),
+    ...getAllTalismans().map(talisman => ({
+      id: talisman.id,
+      name: talisman.name,
+      type: 'talisman' as const
+    })),
+    ...getAllDecorations().map(decoration => ({
+      id: decoration.id,
+      name: decoration.name,
+      type: 'decoration' as const
+    }))
   ];
 
   useEffect(() => {
@@ -51,14 +70,8 @@ export default function SearchBar() {
     setIsOpen(false)
     if (result.type === 'weapon' && result.weaponType) {
       router.push(`/weapons/${result.weaponType}#${result.id}`)
-    } else if (result.type === 'armor') {
-      // Find the armor set ID from the piece ID
-      const armorSet = getAllArmorSets().find(set =>
-        set.pieces.some(piece => piece.id === result.id)
-      )
-      if (armorSet) {
-        router.push(`/armors/${armorSet.id}`)
-      }
+    } else if (result.type === 'armor' && result.id) {
+      router.push(`/armors/${result.id}`)
     } else {
       router.push(`/${result.type}s/${result.id}`)
     }

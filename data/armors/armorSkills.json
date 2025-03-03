@@ -1,0 +1,1248 @@
+[
+  {
+    "index": 1,
+    "armorName": "Hope Mask",
+    "skillType": "equipment",
+    "skillName": "Stun Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 2,
+    "armorName": "Hope Mail",
+    "skillType": "equipment",
+    "skillName": "Divine Blessing",
+    "skillLevel": 1
+  },
+  {
+    "index": 3,
+    "armorName": "Hope Vambraces",
+    "skillType": "equipment",
+    "skillName": "Divine Blessing",
+    "skillLevel": 1
+  },
+  {
+    "index": 4,
+    "armorName": "Hope Coil",
+    "skillType": "equipment",
+    "skillName": "Stun Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 5,
+    "armorName": "Hope Greaves",
+    "skillType": "equipment",
+    "skillName": "Divine Blessing",
+    "skillLevel": 1
+  },
+  {
+    "index": 6,
+    "armorName": "Leather Headgear",
+    "skillType": "equipment",
+    "skillName": "Botanist",
+    "skillLevel": 1
+  },
+  {
+    "index": 7,
+    "armorName": "Leather Vest",
+    "skillType": "equipment",
+    "skillName": "Botanist",
+    "skillLevel": 1
+  },
+  {
+    "index": 8,
+    "armorName": "Leather Gloves",
+    "skillType": "equipment",
+    "skillName": "Hunger Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 9,
+    "armorName": "Leather Belt",
+    "skillType": "equipment",
+    "skillName": "Botanist",
+    "skillLevel": 1
+  },
+  {
+    "index": 10,
+    "armorName": "Leather Pants",
+    "skillType": "equipment",
+    "skillName": "Botanist",
+    "skillLevel": 1
+  },
+  {
+    "index": 11,
+    "armorName": "Chainmail Headgear",
+    "skillType": "equipment",
+    "skillName": "Geologist",
+    "skillLevel": 1
+  },
+  {
+    "index": 12,
+    "armorName": "Chainmail Belt",
+    "skillType": "equipment",
+    "skillName": "Recovery Speed",
+    "skillLevel": 1
+  },
+  {
+    "index": 13,
+    "armorName": "Chainmail Gloves",
+    "skillType": "equipment",
+    "skillName": "Geologist",
+    "skillLevel": 1
+  },
+  {
+    "index": 14,
+    "armorName": "Chainmail Pants",
+    "skillType": "equipment",
+    "skillName": "Recovery Speed",
+    "skillLevel": 1
+  },
+  {
+    "index": 15,
+    "armorName": "Bone Helm",
+    "skillType": "equipment",
+    "skillName": "Marathon Runner",
+    "skillLevel": 1
+  },
+  {
+    "index": 16,
+    "armorName": "Bone Vambraces",
+    "skillType": "equipment",
+    "skillName": "Stun Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 17,
+    "armorName": "Bone Greaves",
+    "skillType": "equipment",
+    "skillName": "Stun Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 18,
+    "armorName": "Bulaqchi Specs",
+    "skillType": "equipment",
+    "skillName": "Entomologist",
+    "skillLevel": 1
+  },
+  {
+    "index": 19,
+    "armorName": "Bulaqchi Specs",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 20,
+    "armorName": "Bulaqchi Specs",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 21,
+    "armorName": "Chatacabra Helm",
+    "skillType": "equipment",
+    "skillName": "Speed Eating",
+    "skillLevel": 1
+  },
+  {
+    "index": 22,
+    "armorName": "Chatacabra Helm",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 23,
+    "armorName": "Chatacabra Mail",
+    "skillType": "equipment",
+    "skillName": "Speed Eating",
+    "skillLevel": 1
+  },
+  {
+    "index": 24,
+    "armorName": "Chatacabra Mail",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 25,
+    "armorName": "Chatacabra Coil",
+    "skillType": "equipment",
+    "skillName": "Speed Eating",
+    "skillLevel": 1
+  },
+  {
+    "index": 26,
+    "armorName": "Chatacabra Coil",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 27,
+    "armorName": "Quematrice Helm",
+    "skillType": "equipment",
+    "skillName": "Flinch Free",
+    "skillLevel": 1
+  },
+  {
+    "index": 28,
+    "armorName": "Quematrice Helm",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 29,
+    "armorName": "Quematrice Braces",
+    "skillType": "equipment",
+    "skillName": "Flinch Free",
+    "skillLevel": 1
+  },
+  {
+    "index": 30,
+    "armorName": "Quematrice Braces",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 31,
+    "armorName": "Quematrice Greaves",
+    "skillType": "equipment",
+    "skillName": "Flinch Free",
+    "skillLevel": 1
+  },
+  {
+    "index": 32,
+    "armorName": "Quematrice Greaves",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 33,
+    "armorName": "Alloy Helm",
+    "skillType": "equipment",
+    "skillName": "Quick Sheathe",
+    "skillLevel": 1
+  },
+  {
+    "index": 34,
+    "armorName": "Alloy Coil",
+    "skillType": "equipment",
+    "skillName": "Tremor Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 35,
+    "armorName": "Alloy Vambraces",
+    "skillType": "equipment",
+    "skillName": "Tremor Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 36,
+    "armorName": "Vespoid Helm",
+    "skillType": "equipment",
+    "skillName": "Survival Expert",
+    "skillLevel": 1
+  },
+  {
+    "index": 37,
+    "armorName": "Vespoid Helm",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 38,
+    "armorName": "Vespoid Helm",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 39,
+    "armorName": "Vespoid Vambraces",
+    "skillType": "equipment",
+    "skillName": "Paralysis Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 40,
+    "armorName": "Vespoid Vambraces",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 41,
+    "armorName": "Vespoid Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 42,
+    "armorName": "Vespoid Greaves",
+    "skillType": "equipment",
+    "skillName": "Survival Expert",
+    "skillLevel": 1
+  },
+  {
+    "index": 43,
+    "armorName": "Vespoid Greaves",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 44,
+    "armorName": "Vespoid Greaves",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 45,
+    "armorName": "Barina Headgear",
+    "skillType": "equipment",
+    "skillName": "Paralysis Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 46,
+    "armorName": "Barina Headgear",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 47,
+    "armorName": "Barina Headgear",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 48,
+    "armorName": "Barina Vambraces",
+    "skillType": "equipment",
+    "skillName": "Recovery Up",
+    "skillLevel": 1
+  },
+  {
+    "index": 49,
+    "armorName": "Barina Vambraces",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 50,
+    "armorName": "Barina Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 51,
+    "armorName": "Barina Greaves",
+    "skillType": "equipment",
+    "skillName": "Recovery Up",
+    "skillLevel": 1
+  },
+  {
+    "index": 52,
+    "armorName": "Barina Greaves",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 53,
+    "armorName": "Barina Greaves",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 54,
+    "armorName": "Conga Helm",
+    "skillType": "equipment",
+    "skillName": "Mushroomancer",
+    "skillLevel": 1
+  },
+  {
+    "index": 55,
+    "armorName": "Conga Helm",
+    "skillType": "equipment",
+    "skillName": "Fortify",
+    "skillLevel": 1
+  },
+  {
+    "index": 56,
+    "armorName": "Conga Helm",
+    "skillType": "setbonus",
+    "skillName": "Fortifying Pelt",
+    "skillLevel": 3
+  },
+  {
+    "index": 57,
+    "armorName": "Conga Vambraces",
+    "skillType": "equipment",
+    "skillName": "Stench Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 58,
+    "armorName": "Conga Vambraces",
+    "skillType": "equipment",
+    "skillName": "Fortify",
+    "skillLevel": 1
+  },
+  {
+    "index": 59,
+    "armorName": "Conga Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Fortifying Pelt",
+    "skillLevel": 3
+  },
+  {
+    "index": 60,
+    "armorName": "Conga Greaves",
+    "skillType": "equipment",
+    "skillName": "Mushroomancer",
+    "skillLevel": 1
+  },
+  {
+    "index": 61,
+    "armorName": "Conga Greaves",
+    "skillType": "equipment",
+    "skillName": "Fortify",
+    "skillLevel": 1
+  },
+  {
+    "index": 62,
+    "armorName": "Conga Greaves",
+    "skillType": "setbonus",
+    "skillName": "Fortifying Pelt",
+    "skillLevel": 3
+  },
+  {
+    "index": 63,
+    "armorName": "Balahara Helm",
+    "skillType": "equipment",
+    "skillName": "Hunger Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 64,
+    "armorName": "Balahara Helm",
+    "skillType": "equipment",
+    "skillName": "Master Mounter",
+    "skillLevel": 1
+  },
+  {
+    "index": 65,
+    "armorName": "Balahara Helm",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 66,
+    "armorName": "Balahara Vambraces",
+    "skillType": "equipment",
+    "skillName": "Evade Extender",
+    "skillLevel": 1
+  },
+  {
+    "index": 67,
+    "armorName": "Balahara Vambraces",
+    "skillType": "equipment",
+    "skillName": "Master Mounter",
+    "skillLevel": 1
+  },
+  {
+    "index": 68,
+    "armorName": "Balahara Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 69,
+    "armorName": "Balahara Greaves",
+    "skillType": "equipment",
+    "skillName": "Evade Extender",
+    "skillLevel": 1
+  },
+  {
+    "index": 70,
+    "armorName": "Balahara Greaves",
+    "skillType": "equipment",
+    "skillName": "Master Mounter",
+    "skillLevel": 1
+  },
+  {
+    "index": 71,
+    "armorName": "Balahara Greaves",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 72,
+    "armorName": "Doshaguma Helm",
+    "skillType": "equipment",
+    "skillName": "Free Meal",
+    "skillLevel": 1
+  },
+  {
+    "index": 73,
+    "armorName": "Doshaguma Helm",
+    "skillType": "equipment",
+    "skillName": "Powerhouse",
+    "skillLevel": 1
+  },
+  {
+    "index": 74,
+    "armorName": "Doshaguma Helm",
+    "skillType": "setbonus",
+    "skillName": "Doshaguma's Might",
+    "skillLevel": 2
+  },
+  {
+    "index": 75,
+    "armorName": "Doshaguma Braces",
+    "skillType": "equipment",
+    "skillName": "Recovery Speed",
+    "skillLevel": 1
+  },
+  {
+    "index": 76,
+    "armorName": "Doshaguma Braces",
+    "skillType": "equipment",
+    "skillName": "Powerhouse",
+    "skillLevel": 1
+  },
+  {
+    "index": 77,
+    "armorName": "Doshaguma Braces",
+    "skillType": "setbonus",
+    "skillName": "Doshaguma's Might",
+    "skillLevel": 2
+  },
+  {
+    "index": 78,
+    "armorName": "Doshaguma Greaves",
+    "skillType": "equipment",
+    "skillName": "Free Meal",
+    "skillLevel": 1
+  },
+  {
+    "index": 79,
+    "armorName": "Doshaguma Greaves",
+    "skillType": "equipment",
+    "skillName": "Powerhouse",
+    "skillLevel": 1
+  },
+  {
+    "index": 80,
+    "armorName": "Doshaguma Greaves",
+    "skillType": "setbonus",
+    "skillName": "Doshaguma's Might",
+    "skillLevel": 2
+  },
+  {
+    "index": 81,
+    "armorName": "Ingot Helm",
+    "skillType": "equipment",
+    "skillName": "Divine Blessing",
+    "skillLevel": 1
+  },
+  {
+    "index": 82,
+    "armorName": "Ingot Vambraces",
+    "skillType": "equipment",
+    "skillName": "Stun Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 83,
+    "armorName": "Ingot Greaves",
+    "skillType": "equipment",
+    "skillName": "Windproof",
+    "skillLevel": 1
+  },
+  {
+    "index": 84,
+    "armorName": "Kranodath Mail",
+    "skillType": "equipment",
+    "skillName": "Flinch Free",
+    "skillLevel": 1
+  },
+  {
+    "index": 85,
+    "armorName": "Kranodath Mail",
+    "skillType": "equipment",
+    "skillName": "Master Mounter",
+    "skillLevel": 1
+  },
+  {
+    "index": 86,
+    "armorName": "Kranodath Mail",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 87,
+    "armorName": "Comagqchi Accessory",
+    "skillType": "equipment",
+    "skillName": "Sleep Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 88,
+    "armorName": "Comagqchi Accessory",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 89,
+    "armorName": "Comagqchi Accessory",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 90,
+    "armorName": "Rompopolo Helm",
+    "skillType": "equipment",
+    "skillName": "Wide-Range",
+    "skillLevel": 1
+  },
+  {
+    "index": 91,
+    "armorName": "Rompopolo Helm",
+    "skillType": "equipment",
+    "skillName": "Hunter Gatherer",
+    "skillLevel": 1
+  },
+  {
+    "index": 92,
+    "armorName": "Rompopolo Helm",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 93,
+    "armorName": "Rompopolo Vambraces",
+    "skillType": "equipment",
+    "skillName": "Wide-Range",
+    "skillLevel": 1
+  },
+  {
+    "index": 94,
+    "armorName": "Rompopolo Vambraces",
+    "skillType": "equipment",
+    "skillName": "Poison Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 95,
+    "armorName": "Rompopolo Vambraces",
+    "skillType": "equipment",
+    "skillName": "Hunter Gatherer",
+    "skillLevel": 1
+  },
+  {
+    "index": 96,
+    "armorName": "Rompopolo Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 97,
+    "armorName": "Rompopolo Greaves",
+    "skillType": "equipment",
+    "skillName": "Wide-Range",
+    "skillLevel": 1
+  },
+  {
+    "index": 98,
+    "armorName": "Rompopolo Greaves",
+    "skillType": "equipment",
+    "skillName": "Hunter Gatherer",
+    "skillLevel": 1
+  },
+  {
+    "index": 99,
+    "armorName": "Rompopolo Greaves",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 100,
+    "armorName": "Nerscylla Greaves",
+    "skillType": "equipment",
+    "skillName": "Ambush",
+    "skillLevel": 1
+  },
+  {
+    "index": 101,
+    "armorName": "Nerscylla Greaves",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 102,
+    "armorName": "Nerscylla Greaves",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 103,
+    "armorName": "Nerscylla Vambraces",
+    "skillType": "equipment",
+    "skillName": "Ambush",
+    "skillLevel": 1
+  },
+  {
+    "index": 104,
+    "armorName": "Nerscylla Vambraces",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 105,
+    "armorName": "Nerscylla Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 106,
+    "armorName": "Nerscylla Helm",
+    "skillType": "equipment",
+    "skillName": "Ambush",
+    "skillLevel": 1
+  },
+  {
+    "index": 107,
+    "armorName": "Nerscylla Helm",
+    "skillType": "equipment",
+    "skillName": "Honey Hunter",
+    "skillLevel": 1
+  },
+  {
+    "index": 108,
+    "armorName": "Nerscylla Helm",
+    "skillType": "setbonus",
+    "skillName": "Neopteron Alert",
+    "skillLevel": 3
+  },
+  {
+    "index": 109,
+    "armorName": "Hirabami Headdress",
+    "skillType": "equipment",
+    "skillName": "Evade Window",
+    "skillLevel": 1
+  },
+  {
+    "index": 110,
+    "armorName": "Hirabami Headdress",
+    "skillType": "equipment",
+    "skillName": "Recovery Speed",
+    "skillLevel": 1
+  },
+  {
+    "index": 111,
+    "armorName": "Hirabami Headdress",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 112,
+    "armorName": "Hirabami Vambraces",
+    "skillType": "equipment",
+    "skillName": "Evade Window",
+    "skillLevel": 1
+  },
+  {
+    "index": 113,
+    "armorName": "Hirabami Vambraces",
+    "skillType": "equipment",
+    "skillName": "Ice Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 114,
+    "armorName": "Hirabami Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 115,
+    "armorName": "Hirabami Greaves",
+    "skillType": "equipment",
+    "skillName": "Evade Window",
+    "skillLevel": 1
+  },
+  {
+    "index": 116,
+    "armorName": "Hirabami Greaves",
+    "skillType": "equipment",
+    "skillName": "Ice Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 117,
+    "armorName": "Hirabami Greaves",
+    "skillType": "setbonus",
+    "skillName": "Scaling Prowess",
+    "skillLevel": 3
+  },
+  {
+    "index": 118,
+    "armorName": "Ajarakan Coil",
+    "skillType": "equipment",
+    "skillName": "Blast Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 119,
+    "armorName": "Ajarakan Coil",
+    "skillType": "equipment",
+    "skillName": "Bombardier",
+    "skillLevel": 1
+  },
+  {
+    "index": 120,
+    "armorName": "Ajarakan Coil",
+    "skillType": "setbonus",
+    "skillName": "Fortifying Pelt",
+    "skillLevel": 3
+  },
+  {
+    "index": 121,
+    "armorName": "Ajarakan Mail",
+    "skillType": "equipment",
+    "skillName": "Partbreaker",
+    "skillLevel": 1
+  },
+  {
+    "index": 122,
+    "armorName": "Ajarakan Mail",
+    "skillType": "setbonus",
+    "skillName": "Fortifying Pelt",
+    "skillLevel": 3
+  },
+  {
+    "index": 123,
+    "armorName": "G. Seikret Coil",
+    "skillType": "equipment",
+    "skillName": "Jump Master",
+    "skillLevel": 1
+  },
+  {
+    "index": 124,
+    "armorName": "Duna Greaves",
+    "skillType": "equipment",
+    "skillName": "Peak Performance",
+    "skillLevel": 1
+  },
+  {
+    "index": 125,
+    "armorName": "Duna Greaves",
+    "skillType": "equipment",
+    "skillName": "Protective Veil",
+    "skillLevel": 1
+  },
+  {
+    "index": 126,
+    "armorName": "Duna Greaves",
+    "skillType": "setbonus",
+    "skillName": "Uth Duna's Cover",
+    "skillLevel": 2
+  },
+  {
+    "index": 127,
+    "armorName": "Duna Vambraces",
+    "skillType": "equipment",
+    "skillName": "Tool Specialist",
+    "skillLevel": 1
+  },
+  {
+    "index": 128,
+    "armorName": "Duna Vambraces",
+    "skillType": "equipment",
+    "skillName": "Protective Veil",
+    "skillLevel": 1
+  },
+  {
+    "index": 129,
+    "armorName": "Duna Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Uth Duna's Cover",
+    "skillLevel": 2
+  },
+  {
+    "index": 130,
+    "armorName": "Duna Helm",
+    "skillType": "equipment",
+    "skillName": "Peak Performance",
+    "skillLevel": 1
+  },
+  {
+    "index": 131,
+    "armorName": "Duna Helm",
+    "skillType": "equipment",
+    "skillName": "Tool Specialist",
+    "skillLevel": 1
+  },
+  {
+    "index": 132,
+    "armorName": "Duna Helm",
+    "skillType": "equipment",
+    "skillName": "Protective Veil",
+    "skillLevel": 1
+  },
+  {
+    "index": 133,
+    "armorName": "Duna Helm",
+    "skillType": "setbonus",
+    "skillName": "Uth Duna's Cover",
+    "skillLevel": 2
+  },
+  {
+    "index": 134,
+    "armorName": "Rey Sandhelm",
+    "skillType": "equipment",
+    "skillName": "Latent Power",
+    "skillLevel": 1
+  },
+  {
+    "index": 135,
+    "armorName": "Rey Sandhelm",
+    "skillType": "setbonus",
+    "skillName": "Rey Dau's Voltage",
+    "skillLevel": 2
+  },
+  {
+    "index": 136,
+    "armorName": "Rey Sandbraces",
+    "skillType": "equipment",
+    "skillName": "Latent Power",
+    "skillLevel": 1
+  },
+  {
+    "index": 137,
+    "armorName": "Rey Sandbraces",
+    "skillType": "setbonus",
+    "skillName": "Rey Dau's Voltage",
+    "skillLevel": 2
+  },
+  {
+    "index": 138,
+    "armorName": "Rey Sandgreaves",
+    "skillType": "equipment",
+    "skillName": "Constitution",
+    "skillLevel": 1
+  },
+  {
+    "index": 139,
+    "armorName": "Rey Sandgreaves",
+    "skillType": "equipment",
+    "skillName": "Latent Power",
+    "skillLevel": 1
+  },
+  {
+    "index": 140,
+    "armorName": "Rey Sandgreaves",
+    "skillType": "setbonus",
+    "skillName": "Rey Dau's Voltage",
+    "skillLevel": 2
+  },
+  {
+    "index": 141,
+    "armorName": "Udra Miregreaves",
+    "skillType": "equipment",
+    "skillName": "Speed Eating",
+    "skillLevel": 1
+  },
+  {
+    "index": 142,
+    "armorName": "Udra Miregreaves",
+    "skillType": "setbonus",
+    "skillName": "Nu Udra's Mutiny",
+    "skillLevel": 2
+  },
+  {
+    "index": 143,
+    "armorName": "Udra Mirebraces",
+    "skillType": "equipment",
+    "skillName": "Speed Eating",
+    "skillLevel": 1
+  },
+  {
+    "index": 144,
+    "armorName": "Udra Mirebraces",
+    "skillType": "setbonus",
+    "skillName": "Nu Udra's Mutiny",
+    "skillLevel": 2
+  },
+  {
+    "index": 145,
+    "armorName": "Udra Mirehelm",
+    "skillType": "equipment",
+    "skillName": "Resentment",
+    "skillLevel": 1
+  },
+  {
+    "index": 146,
+    "armorName": "Udra Mirehelm",
+    "skillType": "setbonus",
+    "skillName": "Nu Udra's Mutiny",
+    "skillLevel": 2
+  },
+  {
+    "index": 147,
+    "armorName": "G. Doshaguma Helm",
+    "skillType": "equipment",
+    "skillName": "Heroics",
+    "skillLevel": 1
+  },
+  {
+    "index": 148,
+    "armorName": "G. Doshaguma Helm",
+    "skillType": "setbonus",
+    "skillName": "Doshaguma's Might",
+    "skillLevel": 2
+  },
+  {
+    "index": 149,
+    "armorName": "G. Doshaguma Braces",
+    "skillType": "equipment",
+    "skillName": "Marathon Runner",
+    "skillLevel": 1
+  },
+  {
+    "index": 150,
+    "armorName": "G. Doshaguma Braces",
+    "skillType": "setbonus",
+    "skillName": "Doshaguma's Might",
+    "skillLevel": 2
+  },
+  {
+    "index": 151,
+    "armorName": "G. Doshaguma Greaves",
+    "skillType": "equipment",
+    "skillName": "Iron Skin",
+    "skillLevel": 1
+  },
+  {
+    "index": 152,
+    "armorName": "G. Doshaguma Greaves",
+    "skillType": "equipment",
+    "skillName": "Marathon Runner",
+    "skillLevel": 1
+  },
+  {
+    "index": 153,
+    "armorName": "G. Doshaguma Greaves",
+    "skillType": "setbonus",
+    "skillName": "Doshaguma's Might",
+    "skillLevel": 2
+  },
+  {
+    "index": 154,
+    "armorName": "G. Rathalos Greaves",
+    "skillType": "equipment",
+    "skillName": "Weakness Exploit",
+    "skillLevel": 1
+  },
+  {
+    "index": 155,
+    "armorName": "G. Rathalos Greaves",
+    "skillType": "setbonus",
+    "skillName": "Rathalos's Flare",
+    "skillLevel": 2
+  },
+  {
+    "index": 156,
+    "armorName": "G. Rathalos Vambraces",
+    "skillType": "equipment",
+    "skillName": "Weakness Exploit",
+    "skillLevel": 1
+  },
+  {
+    "index": 157,
+    "armorName": "G. Rathalos Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Rathalos's Flare",
+    "skillLevel": 2
+  },
+  {
+    "index": 158,
+    "armorName": "G. Rathalos Helm",
+    "skillType": "equipment",
+    "skillName": "Weakness Exploit",
+    "skillLevel": 1
+  },
+  {
+    "index": 159,
+    "armorName": "G. Rathalos Helm",
+    "skillType": "equipment",
+    "skillName": "Intimidator",
+    "skillLevel": 1
+  },
+  {
+    "index": 160,
+    "armorName": "G. Rathalos Helm",
+    "skillType": "setbonus",
+    "skillName": "Rathalos's Flare",
+    "skillLevel": 2
+  },
+  {
+    "index": 161,
+    "armorName": "G. Ebony Helm",
+    "skillType": "equipment",
+    "skillName": "Burst",
+    "skillLevel": 1
+  },
+  {
+    "index": 162,
+    "armorName": "G. Ebony Helm",
+    "skillType": "setbonus",
+    "skillName": "Ebony Odogaron's Power",
+    "skillLevel": 2
+  },
+  {
+    "index": 163,
+    "armorName": "G. Ebony Braces",
+    "skillType": "equipment",
+    "skillName": "Burst",
+    "skillLevel": 1
+  },
+  {
+    "index": 164,
+    "armorName": "G. Ebony Braces",
+    "skillType": "setbonus",
+    "skillName": "Ebony Odogaron's Power",
+    "skillLevel": 2
+  },
+  {
+    "index": 165,
+    "armorName": "Xu Wu Greaves",
+    "skillType": "equipment",
+    "skillName": "Stamina Surge",
+    "skillLevel": 1
+  },
+  {
+    "index": 166,
+    "armorName": "Xu Wu Greaves",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 167,
+    "armorName": "G. Ebony Greaves",
+    "skillType": "equipment",
+    "skillName": "Bleeding Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 168,
+    "armorName": "G. Ebony Greaves",
+    "skillType": "setbonus",
+    "skillName": "Ebony Odogaron's Power",
+    "skillLevel": 2
+  },
+  {
+    "index": 169,
+    "armorName": "Xu Wu Vambraces",
+    "skillType": "equipment",
+    "skillName": "Maximum Might",
+    "skillLevel": 1
+  },
+  {
+    "index": 170,
+    "armorName": "Xu Wu Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 171,
+    "armorName": "Xu Wu Helm",
+    "skillType": "equipment",
+    "skillName": "Maximum Might",
+    "skillLevel": 1
+  },
+  {
+    "index": 172,
+    "armorName": "Xu Wu Helm",
+    "skillType": "setbonus",
+    "skillName": "Flexible Leathercraft",
+    "skillLevel": 3
+  },
+  {
+    "index": 173,
+    "armorName": "G. Arkveld Helm",
+    "skillType": "equipment",
+    "skillName": "Flayer",
+    "skillLevel": 1
+  },
+  {
+    "index": 174,
+    "armorName": "G. Arkveld Helm",
+    "skillType": "setbonus",
+    "skillName": "Guardian Arkveld's Vitality",
+    "skillLevel": 2
+  },
+  {
+    "index": 175,
+    "armorName": "G. Arkveld Vambraces",
+    "skillType": "equipment",
+    "skillName": "Flayer",
+    "skillLevel": 1
+  },
+  {
+    "index": 176,
+    "armorName": "G. Arkveld Vambraces",
+    "skillType": "setbonus",
+    "skillName": "Guardian Arkveld's Vitality",
+    "skillLevel": 2
+  },
+  {
+    "index": 177,
+    "armorName": "G. Arkveld Greaves",
+    "skillType": "equipment",
+    "skillName": "Blight Resistance",
+    "skillLevel": 1
+  },
+  {
+    "index": 178,
+    "armorName": "G. Arkveld Greaves",
+    "skillType": "setbonus",
+    "skillName": "Guardian Arkveld's Vitality",
+    "skillLevel": 2
+  }
+]

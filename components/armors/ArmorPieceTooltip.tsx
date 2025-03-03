@@ -50,11 +50,11 @@ export function ArmorPieceTooltip({ piece }: ArmorPieceTooltipProps) {
           <div className="mt-2">
             <h4 className="font-semibold">Resistances:</h4>
             <ul className="grid grid-cols-2 gap-2">
-              <li>Fire: {piece.resistances.fire}</li>
-              <li>Water: {piece.resistances.water}</li>
-              <li>Thunder: {piece.resistances.thunder}</li>
-              <li>Ice: {piece.resistances.ice}</li>
-              <li>Dragon: {piece.resistances.dragon}</li>
+              <li>Fire: {piece.fire}</li>
+              <li>Water: {piece.water}</li>
+              <li>Thunder: {piece.thunder}</li>
+              <li>Ice: {piece.ice}</li>
+              <li>Dragon: {piece.dragon}</li>
             </ul>
           </div>
         </div>
@@ -62,17 +62,15 @@ export function ArmorPieceTooltip({ piece }: ArmorPieceTooltipProps) {
           <div className="mt-2">
             <h4 className="font-semibold">Skills:</h4>
             <ul>
-              {piece.skills.map((skill, index) => (
-                <li key={index}>{skill.id} Lv. {skill.level}</li>
+              {piece.skills?.map((skill, index) => (
+                <li key={index}>{skill.skillName} Lv. {skill.skillLevel}</li>
               ))}
             </ul>
           </div>
           <div className="mt-2">
             <h4 className="font-semibold">Materials:</h4>
             <ul>
-              {piece.materials.map((material, index) => (
-                <li key={index}>{material.name} x{material.quantity}</li>
-              ))}
+              {piece.materials}
             </ul>
           </div>
         </div>

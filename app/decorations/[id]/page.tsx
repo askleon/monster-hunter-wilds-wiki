@@ -19,7 +19,7 @@ export default function DecorationPage({ params }: { params: { id: string } }) {
       <div className="mb-4">
         <h2 className="text-xl font-semibold mb-2 text-primary">Skill:</h2>
         <p className="text-secondary">
-          {decoration.skill.skill.name} Lv. {decoration.skill.level}
+          {decoration.skill.name} Lv. {decoration.skill.level}
         </p>
       </div>
       <div className="mb-4">

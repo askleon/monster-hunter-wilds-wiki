@@ -1,31 +1,26 @@
-import React from 'react';
 import { Skill } from '@/lib/skills';
 
 interface SkillDisplayProps {
-  skills: (Skill & { level: number })[];
+  skill: Skill;
+  totalLevel: number;
+  className?: string;
 }
 
-export function SkillDisplay({ skills }: SkillDisplayProps) {
+export function SkillDisplay({ skill, totalLevel, className = '' }: SkillDisplayProps) {
   return (
-    <div className="space-y-2">
-      {skills.map((skill) => (
-        <div key={skill.id} className="flex items-center space-x-2">
-          <span className="font-medium w-1/3 text-primary">{skill.name}</span>
-          <span className="text-sm w-20 text-secondary">Lv. {skill.level}/{skill.maxLevel}</span>
-          <div className="flex-grow flex items-center space-x-1">
-            {Array.from({ length: skill.maxLevel }).map((_, index) => (
-              <div
-                key={index}
-                className={`w-4 h-4 border ${
-                  index < skill.level
-                    ? 'bg-skill-active border-skill-active'
-                    : 'bg-skill-inactive border-skill-inactive'
-                }`}
-              />
-            ))}
-          </div>
-        </div>
-      ))}
+    <div className={`p-4 ${className}`}>
+      <div className="flex justify-between items-center">
+        <h3 className="text-lg font-semibold text-primary">{skill.name}</h3>
+        <span className="text-accent">Lv. {totalLevel}</span>
+      </div>
+      {skill.description && (
+        <p className="text-secondary mt-1">{skill.description}</p>
+      )}
+      {skill.effect && (
+        <p className="text-accent mt-2">
+          {skill.effect}
+        </p>
+      )}
     </div>
   );
 }

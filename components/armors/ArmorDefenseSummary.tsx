@@ -3,13 +3,16 @@ import { ArmorSet } from '@/lib/armors';
 import { ElementType, getColorClass } from '@/lib/types';
 
 export function ArmorDefenseSummary({ armorSet }: { armorSet: ArmorSet }) {
-  const totalDefense = armorSet.pieces.reduce((sum, piece) => sum + piece.defense, 0);
-  const totalResistances = armorSet.pieces.reduce((acc, piece) => {
-    Object.entries(piece.resistances).forEach(([element, value]) => {
-      acc[element as ElementType] = (acc[element as ElementType] || 0) + value;
-    });
-    return acc;
-  }, {} as Record<ElementType, number>);
+  const totalDefense = armorSet.pieces.reduce((sum, piece) =>
+    sum + (piece.defense || 0), 0);
+
+  const elementalResistances = {
+    fire: armorSet.pieces.reduce((sum, piece) => sum + piece.fire, 0),
+    water: armorSet.pieces.reduce((sum, piece) => sum + piece.water, 0),
+    thunder: armorSet.pieces.reduce((sum, piece) => sum + piece.thunder, 0),
+    ice: armorSet.pieces.reduce((sum, piece) => sum + piece.ice, 0),
+    dragon: armorSet.pieces.reduce((sum, piece) => sum + piece.dragon, 0),
+  };
 
   return (
     <div className="space-y-4">
@@ -29,9 +32,11 @@ export function ArmorDefenseSummary({ armorSet }: { armorSet: ArmorSet }) {
           <span>Resistance</span>
         </div>
         <ul className="space-y-1">
-          {Object.entries(totalResistances).map(([element, value]) => (
+          {Object.entries(elementalResistances).map(([element, value]) => (
             <li key={element} className="flex justify-between">
-              <span className="text-primary">{element.charAt(0).toUpperCase() + element.slice(1)}</span>
+              <span className="text-primary">
+                {element.charAt(0).toUpperCase() + element.slice(1)}
+              </span>
               <span className={`${getColorClass(element as ElementType)} ${value > 0 ? 'font-bold' : ''}`}>
                 {value > 0 ? '+' : ''}{value}
               </span>

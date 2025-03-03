@@ -5,7 +5,7 @@ import SearchBar from './SearchBar'
 import { ThemeSwitcher } from './ThemeSwitcher'
 import { FaHome, FaMap } from 'react-icons/fa'
 import { FaUserGear } from 'react-icons/fa6'
-import { GiDragonHead, GiSwordSmithing, GiChestArmor, GiNecklace, GiDiamondHard, GiToolbox } from 'react-icons/gi'
+import { GiDragonHead, GiSwordSmithing, GiChestArmor, GiNecklace, GiDiamondHard, GiToolbox, GiSkills } from 'react-icons/gi'
 import { LinkDropdown } from './LinkDropdown'
 
 export function Header() {
@@ -14,6 +14,7 @@ export function Header() {
     { href: "/armors", label: "Armors", icon: GiChestArmor },
     { href: "/talismans", label: "Talismans", icon: GiNecklace },
     { href: "/decorations", label: "Decorations", icon: GiDiamondHard },
+    { href: "/skills", label: "Skills", icon: GiSkills },
   ];
 
   return (

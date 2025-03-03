@@ -1,13 +1,11 @@
 'use client'
 
 import React from 'react';
-import { getArmorSetById, ArmorPiece } from '@/lib/armors';
-import { getSkillById } from '@/lib/skills';
+import { getArmorSet, ArmorPiece } from '@/lib/armors';
 import Link from 'next/link';
 import { ArmorSkillSummary } from '@/components/armors/ArmorSkillSummary';
 import { ArmorDefenseSummary } from '@/components/armors/ArmorDefenseSummary';
 import { Card } from '@/components/Card';
-import { SkillDisplay } from '@/components/SkillDisplay';
 
 const pieceTypes = ['Head', 'Chest', 'Arms', 'Waist', 'Legs'] as const;
 
@@ -22,36 +20,43 @@ function ArmorPieceCard({ piece }: { piece: ArmorPiece | undefined }) {
     );
   }
 
-  const skills = piece.skills.map(skill => {
-    const fullSkill = getSkillById(skill.id);
-    return fullSkill ? { ...fullSkill, level: skill.level } : { id: skill.id, name: skill.id, maxLevel: skill.level, level: skill.level, description: '', effects: [] };
-  });
-
   const description = (
     <div className="space-y-4">
-      <p className="text-primary">Defense: {piece.defense}</p>
+      <p className="text-primary">Defense: {piece.defense || 0}</p>
       <div>
         <h4 className="font-semibold text-primary mb-2">Resistances:</h4>
         <ul className="grid grid-cols-2 gap-x-2 gap-y-1">
-          {Object.entries(piece.resistances).map(([element, value]) => (
-            <li key={element} className={value > 0 ? 'text-accent' : value < 0 ? 'text-secondary' : 'text-primary'}>
-              {element.charAt(0).toUpperCase() + element.slice(1)}: {value}
+          {[
+            ['Fire', piece.fire],
+            ['Water', piece.water],
+            ['Thunder', piece.thunder],
+            ['Ice', piece.ice],
+            ['Dragon', piece.dragon],
+          ].map(([element, value]) => (
+            <li key={element} className={typeof value === 'number' && value > 0 ? 'text-accent' : typeof value === 'number' && value < 0 ? 'text-secondary' : 'text-primary'}>
+              {element}: {value}
             </li>
           ))}
         </ul>
       </div>
-      <div>
-        <h4 className="font-semibold text-primary mb-2">Skills:</h4>
-        <SkillDisplay skills={skills} />
-      </div>
-      <div>
-        <h4 className="font-semibold text-primary mb-2">Materials:</h4>
-        <ul className="space-y-1">
-          {piece.materials.map((material, index) => (
-            <li key={index} className="text-primary">{material.name} x{material.quantity}</li>
-          ))}
-        </ul>
-      </div>
+      {piece.skills && (
+        <div>
+          <h4 className="font-semibold text-primary mb-2">Skills:</h4>
+          <ul className="space-y-1">
+            {piece.skills.map(skill => (
+              <li key={`${skill.skillName}-${skill.skillLevel}`} className="text-primary">
+                {skill.skillName} Lv. {skill.skillLevel}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {piece.materials && (
+        <div>
+          <h4 className="font-semibold text-primary mb-2">Materials:</h4>
+          <p className="text-primary">{piece.materials}</p>
+        </div>
+      )}
     </div>
   );
 
@@ -59,18 +64,18 @@ function ArmorPieceCard({ piece }: { piece: ArmorPiece | undefined }) {
 }
 
 export default function ArmorSetPage({ params }: { params: { setId: string } }) {
-  const armorSet = getArmorSetById(params.setId);
+  const armorSet = getArmorSet(decodeURIComponent(params.setId));
 
   if (!armorSet) {
     return <div className="container mx-auto p-4 text-primary">Armor set not found</div>;
   }
 
   const getSetBonus = () => {
-    const setBonusSkill = armorSet.pieces[0].skills.find(skill => {
-      const fullSkill = getSkillById(skill.id);
-      return fullSkill && fullSkill.name.includes('Mastery');
-    });
-    return setBonusSkill ? getSkillById(setBonusSkill.id)?.name : null;
+    if (!armorSet.pieces[0].skills) return null;
+    const setBonusSkill = armorSet.pieces[0].skills.find(skill =>
+      skill.skillType === 'set-bonus'
+    );
+    return setBonusSkill?.skillName || null;
   };
 
   const setBonus = getSetBonus();
@@ -82,7 +87,7 @@ export default function ArmorSetPage({ params }: { params: { setId: string } }) 
       </Link>
       <h1 className="text-3xl font-bold mb-4 text-primary">{armorSet.name}</h1>
       <div className="flex items-center mb-4">
-        <p className="text-lg text-primary mr-4">Rarity: {armorSet.tier}</p>
+        <p className="text-lg text-primary mr-4">Rarity: {armorSet.rarity}</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <Card

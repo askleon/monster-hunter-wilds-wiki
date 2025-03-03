@@ -6,21 +6,20 @@ import { Card } from '@/components/Card';
 import { FilterPanel, FilterOption } from '@/components/FilterPanel';
 import { getAllArmorSets, ArmorSet } from '@/lib/armors';
 import { Tooltip } from '@/components/Tooltip';
-import { getSkillById } from '@/lib/skills';
 import Image from 'next/image';
 
 export default function ArmorsPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const allArmorSets = useMemo(() => getAllArmorSets().sort((a, b) => a.tier - b.tier), []);
+  const allArmorSets = useMemo(() => getAllArmorSets().sort((a, b) => a.rarity - b.rarity), []);
   const [selectedTier, setSelectedTier] = useState<string>(searchParams.get('tier') || '');
   const [selectedTypes, setSelectedTypes] = useState<string[]>(searchParams.get('types')?.split(',').filter(Boolean) || []);
   const [selectedSkills, setSelectedSkills] = useState<string[]>(searchParams.get('skills')?.split(',').filter(Boolean) || []);
 
   const tierOptions = useMemo(() => [
     { value: '', label: 'All Tiers' },
-    ...Array.from(new Set(allArmorSets.map(set => set.tier)))
+    ...Array.from(new Set(allArmorSets.map(set => set.rarity)))
       .sort((a, b) => a - b)
       .map(tier => ({ value: tier.toString(), label: `Tier ${tier}` }))
   ], [allArmorSets]);
@@ -31,10 +30,11 @@ export default function ArmorsPage() {
     const skillSet = new Set<string>();
     allArmorSets.forEach(set => {
       set.pieces.forEach(piece => {
-        piece.skills.forEach(skill => {
-          const fullSkill = getSkillById(skill.id);
-          if (fullSkill) skillSet.add(fullSkill.name);
-        });
+        if (piece.skills) {
+          piece.skills.forEach(skill => {
+            skillSet.add(skill.skillName);
+          });
+        }
       });
     });
     return Array.from(skillSet).sort();
@@ -86,22 +86,16 @@ export default function ArmorsPage() {
   };
 
   const filteredArmorSets = allArmorSets.filter(set =>
-    (selectedTier === '' || set.tier.toString() === selectedTier) &&
+    (selectedTier === '' || set.rarity.toString() === selectedTier) &&
     (selectedTypes.length === 0 || set.pieces.some(piece => selectedTypes.includes(piece.type))) &&
     (selectedSkills.length === 0 || set.pieces.some(piece =>
-      piece.skills.some(skill => {
-        const fullSkill = getSkillById(skill.id);
-        return fullSkill && selectedSkills.includes(fullSkill.name);
-      })
+      piece.skills?.some(skill => selectedSkills.includes(skill.skillName))
     ))
   );
 
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-primary mb-6">Armor Sets</h1>
-      <p className="text-lg text-secondary mb-8">
-        Explore the various armor sets available in Monster Hunter Wilds!
-      </p>
       <FilterPanel
         filters={filters}
         onFilterChange={handleFilterChange}
@@ -109,7 +103,7 @@ export default function ArmorsPage() {
       />
       <div className="space-y-6 max-w-3xl">
         {filteredArmorSets.map((set) => (
-          <ArmorSetCard key={set.id} armorSet={set} />
+          <ArmorSetCard key={set.name} armorSet={set} />
         ))}
       </div>
     </div>
@@ -135,7 +129,7 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
         <div className="flex items-center justify-between">
           <span className="text-xl font-bold">{armorSet.name}</span>
           <span className="text-sm text-secondary">
-            Tier {armorSet.tier}
+            Tier {armorSet.rarity}
           </span>
         </div>
       }
@@ -152,12 +146,11 @@ function ArmorSetCard({ armorSet }: { armorSet: ArmorSet }) {
                       <p className="font-bold">{piece.name}</p>
                       <p>Skills:</p>
                       <ul className="list-disc list-inside">
-                        {piece.skills.map(skill => {
-                          const fullSkill = getSkillById(skill.id);
-                          return (
-                            <li key={skill.id}>{fullSkill?.name} Lv. {skill.level}</li>
-                          );
-                        })}
+                        {piece.skills?.map(skill => (
+                          <li key={`${skill.skillName}-${skill.skillLevel}`}>
+                            {skill.skillName} Lv. {skill.skillLevel}
+                          </li>
+                        ))}
                       </ul>
                     </div>
                   ) : (
