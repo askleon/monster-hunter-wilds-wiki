@@ -1,7 +1,8 @@
 import React from 'react';
 import { Loadout } from './LoadoutBuilder';
 import { getColorClass } from '@/lib/types';
-import { SharpnessBar } from './weapons/SharpnessBar';
+// import { SharpnessBar } from './weapons/SharpnessBar';
+import { Weapon } from '@/lib/weapons';
 
 interface StatSummaryProps {
   loadout: Loadout;
@@ -26,6 +27,16 @@ export function StatSummary({ loadout }: StatSummaryProps) {
     return <span className={color}>{sign}{value}</span>;
   };
 
+  // Format element/status info from weapon data
+  const formatElementStatus = (weapon: Weapon | null | undefined) => {
+    if (!weapon || !weapon.elementType || !weapon.elementValue) return 'None';
+    return `${weapon.elementType} (${weapon.elementValue})`;
+  };
+
+  const getElementClass = (weapon: Weapon | null | undefined) => {
+    return weapon?.elementType ? getColorClass(weapon.elementType) : '';
+  };
+
   return (
     <div className="bg-secondary p-4 rounded-lg">
       <h3 className="text-lg font-semibold mb-2">Stats Summary</h3>
@@ -39,10 +50,8 @@ export function StatSummary({ loadout }: StatSummaryProps) {
             </li>
             <li className="flex justify-between">
               <span>Element/Status:</span>
-              <span className={loadout.weapon?.elementOrStatus ? getColorClass(loadout.weapon.elementOrStatus.type) : ''}>
-                {loadout.weapon?.elementOrStatus
-                  ? `${loadout.weapon.elementOrStatus.type} (${loadout.weapon.elementOrStatus.value})`
-                  : 'None'}
+              <span className={getElementClass(loadout.weapon)}>
+                {formatElementStatus(loadout.weapon)}
               </span>
             </li>
             <li className="flex justify-between">
@@ -51,12 +60,18 @@ export function StatSummary({ loadout }: StatSummaryProps) {
             </li>
             <li>
               <span>Sharpness:</span>
-              {loadout.weapon?.sharpness && (
+              {/* {loadout.weapon?.sharpness && (
                 <div className="mt-1">
                   <SharpnessBar sharpness={loadout.weapon.sharpness} />
                 </div>
-              )}
+              )} */}
             </li>
+            {loadout.weapon?.defenseBonus && (
+              <li className="flex justify-between">
+                <span>Defense Bonus:</span>
+                <span>+{loadout.weapon.defenseBonus}</span>
+              </li>
+            )}
           </ul>
         </div>
         <div className="flex-1 pl-4 border-l border-gray-600">

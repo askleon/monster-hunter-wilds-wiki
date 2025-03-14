@@ -1,4 +1,3 @@
-import { ElementOrStatusType } from './weapons';
 
 export type PhysicalDamageType = 'blunt' | 'slashing' | 'piercing';
 export type ElementType = 'fire' | 'water' | 'thunder' | 'ice' | 'dragon';
@@ -14,7 +13,7 @@ export interface StatusProperty {
   value: number;
 }
 
-export function getColorClass(type: ElementOrStatusType): string {
+export function getColorClass(type: string): string {
   switch(type) {
   case 'fire': return 'text-red-500';
   case 'water': return 'text-blue-500';
