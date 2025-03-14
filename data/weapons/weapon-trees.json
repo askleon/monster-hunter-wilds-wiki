@@ -1,0 +1,112 @@
+[
+  {
+    "type": "great-sword",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "great-sword",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "great-sword",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "great-sword",
+    "tree": "Jin Dahaad",
+    "order": 4
+  },
+  {
+    "type": "great-sword",
+    "tree": "Quematrice",
+    "order": 5
+  },
+  {
+    "type": "great-sword",
+    "tree": "Paralysis",
+    "order": 6
+  },
+  {
+    "type": "great-sword",
+    "tree": "Bone",
+    "order": 7
+  },
+  {
+    "type": "great-sword",
+    "tree": "Nu Udra",
+    "order": 8
+  },
+  {
+    "type": "great-sword",
+    "tree": "Nerscylla",
+    "order": 9
+  },
+  {
+    "type": "great-sword",
+    "tree": "Xu Wu",
+    "order": 10
+  },
+  {
+    "type": "great-sword",
+    "tree": "Doshaguma",
+    "order": 11
+  },
+  {
+    "type": "great-sword",
+    "tree": "Arkveld",
+    "order": 12
+  },
+  {
+    "type": "great-sword",
+    "tree": "G. Arkveld",
+    "order": 13
+  },
+  {
+    "type": "great-sword",
+    "tree": "G. Doshaguma",
+    "order": 14
+  },
+  {
+    "type": "great-sword",
+    "tree": "Yian Kut-Ku",
+    "order": 15
+  },
+  {
+    "type": "great-sword",
+    "tree": "G. Fulgur",
+    "order": 16
+  },
+  {
+    "type": "great-sword",
+    "tree": "Gypceros",
+    "order": 17
+  },
+  {
+    "type": "great-sword",
+    "tree": "Rathian",
+    "order": 18
+  },
+  {
+    "type": "great-sword",
+    "tree": "Rathalos",
+    "order": 19
+  },
+  {
+    "type": "great-sword",
+    "tree": "Gore Magala",
+    "order": 20
+  },
+  {
+    "type": "great-sword",
+    "tree": "Speartuna",
+    "order": 21
+  },
+  {
+    "type": "great-sword",
+    "tree": "Workshop",
+    "order": 22
+  }
+]

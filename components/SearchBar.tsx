@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { monsters } from '@/lib/monsters'
-import { getAllWeaponTrees, WeaponTree } from '@/lib/weapons'
+import { weapons } from '@/lib/weapons'
 import { getAllArmors } from '@/lib/armors'
 import { getAllTalismans } from '@/lib/talismans'
 import { getAllDecorations } from '@/lib/decorations'
@@ -31,15 +31,13 @@ export default function SearchBar() {
       name: monster.name,
       type: 'monster' as const
     })),
-    ...getAllWeaponTrees().flatMap((tree: WeaponTree) =>
-      tree.weapons?.map(weapon => ({
-        id: weapon.id,
-        name: weapon.name,
-        type: 'weapon' as const,
-        subtype: tree.type,
-        weaponType: tree.id
-      })) || []
-    ),
+    ...weapons.map(weapon => ({
+      id: weapon.name, // Using name as ID since we're using it for navigation
+      name: weapon.name,
+      type: 'weapon' as const,
+      subtype: weapon.type,
+      weaponType: weapon.type
+    })),
     ...getAllArmors().map(armor => ({
       id: armor.id,
       name: armor.name,

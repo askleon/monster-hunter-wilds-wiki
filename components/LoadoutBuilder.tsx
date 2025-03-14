@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { getAllWeaponTrees, WeaponNode, getWeaponById } from '@/lib/weapons';
+import { weapons, Weapon } from '@/lib/weapons';
 import { ArmorPiece, getArmorPieceById, getAllArmors } from '@/lib/armors';
 import { Card } from '@/components/Card';
 import { useToast } from '@/components/Toast';
@@ -12,7 +12,7 @@ import { SearchableDropdown } from '@/components/SearchableDropdown';
 
 export interface Loadout {
   name: string;
-  weapon: WeaponNode | null;
+  weapon: Weapon | null;
   head: ArmorPiece | null;
   chest: ArmorPiece | null;
   arms: ArmorPiece | null;
@@ -39,19 +39,20 @@ export default function LoadoutBuilder({ }: LoadoutBuilderProps) {
   const [shareUrl, setShareUrl] = useState('');
   const shareUrlInputRef = useRef<HTMLInputElement>(null);
 
-  const weaponTrees = getAllWeaponTrees();
-
-  const allWeapons = useMemo(() => {
-    return weaponTrees.flatMap(tree => tree.weapons);
-  }, [weaponTrees]);
+  // Use the weapons data directly
+  const allWeapons = useMemo(() => weapons, []);
 
   const armorPieces = useMemo(() => getAllArmors(), []);
+
+  const getWeaponById = (id: string): Weapon | null => {
+    return weapons.find(weapon => weapon.name === id) || null;
+  };
 
   useEffect(() => {
     const initializeLoadout = () => {
       const initialLoadout: Loadout = {
         name: searchParams.get('name') || '',
-        weapon: searchParams.get('weapon') ? getWeaponById(searchParams.get('weapon')!) || null : null,
+        weapon: searchParams.get('weapon') ? getWeaponById(searchParams.get('weapon')!) : null,
         head: searchParams.get('head') ? getArmorPieceById(searchParams.get('head')!) || null : null,
         chest: searchParams.get('chest') ? getArmorPieceById(searchParams.get('chest')!) || null : null,
         arms: searchParams.get('arms') ? getArmorPieceById(searchParams.get('arms')!) || null : null,
@@ -70,7 +71,7 @@ export default function LoadoutBuilder({ }: LoadoutBuilderProps) {
   const generateShareUrl = (newLoadout: Loadout) => {
     const params = new URLSearchParams();
     params.set('name', newLoadout.name);
-    if (newLoadout.weapon) params.set('weapon', newLoadout.weapon.id);
+    if (newLoadout.weapon) params.set('weapon', newLoadout.weapon.name);
     if (newLoadout.head) params.set('head', newLoadout.head.id);
     if (newLoadout.chest) params.set('chest', newLoadout.chest.id);
     if (newLoadout.arms) params.set('arms', newLoadout.arms.id);
@@ -89,8 +90,8 @@ export default function LoadoutBuilder({ }: LoadoutBuilderProps) {
     handleLoadoutChange({ ...loadout, name: newName });
   };
 
-  const handleWeaponSelect = (weaponId: string) => {
-    const selectedWeapon = getWeaponById(weaponId);
+  const handleWeaponSelect = (weaponName: string) => {
+    const selectedWeapon = getWeaponById(weaponName);
     handleLoadoutChange({ ...loadout, weapon: selectedWeapon });
   };
 
@@ -140,7 +141,7 @@ export default function LoadoutBuilder({ }: LoadoutBuilderProps) {
     );
   };
 
-  const renderSummaryItem = (key: string, value: string | WeaponNode | ArmorPiece | null) => {
+  const renderSummaryItem = (key: string, value: string | Weapon | ArmorPiece | null) => {
     let displayValue: string = 'Not selected';
     if (value) {
       if (typeof value === 'string') {
@@ -159,14 +160,14 @@ export default function LoadoutBuilder({ }: LoadoutBuilderProps) {
 
   const renderWeaponSelect = () => {
     const options = allWeapons.map(weapon => ({
-      value: weapon.id,
-      label: `${weapon.name} (${weapon.treeName})`
+      value: weapon.name,
+      label: `${weapon.name} (${weapon.tree})`
     }));
 
     return (
       <SearchableDropdown
         options={[{ value: '', label: 'Select Weapon' }, ...options]}
-        value={loadout.weapon?.id || ''}
+        value={loadout.weapon?.name || ''}
         onChange={handleWeaponSelect}
         placeholder="Select Weapon"
         className="w-full"

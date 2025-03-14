@@ -3,29 +3,29 @@
 import { useState, useEffect } from 'react';
 import { WeaponTree } from '@/components/weapons/WeaponTree';
 import { WeaponList } from '@/components/weapons/WeaponList';
-import { getWeaponTreeById, getWeaponTypeInfo, WeaponType, WeaponNode } from '@/lib/weapons';
-import { useRouter } from 'next/navigation';
+import { weapons, weaponTypes, Weapon } from '@/lib/weapons';
 
-export default function WeaponTreePage({ params }: { params: { weaponType: string } }) {
+export default function WeaponTypePage({ params }: { params: { weaponType: string } }) {
   const [viewMode, setViewMode] = useState<'tree' | 'list'>('tree');
-  const [selectedWeapon, setSelectedWeapon] = useState<WeaponNode | null>(null);
-  const router = useRouter();
+  const [selectedWeapon, setSelectedWeapon] = useState<Weapon | null>(null);
 
-  const id = params.weaponType as WeaponType;
-  const weaponInfo = getWeaponTypeInfo(id);
-  const weaponTree = getWeaponTreeById(id);
+  const weaponTypeId = params.weaponType;
+  const filteredWeapons = weapons.filter(w => w.type.toLowerCase() === weaponTypeId.toLowerCase());
+  const weaponType = weaponTypes.find(type => type.id.toLowerCase() === weaponTypeId.toLowerCase());
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && weaponTree) {
+    if (typeof window !== 'undefined') {
       const hash = window.location.hash.slice(1);
-      const weapon = weaponTree.weapons.find(w => w.id.toLowerCase() === hash.toLowerCase());
-      if (weapon) {
-        setSelectedWeapon(weapon);
+      if (hash) {
+        const weapon = filteredWeapons.find(w => w.slug?.toLowerCase() === hash.toLowerCase());
+        if (weapon) {
+          setSelectedWeapon(weapon);
+        }
       }
     }
-  }, [weaponTree]);
+  }, [filteredWeapons]);
 
-  if (!weaponInfo || !weaponTree) {
+  if (!weaponType || filteredWeapons.length === 0) {
     return <div>Weapon type not found.</div>;
   }
 
@@ -33,15 +33,27 @@ export default function WeaponTreePage({ params }: { params: { weaponType: strin
     setViewMode(viewMode === 'tree' ? 'list' : 'tree');
   };
 
-  const handleWeaponSelect = (weapon: WeaponNode) => {
+  const handleWeaponSelect = (weapon: Weapon) => {
+    // First update the state
     setSelectedWeapon(weapon);
-    router.push(`/weapons/${id}#${weapon.id.toLowerCase()}`, { scroll: false });
+
+    // Then update the URL (if needed)
+    if (weapon.slug) {
+      // Use a timeout to ensure the state update happens first
+      setTimeout(() => {
+        window.history.replaceState(
+          null,
+          '',
+          `/weapons/${weaponTypeId}#${weapon.slug?.toLowerCase() ?? ''}`
+        );
+      }, 0);
+    }
   };
 
   return (
     <div className="flex flex-col h-screen">
       <div className="flex justify-between items-center p-4 bg-background">
-        <h1 className="text-3xl font-bold text-primary">{weaponInfo.name}</h1>
+        <h1 className="text-3xl font-bold text-primary">{weaponType.name}</h1>
         <button
           onClick={toggleView}
           className="px-4 py-2 bg-secondary text-primary rounded hover:bg-primary hover:text-secondary transition-colors"
@@ -51,9 +63,17 @@ export default function WeaponTreePage({ params }: { params: { weaponType: strin
       </div>
       <div className="flex-grow overflow-auto p-4">
         {viewMode === 'tree' ? (
-          <WeaponTree weaponTree={weaponTree} selectedWeapon={selectedWeapon} onWeaponSelect={handleWeaponSelect} />
+          <WeaponTree
+            weapons={filteredWeapons}
+            selectedWeapon={selectedWeapon}
+            onWeaponSelect={handleWeaponSelect}
+          />
         ) : (
-          <WeaponList weaponTree={weaponTree} selectedWeapon={selectedWeapon} onWeaponSelect={handleWeaponSelect} />
+          <WeaponList
+            weapons={filteredWeapons}
+            selectedWeapon={selectedWeapon}
+            onWeaponSelect={handleWeaponSelect}
+          />
         )}
       </div>
     </div>

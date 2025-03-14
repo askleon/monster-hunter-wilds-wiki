@@ -1,58 +1,78 @@
 import React from 'react';
-import { WeaponNode, Material } from '@/lib/weapons';
+import { Weapon } from '@/lib/weapons';
 import { getColorClass } from '@/lib/types';
-import { SharpnessBar } from './SharpnessBar';
+// import { SharpnessBar } from './SharpnessBar';
 import styles from './WeaponDetails.module.css';
 
 interface WeaponDetailsProps {
-  weapon: WeaponNode;
+  weapon: Weapon;
 }
 
 export function WeaponDetails({ weapon }: WeaponDetailsProps) {
+  // Element type color mapping
+  let elementTypeForColor = 'none';
+  if (weapon.elementType) {
+    elementTypeForColor = weapon.elementType.toLowerCase();
+
+    const elementTypeMap: Record<string, string> = {
+      'thunder': 'lightning',
+      'dragon': 'dragon',
+      'fire': 'fire',
+      'water': 'water',
+      'ice': 'ice',
+      'poison': 'poison',
+      'paralysis': 'paralysis',
+      'sleep': 'sleep',
+      'blast': 'blast',
+    };
+
+    elementTypeForColor = elementTypeMap[elementTypeForColor] || elementTypeForColor;
+  }
+
   return (
     <div className={styles.weaponDetails}>
       <h3>{weapon.name}</h3>
       <p>Rarity: {weapon.rarity}</p>
       <p>Attack: {weapon.attack}</p>
-      <SharpnessBar sharpness={weapon.sharpness} />
-      {weapon.elementOrStatus && (
-        <p className={getColorClass(weapon.elementOrStatus.type)}>
-          {weapon.elementOrStatus.type.charAt(0).toUpperCase() + weapon.elementOrStatus.type.slice(1)}: {weapon.elementOrStatus.value}
+
+      {/* <SharpnessBar sharpness={(weapon as any).sharpness} /> */}
+
+      {/* Element/status display */}
+      {weapon.elementType && weapon.elementValue && (
+        <p className={getColorClass(elementTypeForColor)}>
+          {weapon.elementType.charAt(0).toUpperCase() + weapon.elementType.slice(1)}: {weapon.elementValue}
         </p>
       )}
+
       {weapon.affinity !== undefined && <p>Affinity: {weapon.affinity}%</p>}
-      {weapon.defense !== undefined && <p>Defense bonus: {weapon.defense}</p>}
-      <p>Slots: {weapon.slots.map(slot => `${slot}`).join(', ')}</p>
+      {weapon.defenseBonus !== undefined && <p>Defense bonus: {weapon.defenseBonus}</p>}
 
-      <div className={styles.creationMethods}>
-        {weapon.upgradedFrom && (
-          <div className={styles.upgradePath}>
-            <h4>Upgrade from: {weapon.upgradedFrom}</h4>
-            <MaterialsList materials={weapon.creationMaterials.upgrade || []} />
-          </div>
-        )}
+      {/* Conditionally render slots if they exist */}
+      {/* {(weapon as any).slots && <p>Slots: {(weapon as any).slots.map((slot: any) => `${slot}`).join(', ')}</p>} */}
 
-        {weapon.canBuildDirectly && weapon.creationMaterials.craft && (
-          <div className={styles.craftPath}>
-            <h4>Craft Directly:</h4>
-            <MaterialsList materials={weapon.creationMaterials.craft} />
-          </div>
-        )}
-      </div>
+      {/* Materials section */}
+      {weapon.materials && weapon.materials.length > 0 && (
+        <div className={styles.creationMethods}>
+          <h4>Required Materials:</h4>
+          <ul className={styles.materialsList}>
+            {weapon.materials.map((material, index) => (
+              <li key={index}>{material.material} x{material.quantity}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Skills section */}
+      {weapon.skills && weapon.skills.length > 0 && (
+        <div className={styles.skillsSection}>
+          <h4>Skills:</h4>
+          <ul className={styles.skillsList}>
+            {weapon.skills.map((skill, index) => (
+              <li key={index}>{skill.skill} Lv.{skill.level}</li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
-  );
-}
-
-interface MaterialsListProps {
-  materials: Material[];
-}
-
-function MaterialsList({ materials }: MaterialsListProps) {
-  return (
-    <ul className={styles.materialsList}>
-      {materials.map((material, index) => (
-        <li key={index}>{material.name} x{material.quantity}</li>
-      ))}
-    </ul>
   );
 }

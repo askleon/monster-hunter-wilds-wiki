@@ -1,0 +1,482 @@
+[
+  {
+    "type": "great-sword",
+    "name": "Hope Blade III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Esperanza Blade",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Esperanza Blade",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Whitefire Rathguard",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword III",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Ravager Blade",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Jin Dhavaar I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Precipice Metallam",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada II",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada III",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada IV",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Firetrail Blaisdell",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade II",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade III",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Destructive Torpor",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade IV",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Slasher",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Slasher",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake I",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake I",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake II",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake II",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Abaddonian Krake",
+    "skill": "Protective Polish",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Abaddonian Krake",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade I",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade II",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade III",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade III",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Immolator Blade",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Immolator Blade",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword I",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Prinvrilo's Dissolution",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer II",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer III",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Fellslayer Dangeom",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Stalwart Lamorak",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Veldian Gladius I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Stalwart Lamorak",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Grimslayer Urgeom",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Chicken Decapitator I",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Smiting Fulgur I",
+    "skill": "Critical Element",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Fulgurcleaver Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter I",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter II",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Poison King",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Poison King",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade I",
+    "skill": "Critical Status",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade II",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Sieglinde",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Sieglinde",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Red Wing I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Rathalos Firesword",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Schattenstolz I",
+    "skill": "Critical Element",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Disterstolz",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna I",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna II",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna II",
+    "skill": "Slugger",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Freezer Speartuna",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Freezer Speartuna",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Giant Jawblade",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Giant Jawblade",
+    "skill": "Focus",
+    "level": 2
+  }
+]

@@ -18,7 +18,7 @@ export default function LoadoutListPage() {
   const handleLoadoutClick = (name: string, loadout: Loadout) => {
     const params = new URLSearchParams();
     params.set('name', name);
-    if (loadout.weapon) params.set('weapon', loadout.weapon.id);
+    if (loadout.weapon) params.set('weapon', loadout.weapon.slug);
     if (loadout.head) params.set('head', loadout.head.id);
     if (loadout.chest) params.set('chest', loadout.chest.id);
     if (loadout.arms) params.set('arms', loadout.arms.id);

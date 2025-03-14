@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Card } from '@/components/Card';
-import { WeaponTypes, WeaponTypeInfo } from '@/lib/weapons';
+import { weaponTypes, WeaponType } from '@/lib/weapons';
 
 export default function WeaponsPage() {
   return (
@@ -10,7 +10,7 @@ export default function WeaponsPage() {
         Explore the various weapon types available in Monster Hunter Wilds!
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {WeaponTypes.map((weaponInfo) => (
+        {weaponTypes.map((weaponInfo) => (
           <WeaponTypeCard key={weaponInfo.id} weaponInfo={weaponInfo} />
         ))}
       </div>
@@ -18,7 +18,7 @@ export default function WeaponsPage() {
   );
 }
 
-function WeaponTypeCard({ weaponInfo }: { weaponInfo: WeaponTypeInfo }) {
+function WeaponTypeCard({ weaponInfo }: { weaponInfo: WeaponType }) {
   return (
     <Card
       title={

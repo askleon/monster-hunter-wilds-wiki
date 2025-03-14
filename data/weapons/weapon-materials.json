@@ -1,0 +1,1334 @@
+[
+  {
+    "type": "great-sword",
+    "name": "Hope Blade II",
+    "material": "Iron Ore",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade III",
+    "material": "Dragonite Ore",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade III",
+    "material": "Machalite Ore",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade IV",
+    "material": "Carbalite Ore",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade V",
+    "material": "Monster Hardbone",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade V",
+    "material": "Fucium Ore",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Esperanza Blade",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Esperanza Blade",
+    "material": "Bird Wyvern Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing I",
+    "material": "Guardian Rathalos Scale",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing I",
+    "material": "Guardian Rathalos Webbing",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing I",
+    "material": "Flame Sac",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing II",
+    "material": "G Rathalos Certificate S",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing II",
+    "material": "Guardian Rathalos Wing",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing II",
+    "material": "Guardian Rathalos Plate",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing II",
+    "material": "Guardian Blood+",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Whitefire Rathguard",
+    "material": "Hunter Symbol II",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Whitefire Rathguard",
+    "material": "Guardian Rathalos Carapace",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Whitefire Rathguard",
+    "material": "Guardian Rathalos Ruby",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Whitefire Rathguard",
+    "material": "Guardian Scale+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword I",
+    "material": "Machalite Ore",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword I",
+    "material": "Earth Crystal",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword II",
+    "material": "Lightcrystal",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword II",
+    "material": "Icium",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword III",
+    "material": "Fucium Ore",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword III",
+    "material": "Gracium",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword III",
+    "material": "Monster Keenbone",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Ravager Blade",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Ravager Blade",
+    "material": "Novacrystal",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Ravager Blade",
+    "material": "Wyvern Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Jin Dhavaar I",
+    "material": "Jin Dahaad Certificate S",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Jin Dhavaar I",
+    "material": "Jin Dahaad Claw+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Jin Dhavaar I",
+    "material": "Jin Dahaad Iceplate",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Jin Dhavaar I",
+    "material": "Jin Dahaad Tail",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Precipice Metallam",
+    "material": "Hunter Symbol III",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Precipice Metallam",
+    "material": "Jin Dahaad Horn",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Precipice Metallam",
+    "material": "Jin Dahaad Carapace",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Precipice Metallam",
+    "material": "Jin Dahaad Icegem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada I",
+    "material": "Quematrice Scale",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada I",
+    "material": "Quematrice Igniter",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada I",
+    "material": "Quematrice Crest",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada II",
+    "material": "Firestone",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada II",
+    "material": "Quematrice Tail",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada II",
+    "material": "Draqgonite Ore",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada III",
+    "material": "Quematrice Certificate ",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada III",
+    "material": "Quematrice Igniter+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada III",
+    "material": "Quematrice Crest+",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada IV",
+    "material": "Nu Udra Certificate S",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada IV",
+    "material": "Quematrice Hide+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada IV",
+    "material": "Inferno Sac",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada IV",
+    "material": "Wyvern Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Firetrail Blaisdell",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Firetrail Blaisdell",
+    "material": "Quematrice Scale+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Firetrail Blaisdell",
+    "material": "Nu Udra Flameqem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade I",
+    "material": "Lala Barina Shell",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade I",
+    "material": "Lala Barina Mucus",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade I",
+    "material": "Lala Barina Claw",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade II",
+    "material": "Nerscylla Claw",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade II",
+    "material": "Lala Barina Floret",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade II",
+    "material": "Lala Barina Stinger",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade III",
+    "material": "Lala Barina Certificate S",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade III",
+    "material": "Lala Barina Mucus+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade III",
+    "material": "Lala Barina Claw+",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade IV",
+    "material": "Monster Hardbone",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade IV",
+    "material": "Lala Barina Floret+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade IV",
+    "material": "Lala Barina Stinger+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Destructive Torpor",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Destructive Torpor",
+    "material": "Lala Barina Carapace",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Destructive Torpor",
+    "material": "Monster Broth",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Destructive Torpor",
+    "material": "Bird Wyvern Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade I",
+    "material": "Mystery Bone",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade II",
+    "material": "Sturdy Bone",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade II",
+    "material": "Monster Fluid",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade III",
+    "material": "Tough Guardian Bone",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade IV",
+    "material": "Great Stoutbone",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Blade IV",
+    "material": "Colossal Bone",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Slasher",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Slasher",
+    "material": "Monster Hardbone",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Slasher",
+    "material": "Dragonbone Relic",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Bone Slasher",
+    "material": "Beast Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake I",
+    "material": "Nu Udra Hide",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake I",
+    "material": "Nu Udra Spike",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake I",
+    "material": "Nu Udra Oilmucus",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake II",
+    "material": "Nu Udra Certificate S",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake II",
+    "material": "Nu Udra Spike+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake II",
+    "material": "Nu Udra Oilmucus+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake II",
+    "material": "Nu Udra Cerebrospinal Fluid",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Abaddonian Krake",
+    "material": "Hunter Symbol III",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Abaddonian Krake",
+    "material": "Nu Udra Tentacle+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Abaddonian Krake",
+    "material": "Nu Udra Horn+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Abaddonian Krake",
+    "material": "Nu Udra Flamegem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade I",
+    "material": "Nerscylla Shell",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade I",
+    "material": "Nerscylla Claw",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade I",
+    "material": "Sleep Sac",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade II",
+    "material": "Nerscylla Certificate S",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade II",
+    "material": "Nerscylla Claw+",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade II",
+    "material": "Coma Sac",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade III",
+    "material": "Jin Dahaad Certificate S",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade III",
+    "material": "Nerscylla Spike+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade III",
+    "material": "Nerscvylla Shear",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Immane Blade III",
+    "material": "Monster Broth",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Immolator Blade",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Immolator Blade",
+    "material": "Nerscylla Carapace",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Immolator Blade",
+    "material": "Bird Wyvern Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword I",
+    "material": "Xu Wu Hide",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword I",
+    "material": "Xu Wu Claw",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword I",
+    "material": "Xu Wu Fang",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword II",
+    "material": "Xu Wu Certificate ",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword II",
+    "material": "Xu Wu Claw+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword II",
+    "material": "Xu Wu Fang+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Nihil Great Sword II",
+    "material": "Xu Wu Cerebrospinal Fluid",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Prinvrilo's Dissolution",
+    "material": "Hunter Symbol II",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Prinvrilo's Dissolution",
+    "material": "Golden Corneum+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Prinvrilo's Dissolution",
+    "material": "Xu Wu Tentacle+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Prinvrilo's Dissolution",
+    "material": "Xu Wu Umbragem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer I",
+    "material": "Doshaguma Fur",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer I",
+    "material": "Doshaguma Claw",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer I",
+    "material": "Doshaquma Fang",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer II",
+    "material": "Guardian Doshaguma Claw",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer II",
+    "material": "Doshaguma Hide",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer II",
+    "material": "Tough Guardian Bone",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer III",
+    "material": "Doshaguma Certificate S",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer III",
+    "material": "Doshaguma Claw+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Fellslayer III",
+    "material": "Doshaquma Fang+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Fellslayer Dangeom",
+    "material": "Hunter Symbol II",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Fellslayer Dangeom",
+    "material": "Doshaguma Hide+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Fellslayer Dangeom",
+    "material": "Beast Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius I",
+    "material": "Guardian Scale",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius I",
+    "material": "Guardian Pelt",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius I",
+    "material": "Guardian Blood",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius I",
+    "material": "Tough Guardian Bone",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius II",
+    "material": "Guardian Scale+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius II",
+    "material": "Guardian Pelt+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius II",
+    "material": "Guardian Blood+",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius II",
+    "material": "Dragonbone Relic",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Stalwart Lamorak",
+    "material": "Hunter Symbol III",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Stalwart Lamorak",
+    "material": "Arkveld Calloushell",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Stalwart Lamorak",
+    "material": "Arkveld Tail",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Stalwart Lamorak",
+    "material": "Arkveld Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Veldian Gladius I",
+    "material": "Arkveld Certificate S",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Veldian Gladius I",
+    "material": "Arkveld Scale+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Veldian Gladius I",
+    "material": "White Arkveld Pelt",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Veldian Gladius I",
+    "material": "Wyvern Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Stalwart Lamorak",
+    "material": "Hunter Symbol III",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Stalwart Lamorak",
+    "material": "Arkveld Armorplate",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Stalwart Lamorak",
+    "material": "Arkveld Horn+",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Stalwart Lamorak",
+    "material": "Arkveld Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer I",
+    "material": "Guardian Doshaguma Fur",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer I",
+    "material": "Guardian Doshaguma Claw",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer I",
+    "material": "Guardian Doshaquma Fanq",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer II",
+    "material": "G Doshaguma Certificate ",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer II",
+    "material": "Guardian Doshaguma Claw+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer II",
+    "material": "Guardian Doshaguma Fang+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer II",
+    "material": "Guardian Blood+",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Grimslayer Urgeom",
+    "material": "Hunter Symbol II",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Grimslayer Urgeom",
+    "material": "Guardian Doshaguma Fur+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Grimslayer Urgeom",
+    "material": "Guardian Pelt+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Grimslayer Urgeom",
+    "material": "Beast Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Chicken Decapitator I",
+    "material": "Yian KutKu Certificate ",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Chicken Decapitator I",
+    "material": "KutKu Wing",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Chicken Decapitator I",
+    "material": "KutKu Ear",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Chicken Decapitator I",
+    "material": "KutKu Scale+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Smiting Fulgur I",
+    "material": "Guardian Fulgur Certificate ",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Smiting Fulgur I",
+    "material": "Guardian Fulgur Fang+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Smiting Fulgur I",
+    "material": "Guardian Fulagur Tail",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Smiting Fulgur I",
+    "material": "Thunder Sac",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Fulgurcleaver Guardiana",
+    "material": "Hunter Symbol II",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Fulgurcleaver Guardiana",
+    "material": "Guardian Fulqur Nosebone+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Fulgurcleaver Guardiana",
+    "material": "Guardian Fulgur Pelt+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Fulgurcleaver Guardiana",
+    "material": "Guardian Fulgur Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter I",
+    "material": "Gypceros Certificate S",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter I",
+    "material": "Gypceros Wing",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter I",
+    "material": "Gypceros Head",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter I",
+    "material": "Rubbery Hide+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter II",
+    "material": "Gravios Certificate S",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter II",
+    "material": "Gypceros Tail",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter II",
+    "material": "Toxin Sac",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Poison King",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Poison King",
+    "material": "Rubbery Hide+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Poison King",
+    "material": "Bird Wyvern Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Poison King",
+    "material": "Novacrystal",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade I",
+    "material": "Rathian Certificate ",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade I",
+    "material": "Rathian Webbing",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade I",
+    "material": "Rathian Spike+",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade I",
+    "material": "Rathian Scale+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade II",
+    "material": "Rey Dau Certificate ",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade II",
+    "material": "Rathian Carapace",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade II",
+    "material": "Rath Medulla",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade II",
+    "material": "Wyvern Gem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Sieglinde",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Sieglinde",
+    "material": "Rathian Scale+",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Sieglinde",
+    "material": "Rathian Ruby",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Red Wing I",
+    "material": "Rathalos Certificate ",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Red Wing I",
+    "material": "Rathalos Carapace",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Red Wing I",
+    "material": "Rathalos Wing",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Red Wing I",
+    "material": "Rath Medulla",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Rathalos Firesword",
+    "material": "Hunter Symbol II",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Rathalos Firesword",
+    "material": "Rathalos Scale+",
+    "quantity": 6
+  },
+  {
+    "type": "great-sword",
+    "name": "Rathalos Firesword",
+    "material": "Rathalos Tail",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Rathalos Firesword",
+    "material": "Rathalos Ruby",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Schattenstolz I",
+    "material": "Gore Magala Certificate ",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Schattenstolz I",
+    "material": "Gore Magala Ripclaw+",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Schattenstolz I",
+    "material": "Gore Maaala Tail",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Schattenstolz I",
+    "material": "Frenzy Shard",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Disterstolz",
+    "material": "Hunter Symbol III",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Disterstolz",
+    "material": "Gore Magala Feeler+",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Disterstolz",
+    "material": "Gore Maaala Nyctaem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Disterstolz",
+    "material": "Frenzy Crystal",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna I",
+    "material": "Speartuna Fin",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna I",
+    "material": "Frozen Icebone",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna I",
+    "material": "Frost Sac",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna II",
+    "material": "Great Stoutbone",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna II",
+    "material": "Gracium",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna II",
+    "material": "Freezer Sac",
+    "quantity": 4
+  },
+  {
+    "type": "great-sword",
+    "name": "Frozen Speartuna II",
+    "material": "Speartuna Fin",
+    "quantity": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Freezer Speartuna",
+    "material": "Hunter Symbol I",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Freezer Speartuna",
+    "material": "Dragonbone Relic",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Freezer Speartuna",
+    "material": "Jin Dahaad Iceqem",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Freezer Speartuna",
+    "material": "Speartuna Fin",
+    "quantity": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Giant Jawblade",
+    "material": "Hunter Symbol II",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Giant Jawblade",
+    "material": "Monster Hardbone",
+    "quantity": 5
+  },
+  {
+    "type": "great-sword",
+    "name": "Giant Jawblade",
+    "material": "Dragonbone Relic",
+    "quantity": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Giant Jawblade",
+    "material": "Commission Ticket",
+    "quantity": 2
+  }
+]

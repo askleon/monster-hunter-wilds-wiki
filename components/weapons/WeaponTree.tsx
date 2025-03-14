@@ -1,37 +1,52 @@
 'use client'
 import React from 'react';
-import { WeaponTree as WeaponTreeType, WeaponNode } from '@/lib/weapons';
+import { Weapon, weaponTrees } from '@/lib/weapons';
 import { WeaponComponent } from './WeaponComponent';
 import { WeaponDetails } from './WeaponDetails';
 import styles from './WeaponTree.module.css';
 
 interface WeaponTreeProps {
-  weaponTree: WeaponTreeType;
-  selectedWeapon: WeaponNode | null;
-  onWeaponSelect: (weapon: WeaponNode) => void;
+  weapons: Weapon[];
+  selectedWeapon: Weapon | null;
+  onWeaponSelect: (weapon: Weapon) => void;
 }
 
-export function WeaponTree({ weaponTree, selectedWeapon, onWeaponSelect }: WeaponTreeProps) {
-  const maxRarity = Math.max(...weaponTree.weapons.map(w => w.rarity));
+export function WeaponTree({ weapons, selectedWeapon, onWeaponSelect }: WeaponTreeProps) {
+  const maxRarity = Math.max(...weapons.map(w => w.rarity));
 
-  const groupWeaponsByTreeAndRarity = (weapons: WeaponNode[]) => {
-    return weapons.reduce((acc, weapon) => {
-      if (!acc[weapon.treeName]) {
-        acc[weapon.treeName] = {};
-      }
-      if (!acc[weapon.treeName][weapon.rarity]) {
-        acc[weapon.treeName][weapon.rarity] = [];
-      }
-      acc[weapon.treeName][weapon.rarity].push(weapon);
-      return acc;
-    }, {} as Record<string, Record<number, WeaponNode[]>>);
+  const weaponsByTree: Record<string, Weapon[]> = {};
+  const trees = weaponTrees.filter(tree => tree.type === weapons[0].type);
+  trees.forEach(tree => {
+    weaponsByTree[tree.tree] = weapons.filter(w => w.tree === tree.tree);
+  });
+
+  // Get the weapon type from the first weapon (all weapons in the list should be the same type)
+  const weaponType = weapons.length > 0 ? weapons[0].type : '';
+
+  // Create a map of tree orders
+  const treeOrderMap: Record<string, number> = {};
+  weaponTrees.forEach(tree => {
+    if (tree.type === weaponType) {
+      treeOrderMap[tree.tree] = tree.order;
+    }
+  });
+
+  // Sort tree names based on the order defined in weaponTrees
+  const sortedTreeNames = Object.keys(weaponsByTree).sort((a, b) => {
+    const orderA = treeOrderMap[a] ?? 999;
+    const orderB = treeOrderMap[b] ?? 999;
+    return orderA - orderB;
+  });
+
+  const handleWeaponClick = (weapon: Weapon, e: React.MouseEvent) => {
+    // Stop propagation to prevent the event from bubbling up
+    e.stopPropagation();
+    // Set the selected weapon immediately
+    onWeaponSelect(weapon);
   };
-
-  const groupedWeapons = groupWeaponsByTreeAndRarity(weaponTree.weapons);
 
   return (
     <div className={styles.weaponTreeContainer}>
-      <h2>{weaponTree.name}</h2>
       <div className={styles.treeAndDetails}>
         <div className={styles.tableWrapper}>
           <table className={styles.weaponTable}>
@@ -44,19 +59,21 @@ export function WeaponTree({ weaponTree, selectedWeapon, onWeaponSelect }: Weapo
               </tr>
             </thead>
             <tbody>
-              {Object.entries(groupedWeapons).map(([treeName, rarityGroups]) => (
-                <tr key={treeName}>
+              {sortedTreeNames.map(treeName => (
+                <tr key={`tree-${treeName}`}>
                   <td className={styles.treeCell} title={treeName}>{treeName}</td>
-                  {Array.from({ length: maxRarity }, (_, i) => {
-                    const weapons = rarityGroups[i + 1] || [];
+                  {Array.from({ length: maxRarity }, (_, rarityIndex) => {
+                    const rarity = rarityIndex + 1;
+                    const weaponsInCell = weaponsByTree[treeName].filter(w => w.rarity === rarity);
+
                     return (
-                      <td key={i} className={styles.rarityCell}>
-                        {weapons.map(weapon => (
+                      <td key={`${treeName}-rarity-${rarity}`} className={styles.rarityCell}>
+                        {weaponsInCell.map(weapon => (
                           <WeaponComponent
-                            key={weapon.id}
+                            key={`weapon-${weapon.slug}`}
                             weapon={weapon}
-                            isSelected={selectedWeapon?.id === weapon.id}
-                            onClick={() => onWeaponSelect(weapon)}
+                            isSelected={selectedWeapon?.slug === weapon.slug}
+                            onClick={(e) => handleWeaponClick(weapon, e)}
                             displayMode="tree"
                           />
                         ))}
