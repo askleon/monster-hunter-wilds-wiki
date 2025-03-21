@@ -105,6 +105,1316 @@
     "order": 21
   },
   {
+    "type": "bow",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "bow",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "bow",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "bow",
+    "tree": "Rey Dau",
+    "order": 4
+  },
+  {
+    "type": "bow",
+    "tree": "Quematrice",
+    "order": 5
+  },
+  {
+    "type": "bow",
+    "tree": "Xu Wu",
+    "order": 6
+  },
+  {
+    "type": "bow",
+    "tree": "Hirabami",
+    "order": 7
+  },
+  {
+    "type": "bow",
+    "tree": "Bone",
+    "order": 8
+  },
+  {
+    "type": "bow",
+    "tree": "Uth Duna",
+    "order": 9
+  },
+  {
+    "type": "bow",
+    "tree": "Congalala",
+    "order": 10
+  },
+  {
+    "type": "bow",
+    "tree": "Nerscylla",
+    "order": 11
+  },
+  {
+    "type": "bow",
+    "tree": "Doshaguma",
+    "order": 12
+  },
+  {
+    "type": "bow",
+    "tree": "G. Arkveld",
+    "order": 13
+  },
+  {
+    "type": "bow",
+    "tree": "Arkveld",
+    "order": 14
+  },
+  {
+    "type": "bow",
+    "tree": "G. Doshaguma",
+    "order": 15
+  },
+  {
+    "type": "bow",
+    "tree": "Yian Kut-Ku",
+    "order": 16
+  },
+  {
+    "type": "bow",
+    "tree": "G. Fulgur",
+    "order": 17
+  },
+  {
+    "type": "bow",
+    "tree": "Rathian",
+    "order": 18
+  },
+  {
+    "type": "bow",
+    "tree": "Rathalos",
+    "order": 19
+  },
+  {
+    "type": "bow",
+    "tree": "Gore Magala",
+    "order": 20
+  },
+  {
+    "type": "bow",
+    "tree": "Blangonga",
+    "order": 21
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "charge-blade",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Rompopolo",
+    "order": 4
+  },
+  {
+    "type": "charge-blade",
+    "tree": "G. Ebony",
+    "order": 5
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Chatacabra",
+    "order": 6
+  },
+  {
+    "type": "charge-blade",
+    "tree": "G. Arkveld",
+    "order": 7
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Arkveld",
+    "order": 8
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Bone",
+    "order": 9
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Hirabami",
+    "order": 10
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Nu Udra",
+    "order": 11
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Uth Duna",
+    "order": 12
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Lala Barina",
+    "order": 13
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Nerscylla",
+    "order": 14
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Rathian",
+    "order": 15
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Rathalos",
+    "order": 16
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Gore Magala",
+    "order": 17
+  },
+  {
+    "type": "charge-blade",
+    "tree": "Gypceros",
+    "order": 18
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "dual-blades",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Water Element",
+    "order": 3
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Ore",
+    "order": 4
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Jin Dahaad",
+    "order": 5
+  },
+  {
+    "type": "dual-blades",
+    "tree": "G. Ebony",
+    "order": 6
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Quematrice",
+    "order": 7
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Bone",
+    "order": 8
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Uth Duna",
+    "order": 9
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Congalala",
+    "order": 10
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Ajarakan",
+    "order": 11
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Doshaguma",
+    "order": 12
+  },
+  {
+    "type": "dual-blades",
+    "tree": "G. Arkveld",
+    "order": 13
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Arkveld",
+    "order": 14
+  },
+  {
+    "type": "dual-blades",
+    "tree": "G. Doshaguma",
+    "order": 15
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Lala Barina",
+    "order": 16
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Yian Kut-Ku",
+    "order": 17
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Rathalos",
+    "order": 18
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Gore Magala",
+    "order": 19
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Gypceros",
+    "order": 20
+  },
+  {
+    "type": "dual-blades",
+    "tree": "G. Fulgur",
+    "order": 21
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Blangonga",
+    "order": 22
+  },
+  {
+    "type": "dual-blades",
+    "tree": "Gravios",
+    "order": 23
+  },
+  {
+    "type": "gunlance",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "gunlance",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "gunlance",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "gunlance",
+    "tree": "Jin Dahaad",
+    "order": 4
+  },
+  {
+    "type": "gunlance",
+    "tree": "Ajarakan",
+    "order": 5
+  },
+  {
+    "type": "gunlance",
+    "tree": "Balahara",
+    "order": 6
+  },
+  {
+    "type": "gunlance",
+    "tree": "Paralysis",
+    "order": 7
+  },
+  {
+    "type": "gunlance",
+    "tree": "Bone",
+    "order": 8
+  },
+  {
+    "type": "gunlance",
+    "tree": "Nerscylla",
+    "order": 9
+  },
+  {
+    "type": "gunlance",
+    "tree": "Uth Duna",
+    "order": 10
+  },
+  {
+    "type": "gunlance",
+    "tree": "Quematrice",
+    "order": 11
+  },
+  {
+    "type": "gunlance",
+    "tree": "G. Arkveld",
+    "order": 12
+  },
+  {
+    "type": "gunlance",
+    "tree": "Arkveld",
+    "order": 13
+  },
+  {
+    "type": "gunlance",
+    "tree": "Gypceros",
+    "order": 14
+  },
+  {
+    "type": "gunlance",
+    "tree": "G. Fulgur",
+    "order": 15
+  },
+  {
+    "type": "gunlance",
+    "tree": "Rathian",
+    "order": 16
+  },
+  {
+    "type": "gunlance",
+    "tree": "Rathalos",
+    "order": 17
+  },
+  {
+    "type": "gunlance",
+    "tree": "Gore Magala",
+    "order": 18
+  },
+  {
+    "type": "gunlance",
+    "tree": "Gravios",
+    "order": 19
+  },
+  {
+    "type": "hammer",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "hammer",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "hammer",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "hammer",
+    "tree": "Jin Dahaad",
+    "order": 4
+  },
+  {
+    "type": "hammer",
+    "tree": "Rompopolo",
+    "order": 5
+  },
+  {
+    "type": "hammer",
+    "tree": "Paralysis",
+    "order": 6
+  },
+  {
+    "type": "hammer",
+    "tree": "Chatacabra",
+    "order": 7
+  },
+  {
+    "type": "hammer",
+    "tree": "G. Arkveld",
+    "order": 8
+  },
+  {
+    "type": "hammer",
+    "tree": "Arkveld",
+    "order": 9
+  },
+  {
+    "type": "hammer",
+    "tree": "Bone",
+    "order": 10
+  },
+  {
+    "type": "hammer",
+    "tree": "Nu Udra",
+    "order": 11
+  },
+  {
+    "type": "hammer",
+    "tree": "Nerscylla",
+    "order": 12
+  },
+  {
+    "type": "hammer",
+    "tree": "Xu Wu",
+    "order": 13
+  },
+  {
+    "type": "hammer",
+    "tree": "Balahara",
+    "order": 14
+  },
+  {
+    "type": "hammer",
+    "tree": "Yian Kut-Ku",
+    "order": 15
+  },
+  {
+    "type": "hammer",
+    "tree": "Rathalos",
+    "order": 16
+  },
+  {
+    "type": "hammer",
+    "tree": "Gore Magala",
+    "order": 17
+  },
+  {
+    "type": "hammer",
+    "tree": "Gypceros",
+    "order": 18
+  },
+  {
+    "type": "hammer",
+    "tree": "G. Fulgur",
+    "order": 19
+  },
+  {
+    "type": "hammer",
+    "tree": "Blangonga",
+    "order": 20
+  },
+  {
+    "type": "hammer",
+    "tree": "Gravios",
+    "order": 21
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Jin Dahaad",
+    "order": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Rompopolo",
+    "order": 4
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Chatacabra",
+    "order": 5
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "G. Arkveld",
+    "order": 6
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Arkveld",
+    "order": 7
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Bone",
+    "order": 8
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Nerscylla",
+    "order": 9
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Uth Duna",
+    "order": 10
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Nu Udra",
+    "order": 11
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Yian Kut-Ku",
+    "order": 12
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "G. Fulgur",
+    "order": 13
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Gypceros",
+    "order": 14
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Rathian",
+    "order": 15
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Gravios",
+    "order": 16
+  },
+  {
+    "type": "heavy-bowgun",
+    "tree": "Gore Magala",
+    "order": 17
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Jin Dahaad",
+    "order": 4
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Ajarakan",
+    "order": 5
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Xu Wu",
+    "order": 6
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Balahara",
+    "order": 7
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Rey Dau",
+    "order": 8
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Vespoid",
+    "order": 9
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Bone",
+    "order": 10
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Doshaguma",
+    "order": 11
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "G. Arkveld",
+    "order": 12
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Arkveld",
+    "order": 13
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "G. Doshaguma",
+    "order": 14
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Congalala",
+    "order": 15
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Yian Kut-Ku",
+    "order": 16
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "G. Fulgur",
+    "order": 17
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Gypceros",
+    "order": 18
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Rathian",
+    "order": 19
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Rathalos",
+    "order": 20
+  },
+  {
+    "type": "hunting-horn",
+    "tree": "Gore Magala",
+    "order": 21
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Jin Dahaad",
+    "order": 4
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "G. Ebony",
+    "order": 5
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Balahara",
+    "order": 6
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Rey Dau",
+    "order": 7
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Chatacabra",
+    "order": 8
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "G. Arkveld",
+    "order": 9
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Arkveld",
+    "order": 10
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Bone",
+    "order": 11
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Ajarakan",
+    "order": 12
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Lala Barina",
+    "order": 13
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Nerscylla",
+    "order": 14
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Yian Kut-Ku",
+    "order": 15
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "G. Fulgur",
+    "order": 16
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Rathian",
+    "order": 17
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Rathalos",
+    "order": 18
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Gore Magala",
+    "order": 19
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Blangonga",
+    "order": 20
+  },
+  {
+    "type": "insect-glaive",
+    "tree": "Gravios",
+    "order": 21
+  },
+  {
+    "type": "lance",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "lance",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "lance",
+    "tree": "Balahara",
+    "order": 3
+  },
+  {
+    "type": "lance",
+    "tree": "Rey Dau",
+    "order": 4
+  },
+  {
+    "type": "lance",
+    "tree": "Ore",
+    "order": 5
+  },
+  {
+    "type": "lance",
+    "tree": "Rompopolo",
+    "order": 6
+  },
+  {
+    "type": "lance",
+    "tree": "Nu Udra",
+    "order": 7
+  },
+  {
+    "type": "lance",
+    "tree": "Bone",
+    "order": 8
+  },
+  {
+    "type": "lance",
+    "tree": "Hirabami",
+    "order": 9
+  },
+  {
+    "type": "lance",
+    "tree": "G. Ebony",
+    "order": 10
+  },
+  {
+    "type": "lance",
+    "tree": "Quematrice",
+    "order": 11
+  },
+  {
+    "type": "lance",
+    "tree": "Doshaguma",
+    "order": 12
+  },
+  {
+    "type": "lance",
+    "tree": "G. Arkveld",
+    "order": 13
+  },
+  {
+    "type": "lance",
+    "tree": "Arkveld",
+    "order": 14
+  },
+  {
+    "type": "lance",
+    "tree": "G. Doshaguma",
+    "order": 15
+  },
+  {
+    "type": "lance",
+    "tree": "Lala Barina",
+    "order": 16
+  },
+  {
+    "type": "lance",
+    "tree": "Rathalos",
+    "order": 17
+  },
+  {
+    "type": "lance",
+    "tree": "Gore Magala",
+    "order": 18
+  },
+  {
+    "type": "lance",
+    "tree": "Gravios",
+    "order": 19
+  },
+  {
+    "type": "lance",
+    "tree": "Workshop",
+    "order": 20
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Doshaguma",
+    "order": 3
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "G. Arkveld",
+    "order": 4
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Arkveld",
+    "order": 5
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "G. Doshaguma",
+    "order": 6
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Ore",
+    "order": 7
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Rey Dau",
+    "order": 8
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Bone",
+    "order": 9
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Ajarakan",
+    "order": 10
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Nu Udra",
+    "order": 11
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Congalala",
+    "order": 12
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Hirabami",
+    "order": 13
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "G. Ebony",
+    "order": 14
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Yian Kut-Ku",
+    "order": 15
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "G. Fulgur",
+    "order": 16
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Rathian",
+    "order": 17
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Rathalos",
+    "order": 18
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Gore Magala",
+    "order": 19
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Blangonga",
+    "order": 20
+  },
+  {
+    "type": "light-bowgun",
+    "tree": "Gravios",
+    "order": 21
+  },
+  {
+    "type": "long-sword",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "long-sword",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "long-sword",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "long-sword",
+    "tree": "Rompopolo",
+    "order": 4
+  },
+  {
+    "type": "long-sword",
+    "tree": "Hirabami",
+    "order": 5
+  },
+  {
+    "type": "long-sword",
+    "tree": "Quematrice",
+    "order": 6
+  },
+  {
+    "type": "long-sword",
+    "tree": "Rey Dau",
+    "order": 7
+  },
+  {
+    "type": "long-sword",
+    "tree": "Bone",
+    "order": 8
+  },
+  {
+    "type": "long-sword",
+    "tree": "Uth Duna",
+    "order": 9
+  },
+  {
+    "type": "long-sword",
+    "tree": "Doshaguma",
+    "order": 10
+  },
+  {
+    "type": "long-sword",
+    "tree": "G. Arkveld",
+    "order": 11
+  },
+  {
+    "type": "long-sword",
+    "tree": "Arkveld",
+    "order": 12
+  },
+  {
+    "type": "long-sword",
+    "tree": "Lala Barina",
+    "order": 13
+  },
+  {
+    "type": "long-sword",
+    "tree": "Nerscylla",
+    "order": 14
+  },
+  {
+    "type": "long-sword",
+    "tree": "Rathian",
+    "order": 15
+  },
+  {
+    "type": "long-sword",
+    "tree": "Rathalos",
+    "order": 16
+  },
+  {
+    "type": "long-sword",
+    "tree": "Gore Magala",
+    "order": 17
+  },
+  {
+    "type": "long-sword",
+    "tree": "G. Fulgur",
+    "order": 18
+  },
+  {
+    "type": "long-sword",
+    "tree": "Blangonga",
+    "order": 19
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "switch-axe",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Hirabami",
+    "order": 4
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Xu Wu",
+    "order": 5
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Bone",
+    "order": 6
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Nu Udra",
+    "order": 7
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Congalala",
+    "order": 8
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Uth Duna",
+    "order": 9
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Doshaguma",
+    "order": 10
+  },
+  {
+    "type": "switch-axe",
+    "tree": "G. Arkveld",
+    "order": 11
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Arkveld",
+    "order": 12
+  },
+  {
+    "type": "switch-axe",
+    "tree": "G. Doshaguma",
+    "order": 13
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Lala Barina",
+    "order": 14
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Yian Kut-Ku",
+    "order": 15
+  },
+  {
+    "type": "switch-axe",
+    "tree": "G. Fulgur",
+    "order": 16
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Rathian",
+    "order": 17
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Rathalos",
+    "order": 18
+  },
+  {
+    "type": "switch-axe",
+    "tree": "Gore Magala",
+    "order": 19
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Expedition",
+    "order": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "G. Rathalos",
+    "order": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Ore",
+    "order": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Jin Dahaad",
+    "order": 4
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Balahara",
+    "order": 5
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Rey Dau",
+    "order": 6
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Quematrice",
+    "order": 7
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Chatacabra",
+    "order": 8
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "G. Arkveld",
+    "order": 9
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Arkveld",
+    "order": 10
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Bone",
+    "order": 11
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Ajarakan",
+    "order": 12
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Lala Barina",
+    "order": 13
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Nerscylla",
+    "order": 14
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Xu Wu",
+    "order": 15
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Gypceros",
+    "order": 16
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "G. Fulgur",
+    "order": 17
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Rathian",
+    "order": 18
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Rathalos",
+    "order": 19
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Gore Magala",
+    "order": 20
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Blangonga",
+    "order": 21
+  },
+  {
+    "type": "sword-and-shield",
+    "tree": "Gravios",
+    "order": 22
+  },
+  {
     "type": "great-sword",
     "tree": "Workshop",
     "order": 22

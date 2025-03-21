@@ -1,141 +1,1479 @@
 [
   {
-    "type": "great-sword",
-    "name": "Hope Blade III",
-    "skill": "Speed Sharpening",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Hope Blade IV",
-    "skill": "Speed Sharpening",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Hope Blade IV",
-    "skill": "Critical Eye",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Hope Blade V",
-    "skill": "Speed Sharpening",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Hope Blade V",
-    "skill": "Critical Eye",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Esperanza Blade",
-    "skill": "Critical Eye",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Esperanza Blade",
-    "skill": "Speed Sharpening",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Albirath Wing I",
-    "skill": "Masters Touch",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Albirath Wing II",
-    "skill": "Masters Touch",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Whitefire Rathguard",
-    "skill": "Masters Touch",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Buster Sword II",
-    "skill": "Critical Draw",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Buster Sword III",
-    "skill": "Critical Draw",
+    "type": "bow",
+    "name": "Blan Sharanga I",
+    "skill": "Tetrad Shot",
     "level": 3
   },
   {
-    "type": "great-sword",
-    "name": "Ravager Blade",
-    "skill": "Critical Draw",
-    "level": 3
+    "type": "bow",
+    "name": "Hunters Bow II",
+    "skill": "Focus",
+    "level": 1
   },
   {
-    "type": "great-sword",
-    "name": "Jin Dhavaar I",
+    "type": "bow",
+    "name": "Hunters Bow III",
     "skill": "Focus",
     "level": 2
   },
   {
-    "type": "great-sword",
-    "name": "Precipice Metallam",
+    "type": "bow",
+    "name": "Hunters Bow III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Hunters Bow IV",
     "skill": "Focus",
     "level": 3
   },
   {
-    "type": "great-sword",
-    "name": "Quematrice Espada II",
+    "type": "bow",
+    "name": "Hunters Bow IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Hunters Stoutbow",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Hunters Stoutbow",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Wild Power Bow II",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Wildwood Kalifa",
+    "skill": "Special Ammo Boost",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Wildwood Kalifa",
+    "skill": "Charge Master",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Dosha Fearbringer II",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Dosha Fearbringer III",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Fearbringer Callistox",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Esperanza Bow",
+    "skill": "Ballistics",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Esperanza Bow",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Hope Bow III",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Hope Bow IV",
+    "skill": "Ballistics",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Hope Bow IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Hope Bow V",
+    "skill": "Ballistics",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Hope Bow V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "G. Renowned Tristram",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "G. Veldian Arcum I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "G. Veldian Arcum II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Renowned Tristram",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Veldian Arcum I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Dosha Griefbringer I",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Dosha Griefbringer II",
+    "skill": "Ballistics",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Dosha Griefbringer II",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Griefbringer Urstox",
+    "skill": "Ballistics",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Griefbringer Urstox",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Blinding Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Fulgurbow Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Albirath Bow I",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Albirath Bow II",
+    "skill": "Critical Element",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Albirath Bow II",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Solar Spicule",
+    "skill": "Critical Element",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Solar Spicule",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Entbehrung I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Verzweiflung",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Windbrace Bow I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Windbrace Bow I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Windbrace Bow II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Windbrace Bow II",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Windbrace Bow III",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Windbrace Bow III",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Windbrace Ibami",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Windbrace Ibami",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Nershock",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Nershock",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Scylla Fist I",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Scylla Fist II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Scylla Fist II",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Scylla Fist II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Dragon Perforator II",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Dragon Perforator III",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "True Dragon Perforator",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Firetrail Leviora",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Quematrice Arco II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Quematrice Arco III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Quematrice Arco IV",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Dark Filament",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Prominence Bow I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Queen Blaster I",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Queen Blaster I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Queen Blaster II",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Queen Blaster II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Queens Melody",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Queens Melody",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Perkonis Clairbow",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Perkonis Clairbow",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Rey Perkonis I",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Rey Perkonis II",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Rey Perkonis III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Rey Perkonis III",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "bow",
+    "name": "Khviluk-of-the-Waves",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Uth Khviluk I",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Uth Khviluk II",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Uth Khviluk II",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Bookwilthes Punisher",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Nihil Bow I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Nihil Bow II",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Kut-Ku Stave I",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "bow",
+    "name": "Kut-Ku Stave II",
+    "skill": "Charge Master",
+    "level": 3
+  },
+  {
+    "type": "bow",
+    "name": "Strange Kut-Ku Stave",
+    "skill": "Charge Master",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Bone Strongarm II",
+    "skill": "Load Shells",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Bone Strongarm III",
+    "skill": "Load Shells",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Bone Strongarm III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Bone Strongarm IV",
+    "skill": "Load Shells",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Bone Strongarm IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hard Bone Strongarm",
+    "skill": "Attack Boost",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hard Bone Strongarm",
+    "skill": "Load Shells",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Chata Strongarm II",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Chata Strongarm III",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Chata Strongarm III",
+    "skill": "Artillery",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Chata Strongarm IV",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Chata Strongarm IV",
+    "skill": "Artillery",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Esperanza Strongarm",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Esperanza Strongarm",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hope Strongarm III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hope Strongarm IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hope Strongarm IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hope Strongarm V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hope Strongarm V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "G. Abiding Gawain",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "G. Veldian Labrys I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "G. Veldian Labrys II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Veldian Labrys I",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Bequeathed Enmity",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Chthonian Flame I",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Chthonian Flame II",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Albirath Blade I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Albirath Blade II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Guardian Albathos",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Elendskraft I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Poison Blade I",
     "skill": "Punishing Draw",
     "level": 2
   },
   {
-    "type": "great-sword",
-    "name": "Quematrice Espada III",
+    "type": "charge-blade",
+    "name": "Poison Blade I",
+    "skill": "Critical Draw",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Poison Blade II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Poison Blade II",
     "skill": "Punishing Draw",
     "level": 2
   },
   {
-    "type": "great-sword",
-    "name": "Quematrice Espada IV",
+    "type": "charge-blade",
+    "name": "Venoms Kiss",
     "skill": "Punishing Draw",
     "level": 3
   },
   {
-    "type": "great-sword",
-    "name": "Firetrail Blaisdell",
+    "type": "charge-blade",
+    "name": "Venoms Kiss",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Windthrash Charger I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Windthrash Charger I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Windthrash Charger II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Windthrash Charger II",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Windthrash Charger III",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Windthrash Charger III",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Windthrash Tamebami",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Windthrash Tamebami",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Barina Bouclier II",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Barina Bouclier III",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Barina Bouclier IV",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Barina Bouclier IV",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Lala Eumenophor",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Lala Eumenophor",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Arachnoscale I",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Arachnoscale II",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Arachnoscale III",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Arachnoscale III",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Arachnoscythe",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Arachnoscythe",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Abaddonian Pweza",
+    "skill": "Rapid Morph",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Nu Pweza I",
+    "skill": "Rapid Morph",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Nu Pweza II",
+    "skill": "Rapid Morph",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hyperguard II",
+    "skill": "Rapid Morph",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Hyperguard III",
+    "skill": "Rapid Morph",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Regas Hyper",
+    "skill": "Rapid Morph",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Axelion Blade I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Bardichion Blade",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Dear Lutemia",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Dear Lutemia",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Dear Lutemis I",
+    "skill": "Critical Status",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Dear Lutemis I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Dear Lutemis II",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Dear Lutemis II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Astrapi Clairaxe",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Astrapi Clairaxe",
+    "skill": "Load Shells",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Rey Astrapi I",
+    "skill": "Load Shells",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Rey Astrapi II",
+    "skill": "Load Shells",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Rey Astrapi III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Rey Astrapi III",
+    "skill": "Load Shells",
+    "level": 1
+  },
+  {
+    "type": "charge-blade",
+    "name": "Rompo Dendrotox",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Rompo Shielder I",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Rompo Shielder II",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Rompo Shielder III",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Uth Valeroje I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Uth Valeroje II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "charge-blade",
+    "name": "Uth Valeroje III",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "charge-blade",
+    "name": "Valeroje-of-the-Waves",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Ajara Twin Edges I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Ajara Twin Edges II",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Ajara-Panthaka",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Blango Sai I",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Blango Trishula",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Funky Maracas",
     "skill": "Punishing Draw",
     "level": 3
   },
   {
-    "type": "great-sword",
-    "name": "Paretic Blade II",
+    "type": "dual-blades",
+    "name": "Funky Maracas",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Pink Maracas I",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Pink Maracas II",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Pink Maracas II",
+    "skill": "Critical Draw",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dosha Fastflayers II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dosha Fastflayers III",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Fastflayers Jambastra",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Esperanza Daggers",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Esperanza Daggers",
     "skill": "Speed Sharpening",
     "level": 2
   },
   {
-    "type": "great-sword",
-    "name": "Paretic Blade III",
+    "type": "dual-blades",
+    "name": "Hope Daggers III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Hope Daggers IV",
     "skill": "Speed Sharpening",
     "level": 2
   },
   {
-    "type": "great-sword",
-    "name": "Paretic Blade IV",
+    "type": "dual-blades",
+    "name": "Hope Daggers IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Hope Daggers V",
     "skill": "Speed Sharpening",
     "level": 2
   },
   {
-    "type": "great-sword",
-    "name": "Destructive Torpor",
-    "skill": "Speed Sharpening",
+    "type": "dual-blades",
+    "name": "Hope Daggers V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "G. Inspired Ywain",
+    "skill": "Focus",
     "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "G. Veldian Harpes I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "G. Veldian Harpes II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Inspired Ywain",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Veldian Harpes I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dosha Guardflayers I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dosha Guardflayers II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Guardflayers Urbastra",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Bequeathed Oblivion",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Chthonian Kusarigamas I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Chthonian Kusarigamas II",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Fulgurtwins Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Whirling Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Twin Albiraths I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Twin Albiraths II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Wyvern Sentinels",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Fledderklauen I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Hungerklauen",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Gravios Conquerors",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Gravios Warmakers I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dual Battleaxes I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dual Battleaxes II",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Final Battleaxes",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Jin Dhakoo I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Precipice Ulokiem",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Barina Faucilles II",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Barina Faucilles III",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Barina Faucilles IV",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Barina Faucilles IV",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Lala Harpactirs",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Lala Harpactirs",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Bone Hatchets II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Bone Hatchets III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Bone Hatchets III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Bone Hatchets IV",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Bone Hatchets IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dual Cleavers",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dual Hatchets II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dual Hatchets III",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Wild Hatchets",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Wild Hatchets",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "dual-blades",
+    "name": "Firetrail Magnesiae",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Quematrice Silexes II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Quematrice Silexes III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Quematrice Silexes IV",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Twin Flames I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Wyvern Lovers",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Ngarpatu-of-the-Waves",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Uth Ngarpatu I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Uth Ngarpatu II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Uth Ngarpatu III",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Guild Knight Sabers I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Guild Knight Sabers II",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Master Sabers",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Dual Kut-Ku",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "dual-blades",
+    "name": "Kut-Ku Pair I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "dual-blades",
+    "name": "Kut-Ku Pair II",
+    "skill": "Power Prolonger",
+    "level": 3
   },
   {
     "type": "great-sword",
@@ -181,39 +1519,189 @@
   },
   {
     "type": "great-sword",
-    "name": "Nu Krake I",
-    "skill": "Protective Polish",
+    "name": "Dosha Fellslayer II",
+    "skill": "Punishing Draw",
     "level": 2
   },
   {
     "type": "great-sword",
-    "name": "Nu Krake I",
+    "name": "Dosha Fellslayer III",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Fellslayer Dangeom",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Esperanza Blade",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Esperanza Blade",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade III",
     "skill": "Speed Sharpening",
     "level": 1
   },
   {
     "type": "great-sword",
-    "name": "Nu Krake II",
-    "skill": "Protective Polish",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Nu Krake II",
+    "name": "Hope Blade IV",
     "skill": "Speed Sharpening",
     "level": 2
   },
   {
     "type": "great-sword",
-    "name": "Abaddonian Krake",
-    "skill": "Protective Polish",
+    "name": "Hope Blade IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Hope Blade V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Stalwart Lamorak",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "G. Veldian Gladius II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Stalwart Lamorak",
+    "skill": "Focus",
     "level": 3
   },
   {
     "type": "great-sword",
-    "name": "Abaddonian Krake",
-    "skill": "Speed Sharpening",
+    "name": "Veldian Gladius I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Dosha Grimslayer II",
+    "skill": "Focus",
     "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Grimslayer Urgeom",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Fulgurcleaver Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Smiting Fulgur I",
+    "skill": "Critical Element",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Albirath Wing II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Whitefire Rathguard",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Düsterstolz",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Schattenstolz I",
+    "skill": "Critical Element",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Poison King",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Poison King",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter I",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Slaughter II",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Jin Dhavaar I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Precipice Metallam",
+    "skill": "Focus",
+    "level": 3
   },
   {
     "type": "great-sword",
@@ -253,6 +1741,54 @@
   },
   {
     "type": "great-sword",
+    "name": "Abaddonian Krake",
+    "skill": "Protective Polish",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Abaddonian Krake",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake I",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake I",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake II",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Nu Krake II",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Buster Sword III",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
     "name": "Nihil Great Sword I",
     "skill": "Critical Draw",
     "level": 2
@@ -265,158 +1801,56 @@
   },
   {
     "type": "great-sword",
-    "name": "Prinvrilo's Dissolution",
+    "name": "Ravager Blade",
     "skill": "Critical Draw",
     "level": 3
   },
   {
     "type": "great-sword",
-    "name": "Dosha Fellslayer II",
+    "name": "Destructive Torpor",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade II",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade III",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Paretic Blade IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Firetrail Blaisdell",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Quematrice Espada II",
     "skill": "Punishing Draw",
     "level": 2
   },
   {
     "type": "great-sword",
-    "name": "Dosha Fellslayer III",
-    "skill": "Punishing Draw",
-    "level": 3
-  },
-  {
-    "type": "great-sword",
-    "name": "Fellslayer Dangeom",
-    "skill": "Punishing Draw",
-    "level": 3
-  },
-  {
-    "type": "great-sword",
-    "name": "G. Veldian Gladius I",
-    "skill": "Focus",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "G. Veldian Gladius II",
-    "skill": "Focus",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "G. Stalwart Lamorak",
-    "skill": "Focus",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Veldian Gladius I",
-    "skill": "Focus",
-    "level": 3
-  },
-  {
-    "type": "great-sword",
-    "name": "Stalwart Lamorak",
-    "skill": "Focus",
-    "level": 3
-  },
-  {
-    "type": "great-sword",
-    "name": "Dosha Grimslayer II",
-    "skill": "Focus",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Grimslayer Urgeom",
-    "skill": "Focus",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Chicken Decapitator I",
-    "skill": "Focus",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Smiting Fulgur I",
-    "skill": "Critical Element",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Fulgurcleaver Guardiana",
-    "skill": "Critical Element",
-    "level": 3
-  },
-  {
-    "type": "great-sword",
-    "name": "Slaughter I",
-    "skill": "Punishing Draw",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Slaughter II",
-    "skill": "Critical Draw",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Slaughter II",
-    "skill": "Punishing Draw",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Poison King",
-    "skill": "Critical Draw",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Poison King",
+    "name": "Quematrice Espada III",
     "skill": "Punishing Draw",
     "level": 2
   },
   {
     "type": "great-sword",
-    "name": "Valkyrie Blade I",
-    "skill": "Critical Status",
-    "level": 2
-  },
-  {
-    "type": "great-sword",
-    "name": "Valkyrie Blade I",
-    "skill": "Poison Duration Up",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Valkyrie Blade II",
-    "skill": "Critical Status",
-    "level": 3
-  },
-  {
-    "type": "great-sword",
-    "name": "Valkyrie Blade II",
-    "skill": "Poison Duration Up",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Sieglinde",
-    "skill": "Critical Status",
-    "level": 3
-  },
-  {
-    "type": "great-sword",
-    "name": "Sieglinde",
-    "skill": "Poison Duration Up",
-    "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Red Wing I",
-    "skill": "Critical Boost",
+    "name": "Quematrice Espada IV",
+    "skill": "Punishing Draw",
     "level": 3
   },
   {
@@ -427,15 +1861,57 @@
   },
   {
     "type": "great-sword",
-    "name": "Schattenstolz I",
-    "skill": "Critical Element",
+    "name": "Red Wing I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Sieglinde",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Sieglinde",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade I",
+    "skill": "Critical Status",
     "level": 2
   },
   {
     "type": "great-sword",
-    "name": "Disterstolz",
-    "skill": "Critical Element",
+    "name": "Valkyrie Blade I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade II",
+    "skill": "Critical Status",
     "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Valkyrie Blade II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Freezer Speartuna",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Freezer Speartuna",
+    "skill": "Sluager",
+    "level": 2
   },
   {
     "type": "great-sword",
@@ -452,20 +1928,8 @@
   {
     "type": "great-sword",
     "name": "Frozen Speartuna II",
-    "skill": "Slugger",
+    "skill": "Sluager",
     "level": 1
-  },
-  {
-    "type": "great-sword",
-    "name": "Freezer Speartuna",
-    "skill": "Punishing Draw",
-    "level": 3
-  },
-  {
-    "type": "great-sword",
-    "name": "Freezer Speartuna",
-    "skill": "Slugger",
-    "level": 2
   },
   {
     "type": "great-sword",
@@ -478,5 +1942,4763 @@
     "name": "Giant Jawblade",
     "skill": "Focus",
     "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Prinvrilos Dissolution",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "great-sword",
+    "name": "Chicken Decapitator I",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "great-sword",
+    "name": "Chicken Decapitator II",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Chicken Decapitator II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Rooster Decapitator",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "great-sword",
+    "name": "Rooster Decapitator",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Ajara Gunpike I",
+    "skill": "Load Shells",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Ajara Gunpike II",
+    "skill": "Load Shells",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Ajara Gunpike II",
+    "skill": "Offensive Guard",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Ajara-Kalika",
+    "skill": "Load Shells",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Ajara-Kalika",
+    "skill": "Offensive Guard",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Balahara Exploder II",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Balahara Exploder III",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Balahara Exploder IV",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Sandsea Visponan",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Bone Gunlance II",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Bone Gunlance III",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Bone Gunlance III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Bone Gunlance IV",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Bone Gunlance IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Great Bone Gunlance",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Great Bone Gunlance",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "White Gunlance I",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Esperanza Gunlance",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Esperanza Gunlance",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Hope Gunlance III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Hope Gunlance IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Hope Gunlance IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "G. Lawful Bors",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "G. Veldian Hasta I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "G. Veldian Hasta II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Lawful Bors",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Veldian Hasta I",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Fulgurcannon Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Warring Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Albirath Rook I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Albirath Rook II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Shining Rook",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Tyrannenarm I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Big Slugger",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Big Slugger",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Hard Hitter I",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Hard Hitter I",
+    "skill": "Critical Draw",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Hard Hitter II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Hard Hitter II",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Jin Dhatop I",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Shell Gunberd I",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Shell Gunberd II",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Shell Gunberd III",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Shell Gunberd III",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Solid Gunberd",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Solid Gunberd",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Triple Bayonet II",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Triple Bayonet III",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Triumvirate Edge",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Debilitating Torpor",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Paretic Gunlance III",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Paretic Gunlance IV",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Firetrail Quemador",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Quematrice Culebrina II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Quematrice Culebrina III",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Quematrice Culebrina IV",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Crimson Rook",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Red Rook I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Princess Panoply I",
+    "skill": "Critical Status",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Princess Panoply I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Princess Panoply II",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Princess Panoply II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "gunlance",
+    "name": "Falarmata-of-the-Waves",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "gunlance",
+    "name": "Uth Falarmata I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Uth Falarmata II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "gunlance",
+    "name": "Uth Falarmata III",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Balahara Hammer I",
+    "skill": "Slugger",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Balahara Hammer II",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Balahara Hammer III",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Balahara Hammer IV",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Sandsea Siamitiya",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Blan Gada I",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Singha Gada",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Bone Bludgeon I",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Bone Bludgeon II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Bone Bludgeon II",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Bone Bludgeon III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Bone Bludgeon III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Bone Bludgeon IV",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Bone Bludgeon IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Heavy Bone Bludgeon",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Heavy Bone Bludgeon",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Chata Clobberer I",
+    "skill": "Charge Up",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Chata Clobberer II",
+    "skill": "Stamina Thief",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Chata Clobberer II",
+    "skill": "Charge Up",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Chata Clobberer III",
+    "skill": "Stamina Thief",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Chata Clobberer IV",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Chata Clobberer IV",
+    "skill": "Charge Up",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Shrouded Aghaturi",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Shrouded Aghaturi",
+    "skill": "Charge Up",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Esperanza Hammer",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Esperanza Hammer",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Hope Hammer II",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Hope Hammer III",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Hope Hammer III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Hope Hammer IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Hope Hammer IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Hope Hammer V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Hope Hammer V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Exultant Bedivere",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "G. Exultant Bedivere",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "G. Veldian Malleus I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "G. Veldian Malleus II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Veldian Malleus I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Crashing Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Fulgurhammer Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Albirath Bludgeon I",
+    "skill": "Critical Element",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Albirath Bludgeon I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Albirath Bludgeon II",
+    "skill": "Critical Element",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Albirath Bludgeon II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Gibil Hammer",
+    "skill": "Critical Element",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Gibil Hammer",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Grimmblick",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Wuchtblick I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Graviton Hammer",
+    "skill": "Charge Master",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Shell Hammer I",
+    "skill": "Charge Master",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Shell Hammer I",
+    "skill": "a",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Death Venom Hammer",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Death Venom Hammer",
+    "skill": "Charge Up",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Venom Monster I",
+    "skill": "Critical Draw",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Venom Monster I",
+    "skill": "Charge Up",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Venom Monster II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Venom Monster II",
+    "skill": "Charge Up",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Jin Dhauda I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Precipice Logamtu",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Cluster Hammer I",
+    "skill": "Charge Master",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Cluster Hammer I",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Cluster Hammer II",
+    "skill": "Charge Master",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Cluster Hammer II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Cluster Hammer III",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Cluster Hammer III",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Nerscrapper",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Nerscrapper",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Abaddonian Pulpo",
+    "skill": "Protective Polish",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Abaddonian Pulpo",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Nu Pulpo I",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Nu Pulpo I",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Nu Pulpo II",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Nu Pulpo II",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Iron Devil",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Iron Devil",
+    "skill": "an i",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Iron Hammer I",
+    "skill": "Critical Draw",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Iron Hammer II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Iron Hammer III",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Binder Mace",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Jail Hammer I",
+    "skill": "Stamina Thief",
+    "level": 1
+  },
+  {
+    "type": "hammer",
+    "name": "Jail Hammer II",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Jail Hammer III",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Jail Hammer IV",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Huracan Hammer",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Red Bludgeon I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Rompo Robustox",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Rompo Wrecker I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Rompo Wrecker II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Rompo Wrecker III",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Nihil Hammer I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Nihil Hammer II",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Zaccios Execution",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Kut-Ku Pick I",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "hammer",
+    "name": "Kut-Ku Pick II",
+    "skill": "Charge Master",
+    "level": 3
+  },
+  {
+    "type": "hammer",
+    "name": "Kut-Ku Thwap",
+    "skill": "Charge Master",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Bone Shooter II",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Bone Shooter III",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Bone Shooter III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Bone Shooter IV",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Bone Shooter IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Heavy Shooter",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Heavy Shooter",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Chata Sheller II",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Chata Sheller III",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Chata Sheller IV",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Shrouded Muktana",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Power Stinger II",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Wild Stinger",
+    "skill": "Special Ammo Boost",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Wild Stinger",
+    "skill": "Opening Shot",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Esperanza Cannon",
+    "skill": "Ballistics",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Esperanza Cannon",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Hope Cannon III",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Hope Cannon IV",
+    "skill": "Ballistics",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Hope Cannon IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Hope Cannon V",
+    "skill": "Ballistics",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Hope Cannon V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Aeternal Palamedes",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "G. Aeternal Palamedes",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "G. Veldian Tormentum I",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "G. Veldian Tormentum II",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Veldian Tormentum I",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Fulgurblast Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Grounding Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Ableben Abzug",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Tödlicher Abzug I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Gravios Gigahowl",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Gravios Howl I",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Tankmage I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Tankmage II",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Tanksorcerer",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Jin Dhaphal I",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Precipice Malmiam",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Buster Blaster",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Buster Blaster",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Ner Bustergun I",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Ner Bustergun II",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Ner Bustergun III",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Ner Bustergun III",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Abaddonian Muneo",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Nu Muneo I",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Nu Muneo II",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Iron Assault II",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Iron Assault III",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Steel Assault",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Queens Farflier",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Queens Farflier",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Queens Longfire I",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Queens Longfire I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Queens Longfire II",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Queens Longfire II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Rompo Latrotox",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Rompo Sniper I",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Rompo Sniper II",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Rompo Sniper III",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Dalgap-of-the-Waves",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Uth Dalgap I",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Uth Dalgap II",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Uth Dalgap III",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Super Kut-Ku Cannon",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Yian Kut-Ku Cannon I",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "heavy-bowgun",
+    "name": "Yian Kut-Ku Cannon II",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Ajara Reverberator I",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Ajara Reverberator II",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Ajara-Jivaka",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Balahara Horn II",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Balahara Horn III",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Balahara Horn IV",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Bone Horn II",
+    "skill": "Stamina Thief",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Bone Horn III",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Bone Horn III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Bone Horn IV",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Bone Horn IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Hardened Bone Horn",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Hardened Bone Horn",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "War Bongo II",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "War Conga",
+    "skill": "Horn Maestro",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "War Conga",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Dosha Farsounder II",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Dosha Farsounder III",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Dosha Farsounder III",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Farsounder Honga",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Farsounder Honga",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Hope Horn III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Hope Horn IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Hope Horn IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Hope Horn V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Hope Horn V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Resounding Galahad",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Resounding Galahad",
+    "skill": "Horn Maestro",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Veldian Sibilus I",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Veldian Sibilus I",
+    "skill": "Horn Maestro",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Dosha Grudgesounder I",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Dosha Grudgesounder I",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Dosha Grudgesounder II",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Dosha Grudgesounder II",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Grudgesounder Urga",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Grudgesounder Urga",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Deafening Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Fulgurhowl Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Albirath Feroce I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "G. Rathalos Feroce",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "G. Resounding Galahad",
+    "skill": "Horn Maestro",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "G. Veldian Sibilus I",
+    "skill": "Horn Maestro",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "G. Veldian Sibilus II",
+    "skill": "Horn Maestro",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Rathalos Feroce",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Gramklang",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kummerklang I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Crazed Melody",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Crazed Melody",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Poisoned Capri I",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Poisoned Capri I",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Jin Dhaang I",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kae-Jins Lament",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kae-Jins Lament",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Precipice Kovira",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Great Bagpipe",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Great Bagpipe",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Metal Bagpipe I",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Metal Bagpipe II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Metal Bagpipe II",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Metal Bagpipe III",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Metal Bagpipe III",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Flame Feroce I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Valkyrie Chordmaker I",
+    "skill": "Critical Status",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Valkyrie Chordmaker I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Valkyrie Chordmaker II",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Valkyrie Chordmaker II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Perun Clairhorn",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Perun Clairhorn",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Rey Perun I",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Rey Perun I",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Rey Perun II",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Rey Perun II",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Glass Royale",
+    "skill": "Protective Polish",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Glass Royale",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Sonic Horn II",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Sonic Horn II",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Sonic Horn III",
+    "skill": "Protective Polish",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Sonic Horn III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Sonic Horn IV",
+    "skill": "Protective Polish",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Sonic Horn IV",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Nihil Chord I",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Nihil Chord I",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Nihil Chord II",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Nihil Chord II",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kut-Ku Cantabile",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kut-Ku Cantabile",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kut-Kus Song I",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kut-Kus Song I",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kut-Kus Song II",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "hunting-horn",
+    "name": "Kut-Kus Song II",
+    "skill": "Horn Maestro",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Ajara Trident I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Ajara Trident II",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Ajara-Bhadra",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Balahara Glaive II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Balahara Glaive III",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Balahara Glaive IV",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Sandsea Uchaltiya",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Blizzard Glaive I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Immaculate Blizzard",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Aerial Glaive",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Aerial Glaive",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Bone Staff II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Bone Staff III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Bone Staff III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Bone Staff IV",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Bone Staff IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Chata Glaive II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Chata Glaive III",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Chata Glaive IV",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Shrouded Laphoka",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Esperanza Glaive",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Esperanza Glaive",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Hope Glaive III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Hope Glaive IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Hope Glaive IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Hope Glaive V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Hope Glaive V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Enduring Tor",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "G. Enduring Tor",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "G. Veldian Trudis I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "G. Veldian Trudis II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Veldian Trudis I",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Bequeathed Testament",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Chthonian Vajra I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Chthonian Vajra II",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Fulgurglaive Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Rising Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Alabaster Rathmaul",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Firedance Rathmaul",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Guardian Rathmaul I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Guardian Rathmaul II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Rathmaul I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Leumundsgift",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Leumundslist",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Graviafaren I",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Gravordius",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Jin Dhachhad",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Precipice Geumgel",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Barina Perche II",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Barina Perche III",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Barina Perche IV",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Barina Perche IV",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Lala Stromatopelm",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Lala Stromatopelm",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Stealth Glaive I",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Stealth Glaive II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Stealth Glaive III",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Stealth Glaive III",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Stealth Glaive Redux",
+    "skill": "Charge Master",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Stealth Glaive Redux",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Chrome Gale",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Iron Gale II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Iron Gale III",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Princess Regalia I",
+    "skill": "Critical Status",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Princess Regalia I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Princess Regalia II",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Princess Regalia II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Queen Regalia",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Queen Regalia",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Halilintar Clairglaive",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Halilintar Clairglaive",
+    "skill": "Charge Master",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Rey Halilintar I",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Rey Halilintar II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Rey Halilintar III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Rey Halilintar III",
+    "skill": "Charge Master",
+    "level": 1
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Kut-Ku Pike I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Kut-Ku Pike II",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "insect-glaive",
+    "name": "Toucan Pike",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Balahara Lance I",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Balahara Lance II",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Balahara Lance IV",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Sandsea Prallaya",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Bone Lance I",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Bone Lance I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Bone Lance I",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Bone Lance IV",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Bone Lance IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Hard Bone Lance",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Hard Bone Lance",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Dosha Fierceborer II",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Dosha Fierceborer III",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Fierceborer Dubhanith",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Esperanza Lance",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Esperanza Lance",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Hope Lance I",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Hope Lance I",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Hope Lance I",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Hope Lance V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Hope Lance V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "G. Purifying Beaumains",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "G. Veldian Lancea I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "G. Veldian Lancea II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Purifying Beaumains",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Veldian Lancea I",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Dosha Gloomborer I",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Dosha Gloomborer II",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Gloomborer Urshanith",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Bequeathed Regret",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Chthonian Firewheel I",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Chthonian Firewheel II",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Albirath Tail I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Albirath Tail II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Shining Pillar",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Eiferschild I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Fieberschild",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Gravios Lance",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Gravios Spear I",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Windpierce Lance I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Windpierce Lance I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Windpierce Lance I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Windpierce Lance I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Windpierce Lance I",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Windpierce Lance I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Windpierce Tsukibami",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Windpierce Tsukibami",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Barina Sarissa I",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Barina Sarissa I",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Barina Sarissa IV",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Barina Sarissa IV",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Lala Aviculari",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Lala Aviculari",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Abaddonian Osminog",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Nu Osminog I",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Nu Osminog II",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Chrome Drill I",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Chrome Drill III",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Chrome Lance",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Firetrail Kaminet",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Quematrice Lanza I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Quematrice Lanza I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Quematrice Lanza IV",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Red Tail I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Babel Spear",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Babel Spear",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Spear of Prominence",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Indra Clairlance",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Indra Clairlance",
+    "skill": "Offensive Guard",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Rey Indra I",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Rey Indra I",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Rey Indra I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Rey Indra I",
+    "skill": "Offensive Guard",
+    "level": 1
+  },
+  {
+    "type": "lance",
+    "name": "Rompo Piercer I",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Rompo Piercer I",
+    "skill": "Guard Up",
+    "level": 2
+  },
+  {
+    "type": "lance",
+    "name": "Rompo Piercer III",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "lance",
+    "name": "Rompo Tetrotox",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Ajara Shellgun I",
+    "skill": "Artillery",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Ajara Shellgun II",
+    "skill": "Artillery",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Ajara-Angaja",
+    "skill": "Artillery",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Tail Catapult",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Tail String I",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Assault Conga II",
+    "skill": "Special Ammo Boost",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Combat Conga",
+    "skill": "Special Ammo Boost",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Combat Conga",
+    "skill": "Opening Shot",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Dosha Faithbreaker II",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Dosha Faithbreaker III",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Faithbreaker Leibolkule",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Esperanza Rifle",
+    "skill": "Ballistics",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Esperanza Rifle",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hope Rifle III",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hope Rifle IV",
+    "skill": "Ballistics",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hope Rifle IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hope Rifle V",
+    "skill": "Ballistics",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hope Rifle V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hunters Rifle II",
+    "skill": "Opening Shot",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hunters Rifle III",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hunters Rifle III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hunters Rifle IV",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Hunters Rifle IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Power Rifle",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Power Rifle",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Expiating Caius",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "G. Expiating Caius",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "G. Veldian Impetum I",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "G. Veldian Impetum II",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Veldian Impetum I",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Dosha Gigasbreaker I",
+    "skill": "Slugger",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Dosha Gigasbreaker II",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Gigasbreaker Urbolkule",
+    "skill": "Slugger",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Bequeathed Animus",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Chthonian Gunfire I",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Chthonian Gunfire II",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Felling Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Fulgursnipe Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "G. Rathling Gun I",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "G. Rathling Gun II",
+    "skill": "Critical Element",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "G. Rathling Gun II",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Rathling Gun I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Rathling Phoenix",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "White Rathling Phoenix",
+    "skill": "Critical Element",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "White Rathling Phoenix",
+    "skill": "Ballistics",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Fäulnisschleuder I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Wahnschleuder",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Titan Launcher I",
+    "skill": "Special Ammo Boost",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Titan Panzer",
+    "skill": "Special Ammo Boost",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Windshear Light I",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Windshear Light I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Windshear Light II",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Windshear Light II",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Windshear Light III",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Windshear Light III",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Windshear Uchibami",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Windshear Uchibami",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Abaddonian Chobotnice",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Nu Chobotnice I",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Nu Chobotnice II",
+    "skill": "Opening Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Chain Blitz II",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Chain Blitz III",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "High Chain Blitz",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Valkyrie Fire I",
+    "skill": "Tetrad Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Valkyrie Fire I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Valkyrie Fire II",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Valkyrie Fire II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Valkyrie Flame",
+    "skill": "Tetrad Shot",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Valkyrie Flame",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Rey Szelatya I",
+    "skill": "Sluager",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Rey Szelatya II",
+    "skill": "Sluager",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Rey Szelatya II",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Rey Szelatya II",
+    "skill": "Sluager",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Szelatya Clairgun",
+    "skill": "Opening Shot",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Szelatya Clairgun",
+    "skill": "Sluager",
+    "level": 1
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Kut-Ku Anger I",
+    "skill": "Ballistics",
+    "level": 2
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Kut-Ku Anger II",
+    "skill": "Ballistics",
+    "level": 3
+  },
+  {
+    "type": "light-bowgun",
+    "name": "Kut-Ku Counterattack",
+    "skill": "Ballistics",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Blanberge I",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Bone Shotel II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Bone Shotel III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Bone Shotel III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Bone Shotel IV",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Bone Shotel IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Hard Bone Shotel",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Hard Bone Shotel",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Dosha Fatecleaver II",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Dosha Fatecleaver III",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Dosha Gravecleaver I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Dosha Gravecleaver II",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Fatecleaver Kimkemush",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Gravecleaver Urkemush",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Esperanza Edge",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Esperanza Edge",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Hope Edge III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Hope Edge IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Hope Edge IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Hope Edge V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Hope Edge V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "G. Righteous Lancelot",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "G. Veldian Ensis I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "G. Veldian Ensis II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Righteous Lancelot",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Veldian Ensis I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Fulgurblade Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Gnashing Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Ash I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Ash II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Blood I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Holly",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Holly",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Lily",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Maple",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Verde I",
+    "skill": "Critical Status",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Verde I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Verde II",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Wyvern Blade Verde II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Stahlfakt I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Windclaw Blade I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Windclaw Blade I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Windclaw Blade II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Windclaw Blade II",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Windclaw Kiribami",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Windclaw Kiribami",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Barina Flamberge II",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Barina Flamberge III",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Barina Flamberge IV",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Barina Flamberge IV",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Lala Ornithocton",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Lala Ornithocton",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Iron Katana II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Iron Katana III",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Keen Edge",
+    "skill": "Critical Draw",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Firetrail Ferrocere",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Quematrice Lima II",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Quematrice Lima III",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Quematrice Lima IV",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Blood Cry I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Blood Cry II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Blood Cry II",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Blood Scream",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Windclaw Blade III",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Windclaw Blade III",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Rey Tonitrus I",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Rey Tonitrus II",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Rey Tonitrus III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Rey Tonitrus III",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Tonitrus Clairblade",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Tonitrus Clairblade",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "long-sword",
+    "name": "Rompo Hacker I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Rompo Hacker III",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Rompo Mytoxin",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "long-sword",
+    "name": "Uth Khlunda I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Uth Khlunda II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "long-sword",
+    "name": "Uth Khlunda III",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Bone Axe II",
+    "skill": "Focus",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Bone Axe III",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Bone Axe III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Bone Axe IV",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Bone Axe IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Bone Smasher",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Bone Smasher",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Golba Vandal I",
+    "skill": "Punishing Draw",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Golba Vandal I",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Golba Vandal I",
+    "skill": "Critical Draw",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Gundava Vandal",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Gundava Vandal",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Dosha Fleshhacker II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Dosha Fleshhacker III",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Fleshhacker Yaogahaac",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Esperanza Axe",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Esperanza Axe",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Hope Axe III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Hope Axe IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Hope Axe IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Hope Axe V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Hope Axe V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "G. Indomitable Perceval",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "G. Veldian Securis I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "G. Veldian Securis II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Indomitable Perceval",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Veldian Securis I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Dosha Gorehacker I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Dosha Gorehacker II",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Gorehacker Urgahaac",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Fulgurswitch Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Morphing Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Albirath Blaze Splitter",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Albirath Flamesplitter I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Albirath Flamesplitter II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Eisengeist",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Eisenleib I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Windsunder Axe I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Windsunder Axe I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Windsunder Axe I",
+    "skill": "Focus",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Windsunder Axe I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Windsunder Axe I",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Windsunder Axe I",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Windsunder Sakibami",
+    "skill": "Focus",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Windsunder Sakibami",
+    "skill": "Airborne",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Barina Hache I",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Barina Hache I",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Barina Hache I",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Barina Hache III",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Lala Selenocosmi",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Lala Selenocosmi",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Abaddonian Zhangyu",
+    "skill": "Rapid Morph",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Nu Zhangyu I",
+    "skill": "Rapid Morph",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Nu Zhangyu II",
+    "skill": "Rapid Morph",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Chrome Accelerator",
+    "skill": "Rapid Morph",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Iron Accelerator II",
+    "skill": "Rapid Morph",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Iron Accelerator III",
+    "skill": "Rapid Morph",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Rath Blaze Splitter",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Rath Flamesplitter I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Dragonmaiden Axe I",
+    "skill": "Critical Status",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Dragonmaiden Axe I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Dragonmaiden Axe II",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Dragonmaiden Axe II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Gríðrs Landmaker",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Gríðrs Landmaker",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "switch-axe",
+    "name": "Uth Olacha I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Uth Olacha I",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Uth Olacha II",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Brutuss Abolishment",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Nihil Switch Axe I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Nihil Switch Axe II",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Beak Axe I",
+    "skill": "Power Prolonger",
+    "level": 2
+  },
+  {
+    "type": "switch-axe",
+    "name": "Beak Axe I",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "switch-axe",
+    "name": "Sawbill Axe",
+    "skill": "Power Prolonger",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Ajara Saber I",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Ajara Saber II",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Ajara-Subinda",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Balahara Blade II",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Balahara Blade III",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Balahara Blade IV",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Sandsea Katduva",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Snow Lion Jambiya",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Snow Lion Jambiya",
+    "skill": "Offensive Guard",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Snow-white Jambiya I",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Snow-white Jambiya I",
+    "skill": "Offensive Guard",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Bone Kukri II",
+    "skill": "Stamina Thief",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Bone Kukri III",
+    "skill": "Stamina Thief",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Bone Kukri III",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Bone Kukri IV",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Bone Kukri IV",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Chief Kukri",
+    "skill": "Stamina Thief",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Chief Kukri",
+    "skill": "Attack Boost",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Chata Club II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Chata Club III",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Chata Club IV",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Chata Club IV",
+    "skill": "Guard Up",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Shrouded Katalo",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Shrouded Katalo",
+    "skill": "Guard Up",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Esperanza Sword",
+    "skill": "Critical Eye",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Esperanza Sword",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Hope Sword III",
+    "skill": "Speed Sharpening",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Hope Sword IV",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Hope Sword IV",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Hope Sword V",
+    "skill": "Speed Sharpening",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Hope Sword V",
+    "skill": "Critical Eye",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Lala Acanthopelm",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Lala Acanthopelm",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "G. Guiding Artorius",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "G. Veldian Mucro I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "G. Veldian Mucro II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Guiding Artorius",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Veldian Mucro I",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Fulgursword Guardiana",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Rending Fulgur I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Albirath Edge I",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Albirath Edge II",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Melting Point",
+    "skill": "Masters Touch",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Sucher-Ankh I",
+    "skill": "Critical Element",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Gravios Syphos I",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Titans Armament",
+    "skill": "Guard Up",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Venoms Pain I",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Venoms Pain I",
+    "skill": "Critical Draw",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Venoms Pain II",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Venoms Pain II",
+    "skill": "Punishing Draw",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Viperine Saber",
+    "skill": "Punishing Draw",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Viperine Saber",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Jin Dhaklab I",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Precipice Mateptro",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Barina Dague II",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Barina Dague III",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Barina Dague IV",
+    "skill": "Critical Draw",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Barina Dague IV",
+    "skill": "Critical Status",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Nerskiller",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Scaly Sword I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Scaly Sword II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Scaly Sword III",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Iron Beater II",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Iron Beater III",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Smithys Pride",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Firetrail Fornax",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Quematrice Cuchillo II",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Quematrice Cuchillo III",
+    "skill": "Offensive Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Quematrice Cuchillo IV",
+    "skill": "Offensive Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Corona",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Heat Edge I",
+    "skill": "Critical Boost",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Princess Rapier I",
+    "skill": "Critical Status",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Princess Rapier I",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Princess Rapier II",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Princess Rapier II",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Queen Rapier",
+    "skill": "Critical Status",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Queen Rapier",
+    "skill": "Poison Duration Up",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Kuara Clairsword",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Kuara Clairsword",
+    "skill": "Offensive Guard",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Rey Kuara I",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Rey Kuara II",
+    "skill": "Guard",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Rey Kuara III",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Rey Kuara III",
+    "skill": "Offensive Guard",
+    "level": 1
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Cordayles Revocation",
+    "skill": "Guard",
+    "level": 3
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Nihil Sword I",
+    "skill": "Guard",
+    "level": 2
+  },
+  {
+    "type": "sword-and-shield",
+    "name": "Nihil Sword II",
+    "skill": "Guard",
+    "level": 3
   }
 ]
