@@ -6,9 +6,8 @@
     "habitats": "Plains",
     "specialAttacks": null,
     "description": "Amphibians that use their long tongues to seize\nand devour prey such as Bulaqchi. Their evolved\nforelimbs store a sticky mucus-like substance.\nWhen agitated, Chatacabra rub their forelimbs\nagainst the ground to collect stone and ore,\nwidening the range and destructiveness of their\nows.",
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 443.48,
+    "large": 617.89
   },
   {
     "name": "Quematrice",
@@ -17,8 +16,7 @@
     "habitats": "Plains, Wyveria",
     "specialAttacks": "Fireblight",
     "description": null,
-    "difficulty": null,
-    "small": null,
+    "small": 1106.3,
     "large": 1542.76
   },
   {
@@ -28,9 +26,8 @@
     "habitats": "Forest, Wyveria",
     "specialAttacks": "Paralysis",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 628.87,
+    "large": 859.45
   },
   {
     "name": "Congalala",
@@ -39,9 +36,8 @@
     "habitats": "Forest, Wyveria",
     "specialAttacks": "Minor Tremor, Paralysis, Poison, Blastblight, Stench",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 935.52,
+    "large": 1292.91
   },
   {
     "name": "Balahara",
@@ -50,8 +46,7 @@
     "habitats": "Plains",
     "specialAttacks": "Waterblight",
     "description": null,
-    "difficulty": null,
-    "small": null,
+    "small": 1721.35,
     "large": 2352.51
   },
   {
@@ -61,8 +56,7 @@
     "habitats": "Plains, Forest, Wyveria",
     "specialAttacks": "Weak Roar, Minor Tremor",
     "description": null,
-    "difficulty": null,
-    "small": null,
+    "small": 1251.42,
     "large": 1807.61
   },
   {
@@ -72,9 +66,8 @@
     "habitats": "Forest",
     "specialAttacks": "Waterblight, Weak Roar",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 2681.36,
+    "large": 3396.39
   },
   {
     "name": "Rompopolo",
@@ -83,97 +76,8 @@
     "habitats": "Basin",
     "specialAttacks": "Weak Roar, Poison",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
-  },
-  {
-    "name": "Rey Dau",
-    "defaultOrder": 9,
-    "type": "Flying Wyvern",
-    "habitats": "Plains",
-    "specialAttacks": "Weak Roar, Thunderblight",
-    "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
-  },
-  {
-    "name": "Nerscylla",
-    "defaultOrder": 10,
-    "type": "Temnoceran",
-    "habitats": "Cliffs, Wyveria, Basin",
-    "specialAttacks": "Poison, Sleep, Webbed",
-    "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
-  },
-  {
-    "name": "Hirabami",
-    "defaultOrder": 11,
-    "type": "Leviathan",
-    "habitats": "Cliffs, Wyveria",
-    "specialAttacks": "Weak Roar, Frostblight",
-    "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
-  },
-  {
-    "name": "Ajarkan",
-    "defaultOrder": 12,
-    "type": "Fanged Beast",
-    "habitats": "Basin, Wyveria",
-    "specialAttacks": "Blastblight, Fireblight, Weak Roar, Minor Tremor",
-    "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
-  },
-  {
-    "name": "Nu Udra",
-    "defaultOrder": 13,
-    "type": "Cephalopod",
-    "habitats": "Basin",
-    "specialAttacks": "Weak Roar, Fireblight",
-    "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
-  },
-  {
-    "name": "G. Doshaguma",
-    "defaultOrder": 14,
-    "type": "Construct",
-    "habitats": "Wyveria",
-    "specialAttacks": "Weak Roar, Minor Tremor, Defense Down",
-    "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
-  },
-  {
-    "name": "G. Rathalos",
-    "defaultOrder": 15,
-    "type": "Construct",
-    "habitats": "Wyveria",
-    "specialAttacks": "Weak Roar, Minor Wind Pressure, Fireblight, Poison",
-    "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
-  },
-  {
-    "name": "Jin Dahaad",
-    "defaultOrder": 16,
-    "type": "Leviathan",
-    "habitats": "Cliffs",
-    "specialAttacks": "Strong Roar, Iceblight, Frostblight",
-    "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 1078.03,
+    "large": 1473.31
   },
   {
     "name": "G. Ebony Odogaron",
@@ -182,9 +86,88 @@
     "habitats": "Wyveria",
     "specialAttacks": "Weak Roar, Dragonblight, Bleeding",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 1235.98,
+    "large": 1722.05
+  },
+  {
+    "name": "Nerscylla",
+    "defaultOrder": 10,
+    "type": "Temnoceran",
+    "habitats": "Cliffs, Wyveria, Basin",
+    "specialAttacks": "Poison, Sleep, Webbed",
+    "description": null,
+    "small": 658.76,
+    "large": 914.95
+  },
+  {
+    "name": "Hirabami",
+    "defaultOrder": 11,
+    "type": "Leviathan",
+    "habitats": "Cliffs, Wyveria",
+    "specialAttacks": "Weak Roar, Frostblight",
+    "description": null,
+    "small": 1476.81,
+    "large": 1891.64
+  },
+  {
+    "name": "G. Fulgur Anjanath",
+    "defaultOrder": 24,
+    "type": "Construct",
+    "habitats": "Wyveria",
+    "specialAttacks": "Thunderblight, Minor Wind Pressure, Weak Roar",
+    "description": null,
+    "small": 1481.81,
+    "large": 2058.07
+  },
+  {
+    "name": "Nu Udra",
+    "defaultOrder": 13,
+    "type": "Cephalopod",
+    "habitats": "Basin",
+    "specialAttacks": "Weak Roar, Fireblight",
+    "description": null,
+    "small": 1884.32,
+    "large": 2407.75
+  },
+  {
+    "name": "G. Doshaguma",
+    "defaultOrder": 14,
+    "type": "Construct",
+    "habitats": "Wyveria",
+    "specialAttacks": "Weak Roar, Minor Tremor, Defense Down",
+    "description": null,
+    "small": 1237.51,
+    "large": 1710.27
+  },
+  {
+    "name": "G. Rathalos",
+    "defaultOrder": 15,
+    "type": "Construct",
+    "habitats": "Wyveria",
+    "specialAttacks": "Weak Roar, Minor Wind Pressure, Fireblight, Poison",
+    "description": null,
+    "small": 1533.79,
+    "large": 2096.19
+  },
+  {
+    "name": "Jin Dahaad",
+    "defaultOrder": 16,
+    "type": "Leviathan",
+    "habitats": "Cliffs",
+    "specialAttacks": "Strong Roar, Iceblight, Frostblight",
+    "description": null,
+    "small": 4560.89,
+    "large": 4560.89
+  },
+  {
+    "name": "Arkveld",
+    "defaultOrder": 29,
+    "type": "Flying Wyvern",
+    "habitats": "Plains, Forest, Basin, Cliffs, Wyveria",
+    "specialAttacks": "Strong Roar, Minor Wind Pressure, Dragonblight",
+    "description": null,
+    "small": 1483.22,
+    "large": 2066.5
   },
   {
     "name": "Xu Wu",
@@ -193,9 +176,8 @@
     "habitats": "Wyveria",
     "specialAttacks": null,
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 1256.67,
+    "large": 1717.45
   },
   {
     "name": "G. Arkveld",
@@ -204,7 +186,6 @@
     "habitats": "Wyveria",
     "specialAttacks": "Weak Roar, Minor Wind Pressure, Dragonblight",
     "description": null,
-    "difficulty": null,
     "small": null,
     "large": null
   },
@@ -215,20 +196,18 @@
     "habitats": null,
     "specialAttacks": "Dragon Wind Pressure, Strong Roar, Fireblight, Thunderblight",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 4623.59,
+    "large": 4623.59
   },
   {
-    "name": "Yian Kut-Ku",
-    "defaultOrder": 21,
-    "type": "Bird Wyvern",
-    "habitats": "Forest, Cliffs",
-    "specialAttacks": "Minor Wind Pressure, Fireblight",
+    "name": "Rey Dau",
+    "defaultOrder": 9,
+    "type": "Flying Wyvern",
+    "habitats": "Plains",
+    "specialAttacks": "Weak Roar, Thunderblight",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": 1223.29
+    "small": 1830.8,
+    "large": 2530.21
   },
   {
     "name": "Gypceros",
@@ -237,9 +216,8 @@
     "habitats": "Plains, Basin, Cliffs, Wyveria",
     "specialAttacks": "Minor Wind Pressure, Poison, Flash",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 858.08,
+    "large": 1185.88
   },
   {
     "name": "Rathian",
@@ -248,20 +226,18 @@
     "habitats": "Plains, Forest, Basin",
     "specialAttacks": "Fireblight, Poison, Minor Wind Pressure, Weak Roar",
     "description": null,
-    "difficulty": null,
     "small": 1561.38,
-    "large": null
+    "large": 2157.87
   },
   {
-    "name": "G. Fulgur Anjanath",
-    "defaultOrder": 24,
-    "type": "Construct",
-    "habitats": "Wyveria",
-    "specialAttacks": "Thunderblight, Minor Wind Pressure, Weak Roar",
+    "name": "Ajarkan",
+    "defaultOrder": 12,
+    "type": "Fanged Beast",
+    "habitats": "Basin, Wyveria",
+    "specialAttacks": "Blastblight, Fireblight, Weak Roar, Minor Tremor",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 1047.92,
+    "large": 1443.8
   },
   {
     "name": "Rathalos",
@@ -270,9 +246,8 @@
     "habitats": "Forest, Basin, Wyveria",
     "specialAttacks": "Weak Roar, Minor Wind Pressure, Fireblight, Poison",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 1533.79,
+    "large": 2113.23
   },
   {
     "name": "Gravios",
@@ -281,9 +256,8 @@
     "habitats": "Basin, Wyveria",
     "specialAttacks": "Strong Roar, Minor Tremor, Fireblight, Poison, Sleep",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 1869.51,
+    "large": 2583.71
   },
   {
     "name": "Blangonga",
@@ -292,9 +266,8 @@
     "habitats": "Cliffs",
     "specialAttacks": "Weak Roar, Iceblight, Frostblight",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 809.43,
+    "large": 1124.21
   },
   {
     "name": "Gore Magala",
@@ -303,19 +276,17 @@
     "habitats": "Cliffs",
     "specialAttacks": "Strong Roar, Frenzy",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 1571.65,
+    "large": 2101.42
   },
   {
-    "name": "Arkveld",
-    "defaultOrder": 29,
-    "type": "Flying Wyvern",
-    "habitats": "Plains, Forest, Basin, Cliffs, Wyveria",
-    "specialAttacks": "Strong Roar, Minor Wind Pressure, Dragonblight",
+    "name": "Yian Kut-Ku",
+    "defaultOrder": 21,
+    "type": "Bird Wyvern",
+    "habitats": "Forest, Cliffs",
+    "specialAttacks": "Minor Wind Pressure, Fireblight",
     "description": null,
-    "difficulty": null,
-    "small": null,
-    "large": null
+    "small": 895.09,
+    "large": 1223.29
   }
 ]
