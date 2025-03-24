@@ -2,20 +2,8 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
-import { monsters } from '@/lib/monsters'
-import { weapons } from '@/lib/weapons'
-import { getAllArmors } from '@/lib/armors'
-import { getAllTalismans } from '@/lib/talismans'
-import { getAllDecorations } from '@/lib/decorations'
-
-type SearchResult = {
-  id: string;
-  name: string;
-  type: 'monster' | 'weapon' | 'armor' | 'talisman' | 'decoration';
-  subtype?: string;
-  weaponType?: string;
-  setName?: string; // Added for armor navigation
-}
+import { search, SearchResult } from '@/lib/search'
+import { ResultItem } from '@/components/search/ResultItem'
 
 export default function SearchBar() {
   const [query, setQuery] = useState('')
@@ -25,53 +13,21 @@ export default function SearchBar() {
   const inputRef = useRef<HTMLInputElement>(null)
   const router = useRouter()
 
-  const allResults: SearchResult[] = [
-    ...monsters.map(monster => ({
-      id: monster.id.toString(),
-      name: monster.name,
-      type: 'monster' as const
-    })),
-    ...weapons.map(weapon => ({
-      id: weapon.name, // Using name as ID since we're using it for navigation
-      name: weapon.name,
-      type: 'weapon' as const,
-      subtype: weapon.type,
-      weaponType: weapon.type
-    })),
-    ...getAllArmors().map(armor => ({
-      id: armor.id,
-      name: armor.name,
-      type: 'armor' as const,
-      subtype: armor.type,
-      setName: armor.set
-    })),
-    ...getAllTalismans().map(talisman => ({
-      id: talisman.id,
-      name: talisman.name,
-      type: 'talisman' as const
-    })),
-    ...getAllDecorations().map(decoration => ({
-      id: decoration.id,
-      name: decoration.name,
-      type: 'decoration' as const
-    }))
-  ];
-
   useEffect(() => {
-    const results = allResults.filter(result => result.name.toLowerCase().includes(query.toLowerCase()))
-    setFilteredResults(results)
-    setSelectedIndex(-1)
+    if (query.trim()) {
+      const results = search(query)
+      setFilteredResults(results)
+      setSelectedIndex(-1)
+    } else {
+      setFilteredResults([])
+    }
   }, [query])
 
   const navigateToResult = (result: SearchResult) => {
     setQuery('')
     setIsOpen(false)
-    if (result.type === 'weapon' && result.weaponType) {
-      router.push(`/weapons/${result.weaponType}#${result.id}`)
-    } else if (result.type === 'armor' && result.id) {
-      router.push(`/armors/${result.id}`)
-    } else {
-      router.push(`/${result.type}s/${result.id}`)
+    if (result.url) {
+      router.push(result.url)
     }
   }
 
@@ -97,7 +53,7 @@ export default function SearchBar() {
         onKeyDown={handleKeyDown}
         onFocus={() => setIsOpen(true)}
         onBlur={() => setTimeout(() => setIsOpen(false), 100)}
-        placeholder="Search monsters, weapons, armors..."
+        placeholder="Search (/help) (⌘ + K or Ctrl + K to open search dialog)"
         className="w-full px-4 py-2 bg-primary text-primary border-color rounded-md focus:outline-none focus:ring-2 focus:ring-accent"
       />
       {isOpen && (
@@ -105,22 +61,19 @@ export default function SearchBar() {
           {query.length > 0 && (
             <div className="max-h-60 overflow-auto">
               {filteredResults.length > 0 ? (
-                <ul>
+                <ul className="divide-y divide-gray-200 dark:divide-gray-700">
                   {filteredResults.map((result, index) => (
-                    <li
-                      key={`${result.type}-${result.id}`}
-                      className={`p-2 cursor-pointer ${
+                    <div
+                      key={`${result.type}-${index}`}
+                      className={`cursor-pointer ${
                         index === selectedIndex
                           ? 'bg-accent text-primary'
                           : 'hover:bg-secondary text-primary'
                       } transition-colors duration-200`}
                       onClick={() => navigateToResult(result)}
                     >
-                      <span className="font-semibold">{result.name}</span>
-                      <span className="ml-2 text-sm text-secondary">
-                        {result.type} {result.subtype ? `(${result.subtype})` : ''}
-                      </span>
-                    </li>
+                      <ResultItem item={result} />
+                    </div>
                   ))}
                 </ul>
               ) : (
