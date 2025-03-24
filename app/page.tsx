@@ -2,27 +2,22 @@ import { Card } from '@/components/Card';
 import { monsters } from '@/lib/monsters';
 import { maps } from '@/lib/maps';
 import styles from './Home.module.css';
-
+import GithubLink from '@/components/links/GithubLink';
 export default function Home() {
-  const featuredMonster = monsters[Math.floor(Math.random() * monsters.length)];
 
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Monster Hunter Wilds Wiki</h1>
-
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Featured Monster</h2>
-        <Card
-          title={
-            <div className="flex justify-between items-center">
-              <span className="text-xl font-bold">{featuredMonster.name}</span>
-            </div>
-          }
-          subtitle={`${featuredMonster.type} | ${featuredMonster.habitats?.join(', ') || 'Unknown'}`}
-          description={<p>{featuredMonster.description}</p>}
-          link={`/monsters/${featuredMonster.id}`}
-          className={`${styles.featuredMonsterCard} bg-secondary hover:shadow-lg transition-shadow w-full`}
-        />
+        <div className="rounded-lg border border-gray-700 p-4">
+          <h2 className="text-1xl font-bold">Welcome hunter!</h2>
+          <p>
+            A lot of data has been added, a lot more is needed.
+            This is a hobby project, so updates may be slow.
+            If you want to contribute, please visit:
+            <GithubLink className="mt-2" text='Github repository'/>
+          </p>
+        </div>
       </section>
 
       <div className={styles.grid}>

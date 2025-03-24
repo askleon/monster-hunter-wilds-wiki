@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useTheme } from './ThemeProvider';
-import Image from 'next/image';
+import GitHubLink from './links/GithubLink';
 
 const Footer: React.FC = () => {
   const { theme } = useTheme();
@@ -14,21 +14,7 @@ const Footer: React.FC = () => {
           <p className="text-sm">
             This is a fan-made wiki.
           </p>
-          <a
-            href="https://github.com/askleon/monster-hunter-wilds-wiki"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center hover:text-accent transition-colors text-sm"
-          >
-            <Image
-              src={theme === 'dark' ? '/github-mark/github-mark-white.svg' : '/github-mark/github-mark.svg'}
-              alt="GitHub"
-              width={20}
-              height={20}
-              className="mr-2"
-            />
-            <span>View on GitHub</span>
-          </a>
+          <GitHubLink text="View on Github"/>
         </div>
       </div>
     </footer>
