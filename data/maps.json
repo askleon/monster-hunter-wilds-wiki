@@ -153,5 +153,21 @@
         "description": "The village of Azuz formed around its large forge."
       }
     ]
+  },
+  {
+    "id": "iceshard-cliffs",
+    "name": "Iceshard Cliffs",
+    "description": "",
+    "imageUrl": null,
+    "thumbnail": null,
+    "pointsOfInterest": []
+  },
+  {
+    "id": "ruins-of-wyveria",
+    "name": "Ruins of Wyveria",
+    "description": "",
+    "imageUrl": null,
+    "thumbnail": null,
+    "pointsOfInterest": []
   }
 ]
