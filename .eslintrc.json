@@ -6,7 +6,11 @@
   "rules": {
     "indent": [
       "error",
-      2
+      2,
+      {
+        "SwitchCase": 0,
+        "ignoredNodes": ["SwitchCase"]
+      }
     ]
   }
 }
