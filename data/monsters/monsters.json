@@ -190,7 +190,7 @@
     "large": null
   },
   {
-    "name": "Zo Shia",
+    "name": "Zoh Shia",
     "defaultOrder": 20,
     "type": "Construct",
     "habitats": null,
@@ -288,5 +288,15 @@
     "description": "Bird wyverns with impressive beaks and large ears. They tend to be skittish but will sometimes initiate attacks on a perceived threat. Yian Kut-Ku arrive in large numbers during certain seasons in the Scarlet Forest. The absence of eggs or young suggests that the purpose of this is not to breed, but rather to seek out mates and nourishment.",
     "small": 895.09,
     "large": 1223.29
+  },
+  {
+    "name": "Mizutzune",
+    "defaultOrder": 30,
+    "type": "Leviathan",
+    "habitats": "Forest, Wyveria",
+    "specialAttacks": "Weak Roar, Fireblight, Minor Bubbleblight, Major Bubbleblight, Waterblight",
+    "description": "Specially evolved leviathans with sleek, lithe bodies. Mizutsune can secrete a peculiar foam that covers their foes in immobilizing bubbles. Once their prey's movement is impaired, they close in with spry, dance-like movements.",
+    "small": null,
+    "large": null
   }
 ]

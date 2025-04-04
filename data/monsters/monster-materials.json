@@ -6248,5 +6248,517 @@
     "rate": 7,
     "condition": null,
     "quantity": 1
-  }
+  },
+  [
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Fin",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 8,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Fin",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Head I",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Fin",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Head II",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Fin",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Dorsal Fin",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Fin",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 11,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Claw+",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 15,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Claw+",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Left Claw",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Claw+",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Right Claw",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Claw+",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 13,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Purplefur+",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": "",
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Purplefur+",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Tail",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Purplefur+",
+      "rarity": 6,
+      "method": "Wound Destroyed Reward",
+      "rate": "",
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Purplefur+",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 22,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Tail",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 8,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Tail",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": "",
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Tail",
+      "rarity": 6,
+      "method": "Carving (Severed Part)",
+      "rate": 94,
+      "condition": "Tail",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Scale+",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 20,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Scale+",
+      "rarity": 6,
+      "method": "Wound Destroyed Reward",
+      "rate": "",
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Scale+",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 24,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Bubblefoam+",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 18,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Bubblefoam+",
+      "rarity": 6,
+      "method": "Wound Destroyed Reward",
+      "rate": 40,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Bubblefoam+",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 16,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Certificate S",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 8,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Water Orb",
+      "rarity": 7,
+      "method": "Target Rewards",
+      "rate": 3,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Water Orb",
+      "rarity": 7,
+      "method": "Carving",
+      "rate": 3,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Mizutsune",
+      "rank": "High Rank",
+      "material": "Water Orb",
+      "rarity": 7,
+      "method": "Carving (Severed Part)",
+      "rate": 6,
+      "condition": "Tail",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Stakeclaw",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 18,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Stakeclaw",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Left Foreleg",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Stakeclaw",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Right Foreleg",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Stakeclaw",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 16,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Blackember Mass",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 15,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Blackember Mass",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Left Wingarm",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Blackember Mass",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Right Wingarm",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Blackember Mass",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 13,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystalhorn",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 8,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystalhorn",
+      "rarity": 6,
+      "method": "Broken Part Rewards",
+      "rate": 100,
+      "condition": "Head",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystalhorn",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 11,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystaltail",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 8,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystaltail",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 11,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystaltail",
+      "rarity": 6,
+      "method": "Carving (Severed Part)",
+      "rate": 93,
+      "condition": "Tail",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Guardian Blood+",
+      "rarity": 6,
+      "method": "Wound Destroyed Reward",
+      "rate": 30,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystalscale",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 20,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystalscale",
+      "rarity": 6,
+      "method": "Wound Destroyed Reward",
+      "rate": 40,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Crystalscale",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 24,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Layershell",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 20,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Layershell",
+      "rarity": 6,
+      "method": "Wound Destroyed Reward",
+      "rate": 30,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Layershell",
+      "rarity": 6,
+      "method": "Carving",
+      "rate": 22,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Certificate S",
+      "rarity": 6,
+      "method": "Target Rewards",
+      "rate": 8,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Faux Whitegleam Orb",
+      "rarity": 7,
+      "method": "Target Rewards",
+      "rate": 3,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Faux Whitegleam Orb",
+      "rarity": 7,
+      "method": "Carving",
+      "rate": 3,
+      "condition": "",
+      "quantity": 1
+    },
+    {
+      "monster": "Zoh Shia",
+      "rank": "High Rank",
+      "material": "Faux Whitegleam Orb",
+      "rarity": 7,
+      "method": "Carving (Severed Part)",
+      "rate": 7,
+      "condition": "Tail",
+      "quantity": 1
+    }
+  ]
 ]
