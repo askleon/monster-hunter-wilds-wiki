@@ -6345,7 +6345,7 @@
     "material": "Purplefur+",
     "rarity": 6,
     "method": "Target Rewards",
-    "rate": "",
+    "rate": 20,
     "condition": "",
     "quantity": 1
   },
@@ -6365,7 +6365,7 @@
     "material": "Purplefur+",
     "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "",
+    "rate": 30,
     "condition": "",
     "quantity": 1
   },
@@ -6395,7 +6395,7 @@
     "material": "Tail",
     "rarity": 6,
     "method": "Carving",
-    "rate": "",
+    "rate": 11,
     "condition": "",
     "quantity": 1
   },
@@ -6425,7 +6425,7 @@
     "material": "Scale+",
     "rarity": 6,
     "method": "Wound Destroyed Reward",
-    "rate": "",
+    "rate": 30,
     "condition": "",
     "quantity": 1
   },
